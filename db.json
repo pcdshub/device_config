@@ -1,0 +1,290 @@
+{
+    "MFX:ATT": {
+        "_id": "MFX:ATT",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 13:49:27 2018",
+        "device_class": "pcdsdevices.device_types.Attenuator",
+        "kwargs": {
+            "n_filters": "{{n_filters}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "n_filters": 10,
+        "name": "MFX Attenuator",
+        "parent": null,
+        "prefix": "MFX:ATT",
+        "screen": null,
+        "stand": "DIA",
+        "system": "beam control",
+        "type": "Attenuator",
+        "z": -1.0
+    },
+    "MFX:DG1:JAWS": {
+        "_id": "MFX:DG1:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 10:50:42 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG1 Slits",
+        "parent": null,
+        "prefix": "MFX:DG1:JAWS",
+        "screen": null,
+        "stand": "DG1",
+        "system": "beam control",
+        "type": "Slits",
+        "z": -1.0
+    },
+    "MFX:DG1:PIM": {
+        "_id": "MFX:DG1:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:04:28 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG1 PIM",
+        "parent": null,
+        "prefix": "MFX:DG1:PIM",
+        "prefix_det": "MFX:DG1:P6740",
+        "screen": null,
+        "stand": "DG1",
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": -1.0
+    },
+    "MFX:DG2:JAWS:DS": {
+        "_id": "MFX:DG2:JAWS:DS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:33:08 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG2 Downstream Slits",
+        "parent": null,
+        "prefix": "MFX:DG2:JAWS:DS",
+        "screen": null,
+        "stand": "DG2",
+        "system": "beam control",
+        "type": "Slits",
+        "z": -1.0
+    },
+    "MFX:DG2:JAWS:MS": {
+        "_id": "MFX:DG2:JAWS:MS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:32:42 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG2 Midstream Slits",
+        "parent": null,
+        "prefix": "MFX:DG2:JAWS:MS",
+        "screen": null,
+        "stand": "DG2",
+        "system": "beam control",
+        "type": "Slits",
+        "z": -1.0
+    },
+    "MFX:DG2:JAWS:US": {
+        "_id": "MFX:DG2:JAWS:US",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:32:11 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG2 Upstream Slits",
+        "parent": null,
+        "prefix": "MFX:DG2:JAWS:US",
+        "screen": null,
+        "stand": "DG2",
+        "system": "beam control",
+        "type": "Slits",
+        "z": -1.0
+    },
+    "MFX:DG2:PIM": {
+        "_id": "MFX:DG2:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:25:39 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DG2 PIM",
+        "parent": null,
+        "prefix": "MFX:DG2:PIM",
+        "prefix_det": "MFX:DG2:P6740",
+        "screen": null,
+        "stand": "DG2",
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": -1.0
+    },
+    "MFX:DIA:MMS:07": {
+        "_id": "MFX:DIA:MMS:07",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 13:47:39 2018",
+        "device_class": "pcdsdevices.device_types.PulsePicker",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX PulserPicker",
+        "parent": null,
+        "prefix": "MFX:DIA:MMS:07",
+        "screen": null,
+        "stand": "DIA",
+        "system": "beam control",
+        "type": "PulsePicker",
+        "z": -1.0
+    },
+    "MFX:IPM1": {
+        "_id": "MFX:IPM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:38:42 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DIA IPM",
+        "parent": null,
+        "prefix": "MFX:IPM1",
+        "screen": null,
+        "stand": "DIA",
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": -1.0
+    },
+    "MFX:PIM1": {
+        "_id": "MFX:PIM1",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 14:02:41 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX DIA PIM",
+        "parent": null,
+        "prefix": "MFX:PIM1",
+        "prefix_det": "MFX:DIA:CVV:01",
+        "screen": null,
+        "stand": "DIA",
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": -1.0
+    },
+    "MFX:REFLASER:MIRROR": {
+        "_id": "MFX:REFLASER:MIRROR",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 13:53:19 2018",
+        "device_class": "pcdsdevices.inout.InOutRecordPositioner",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "MFX Reflaser",
+        "parent": null,
+        "prefix": "MFX:REFLASER:MIRROR",
+        "screen": null,
+        "stand": "DG1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "PPS:FEH1:45:S45STPRSUM": {
+        "_id": "PPS:FEH1:45:S45STPRSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 29 13:59:33 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "macros": null,
+        "name": "SH45",
+        "parent": null,
+        "prefix": "PPS:FEH1:45:S45STPRSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    }
+}
