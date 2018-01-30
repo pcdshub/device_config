@@ -12,10 +12,10 @@
             "n_filters": "{{n_filters}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
         "n_filters": 10,
-        "name": "MFX Attenuator",
+        "name": "mfx_attenuator",
         "parent": null,
         "prefix": "MFX:ATT",
         "screen": null,
@@ -36,9 +36,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG1 Slits",
+        "name": "mfx_dg1_slits",
         "parent": null,
         "prefix": "MFX:DG1:JAWS",
         "screen": null,
@@ -61,9 +61,9 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG1 PIM",
+        "name": "mfx_dg1_pim",
         "parent": null,
         "prefix": "MFX:DG1:PIM",
         "prefix_det": "MFX:DG1:P6740",
@@ -85,9 +85,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG2 Downstream Slits",
+        "name": "mfx_dg2_downstream_slits",
         "parent": null,
         "prefix": "MFX:DG2:JAWS:DS",
         "screen": null,
@@ -108,9 +108,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG2 Midstream Slits",
+        "name": "mfx_dg2_midstream_slits",
         "parent": null,
         "prefix": "MFX:DG2:JAWS:MS",
         "screen": null,
@@ -131,9 +131,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG2 Upstream Slits",
+        "name": "mfx_dg2_upstream_slits",
         "parent": null,
         "prefix": "MFX:DG2:JAWS:US",
         "screen": null,
@@ -156,9 +156,9 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DG2 PIM",
+        "name": "mfx_dg2_pim",
         "parent": null,
         "prefix": "MFX:DG2:PIM",
         "prefix_det": "MFX:DG2:P6740",
@@ -180,9 +180,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX PulserPicker",
+        "name": "mfx_pulserpicker",
         "parent": null,
         "prefix": "MFX:DIA:MMS:07",
         "screen": null,
@@ -204,9 +204,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX DIA IPM",
+        "name": "mfx_dia_ipm",
         "parent": null,
         "prefix": "MFX:IPM1",
         "screen": null,
@@ -217,21 +217,20 @@
     },
     "MFX:PIM1": {
         "_id": "MFX:PIM1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "MFX",
         "creation": "Mon Jan 29 14:02:41 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIMMotor",
         "kwargs": {
-            "name": "{{name}}",
-            "prefix_det": "{{prefix_det}}"
+            "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:09:06 2018",
         "macros": null,
-        "name": "MFX DIA PIM",
+        "name": "mfx_dia_pim",
         "parent": null,
         "prefix": "MFX:PIM1",
         "prefix_det": "MFX:DIA:CVV:01",
@@ -253,9 +252,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "MFX Reflaser",
+        "name": "mfx_reflaser",
         "parent": null,
         "prefix": "MFX:REFLASER:MIRROR",
         "screen": null,
@@ -276,9 +275,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 15:31:29 2018",
+        "last_edit": "Tue Jan 30 11:06:32 2018",
         "macros": null,
-        "name": "SH45",
+        "name": "sh45",
         "parent": null,
         "prefix": "PPS:FEH1:45:S45STPRSUM",
         "screen": null,
