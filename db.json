@@ -1,4 +1,992 @@
 {
+    "CXI:DG1:JAWS": {
+        "_id": "CXI:DG1:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "cxi_dg1_slits",
+        "parent": null,
+        "prefix": "CXI:DG1:JAWS",
+        "screen": null,
+        "stand": "DG1",
+        "system": "beam control",
+        "type": "Slits",
+        "z": -1.0
+    },
+    "CXI:DG1:PIM": {
+        "_id": "CXI:DG1:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 12:56:05 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
+        },
+        "last_edit": "Tue Feb 27 16:20:51 2018",
+        "macros": null,
+        "name": "cxi_dg1_pim",
+        "parent": null,
+        "prefix": "CXI:DG1:PIM",
+        "prefix_det": "CXI:DG1:P6740",
+        "screen": null,
+        "stand": "DG1",
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": -1.0
+    },
+    "FEE1:M1H": {
+        "_id": "FEE1:M1H",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 15:50:33 2018",
+        "device_class": "pcdsdevices.device_types.OffsetMirror",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_xy": "{{prefix_xy}}",
+            "xgantry_prefix": "{{xgantry_prefix}}"
+        },
+        "last_edit": "Tue Feb 27 15:50:33 2018",
+        "macros": null,
+        "name": "fee_m1h",
+        "parent": null,
+        "prefix": "FEE1:M1H",
+        "prefix_xy": "STEP:M1H",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": "STEP:FEE1:611:MOTR",
+        "z": 740.51
+    },
+    "FEE1:M2H": {
+        "_id": "FEE1:M2H",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:00:54 2018",
+        "device_class": "pcdsdevices.device_types.OffsetMirror",
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_xy": "{{prefix_xy}}",
+            "xgantry_prefix": "{{xgantry_prefix}}"
+        },
+        "last_edit": "Tue Feb 27 16:00:54 2018",
+        "macros": null,
+        "name": "fee_m2h",
+        "parent": null,
+        "prefix": "FEE1:M2H",
+        "prefix_xy": "STEP:M2H",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": "STEP:FEE1:861:MOTR",
+        "z": 751.8430000000001
+    },
+    "HFA:SND:VGC:01": {
+        "_id": "HFA:SND:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "cxi_snd_valve",
+        "parent": null,
+        "prefix": "HFA:SND:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 996.61
+    },
+    "HFX:DG2:IPM": {
+        "_id": "HFX:DG2:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:40:14 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:14 2018",
+        "macros": null,
+        "name": "hxd_dg2_ipm",
+        "parent": null,
+        "prefix": "HFX:DG2:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 958.8560000000001
+    },
+    "HFX:DG2:JAWS": {
+        "_id": "HFX:DG2:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "hxd_dg2_slits",
+        "parent": null,
+        "prefix": "HFX:DG2:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 958.689
+    },
+    "HFX:DG2:PIM": {
+        "_id": "HFX:DG2:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:15:18 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:18 2018",
+        "macros": null,
+        "name": "hxd_dg2_pim",
+        "parent": null,
+        "prefix": "HFX:DG2:PIM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 959.053
+    },
+    "HFX:DG2:STP:01": {
+        "_id": "HFX:DG2:STP:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:46:45 2018",
+        "device_class": "pcdsdevices.device_types.Stopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 15:04:38 2018",
+        "macros": null,
+        "name": "hxd_dg2_stopper",
+        "parent": null,
+        "prefix": "HFX:DG2:STP:01",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Stopper",
+        "z": 959.2
+    },
+    "HFX:DG2:VGC:01": {
+        "_id": "HFX:DG2:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hxd_dg2_valve",
+        "parent": null,
+        "prefix": "HFX:DG2:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 959.441
+    },
+    "HFX:DG3:IPM": {
+        "_id": "HFX:DG3:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 11:40:14 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:14 2018",
+        "macros": null,
+        "name": "xrt_dg3m_ipm",
+        "parent": null,
+        "prefix": "HFX:DG3:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 978.9
+    },
+    "HFX:DG3:JAWS": {
+        "_id": "HFX:DG3:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xrt_dg3m_slits",
+        "parent": null,
+        "prefix": "HFX:DG3:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 978.813
+    },
+    "HFX:DG3:PIM": {
+        "_id": "HFX:DG3:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 12:56:05 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 16:16:11 2018",
+        "macros": null,
+        "name": "xrt_dg3m_pim",
+        "parent": null,
+        "prefix": "HFX:DG3:PIM",
+        "prefix_det": null,
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": 978.913
+    },
+    "HFX:DIA:VGC:01": {
+        "_id": "HFX:DIA:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "cxi_dia_valve",
+        "parent": null,
+        "prefix": "HFX:DIA:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 990.813
+    },
+    "HFX:DVD:VGC:01": {
+        "_id": "HFX:DVD:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "xrt_dvd_valve",
+        "parent": null,
+        "prefix": "HFX:DVD:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 945.9630000000001
+    },
+    "HFX:MON:VGC:01": {
+        "_id": "HFX:MON:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hfx_mon_valve_1",
+        "parent": null,
+        "prefix": "HFX:MON:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 969.209
+    },
+    "HFX:MON:VGC:02": {
+        "_id": "HFX:MON:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hfx_mon_valve_2",
+        "parent": null,
+        "prefix": "HFX:MON:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 977.313
+    },
+    "HFX:MON:VGC:03": {
+        "_id": "HFX:MON:VGC:03",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 17:52:07 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hfx_mon_valve_3",
+        "parent": null,
+        "prefix": "HFX:MON:VGC:03",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 969.209
+    },
+    "HX2:DVD:VGC:01": {
+        "_id": "HX2:DVD:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hx2_valve",
+        "parent": null,
+        "prefix": "HX2:DVD:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 779.0
+    },
+    "HX2:REFLASER:MIRROR": {
+        "_id": "HX2:REFLASER:MIRROR",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:51:31 2018",
+        "device_class": "pcdsdevices.inout.InOutRecordPositioner",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 15:05:53 2018",
+        "macros": null,
+        "name": "hx2_reference_laser",
+        "parent": null,
+        "prefix": "HX2:REFLASER:MIRROR",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Stopper",
+        "z": 773.505
+    },
+    "HX2:SB1:IPM": {
+        "_id": "HX2:SB1:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:40:14 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:14 2018",
+        "macros": null,
+        "name": "hx2_ipm",
+        "parent": null,
+        "prefix": "HX2:SB1:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 773.705
+    },
+    "HX2:SB1:JAWS": {
+        "_id": "HX2:SB1:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "hx2_slits",
+        "parent": null,
+        "prefix": "HX2:SB1:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 773.605
+    },
+    "HX2:SB1:PIM": {
+        "_id": "HX2:SB1:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 12:56:05 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.PIM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 16:14:37 2018",
+        "macros": null,
+        "name": "hx2_pim",
+        "parent": null,
+        "prefix": "HX2:SB1:PIM",
+        "prefix_det": null,
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "PIM",
+        "z": 773.805
+    },
+    "HX2:UVD:VGC:01": {
+        "_id": "HX2:UVD:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "uvd_valve",
+        "parent": null,
+        "prefix": "HX2:UVD:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 769.0
+    },
+    "HX3:MON:VGC:01": {
+        "_id": "HX3:MON:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hxd_mon_valve_1",
+        "parent": null,
+        "prefix": "HX3:MON:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 782.5
+    },
+    "HX3:MON:VGC:02": {
+        "_id": "HX3:MON:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "hxd_mon_valve_2",
+        "parent": null,
+        "prefix": "HX3:MON:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 783.5
+    },
+    "HXX:HXM:PIM1": {
+        "_id": "HXX:HXM:PIM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:15:18 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:18 2018",
+        "macros": null,
+        "name": "mec_yag0",
+        "parent": null,
+        "prefix": "HXX:HXM:PIM1",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 818.416
+    },
+    "HXX:MXT:VGC:01": {
+        "_id": "HXX:MXT:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "mxt_valve_1",
+        "parent": null,
+        "prefix": "HXX:MXT:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 812.8689999999999
+    },
+    "HXX:MXT:VGC:02": {
+        "_id": "HXX:MXT:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "mxt_valve_2",
+        "parent": null,
+        "prefix": "HXX:MXT:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 818.2
+    },
+    "HXX:MXT:VGC:03": {
+        "_id": "HXX:MXT:VGC:03",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "xrt_mxt_valve",
+        "parent": null,
+        "prefix": "HXX:MXT:VGC:03",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 870.97
+    },
+    "HXX:MXT:VGC:04": {
+        "_id": "HXX:MXT:VGC:04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:23 2018",
+        "macros": null,
+        "name": "mfx_mxt_valve",
+        "parent": null,
+        "prefix": "HXX:MXT:VGC:04",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 870.96
+    },
+    "HXX:MXT:VGC:05": {
+        "_id": "HXX:MXT:VGC:05",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mec_mxt_valve",
+        "parent": null,
+        "prefix": "HXX:MXT:VGC:05",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 870.96
+    },
+    "HXX:UM6:IPM": {
+        "_id": "HXX:UM6:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "um6_ipm",
+        "parent": null,
+        "prefix": "HXX:UM6:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 810.332
+    },
+    "HXX:UM6:JAWS": {
+        "_id": "HXX:UM6:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "um6_slits",
+        "parent": null,
+        "prefix": "HXX:UM6:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 809.966
+    },
+    "HXX:UM6:PIM": {
+        "_id": "HXX:UM6:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:15:18 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:18 2018",
+        "macros": null,
+        "name": "um6_pim",
+        "parent": null,
+        "prefix": "HXX:UM6:PIM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 810.135
+    },
+    "HXX:UM6:STP:01": {
+        "_id": "HXX:UM6:STP:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:46:45 2018",
+        "device_class": "pcdsdevices.device_types.Stopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 15:08:45 2018",
+        "macros": null,
+        "name": "um6_stopper",
+        "parent": null,
+        "prefix": "HXX:UM6:STP:01",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Stopper",
+        "z": 811.035
+    },
+    "MEC:ATT": {
+        "_id": "MEC:ATT",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Feb 27 11:38:15 2018",
+        "device_class": "pcdsdevices.device_types.Attenuator",
+        "kwargs": {
+            "n_filters": "{{n_filters}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:38:15 2018",
+        "macros": null,
+        "n_filters": 10,
+        "name": "mec_attenuator",
+        "parent": null,
+        "prefix": "MEC:ATT",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Attenuator",
+        "z": 981.2
+    },
+    "MEC:BXL:VGC:01": {
+        "_id": "MEC:BXL:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mec_bxl_valve",
+        "parent": null,
+        "prefix": "MEC:BXL:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 979.0
+    },
+    "MEC:HXM:MMS:18": {
+        "_id": "MEC:HXM:MMS:18",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Feb 27 11:31:29 2018",
+        "device_class": "pcdsdevices.device_types.PulsePicker",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:31:29 2018",
+        "macros": null,
+        "name": "mec_pulsepicker",
+        "parent": null,
+        "prefix": "MEC:HXM:MMS:18",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "PulsePicker",
+        "z": 981.01
+    },
+    "MEC:HXM:VGC:01": {
+        "_id": "MEC:HXM:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mec_hxm_valve",
+        "parent": null,
+        "prefix": "MEC:HXM:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 990.5
+    },
+    "MEC:IPM1": {
+        "_id": "MEC:IPM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "mec_ipm1",
+        "parent": null,
+        "prefix": "MEC:IPM1",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 990.2
+    },
+    "MEC:PIM1": {
+        "_id": "MEC:PIM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Feb 27 11:15:18 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:18 2018",
+        "macros": null,
+        "name": "mec_pim1",
+        "parent": null,
+        "prefix": "MEC:PIM1",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 981.4
+    },
     "MFX:ATT": {
         "_id": "MFX:ATT",
         "active": true,
@@ -12,7 +1000,7 @@
             "n_filters": "{{n_filters}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "n_filters": 10,
         "name": "mfx_attenuator",
@@ -22,7 +1010,7 @@
         "stand": "DIA",
         "system": "beam control",
         "type": "Attenuator",
-        "z": -1.0
+        "z": 984.4
     },
     "MFX:DG1:JAWS": {
         "_id": "MFX:DG1:JAWS",
@@ -36,7 +1024,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg1_slits",
         "parent": null,
@@ -45,7 +1033,7 @@
         "stand": "DG1",
         "system": "beam control",
         "type": "Slits",
-        "z": -1.0
+        "z": 1019.3
     },
     "MFX:DG1:PIM": {
         "_id": "MFX:DG1:PIM",
@@ -61,7 +1049,7 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg1_pim",
         "parent": null,
@@ -71,7 +1059,53 @@
         "stand": "DG1",
         "system": "diagnostic",
         "type": "PIM",
-        "z": -1.0
+        "z": 1019.79
+    },
+    "MFX:DG1:VGC:01": {
+        "_id": "MFX:DG1:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Tue Feb 27 10:25:17 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:26:30 2018",
+        "macros": null,
+        "name": "mfx_dg1_valve_1",
+        "parent": null,
+        "prefix": "MFX:DG1:VGC:01",
+        "screen": null,
+        "stand": "DG1",
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1018.54
+    },
+    "MFX:DG1:VGC:02": {
+        "_id": "MFX:DG1:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Tue Feb 27 10:26:03 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:26:03 2018",
+        "macros": null,
+        "name": "mfx_dg1_valve_2",
+        "parent": null,
+        "prefix": "MFX:DG1:VGC:02",
+        "screen": null,
+        "stand": "DG1",
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1019.99
     },
     "MFX:DG2:JAWS:DS": {
         "_id": "MFX:DG2:JAWS:DS",
@@ -85,7 +1119,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg2_downstream_slits",
         "parent": null,
@@ -94,7 +1128,7 @@
         "stand": "DG2",
         "system": "beam control",
         "type": "Slits",
-        "z": -1.0
+        "z": 1022.99
     },
     "MFX:DG2:JAWS:MS": {
         "_id": "MFX:DG2:JAWS:MS",
@@ -108,7 +1142,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg2_midstream_slits",
         "parent": null,
@@ -117,7 +1151,7 @@
         "stand": "DG2",
         "system": "beam control",
         "type": "Slits",
-        "z": -1.0
+        "z": 1022.84
     },
     "MFX:DG2:JAWS:US": {
         "_id": "MFX:DG2:JAWS:US",
@@ -131,7 +1165,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg2_upstream_slits",
         "parent": null,
@@ -140,7 +1174,7 @@
         "stand": "DG2",
         "system": "beam control",
         "type": "Slits",
-        "z": -1.0
+        "z": 1021.29
     },
     "MFX:DG2:PIM": {
         "_id": "MFX:DG2:PIM",
@@ -156,7 +1190,7 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dg2_pim",
         "parent": null,
@@ -166,7 +1200,7 @@
         "stand": "DG2",
         "system": "diagnostic",
         "type": "PIM",
-        "z": -1.0
+        "z": 1021.74
     },
     "MFX:DIA:MMS:07": {
         "_id": "MFX:DIA:MMS:07",
@@ -180,16 +1214,85 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 16:59:49 2018",
         "macros": null,
-        "name": "mfx_pulserpicker",
+        "name": "mfx_pulsepicker",
         "parent": null,
         "prefix": "MFX:DIA:MMS:07",
         "screen": null,
         "stand": "DIA",
         "system": "beam control",
         "type": "PulsePicker",
-        "z": -1.0
+        "z": 984.2
+    },
+    "MFX:DIA:VGC:01": {
+        "_id": "MFX:DIA:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mfx_dia_valve",
+        "parent": null,
+        "prefix": "MFX:DIA:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 983.0
+    },
+    "MFX:DIA:VGC:02": {
+        "_id": "MFX:DIA:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mfx_dg2_valve",
+        "parent": null,
+        "prefix": "MFX:DIA:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 990.1
+    },
+    "MFX:DVD:VGC:01": {
+        "_id": "MFX:DVD:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Thu Feb 15 17:52:08 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "mfx_dvd_valve",
+        "parent": null,
+        "prefix": "MFX:DVD:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 945.9630000000001
     },
     "MFX:IPM1": {
         "_id": "MFX:IPM1",
@@ -204,7 +1307,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dia_ipm",
         "parent": null,
@@ -213,7 +1316,7 @@
         "stand": "DIA",
         "system": "diagnostic",
         "type": "IPM",
-        "z": -1.0
+        "z": 984.85
     },
     "MFX:PIM1": {
         "_id": "MFX:PIM1",
@@ -228,7 +1331,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:09:06 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_dia_pim",
         "parent": null,
@@ -238,7 +1341,7 @@
         "stand": "DIA",
         "system": "diagnostic",
         "type": "PIM",
-        "z": -1.0
+        "z": 984.9
     },
     "MFX:REFLASER:MIRROR": {
         "_id": "MFX:REFLASER:MIRROR",
@@ -252,7 +1355,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "mfx_reflaser",
         "parent": null,
@@ -261,7 +1364,7 @@
         "stand": "DG1",
         "system": null,
         "type": "Device",
-        "z": -1.0
+        "z": 1018.82
     },
     "PPS:FEH1:45:S45STPRSUM": {
         "_id": "PPS:FEH1:45:S45STPRSUM",
@@ -275,7 +1378,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jan 30 11:06:32 2018",
+        "last_edit": "Tue Feb 27 10:21:22 2018",
         "macros": null,
         "name": "sh45",
         "parent": null,
@@ -284,6 +1387,1126 @@
         "stand": null,
         "system": null,
         "type": "Device",
-        "z": -1.0
+        "z": 952.2
+    },
+    "PPS:FEH1:4:S4STPRSUM": {
+        "_id": "PPS:FEH1:4:S4STPRSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 10:46:52 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:46:52 2018",
+        "macros": null,
+        "name": "sh4",
+        "parent": null,
+        "prefix": "PPS:FEH1:4:S4STPRSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 1000.5
+    },
+    "PPS:FEH1:5:S5STPRSUM": {
+        "_id": "PPS:FEH1:5:S5STPRSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 10:46:52 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:46:52 2018",
+        "macros": null,
+        "name": "sh5",
+        "parent": null,
+        "prefix": "PPS:FEH1:5:S5STPRSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 979.0
+    },
+    "PPS:FEH1:6:S6STPRSUM": {
+        "_id": "PPS:FEH1:6:S6STPRSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Feb 27 10:46:53 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:46:53 2018",
+        "macros": null,
+        "name": "sh6",
+        "parent": null,
+        "prefix": "PPS:FEH1:6:S6STPRSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 987.1
+    },
+    "PPS:NEH1:1:SH1INSUM": {
+        "_id": "PPS:NEH1:1:SH1INSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 10:46:53 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}",
+            "out_state": "NOT_IN"
+        },
+        "last_edit": "Tue Feb 27 10:47:44 2018",
+        "macros": null,
+        "name": "sh1",
+        "parent": null,
+        "prefix": "PPS:NEH1:1:SH1INSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 755.421
+    },
+    "STPR:XRT1:1:SH2_PPSSUM": {
+        "_id": "STPR:XRT1:1:SH2_PPSSUM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 10:46:53 2018",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:46:53 2018",
+        "macros": null,
+        "name": "sh2",
+        "parent": null,
+        "prefix": "STPR:XRT1:1:SH2_PPSSUM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 803.1
+    },
+    "XCS:ATT": {
+        "_id": "XCS:ATT",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:38:15 2018",
+        "device_class": "pcdsdevices.device_types.Attenuator",
+        "kwargs": {
+            "n_filters": "{{n_filters}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:38:15 2018",
+        "macros": null,
+        "n_filters": 10,
+        "name": "xcs_attenuators",
+        "parent": null,
+        "prefix": "XCS:ATT",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Attenuator",
+        "z": 1002.326
+    },
+    "XCS:DG3:IPM2": {
+        "_id": "XCS:DG3:IPM2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "xcs_dg3_ipm",
+        "parent": null,
+        "prefix": "XCS:DG3:IPM2",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 979.0
+    },
+    "XCS:DG3:JAWS": {
+        "_id": "XCS:DG3:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xcs_dg3_slits",
+        "parent": null,
+        "prefix": "XCS:DG3:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 978.813
+    },
+    "XCS:DG3:PIM2": {
+        "_id": "XCS:DG3:PIM2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xcs_dg3_pim",
+        "parent": null,
+        "prefix": "XCS:DG3:PIM2",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 979.2
+    },
+    "XCS:DG3:VGC:02": {
+        "_id": "XCS:DG3:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_dg3_valve_2",
+        "parent": null,
+        "prefix": "XCS:DG3:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 990.913
+    },
+    "XCS:LAM:VGC:01": {
+        "_id": "XCS:LAM:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_lam_valve_1",
+        "parent": null,
+        "prefix": "XCS:LAM:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1008.0
+    },
+    "XCS:LAM:VGC:02": {
+        "_id": "XCS:LAM:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_lam_valve_2",
+        "parent": null,
+        "prefix": "XCS:LAM:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1009.0
+    },
+    "XCS:LODCM": {
+        "_id": "XCS:LODCM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 12:53:14 2018",
+        "device_class": "pcdsdevices.device_types.LODCM",
+        "kwargs": {
+            "main_line": "{{beamline}}",
+            "mono_line": "{{mono_line}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 12:53:14 2018",
+        "macros": null,
+        "mono_line": "XCS",
+        "name": "xcs_lodcm",
+        "parent": null,
+        "prefix": "XCS:LODCM",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "LODCM",
+        "z": 964.76
+    },
+    "XCS:LODCM:DV": {
+        "_id": "XCS:LODCM:DV",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xcs_lodcm_yag",
+        "parent": null,
+        "prefix": "XCS:LODCM:DV",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 966.35
+    },
+    "XCS:MON:IPM": {
+        "_id": "XCS:MON:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "xcs_mon_ipm",
+        "parent": null,
+        "prefix": "XCS:MON:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 971.0
+    },
+    "XCS:MON:VGC:04": {
+        "_id": "XCS:MON:VGC:04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "hfx_mon_valve_4",
+        "parent": null,
+        "prefix": "XCS:MON:VGC:04",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 977.313
+    },
+    "XCS:PBT:VGC:01": {
+        "_id": "XCS:PBT:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_pbt_valve_1",
+        "parent": null,
+        "prefix": "XCS:PBT:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 870.96
+    },
+    "XCS:PBT:VGC:02": {
+        "_id": "XCS:PBT:VGC:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_pbt_valve_2",
+        "parent": null,
+        "prefix": "XCS:PBT:VGC:02",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 925.9
+    },
+    "XCS:PBT:VGC:03": {
+        "_id": "XCS:PBT:VGC:03",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_pbt_valve_3",
+        "parent": null,
+        "prefix": "XCS:PBT:VGC:03",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 930.4
+    },
+    "XCS:PBT:VGC:04": {
+        "_id": "XCS:PBT:VGC:04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_pbt_valve_4",
+        "parent": null,
+        "prefix": "XCS:PBT:VGC:04",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 961.3
+    },
+    "XCS:PBT:YAG": {
+        "_id": "XCS:PBT:YAG",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xcs_pbt_pim",
+        "parent": null,
+        "prefix": "XCS:PBT:YAG",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 930.6
+    },
+    "XCS:REFLASER1:MIRROR": {
+        "_id": "XCS:REFLASER1:MIRROR",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 11:51:31 2018",
+        "device_class": "pcdsdevices.inout.InOutRecordPositioner",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 15:05:53 2018",
+        "macros": null,
+        "name": "xcs_reference_laser",
+        "parent": null,
+        "prefix": "XCS:REFLASER1:MIRROR",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Stopper",
+        "z": 958.497
+    },
+    "XCS:SB1:IPM1": {
+        "_id": "XCS:SB1:IPM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "xcs_sb1_ipm",
+        "parent": null,
+        "prefix": "XCS:SB1:IPM1",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 996.2
+    },
+    "XCS:SB1:JAWS": {
+        "_id": "XCS:SB1:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xcs_sb1_slits",
+        "parent": null,
+        "prefix": "XCS:SB1:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 996.0
+    },
+    "XCS:SB1:PIM1": {
+        "_id": "XCS:SB1:PIM1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xcs_sb1_pim",
+        "parent": null,
+        "prefix": "XCS:SB1:PIM1",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 996.4
+    },
+    "XCS:SB1:STP:01": {
+        "_id": "XCS:SB1:STP:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:46:45 2018",
+        "device_class": "pcdsdevices.device_types.Stopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 15:05:26 2018",
+        "macros": null,
+        "name": "xcs_sb1_stopper",
+        "parent": null,
+        "prefix": "XCS:SB1:STP:01",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Stopper",
+        "z": 995.6
+    },
+    "XCS:SB1:VGC:01": {
+        "_id": "XCS:SB1:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_sb1_valve",
+        "parent": null,
+        "prefix": "XCS:SB1:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1000.2
+    },
+    "XCS:SB2:MMS:09": {
+        "_id": "XCS:SB2:MMS:09",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 11:31:29 2018",
+        "device_class": "pcdsdevices.device_types.PulsePicker",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:31:29 2018",
+        "macros": null,
+        "name": "xcs_pulsepicker",
+        "parent": null,
+        "prefix": "XCS:SB2:MMS:09",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "PulsePicker",
+        "z": 1002.0
+    },
+    "XCS:SB2:VGC:01": {
+        "_id": "XCS:SB2:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xcs_sb2_vgc_01",
+        "parent": null,
+        "prefix": "XCS:SB2:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 1002.0
+    },
+    "XCS:XFLS": {
+        "_id": "XCS:XFLS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Tue Feb 27 14:44:36 2018",
+        "device_class": "pcdsdevices.device_types.XFLS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 14:44:36 2018",
+        "macros": null,
+        "name": "xcs_xfls",
+        "parent": null,
+        "prefix": "XCS:XFLS",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 1002.9780000000001
+    },
+    "XPP:ATT": {
+        "_id": "XPP:ATT",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:38:16 2018",
+        "device_class": "pcdsdevices.device_types.Attenuator",
+        "kwargs": {
+            "n_filters": "{{n_filters}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:38:16 2018",
+        "macros": null,
+        "n_filters": 10,
+        "name": "xpp_attenuators",
+        "parent": null,
+        "prefix": "XPP:ATT",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Attenuator",
+        "z": 786.0
+    },
+    "XPP:LODCM": {
+        "_id": "XPP:LODCM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 12:53:14 2018",
+        "device_class": "pcdsdevices.device_types.LODCM",
+        "kwargs": {
+            "main_line": "{{beamline}}",
+            "mono_line": "{{mono_line}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 12:53:14 2018",
+        "macros": null,
+        "mono_line": "XPP",
+        "name": "xpp_lodcm",
+        "parent": null,
+        "prefix": "XPP:LODCM",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "LODCM",
+        "z": 781.1
+    },
+    "XPP:LODCM:DV": {
+        "_id": "XPP:LODCM:DV",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xpp_lodcm_yag",
+        "parent": null,
+        "prefix": "XPP:LODCM:DV",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 781.6
+    },
+    "XPP:SB2:IPM": {
+        "_id": "XPP:SB2:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "xpp_sb2_ipm",
+        "parent": null,
+        "prefix": "XPP:SB2:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 784.132
+    },
+    "XPP:SB2:MMS:29": {
+        "_id": "XPP:SB2:MMS:29",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:31:29 2018",
+        "device_class": "pcdsdevices.device_types.PulsePicker",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:31:29 2018",
+        "macros": null,
+        "name": "xpp_pulsepicker",
+        "parent": null,
+        "prefix": "XPP:SB2:MMS:29",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "PulsePicker",
+        "z": 785.574
+    },
+    "XPP:SB2:VGC:01": {
+        "_id": "XPP:SB2:VGC:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Thu Feb 15 18:21:13 2018",
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "macros": null,
+        "name": "xpp_sb2_valve",
+        "parent": null,
+        "prefix": "XPP:SB2:VGC:01",
+        "screen": null,
+        "stand": null,
+        "system": "vacuum",
+        "type": "GateValve",
+        "z": 784.132
+    },
+    "XPP:SB2:XFLS": {
+        "_id": "XPP:SB2:XFLS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 14:44:36 2018",
+        "device_class": "pcdsdevices.device_types.XFLS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 14:44:36 2018",
+        "macros": null,
+        "name": "xpp_xfls",
+        "parent": null,
+        "prefix": "XPP:SB2:XFLS",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 784.9830000000001
+    },
+    "XPP:SB2H:JAWS": {
+        "_id": "XPP:SB2H:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xpp_sb2_high_slits",
+        "parent": null,
+        "prefix": "XPP:SB2H:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 784.3860000000001
+    },
+    "XPP:SB2L:JAWS": {
+        "_id": "XPP:SB2L:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xpp_sb2_low_slits",
+        "parent": null,
+        "prefix": "XPP:SB2L:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 784.3860000000001
+    },
+    "XPP:SB3:IPM": {
+        "_id": "XPP:SB3:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:40:15 2018",
+        "data": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:40:15 2018",
+        "macros": null,
+        "name": "xpp_sb3_ipm",
+        "parent": null,
+        "prefix": "XPP:SB3:IPM",
+        "screen": null,
+        "stand": null,
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": 787.655
+    },
+    "XPP:SB3:JAWS": {
+        "_id": "XPP:SB3:JAWS",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 10:41:25 2018",
+        "device_class": "pcdsdevices.device_types.Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 10:41:25 2018",
+        "macros": null,
+        "name": "xpp_sb3_slits",
+        "parent": null,
+        "prefix": "XPP:SB3:JAWS",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Slits",
+        "z": 787.4860000000001
+    },
+    "XPP:SB3:PIM": {
+        "_id": "XPP:SB3:PIM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Feb 27 11:15:19 2018",
+        "device_class": "pcdsdevices.pim.PIMMotor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:15:19 2018",
+        "macros": null,
+        "name": "xpp_sb3_pim",
+        "parent": null,
+        "prefix": "XPP:SB3:PIM",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 787.8
+    },
+    "XRT:DIA:ATT": {
+        "_id": "XRT:DIA:ATT",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 11:38:16 2018",
+        "device_class": "pcdsdevices.device_types.Attenuator",
+        "kwargs": {
+            "n_filters": "{{n_filters}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:38:16 2018",
+        "macros": null,
+        "n_filters": 10,
+        "name": "cxi_xrt_attenuators",
+        "parent": null,
+        "prefix": "XRT:DIA:ATT",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "Attenuator",
+        "z": 982.0
+    },
+    "XRT:DIA:MMS:16": {
+        "_id": "XRT:DIA:MMS:16",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Feb 27 11:31:29 2018",
+        "device_class": "pcdsdevices.device_types.PulsePicker",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 11:31:29 2018",
+        "macros": null,
+        "name": "cxi_pulsepicker",
+        "parent": null,
+        "prefix": "XRT:DIA:MMS:16",
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "PulsePicker",
+        "z": 981.8192
+    },
+    "XRT:M1H": {
+        "_id": "XRT:M1H",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "device_class": "pcdsdevices.mirror.PointingMirror",
+        "kwargs": {
+            "in_lines": [
+                "PBT"
+            ],
+            "name": "{{name}}",
+            "out_lines": [
+                "HXD",
+                "MFX",
+                "MEC"
+            ]
+        },
+        "last_edit": "Tue Feb 27 16:06:20 2018",
+        "macros": null,
+        "name": "xrt_m1h",
+        "parent": null,
+        "prefix": "XRT:M1H",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 814.716
+    },
+    "XRT:M2H": {
+        "_id": "XRT:M2H",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:11:09 2018",
+        "device_class": "pcdsdevices.mirror.PointingMirror",
+        "kwargs": {
+            "in_lines": [
+                "MEC",
+                "MFX"
+            ],
+            "name": "{{name}}",
+            "out_lines": [
+                "HXD"
+            ]
+        },
+        "last_edit": "Tue Feb 27 16:11:09 2018",
+        "macros": null,
+        "name": "xrt_m2h",
+        "parent": null,
+        "prefix": "XRT:M2H",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 817.1160000000001
+    },
+    "XRT:M3H": {
+        "_id": "XRT:M3H",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "PBT",
+        "creation": "Tue Feb 27 16:12:10 2018",
+        "device_class": "pcdsdevices.device_types.OffsetMirror",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 27 16:12:10 2018",
+        "macros": null,
+        "name": "xrt_m3h",
+        "parent": null,
+        "prefix": "XRT:M3H",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 927.919
     }
 }
