@@ -1874,13 +1874,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "last_edit": "Wed May 16 14:23:19 2018",
         "macros": null,
         "name": "mfx_dia_valve_01",
         "parent": null,
         "prefix": "MFX:DIA:VGC:01",
         "screen": null,
-        "stand": null,
+        "stand": "DIA",
         "system": "vacuum",
         "type": "GateValve",
         "z": 983.0
