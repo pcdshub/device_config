@@ -2277,29 +2277,6 @@
         "type": "LODCM",
         "z": 964.76
     },
-    "XCS:LODCM:DV": {
-        "_id": "XCS:LODCM:DV",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XCS",
-        "creation": "Tue Feb 27 11:15:19 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Feb 27 11:15:19 2018",
-        "macros": null,
-        "name": "xcs_lodcm_yag",
-        "parent": null,
-        "prefix": "XCS:LODCM:DV",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "Device",
-        "z": 966.35
-    },
     "XCS:MON:IPM": {
         "_id": "XCS:MON:IPM",
         "active": true,
@@ -2720,29 +2697,6 @@
         "system": "beam control",
         "type": "LODCM",
         "z": 781.1
-    },
-    "XPP:LODCM:DV": {
-        "_id": "XPP:LODCM:DV",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XPP",
-        "creation": "Tue Feb 27 11:15:19 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Feb 27 11:15:19 2018",
-        "macros": null,
-        "name": "xpp_lodcm_yag",
-        "parent": null,
-        "prefix": "XPP:LODCM:DV",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "Device",
-        "z": 781.6
     },
     "XPP:SB2:IPM": {
         "_id": "XPP:SB2:IPM",
