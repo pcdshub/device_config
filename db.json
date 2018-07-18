@@ -2672,6 +2672,167 @@
         "type": "Attenuator",
         "z": 786.0
     },
+    "XPP:LAS:MMN:04": {
+        "_id": "XPP:LAS:MMN:04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 09:52:23 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 16:03:33 2018",
+        "macros": null,
+        "name": "xpp_las_delay",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:04",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:05": {
+        "_id": "XPP:LAS:MMN:05",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 10:39:07 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 10:41:22 2018",
+        "macros": null,
+        "name": "xpp_las_lensv",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:05",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:06": {
+        "_id": "XPP:LAS:MMN:06",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 11:14:47 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 16:05:15 2018",
+        "macros": null,
+        "name": "xpp_las_lensh",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:06",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:08": {
+        "_id": "XPP:LAS:MMN:08",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 12:32:43 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 12:32:43 2018",
+        "macros": null,
+        "name": "xpp_las_lensf",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:08",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:13": {
+        "_id": "XPP:LAS:MMN:13",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 12:35:03 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 12:35:03 2018",
+        "macros": null,
+        "name": "xpp_las_tt_lensh",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:13",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:14": {
+        "_id": "XPP:LAS:MMN:14",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 12:38:30 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 12:38:30 2018",
+        "macros": null,
+        "name": "xpp_las_tt_lensv",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:14",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "XPP:LAS:MMN:15": {
+        "_id": "XPP:LAS:MMN:15",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Tue Jul 17 12:38:51 2018",
+        "device_class": "pcdsdevices.device_types.Newport",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jul 17 12:38:51 2018",
+        "macros": null,
+        "name": "xpp_las_tt_lensf",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:15",
+        "screen": null,
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
     "XPP:LODCM": {
         "_id": "XPP:LODCM",
         "active": true,
