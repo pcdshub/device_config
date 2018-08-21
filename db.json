@@ -164,6 +164,52 @@
         "type": "Slits",
         "z": 1043.45
     },
+    "CXI:DG2:MMS:05": {
+        "_id": "CXI:DG2:MMS:05",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:29:22 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:29:22 2018",
+        "macros": null,
+        "name": "cxi_dg2_lens_x",
+        "parent": null,
+        "prefix": "CXI:DG2:MMS:05",
+        "screen": null,
+        "stand": "DG2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:DG2:MMS:06": {
+        "_id": "CXI:DG2:MMS:06",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:29:45 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:29:45 2018",
+        "macros": null,
+        "name": "cxi_dg2_lens_y",
+        "parent": null,
+        "prefix": "CXI:DG2:MMS:06",
+        "screen": null,
+        "stand": "DG2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
     "CXI:DG2:PIM": {
         "_id": "CXI:DG2:PIM",
         "active": true,
@@ -492,6 +538,167 @@
         "type": "Slits",
         "z": 1036.85
     },
+    "CXI:KB1:MMS:05": {
+        "_id": "CXI:KB1:MMS:05",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:15:22 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_hx",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:05",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:06": {
+        "_id": "CXI:KB1:MMS:06",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:15:39 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_hy",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:06",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:07": {
+        "_id": "CXI:KB1:MMS:07",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:13:03 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_hp",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:07",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:08": {
+        "_id": "CXI:KB1:MMS:08",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:14:56 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_hr",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:08",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:09": {
+        "_id": "CXI:KB1:MMS:09",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:13:54 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_vx",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:09",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:10": {
+        "_id": "CXI:KB1:MMS:10",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:14:34 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_vy",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:10",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB1:MMS:11": {
+        "_id": "CXI:KB1:MMS:11",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:13:37 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb1_vp",
+        "parent": null,
+        "prefix": "CXI:KB1:MMS:11",
+        "screen": null,
+        "stand": "KB1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
     "CXI:KB1:VGC:01": {
         "_id": "CXI:KB1:VGC:01",
         "active": true,
@@ -537,6 +744,190 @@
         "system": "vacuum",
         "type": "GateValve",
         "z": 1038.7
+    },
+    "CXI:KB2:MMS:01": {
+        "_id": "CXI:KB2:MMS:01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:20:23 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_hx",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:01",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:02": {
+        "_id": "CXI:KB2:MMS:02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:20:39 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_hy",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:02",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:03": {
+        "_id": "CXI:KB2:MMS:03",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:22:12 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_hl",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:03",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:04": {
+        "_id": "CXI:KB2:MMS:04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:17:51 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_hp",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:04",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:05": {
+        "_id": "CXI:KB2:MMS:05",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:18:35 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_hr",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:05",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:06": {
+        "_id": "CXI:KB2:MMS:06",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:21:17 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_vx",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:06",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:07": {
+        "_id": "CXI:KB2:MMS:07",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:21:22 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_vy",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:07",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "CXI:KB2:MMS:08": {
+        "_id": "CXI:KB2:MMS:08",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Tue Aug 21 09:18:12 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 21 09:23:32 2018",
+        "macros": null,
+        "name": "cxi_kb2_vp",
+        "parent": null,
+        "prefix": "CXI:KB2:MMS:08",
+        "screen": null,
+        "stand": "KB2",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
     },
     "CXI:KB2:VGC:01": {
         "_id": "CXI:KB2:VGC:01",
