@@ -377,7 +377,7 @@
     },
     "CXI:DS1:MMS:14": {
         "_id": "CXI:DS1:MMS:14",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -387,7 +387,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 12 15:22:09 2018",
+        "last_edit": "Thu Sep 13 21:44:25 2018",
         "macros": null,
         "name": "cxi_ds1_pulsepicker",
         "parent": null,
@@ -2034,6 +2034,29 @@
         "system": "beam control",
         "type": "Slits",
         "z": 1019.3
+    },
+    "MFX:DG1:MMS:08": {
+        "_id": "MFX:DG1:MMS:08",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Fri Sep 14 14:21:35 2018",
+        "device_class": "pcdsdevices.device_types.IMS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 14 14:21:35 2018",
+        "macros": null,
+        "name": "mfx_dg1_wave8_motor",
+        "parent": null,
+        "prefix": "MFX:DG1:MMS:08",
+        "screen": null,
+        "stand": "DG1",
+        "system": null,
+        "type": "Device",
+        "z": -1.0
     },
     "MFX:DG1:PIM": {
         "_id": "MFX:DG1:PIM",
