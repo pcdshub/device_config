@@ -1594,6 +1594,33 @@
         "type": "Attenuator",
         "z": 984.4
     },
+    "MFX:DG1:IPM": {
+        "_id": "MFX:DG1:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Tue Mar 26 10:49:16 2019",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 27 09:56:09 2019",
+        "lightpath": false,
+        "macros": null,
+        "name": "mfx_dg1_ipm",
+        "parent": null,
+        "prefix": "MFX:DG1:IPM",
+        "stand": "DG1",
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": -1.0
+    },
     "MFX:DG1:JAWS": {
         "_id": "MFX:DG1:JAWS",
         "active": true,
@@ -1688,6 +1715,34 @@
         "system": "vacuum",
         "type": "GateValve",
         "z": 1019.99
+    },
+    "MFX:DG2:IPM": {
+        "_id": "MFX:DG2:IPM",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Wed Mar 27 09:53:48 2019",
+        "data": null,
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.IPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 27 09:53:48 2019",
+        "lightpath": false,
+        "macros": null,
+        "name": "mfx_dg2_ipm",
+        "parent": null,
+        "prefix": "MFX:DG2:IPM",
+        "stand": "DG2",
+        "system": "diagnostic",
+        "type": "IPM",
+        "z": -1.0
     },
     "MFX:DG2:JAWS:DS": {
         "_id": "MFX:DG2:JAWS:DS",
@@ -1821,7 +1876,7 @@
         },
         "last_edit": "Thu Feb 15 18:25:24 2018",
         "macros": null,
-        "name": "mfx_dia_valve",
+        "name": "mfx_dia_valve_01",
         "parent": null,
         "prefix": "MFX:DIA:VGC:01",
         "screen": null,
@@ -1838,13 +1893,18 @@
         ],
         "beamline": "MFX",
         "creation": "Thu Feb 15 17:52:08 2018",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.device_types.GateValve",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 15 18:25:24 2018",
+        "last_edit": "Tue Mar 26 10:11:33 2019",
+        "lightpath": false,
         "macros": null,
-        "name": "mfx_dg2_valve",
+        "name": "mfx_dia_valve_02",
         "parent": null,
         "prefix": "MFX:DIA:VGC:02",
         "screen": null,
