@@ -3859,5 +3859,32 @@
         "type": "OffsetMirror",
         "xgantry_prefix": null,
         "z": 927.919
+    },
+    "im3l0": {
+        "_id": "im3l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Sun Feb 23 20:03:18 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Sun Feb 23 20:03:18 2020",
+        "lightpath": true,
+        "macros": null,
+        "name": "im3l0",
+        "parent": null,
+        "prefix": "IM3L0:PPM",
+        "stand": null,
+        "system": "viewing",
+        "type": "Device",
+        "z": 746.0
     }
 }
