@@ -2563,6 +2563,35 @@
         "type": "Device",
         "z": 755.421
     },
+    "SP1L0 K-Mono": {
+        "_id": "SP1L0 K-Mono",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 13:18:34 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.spectrometer.Kmono",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Spectrometer",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 13:18:34 2020",
+        "lightpath": false,
+        "location_group": "Section 7",
+        "macros": null,
+        "name": "SP1L0 K-Mono",
+        "parent": null,
+        "prefix": "SP1L0:KMONO:MMS",
+        "stand": "L0S09",
+        "system": null,
+        "type": "Device",
+        "z": 737.317
+    },
     "STPR:XRT1:1:SH2_PPSSUM": {
         "_id": "STPR:XRT1:1:SH2_PPSSUM",
         "active": true,
@@ -3860,6 +3889,35 @@
         "xgantry_prefix": null,
         "z": 927.919
     },
+    "im1l1": {
+        "_id": "im1l1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Mon Feb 24 13:35:21 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Feb 24 13:35:21 2020",
+        "lightpath": true,
+        "location_group": "Section_9",
+        "macros": null,
+        "name": "im1l1",
+        "parent": null,
+        "prefix": "IM1L1:PPM",
+        "stand": "L0S16",
+        "system": "viewing",
+        "type": "Device",
+        "z": 745.4
+    },
     "im3l0": {
         "_id": "im3l0",
         "active": true,
@@ -3873,18 +3931,74 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
+        "functional_group": "Imager",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun Feb 23 20:03:18 2020",
+        "last_edit": "Mon Feb 24 11:25:53 2020",
         "lightpath": true,
+        "location_group": "Section_9",
         "macros": null,
         "name": "im3l0",
         "parent": null,
         "prefix": "IM3L0:PPM",
-        "stand": null,
+        "stand": "L0S16",
         "system": "viewing",
         "type": "Device",
         "z": 746.0
+    },
+    "mr1l0": {
+        "_id": "mr1l0",
+        "active": true,
+        "args": [],
+        "beamline": "LFE",
+        "creation": "Mon Feb 24 15:38:50 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.HardOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Feb 24 17:02:30 2020",
+        "lightpath": false,
+        "location_group": "Section 8",
+        "macros": null,
+        "name": "mr1l0",
+        "parent": null,
+        "prefix": "MR1L0:HOMS",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 739.9
+    },
+    "mr2l0": {
+        "_id": "mr2l0",
+        "active": true,
+        "args": [],
+        "beamline": "LFE",
+        "creation": "Mon Feb 24 17:27:22 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.HardOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 13:49:59 2020",
+        "lightpath": false,
+        "location_group": "Section 8",
+        "macros": null,
+        "name": "mr2l0",
+        "parent": null,
+        "prefix": "MR1L0:HOMS",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 747.286
     }
 }
