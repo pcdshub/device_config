@@ -31,7 +31,7 @@
         "beamline": "CXI",
         "creation": "Tue Feb 27 12:56:05 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
@@ -219,7 +219,7 @@
         "beamline": "CXI",
         "creation": "Tue Feb 27 12:56:05 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
@@ -337,7 +337,7 @@
         ],
         "beamline": "CXI",
         "creation": "Thu Apr 12 16:32:55 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -1158,7 +1158,7 @@
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 11:15:18 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -1275,7 +1275,7 @@
         "beamline": "CXI",
         "creation": "Tue Feb 27 12:56:05 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -1509,7 +1509,7 @@
         "creation": "Tue Feb 27 12:56:05 2018",
         "data": null,
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIM",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -1606,7 +1606,7 @@
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 11:15:18 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -1791,7 +1791,7 @@
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 11:15:18 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithLED",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -1955,7 +1955,7 @@
         ],
         "beamline": "MEC",
         "creation": "Tue Feb 27 11:15:18 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -2077,7 +2077,7 @@
         "beamline": "MFX",
         "creation": "Mon Jan 29 14:04:28 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIMWithLED",
         "kwargs": {
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
@@ -2274,7 +2274,7 @@
         "beamline": "MFX",
         "creation": "Mon Jan 29 14:25:39 2018",
         "data": null,
-        "device_class": "pcdsdevices.device_types.PIM",
+        "device_class": "pcdsdevices.pim.PIMWithBoth",
         "kwargs": {
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
@@ -2353,7 +2353,7 @@
         "creation": "Mon Jan 29 14:02:41 2018",
         "data": null,
         "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -2677,7 +2677,7 @@
         "beamline": "XCS",
         "creation": "Tue Feb 27 11:15:19 2018",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithLED",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -2847,7 +2847,7 @@
         "beamline": "PBT",
         "creation": "Tue Feb 27 11:15:19 2018",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -3042,7 +3042,7 @@
         "beamline": "XCS",
         "creation": "Tue Feb 27 11:15:19 2018",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithLED",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -3196,7 +3196,7 @@
         "beamline": "XCS",
         "creation": "Tue Feb 27 11:15:19 2018",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PIM",
+        "device_class": "pcdsdevices.pim.PIMWithLED",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -3702,7 +3702,7 @@
         ],
         "beamline": "XPP",
         "creation": "Tue Feb 27 11:15:19 2018",
-        "device_class": "pcdsdevices.pim.PIMMotor",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
             "name": "{{name}}"
         },
