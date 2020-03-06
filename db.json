@@ -2563,35 +2563,6 @@
         "type": "Device",
         "z": 755.421
     },
-    "SP1L0 K-Mono": {
-        "_id": "SP1L0 K-Mono",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "LFE",
-        "creation": "Tue Feb 25 13:18:34 2020",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.spectrometer.Kmono",
-        "documentation": null,
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Spectrometer",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Feb 25 13:18:34 2020",
-        "lightpath": false,
-        "location_group": "Section 7",
-        "macros": null,
-        "name": "SP1L0 K-Mono",
-        "parent": null,
-        "prefix": "SP1L0:KMONO:MMS",
-        "stand": "L0S09",
-        "system": null,
-        "type": "Device",
-        "z": 737.317
-    },
     "STPR:XRT1:1:SH2_PPSSUM": {
         "_id": "STPR:XRT1:1:SH2_PPSSUM",
         "active": true,
@@ -3889,6 +3860,238 @@
         "xgantry_prefix": null,
         "z": 927.919
     },
+    "at2l0": {
+        "_id": "at2l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Feb 27 17:23:16 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.attenuator.FEESolidAttenuator",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Attenuator",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 27 17:23:16 2020",
+        "lightpath": false,
+        "location_group": "Section 06",
+        "macros": null,
+        "name": "at2l0",
+        "parent": null,
+        "prefix": "AT2L0:XTES",
+        "stand": "L0S07",
+        "system": null,
+        "type": "Device",
+        "z": 734.5
+    },
+    "em1l0": {
+        "_id": "em1l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 18:24:10 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.energy_monitor.GEM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Energy Monitor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Feb 26 13:13:31 2020",
+        "lightpath": false,
+        "location_group": "Section 05",
+        "macros": null,
+        "name": "em1l0",
+        "parent": null,
+        "prefix": "EM1L0:GEM",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 726.198
+    },
+    "em2l0": {
+        "_id": "em2l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 18:30:28 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.energy_monitor.GEM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Energy Monitor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Feb 26 13:13:40 2020",
+        "lightpath": false,
+        "location_group": "Section 05",
+        "macros": null,
+        "name": "em2l0",
+        "parent": null,
+        "prefix": "EM2L0:GEM",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 732.394
+    },
+    "im1k0": {
+        "_id": "im1k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 14:23:39 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.XPIM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:06:19 2020",
+        "lightpath": true,
+        "location_group": "Section 02",
+        "macros": null,
+        "name": "im1k0",
+        "parent": null,
+        "prefix": "IM1K0:XTES",
+        "stand": "K0S00",
+        "system": "viewing",
+        "type": "Device",
+        "z": 699.5
+    },
+    "im1k1": {
+        "_id": "im1k1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 14:27:02 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:06:36 2020",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "im1k1",
+        "parent": null,
+        "prefix": "IM1K1:PPM",
+        "stand": "K1S10",
+        "system": "viewing",
+        "type": "Device",
+        "z": 738.0
+    },
+    "im1k3": {
+        "_id": "im1k3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 15:09:02 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:09:02 2020",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "im1k3",
+        "parent": null,
+        "prefix": "IM1K3:PPM",
+        "stand": "K0S12",
+        "system": "viewing",
+        "type": "Device",
+        "z": 740.8
+    },
+    "im1k4": {
+        "_id": "im1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 14:28:50 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.XPIM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:06:53 2020",
+        "lightpath": true,
+        "location_group": "Section 08",
+        "macros": null,
+        "name": "im1k4",
+        "parent": null,
+        "prefix": "IM1K4:XTES",
+        "stand": "K4S24",
+        "system": "viewing",
+        "type": "Device",
+        "z": 750.3
+    },
+    "im1l0": {
+        "_id": "im1l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 14:07:13 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.XPIM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:03:20 2020",
+        "lightpath": true,
+        "location_group": "Section 02",
+        "macros": null,
+        "name": "im1l0",
+        "parent": null,
+        "prefix": "IM1L0:XTES",
+        "stand": "L0S00",
+        "system": "viewing",
+        "type": "Device",
+        "z": 699.6
+    },
     "im1l1": {
         "_id": "im1l1",
         "active": true,
@@ -3906,9 +4109,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Feb 24 13:35:21 2020",
+        "last_edit": "Tue Feb 25 15:04:01 2020",
         "lightpath": true,
-        "location_group": "Section_9",
+        "location_group": "Section 09",
         "macros": null,
         "name": "im1l1",
         "parent": null,
@@ -3917,6 +4120,93 @@
         "system": "viewing",
         "type": "Device",
         "z": 745.4
+    },
+    "im2k0": {
+        "_id": "im2k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 14:24:59 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.XPIM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:07:08 2020",
+        "lightpath": true,
+        "location_group": "Section 06",
+        "macros": null,
+        "name": "im2k0",
+        "parent": null,
+        "prefix": "IM2K0:XTES",
+        "stand": "K0S04",
+        "system": "viewing",
+        "type": "Device",
+        "z": 731.6
+    },
+    "im2k1": {
+        "_id": "im2k1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Feb 25 15:10:11 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:10:11 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "im2k1",
+        "parent": null,
+        "prefix": "IM2K1:PPM",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": -1.0
+    },
+    "im2l0": {
+        "_id": "im2l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 14:05:39 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.XPIM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:04:27 2020",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "im2l0",
+        "parent": null,
+        "prefix": "IM2L0:XTES",
+        "stand": "L0S08",
+        "system": "viewing",
+        "type": "Device",
+        "z": 736.0
     },
     "im3l0": {
         "_id": "im3l0",
@@ -3935,9 +4225,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Feb 24 11:25:53 2020",
+        "last_edit": "Tue Feb 25 15:04:07 2020",
         "lightpath": true,
-        "location_group": "Section_9",
+        "location_group": "Section 09",
         "macros": null,
         "name": "im3l0",
         "parent": null,
@@ -3947,41 +4237,45 @@
         "type": "Device",
         "z": 746.0
     },
-    "mr1l0": {
-        "_id": "mr1l0",
+    "im4l0": {
+        "_id": "im4l0",
         "active": true,
-        "args": [],
+        "args": [
+            "{{prefix}}"
+        ],
         "beamline": "LFE",
-        "creation": "Mon Feb 24 15:38:50 2020",
+        "creation": "Tue Feb 25 14:03:26 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.HardOffsetMirror",
+        "device_class": "pcdsdevices.pim.XPIM",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "Mirrors",
+        "functional_group": "Imager",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Feb 24 17:02:30 2020",
-        "lightpath": false,
-        "location_group": "Section 8",
+        "last_edit": "Tue Feb 25 15:04:54 2020",
+        "lightpath": true,
+        "location_group": "Section 11",
         "macros": null,
-        "name": "mr1l0",
+        "name": "im4l0",
         "parent": null,
-        "prefix": "MR1L0:HOMS",
-        "stand": null,
-        "system": null,
+        "prefix": "IM4L0:XTES",
+        "stand": "L0S21",
+        "system": "viewing",
         "type": "Device",
-        "z": 739.9
+        "z": 753.6
     },
-    "mr2l0": {
-        "_id": "mr2l0",
+    "mr1l0_lfe": {
+        "_id": "mr1l0_lfe",
         "active": true,
-        "args": [],
+        "args": [
+            "{{prefix}}"
+        ],
         "beamline": "LFE",
-        "creation": "Mon Feb 24 17:27:22 2020",
+        "creation": "Thu Feb 27 18:57:53 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.HardOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -3989,16 +4283,107 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 13:49:59 2020",
+        "last_edit": "Fri Feb 28 10:25:52 2020",
         "lightpath": false,
-        "location_group": "Section 8",
+        "location_group": "Section 08",
         "macros": null,
-        "name": "mr2l0",
+        "name": "mr1l0_lfe",
         "parent": null,
-        "prefix": "MR1L0:HOMS",
+        "prefix": "MR1L0:LFE",
+        "prefix_xy": null,
+        "stand": "L0S12",
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 740.51
+    },
+    "mr2l0_lfe": {
+        "_id": "mr2l0_lfe",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Fri Feb 28 10:36:38 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar  2 18:17:35 2020",
+        "lightpath": false,
+        "location_group": "Section 10",
+        "macros": null,
+        "name": "mr2l0_lfe",
+        "parent": null,
+        "prefix": "MR2L0:LFE",
+        "prefix_xy": null,
+        "stand": "L0S17",
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 751.843
+    },
+    "sl1l0": {
+        "_id": "sl1l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 17:55:08 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.slits.PowerSlits",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 27 09:41:30 2020",
+        "lightpath": false,
+        "location_group": "Section 04",
+        "macros": null,
+        "name": "sl1l0",
+        "parent": null,
+        "prefix": "SL1L0:POWER",
         "stand": null,
         "system": null,
         "type": "Device",
-        "z": 747.286
+        "z": 724.431
+    },
+    "sp1l0_kmono": {
+        "_id": "sp1l0_kmono",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Feb 25 14:58:27 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.spectrometer.Kmono",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Spectrometer",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb 25 15:04:36 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "sp1l0_kmono",
+        "parent": null,
+        "prefix": "SP1L0:KMONO:MMS",
+        "stand": "L0S09",
+        "system": null,
+        "type": "Device",
+        "z": 737.317
     }
 }
