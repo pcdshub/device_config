@@ -3001,7 +3001,7 @@
         "last_edit": "Tue May  7 15:36:21 2019",
         "lightpath": false,
         "macros": null,
-        "name": "xcs_sb2_ipm",
+        "name": "xcs_sb1_ipm",
         "parent": null,
         "prefix": "XCS:SB1:IPM",
         "screen": null,
@@ -4266,14 +4266,14 @@
         "type": "Device",
         "z": 753.6
     },
-    "mr1l0_lfe": {
-        "_id": "mr1l0_lfe",
+    "mr1k2_switch": {
+        "_id": "mr1k2_switch",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "LFE",
-        "creation": "Thu Feb 27 18:57:53 2020",
+        "beamline": "KFE",
+        "creation": "Wed May 13 13:31:42 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirror",
         "documentation": null,
@@ -4283,13 +4283,75 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 28 10:25:52 2020",
+        "last_edit": "Wed May 13 13:31:42 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "mr1k2_switch",
+        "parent": null,
+        "prefix": "MR1K2:SWITCH",
+        "prefix_xy": null,
+        "stand": "K1S14",
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": -1.0
+    },
+    "mr1k4_soms": {
+        "_id": "mr1k4_soms",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Apr 20 11:48:45 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 20 11:48:45 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "mr1k4_soms",
+        "parent": null,
+        "prefix": "MR1K4:SOMS",
+        "prefix_xy": null,
+        "stand": "K4S16",
+        "system": "beam control",
+        "type": "OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 745.72
+    },
+    "mr1l0_homs": {
+        "_id": "mr1l0_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Apr 16 12:21:04 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 16 12:21:04 2020",
         "lightpath": false,
         "location_group": "Section 08",
         "macros": null,
-        "name": "mr1l0_lfe",
+        "name": "mr1l0_homs",
         "parent": null,
-        "prefix": "MR1L0:LFE",
+        "prefix": "MR1L0:HOMS",
         "prefix_xy": null,
         "stand": "L0S12",
         "system": "beam control",
@@ -4297,14 +4359,14 @@
         "xgantry_prefix": null,
         "z": 740.51
     },
-    "mr2l0_lfe": {
-        "_id": "mr2l0_lfe",
+    "mr2l0_homs": {
+        "_id": "mr2l0_homs",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "LFE",
-        "creation": "Fri Feb 28 10:36:38 2020",
+        "creation": "Thu Apr 16 12:25:06 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirror",
         "documentation": null,
@@ -4314,13 +4376,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  2 18:17:35 2020",
+        "last_edit": "Thu Apr 16 12:25:06 2020",
         "lightpath": false,
         "location_group": "Section 10",
         "macros": null,
-        "name": "mr2l0_lfe",
+        "name": "mr2l0_homs",
         "parent": null,
-        "prefix": "MR2L0:LFE",
+        "prefix": "MR2L0:HOMS",
         "prefix_xy": null,
         "stand": "L0S17",
         "system": "beam control",
@@ -4356,6 +4418,35 @@
         "system": null,
         "type": "Device",
         "z": 724.431
+    },
+    "sl2k0": {
+        "_id": "sl2k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Mar 12 17:44:21 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.slits.PowerSlits",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 12 17:44:21 2020",
+        "lightpath": false,
+        "location_group": "5",
+        "macros": null,
+        "name": "sl2k0",
+        "parent": null,
+        "prefix": "SL2K0:POWER",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 731.61
     },
     "sp1l0_kmono": {
         "_id": "sp1l0_kmono",
