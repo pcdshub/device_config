@@ -13,6 +13,6 @@ client = happi.Client(path='path/to/device_config/db.json')
 ```
 
 ## Backup
-A daily backup is done via CRON job and kept on the branch `backup`. This is
-here in case an error is made and the local copy of the `device_config` is
-lost.
+A daily backup is done via CRON job which commits any changes to the `deploy` branch and
+pushes to https://github.com/pcdshub/device_config/. This is performed in case an error
+is made and the local copy of the `device_config` is lost.
