@@ -4476,5 +4476,28 @@
         "system": null,
         "type": "Device",
         "z": 737.317
+    },
+    "st1k4": {
+        "_id": "st1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Jun  8 17:08:34 2020",
+        "device_class": "pcdsdevices.sxr_test_absorber.SxrTestAbsorber",
+        "documentation": null,
+        "functional_group": "sxr_test_absorber",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun  8 17:08:34 2020",
+        "lightpath": true,
+        "location_group": "Section 09",
+        "name": "st1k4",
+        "prefix": "ST1K4:TEST:MMS",
+        "stand": "K4S24",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 750.7596
     }
 }
