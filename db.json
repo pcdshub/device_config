@@ -19,7 +19,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1035.5
     },
     "CXI:DG1:PIM": {
@@ -45,7 +45,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 1035.8
     },
     "CXI:DG1:RLM:MIRROR": {
@@ -68,7 +68,7 @@
         "screen": null,
         "stand": "DG1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1035.2
     },
     "CXI:DG1:VGC:01": {
@@ -91,7 +91,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1035.0
     },
     "CXI:DG1:VGC:02": {
@@ -114,7 +114,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1036.1
     },
     "CXI:DG2:IPM": {
@@ -138,7 +138,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 1043.75
     },
     "CXI:DG2:JAWS": {
@@ -161,7 +161,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1043.45
     },
     "CXI:DG2:MMS:05": {
@@ -184,7 +184,7 @@
         "screen": null,
         "stand": "DG2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:DG2:MMS:06": {
@@ -207,7 +207,7 @@
         "screen": null,
         "stand": "DG2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:DG2:PIM": {
@@ -233,7 +233,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 1043.98
     },
     "CXI:DG2:VGC:01": {
@@ -256,7 +256,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1042.9
     },
     "CXI:DG2:VGC:02": {
@@ -279,7 +279,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1044.1
     },
     "CXI:DG2:XFLS": {
@@ -302,7 +302,7 @@
         "screen": null,
         "stand": "DG2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1043.15
     },
     "CXI:DG3:IPM": {
@@ -326,7 +326,7 @@
         "screen": null,
         "stand": "DG3",
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 1057.12
     },
     "CXI:DG3:PIM": {
@@ -349,7 +349,7 @@
         "screen": null,
         "stand": "DG3",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1057.12
     },
     "CXI:DS1:ATT:INOUT": {
@@ -372,7 +372,7 @@
         "screen": null,
         "stand": "DS1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1048.19
     },
     "CXI:DS1:MMS:14": {
@@ -395,7 +395,7 @@
         "screen": null,
         "stand": "DS1",
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 1047.86
     },
     "CXI:DS1:XFLS": {
@@ -418,7 +418,7 @@
         "screen": null,
         "stand": "DS1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1048.38
     },
     "CXI:DSB:ATT": {
@@ -448,7 +448,7 @@
         "screen": null,
         "stand": "DSB",
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 1045.21
     },
     "CXI:DSB:JAWS": {
@@ -471,7 +471,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1045.71
     },
     "CXI:DSC:VGC:01": {
@@ -494,7 +494,7 @@
         "screen": null,
         "stand": "DSC",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1050.88
     },
     "CXI:KB1:JAWS:DS": {
@@ -517,7 +517,7 @@
         "screen": null,
         "stand": "KB1",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1039.03
     },
     "CXI:KB1:JAWS:US": {
@@ -540,7 +540,7 @@
         "screen": null,
         "stand": "KB1",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1036.85
     },
     "CXI:KB1:MMS:05": {
@@ -563,7 +563,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:06": {
@@ -586,7 +586,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:07": {
@@ -609,7 +609,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:08": {
@@ -632,7 +632,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:09": {
@@ -655,7 +655,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:10": {
@@ -678,7 +678,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:MMS:11": {
@@ -701,7 +701,7 @@
         "screen": null,
         "stand": "KB1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB1:VGC:01": {
@@ -724,7 +724,7 @@
         "screen": null,
         "stand": "KB1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1037.15
     },
     "CXI:KB1:VGC:02": {
@@ -747,7 +747,7 @@
         "screen": null,
         "stand": "KB1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1038.7
     },
     "CXI:KB2:MMS:01": {
@@ -770,7 +770,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:02": {
@@ -793,7 +793,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:03": {
@@ -816,7 +816,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:04": {
@@ -839,7 +839,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:05": {
@@ -862,7 +862,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:06": {
@@ -885,7 +885,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:07": {
@@ -908,7 +908,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:MMS:08": {
@@ -931,7 +931,7 @@
         "screen": null,
         "stand": "KB2",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "CXI:KB2:VGC:01": {
@@ -954,7 +954,7 @@
         "screen": null,
         "stand": "KB2",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1039.27
     },
     "CXI:SC1:VGC:01": {
@@ -977,7 +977,7 @@
         "screen": null,
         "stand": "SC1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1046.07
     },
     "CXI:SC1:VGC:02": {
@@ -1000,7 +1000,7 @@
         "screen": null,
         "stand": "SC1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1047.32
     },
     "CXI:SC3:VGC:01": {
@@ -1023,7 +1023,7 @@
         "screen": null,
         "stand": "SC3",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1048.78
     },
     "FEE1:M1H": {
@@ -1049,7 +1049,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": "STEP:FEE1:611:MOTR",
         "z": 740.51
     },
@@ -1076,7 +1076,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": "STEP:FEE1:861:MOTR",
         "z": 751.8430000000001
     },
@@ -1100,7 +1100,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 996.61
     },
     "HFX:DG2:IPM": {
@@ -1124,7 +1124,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 958.8560000000001
     },
     "HFX:DG2:JAWS": {
@@ -1147,7 +1147,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 958.689
     },
     "HFX:DG2:PIM": {
@@ -1170,7 +1170,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 959.053
     },
     "HFX:DG2:STP:01": {
@@ -1193,7 +1193,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Stopper",
+        "type": "pcdsdevices.happi.containers.Stopper",
         "z": 959.2
     },
     "HFX:DG2:VGC:01": {
@@ -1216,7 +1216,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 959.441
     },
     "HFX:DG3:IPM": {
@@ -1240,7 +1240,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 978.9
     },
     "HFX:DG3:JAWS": {
@@ -1263,7 +1263,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 978.813
     },
     "HFX:DG3:PIM": {
@@ -1288,7 +1288,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 978.913
     },
     "HFX:DIA:VGC:01": {
@@ -1311,7 +1311,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 990.813
     },
     "HFX:DVD:VGC:01": {
@@ -1334,7 +1334,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 945.9630000000001
     },
     "HFX:MON:VGC:01": {
@@ -1357,7 +1357,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 969.209
     },
     "HFX:MON:VGC:02": {
@@ -1380,7 +1380,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 977.313
     },
     "HFX:MON:VGC:03": {
@@ -1403,7 +1403,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 969.209
     },
     "HX2:DVD:VGC:01": {
@@ -1426,7 +1426,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 779.0
     },
     "HX2:REFLASER:MIRROR": {
@@ -1449,7 +1449,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Stopper",
+        "type": "pcdsdevices.happi.containers.Stopper",
         "z": 773.505
     },
     "HX2:SB1:IPM": {
@@ -1473,7 +1473,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 773.705
     },
     "HX2:SB1:JAWS": {
@@ -1496,7 +1496,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 773.605
     },
     "HX2:SB1:PIM": {
@@ -1526,7 +1526,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 773.805
     },
     "HX2:UVD:VGC:01": {
@@ -1549,7 +1549,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 769.0
     },
     "HX3:MON:VGC:01": {
@@ -1572,7 +1572,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 782.5
     },
     "HX3:MON:VGC:02": {
@@ -1595,7 +1595,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 783.5
     },
     "HXX:HXM:PIM1": {
@@ -1618,7 +1618,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 818.416
     },
     "HXX:MXT:VGC:01": {
@@ -1641,7 +1641,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 812.8689999999999
     },
     "HXX:MXT:VGC:02": {
@@ -1664,7 +1664,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 818.2
     },
     "HXX:MXT:VGC:03": {
@@ -1687,7 +1687,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.97
     },
     "HXX:MXT:VGC:04": {
@@ -1710,7 +1710,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.96
     },
     "HXX:MXT:VGC:05": {
@@ -1733,7 +1733,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.96
     },
     "HXX:UM6:IPM": {
@@ -1757,7 +1757,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 810.332
     },
     "HXX:UM6:JAWS": {
@@ -1780,7 +1780,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 809.966
     },
     "HXX:UM6:PIM": {
@@ -1803,7 +1803,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 810.135
     },
     "HXX:UM6:STP:01": {
@@ -1826,7 +1826,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Stopper",
+        "type": "pcdsdevices.happi.containers.Stopper",
         "z": 811.035
     },
     "MEC:ATT": {
@@ -1851,7 +1851,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 981.2
     },
     "MEC:BXL:VGC:01": {
@@ -1874,7 +1874,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 979.0
     },
     "MEC:HXM:MMS:18": {
@@ -1897,7 +1897,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 981.01
     },
     "MEC:HXM:VGC:01": {
@@ -1920,7 +1920,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 990.5
     },
     "MEC:IPM1": {
@@ -1944,7 +1944,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 990.2
     },
     "MEC:PIM1": {
@@ -1967,7 +1967,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 981.4
     },
     "MFX:ATT": {
@@ -1992,7 +1992,7 @@
         "screen": null,
         "stand": "DIA",
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 984.4
     },
     "MFX:DG1:IPM": {
@@ -2019,7 +2019,7 @@
         "prefix": "MFX:DG1:IPM",
         "stand": "DG1",
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": -1.0
     },
     "MFX:DG1:JAWS": {
@@ -2042,7 +2042,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1019.3
     },
     "MFX:DG1:MMS:08": {
@@ -2065,7 +2065,7 @@
         "screen": null,
         "stand": "DG1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "MFX:DG1:PIM": {
@@ -2091,7 +2091,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 1019.79
     },
     "MFX:DG1:RLM:MIRROR": {
@@ -2119,7 +2119,7 @@
         "screen": null,
         "stand": "DG1",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1018.82
     },
     "MFX:DG1:VGC:01": {
@@ -2142,7 +2142,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1018.54
     },
     "MFX:DG1:VGC:02": {
@@ -2165,7 +2165,7 @@
         "screen": null,
         "stand": "DG1",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1019.99
     },
     "MFX:DG2:IPM": {
@@ -2193,7 +2193,7 @@
         "prefix": "MFX:DG2:IPM",
         "stand": "DG2",
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": -1.0
     },
     "MFX:DG2:JAWS:DS": {
@@ -2216,7 +2216,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1022.99
     },
     "MFX:DG2:JAWS:MS": {
@@ -2239,7 +2239,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1022.84
     },
     "MFX:DG2:JAWS:US": {
@@ -2262,7 +2262,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1021.29
     },
     "MFX:DG2:PIM": {
@@ -2288,7 +2288,7 @@
         "screen": null,
         "stand": "DG2",
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 1021.74
     },
     "MFX:DIA:IPM": {
@@ -2317,7 +2317,7 @@
         "screen": null,
         "stand": "DIA",
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 984.85
     },
     "MFX:DIA:MMS:07": {
@@ -2340,7 +2340,7 @@
         "screen": null,
         "stand": "DIA",
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 984.2
     },
     "MFX:DIA:PIM": {
@@ -2370,7 +2370,7 @@
         "screen": null,
         "stand": "DIA",
         "system": "diagnostic",
-        "type": "PIM",
+        "type": "pcdsdevices.happi.containers.PIM",
         "z": 984.9
     },
     "MFX:DIA:VGC:01": {
@@ -2393,7 +2393,7 @@
         "screen": null,
         "stand": "DIA",
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 983.0
     },
     "MFX:DIA:VGC:02": {
@@ -2421,7 +2421,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 990.1
     },
     "MFX:DVD:VGC:01": {
@@ -2444,7 +2444,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 945.9630000000001
     },
     "PPS:FEH1:45:S45STPRSUM": {
@@ -2467,7 +2467,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 952.2
     },
     "PPS:FEH1:4:S4STPRSUM": {
@@ -2490,7 +2490,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1000.5
     },
     "PPS:FEH1:5:S5STPRSUM": {
@@ -2513,7 +2513,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 979.0
     },
     "PPS:FEH1:6:S6STPRSUM": {
@@ -2536,7 +2536,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 987.1
     },
     "PPS:NEH1:1:SH1INSUM": {
@@ -2560,7 +2560,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.421
     },
     "STPR:XRT1:1:SH2_PPSSUM": {
@@ -2583,7 +2583,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 803.1
     },
     "XCS:ATT": {
@@ -2613,7 +2613,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 1002.326
     },
     "XCS:DG3:IPM": {
@@ -2642,7 +2642,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 979.0
     },
     "XCS:DG3:JAWS": {
@@ -2665,7 +2665,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 978.813
     },
     "XCS:DG3:PIM": {
@@ -2693,7 +2693,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 979.2
     },
     "XCS:DG3:VGC:02": {
@@ -2716,7 +2716,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 990.913
     },
     "XCS:LAM:VGC:01": {
@@ -2739,7 +2739,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1008.0
     },
     "XCS:LAM:VGC:02": {
@@ -2762,7 +2762,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1009.0
     },
     "XCS:LODCM": {
@@ -2788,7 +2788,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "LODCM",
+        "type": "pcdsdevices.happi.containers.LODCM",
         "z": 964.76
     },
     "XCS:MON:IPM": {
@@ -2812,7 +2812,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 971.0
     },
     "XCS:MON:VGC:04": {
@@ -2835,7 +2835,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 977.313
     },
     "XCS:PBT:PIM": {
@@ -2863,7 +2863,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 930.6
     },
     "XCS:PBT:VGC:01": {
@@ -2886,7 +2886,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.96
     },
     "XCS:PBT:VGC:02": {
@@ -2909,7 +2909,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 925.9
     },
     "XCS:PBT:VGC:03": {
@@ -2932,7 +2932,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 930.4
     },
     "XCS:PBT:VGC:04": {
@@ -2955,7 +2955,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 961.3
     },
     "XCS:REFLASER1:MIRROR": {
@@ -2978,7 +2978,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Stopper",
+        "type": "pcdsdevices.happi.containers.Stopper",
         "z": 958.497
     },
     "XCS:SB1:IPM": {
@@ -3007,7 +3007,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 1005.49
     },
     "XCS:SB1:JAWS": {
@@ -3030,7 +3030,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 996.0
     },
     "XCS:SB1:PIM": {
@@ -3058,7 +3058,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 996.4
     },
     "XCS:SB1:STP:01": {
@@ -3081,7 +3081,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Stopper",
+        "type": "pcdsdevices.happi.containers.Stopper",
         "z": 995.6
     },
     "XCS:SB1:VGC:01": {
@@ -3104,7 +3104,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1000.2
     },
     "XCS:SB2:DS:JAWS": {
@@ -3132,7 +3132,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1005.29
     },
     "XCS:SB2:IPM": {
@@ -3161,7 +3161,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 1005.49
     },
     "XCS:SB2:MMS:09": {
@@ -3184,7 +3184,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 1002.0
     },
     "XCS:SB2:PIM": {
@@ -3214,7 +3214,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1005.72
     },
     "XCS:SB2:US:JAWS": {
@@ -3242,7 +3242,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 1005.11
     },
     "XCS:SB2:VGC:01": {
@@ -3265,7 +3265,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1002.0
     },
     "XCS:XFLS": {
@@ -3288,7 +3288,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1002.9780000000001
     },
     "XPP:ATT": {
@@ -3318,7 +3318,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 786.0
     },
     "XPP:LAS:MMN:04": {
@@ -3341,7 +3341,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:05": {
@@ -3364,7 +3364,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:06": {
@@ -3387,7 +3387,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:08": {
@@ -3410,7 +3410,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:13": {
@@ -3433,7 +3433,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:14": {
@@ -3456,7 +3456,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LAS:MMN:15": {
@@ -3479,7 +3479,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "XPP:LODCM": {
@@ -3505,7 +3505,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "LODCM",
+        "type": "pcdsdevices.happi.containers.LODCM",
         "z": 781.1
     },
     "XPP:SB2:IPM": {
@@ -3529,7 +3529,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 784.132
     },
     "XPP:SB2:MMS:29": {
@@ -3552,7 +3552,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 785.574
     },
     "XPP:SB2:VGC:01": {
@@ -3575,7 +3575,7 @@
         "screen": null,
         "stand": null,
         "system": "vacuum",
-        "type": "GateValve",
+        "type": "pcdsdevices.happi.containers.GateValve",
         "z": 784.132
     },
     "XPP:SB2:XFLS": {
@@ -3598,7 +3598,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.9830000000001
     },
     "XPP:SB2H:JAWS": {
@@ -3621,7 +3621,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 784.3860000000001
     },
     "XPP:SB2L:JAWS": {
@@ -3644,7 +3644,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 784.3860000000001
     },
     "XPP:SB3:IPM": {
@@ -3668,7 +3668,7 @@
         "screen": null,
         "stand": null,
         "system": "diagnostic",
-        "type": "IPM",
+        "type": "pcdsdevices.happi.containers.IPM",
         "z": 787.655
     },
     "XPP:SB3:JAWS": {
@@ -3691,7 +3691,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Slits",
+        "type": "pcdsdevices.happi.containers.Slits",
         "z": 787.4860000000001
     },
     "XPP:SB3:PIM": {
@@ -3714,7 +3714,7 @@
         "screen": null,
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 787.8
     },
     "XRT:DIA:ATT": {
@@ -3744,7 +3744,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "Attenuator",
+        "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 982.0
     },
     "XRT:DIA:MMS:16": {
@@ -3767,7 +3767,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "PulsePicker",
+        "type": "pcdsdevices.happi.containers.PulsePicker",
         "z": 981.8192
     },
     "XRT:M1H": {
@@ -3799,7 +3799,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 814.716
     },
@@ -3831,7 +3831,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 817.1160000000001
     },
@@ -3856,7 +3856,7 @@
         "screen": null,
         "stand": null,
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 927.919
     },
@@ -3886,7 +3886,7 @@
         "prefix": "AT2L0:XTES",
         "stand": "L0S07",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 734.5
     },
     "em1l0": {
@@ -3915,7 +3915,7 @@
         "prefix": "EM1L0:GEM",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 726.198
     },
     "em2l0": {
@@ -3944,7 +3944,7 @@
         "prefix": "EM2L0:GEM",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 732.394
     },
     "im1k0": {
@@ -3973,7 +3973,7 @@
         "prefix": "IM1K0:XTES",
         "stand": "K0S00",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.5
     },
     "im1k1": {
@@ -4002,7 +4002,7 @@
         "prefix": "IM1K1:PPM",
         "stand": "K1S10",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 738.0
     },
     "im1k3": {
@@ -4031,7 +4031,7 @@
         "prefix": "IM1K3:PPM",
         "stand": "K0S12",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.8
     },
     "im1k4": {
@@ -4060,7 +4060,7 @@
         "prefix": "IM1K4:XTES",
         "stand": "K4S24",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.3
     },
     "im1l0": {
@@ -4089,7 +4089,7 @@
         "prefix": "IM1L0:XTES",
         "stand": "L0S00",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.6
     },
     "im1l1": {
@@ -4118,7 +4118,7 @@
         "prefix": "IM1L1:PPM",
         "stand": "L0S16",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 745.4
     },
     "im2k0": {
@@ -4147,7 +4147,7 @@
         "prefix": "IM2K0:XTES",
         "stand": "K0S04",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.6
     },
     "im2k1": {
@@ -4176,7 +4176,7 @@
         "prefix": "IM2K1:PPM",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "im2l0": {
@@ -4205,7 +4205,7 @@
         "prefix": "IM2L0:XTES",
         "stand": "L0S08",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 736.0
     },
     "im3l0": {
@@ -4234,7 +4234,7 @@
         "prefix": "IM3L0:PPM",
         "stand": "L0S16",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
     "im4l0": {
@@ -4263,7 +4263,7 @@
         "prefix": "IM4L0:XTES",
         "stand": "L0S21",
         "system": "viewing",
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 753.6
     },
     "mr1k2_switch": {
@@ -4293,7 +4293,7 @@
         "prefix_xy": null,
         "stand": "K1S14",
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": -1.0
     },
@@ -4324,7 +4324,7 @@
         "prefix_xy": null,
         "stand": "K4S16",
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 745.72
     },
@@ -4416,7 +4416,7 @@
         "prefix": "SL1L0:POWER",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 724.431
     },
     "sl2k0": {
@@ -4445,7 +4445,7 @@
         "prefix": "SL2K0:POWER",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.61
     },
     "sp1l0": {
@@ -4474,7 +4474,7 @@
         "prefix": "SP1L0:KMONO:MMS",
         "stand": "L0S09",
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
     },
     "st1k4": {
