@@ -4448,8 +4448,8 @@
         "type": "Device",
         "z": 731.61
     },
-    "sp1l0_kmono": {
-        "_id": "sp1l0_kmono",
+    "sp1l0": {
+        "_id": "sp1l0",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -4469,7 +4469,7 @@
         "lightpath": false,
         "location_group": "Section 07",
         "macros": null,
-        "name": "sp1l0_kmono",
+        "name": "sp1l0",
         "parent": null,
         "prefix": "SP1L0:KMONO:MMS",
         "stand": "L0S09",
