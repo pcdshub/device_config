@@ -4355,7 +4355,7 @@
         "prefix_xy": null,
         "stand": "L0S12",
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 740.51
     },
@@ -4386,7 +4386,7 @@
         "prefix_xy": null,
         "stand": "L0S17",
         "system": "beam control",
-        "type": "OffsetMirror",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 751.843
     },
