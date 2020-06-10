@@ -4495,7 +4495,7 @@
         "lightpath": true,
         "location_group": "Section 09",
         "name": "st1k4",
-        "prefix": "ST1K4:TEST:MMS",
+        "prefix": "ST1K4:TEST",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
