@@ -4040,7 +4040,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "TMO",
         "creation": "Tue Feb 25 14:28:50 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.XPIM",
@@ -4051,7 +4051,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:06:53 2020",
+        "last_edit": "Tue Jun  9 17:37:59 2020",
         "lightpath": true,
         "location_group": "Section 08",
         "macros": null,
@@ -4178,6 +4178,29 @@
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
+    },
+    "im2k4": {
+        "_id": "im2k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Tue Jun  9 17:41:00 2020",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jun  9 17:41:23 2020",
+        "lightpath": false,
+        "location_group": "Section 09",
+        "name": "im2k4",
+        "prefix": "IM2K4:PPM",
+        "stand": "K4S33",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.32
     },
     "im2l0": {
         "_id": "im2l0",
