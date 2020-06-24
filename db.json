@@ -4413,6 +4413,23 @@
         "xgantry_prefix": null,
         "z": 751.843
     },
+    "selector_a": {
+        "_id": "selector_a",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Mon Jun 22 22:54:58 2020",
+        "device_class": "pcdsdevices.sample_delivery.Selector",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun 22 22:54:58 2020",
+        "name": "selector_a",
+        "prefix": "ICL:SDS:SEL:A",
+        "type": "OphydItem"
+    },
     "sl1l0": {
         "_id": "sl1l0",
         "active": true,
