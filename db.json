@@ -3947,6 +3947,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 732.394
     },
+    "icl_sds_sel_b": {
+        "_id": "icl_sds_sel_b",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "ICL",
+        "creation": "Wed Jun 24 16:43:15 2020",
+        "device_class": "pcdsdevices.sample_delivery.Selector",
+        "documentation": null,
+        "functional_group": "None",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jun 24 16:43:15 2020",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "icl_sds_sel_b",
+        "prefix": "ICL:SDS:SEL:B",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "im1k0": {
         "_id": "im1k0",
         "active": true,
