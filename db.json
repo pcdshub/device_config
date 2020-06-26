@@ -3961,7 +3961,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jun 24 16:43:15 2020",
+        "last_edit": "Wed Jun 24 19:23:43 2020",
         "lightpath": false,
         "location_group": "None",
         "name": "icl_sds_sel_b",
@@ -4448,7 +4448,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 22 22:54:58 2020",
+        "last_edit": "Wed Jun 24 19:25:15 2020",
         "name": "selector_a",
         "prefix": "ICL:SDS:SEL:A",
         "type": "OphydItem"
