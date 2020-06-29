@@ -3961,14 +3961,14 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jun 24 19:23:43 2020",
+        "last_edit": "Sat Jun 27 23:04:54 2020",
         "lightpath": false,
         "location_group": "None",
         "name": "icl_sds_sel_b",
         "prefix": "ICL:SDS:SEL:B",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 999999.0
     },
     "im1k0": {
         "_id": "im1k0",
@@ -4435,23 +4435,6 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 751.843
-    },
-    "selector_a": {
-        "_id": "selector_a",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "creation": "Mon Jun 22 22:54:58 2020",
-        "device_class": "pcdsdevices.sample_delivery.Selector",
-        "documentation": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Jun 24 19:25:15 2020",
-        "name": "selector_a",
-        "prefix": "ICL:SDS:SEL:A",
-        "type": "OphydItem"
     },
     "sl1l0": {
         "_id": "sl1l0",
