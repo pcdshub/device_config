@@ -1454,7 +1454,7 @@
     },
     "HX2:SB1:IPM": {
         "_id": "HX2:SB1:IPM",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -1478,7 +1478,7 @@
     },
     "HX2:SB1:JAWS": {
         "_id": "HX2:SB1:JAWS",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -1501,7 +1501,7 @@
     },
     "HX2:SB1:PIM": {
         "_id": "HX2:SB1:PIM",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
