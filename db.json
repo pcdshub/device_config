@@ -1028,7 +1028,7 @@
     },
     "FEE1:M1H": {
         "_id": "FEE1:M1H",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -1055,7 +1055,7 @@
     },
     "FEE1:M2H": {
         "_id": "FEE1:M2H",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
