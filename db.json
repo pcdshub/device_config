@@ -3878,7 +3878,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 27 17:23:16 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "Section 06",
         "macros": null,
         "name": "at2l0",
@@ -4133,7 +4133,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 25 15:04:01 2020",
-        "lightpath": true,
+        "lightpath": false,
         "location_group": "Section 09",
         "macros": null,
         "name": "im1l1",
@@ -4454,7 +4454,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 27 09:41:30 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "Section 04",
         "macros": null,
         "name": "sl1l0",
@@ -4512,7 +4512,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 25 15:04:36 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "Section 07",
         "macros": null,
         "name": "sp1l0",
