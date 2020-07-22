@@ -3860,6 +3860,29 @@
         "xgantry_prefix": null,
         "z": 927.919
     },
+    "at1l0": {
+        "_id": "at1l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 11:50:47 2020",
+        "device_class": "pcdsdevices.attenuator.FeeAtt",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 11:50:47 2020",
+        "lightpath": true,
+        "location_group": "Section 05",
+        "name": "at1l0",
+        "prefix": "SATT:FEE1:320",
+        "stand": "L0S05",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 729.2956
+    },
     "at2l0": {
         "_id": "at2l0",
         "active": true,
@@ -4435,6 +4458,29 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 751.843
+    },
+    "rtdsl0": {
+        "_id": "rtdsl0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 15:10:47 2020",
+        "device_class": "pcdsdevices.rtds_ebd.RTDSL0",
+        "documentation": null,
+        "functional_group": "Diagnostic",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 15:10:47 2020",
+        "lightpath": true,
+        "location_group": "Section 01",
+        "name": "rtdsl0",
+        "prefix": "RTDSL0",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 695.0
     },
     "sl1l0": {
         "_id": "sl1l0",
