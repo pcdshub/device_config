@@ -3912,6 +3912,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 734.5
     },
+    "bt2l0_pleg_vgc01": {
+        "_id": "bt2l0_pleg_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:38:44 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:38:44 2020",
+        "lightpath": true,
+        "location_group": "Section 09",
+        "name": "bt2l0_pleg_vgc01",
+        "prefix": "BT2L0:PLEG:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 742.4427
+    },
     "em1l0": {
         "_id": "em1l0",
         "active": true,
@@ -3941,6 +3964,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 726.198
     },
+    "em1l0_gem_vgc10": {
+        "_id": "em1l0_gem_vgc10",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:33:20 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:33:20 2020",
+        "lightpath": true,
+        "location_group": "Section 05",
+        "name": "em1l0_gem_vgc10",
+        "prefix": "EM1L0:GEM:VGC:10",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 725.0
+    },
     "em2l0": {
         "_id": "em2l0",
         "active": true,
@@ -3969,6 +4015,29 @@
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 732.394
+    },
+    "em2l0_gem_vgc70": {
+        "_id": "em2l0_gem_vgc70",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:34:38 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:34:38 2020",
+        "lightpath": true,
+        "location_group": "Section 05",
+        "name": "em2l0_gem_vgc70",
+        "prefix": "EM2L0:GEM:VGC:70",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 733.0
     },
     "icl_sds_sel_b": {
         "_id": "icl_sds_sel_b",
@@ -4137,6 +4206,29 @@
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.6
+    },
+    "im1l0_xtes_vgc01": {
+        "_id": "im1l0_xtes_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:29:21 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:29:21 2020",
+        "lightpath": true,
+        "location_group": "Section 02",
+        "name": "im1l0_xtes_vgc01",
+        "prefix": "IM1L0:XTES:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 699.0447
     },
     "im1l1": {
         "_id": "im1l1",
@@ -4428,6 +4520,29 @@
         "xgantry_prefix": null,
         "z": 740.51
     },
+    "mr1l0_homs_vgc01": {
+        "_id": "mr1l0_homs_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:37:31 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:37:31 2020",
+        "lightpath": true,
+        "location_group": "Section 08",
+        "name": "mr1l0_homs_vgc01",
+        "prefix": "MR1L0:HOMS:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 739.0457
+    },
     "mr2l0_homs": {
         "_id": "mr2l0_homs",
         "active": true,
@@ -4458,6 +4573,75 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 751.843
+    },
+    "mr2l0_homs_vgc01": {
+        "_id": "mr2l0_homs_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:40:05 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:40:05 2020",
+        "lightpath": true,
+        "location_group": "Section 10",
+        "name": "mr2l0_homs_vgc01",
+        "prefix": "MR2L0:HOMS:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 748.7995
+    },
+    "mr2l0_homs_vgc_02": {
+        "_id": "mr2l0_homs_vgc_02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:41:14 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:41:14 2020",
+        "lightpath": true,
+        "location_group": "Section 11",
+        "name": "mr2l0_homs_vgc_02",
+        "prefix": "MR2L0:HOMS:VGC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 748.7995
+    },
+    "pc1l0_xtes_vgc01": {
+        "_id": "pc1l0_xtes_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:36:12 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:36:12 2020",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "name": "pc1l0_xtes_vgc01",
+        "prefix": "PC1L0:XTES:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 735.211
     },
     "rtdsl0": {
         "_id": "rtdsl0",
@@ -4591,5 +4775,74 @@
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
+    },
+    "tv1l0_vgc01": {
+        "_id": "tv1l0_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:07:54 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:07:54 2020",
+        "lightpath": true,
+        "location_group": "Section 01",
+        "name": "tv1l0_vgc01",
+        "prefix": "TV1L0:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 693.5788
+    },
+    "tv2l0_vgc01": {
+        "_id": "tv2l0_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:30:43 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:30:43 2020",
+        "lightpath": true,
+        "location_group": "Section 02",
+        "name": "tv2l0_vgc01",
+        "prefix": "TV2L0:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 710.9864
+    },
+    "tv2l0_vgc02": {
+        "_id": "tv2l0_vgc02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Jul 22 16:31:59 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 22 16:31:59 2020",
+        "lightpath": true,
+        "location_group": "Section 04",
+        "name": "tv2l0_vgc02",
+        "prefix": "TV2L0:VGC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 722.2774
     }
 }
