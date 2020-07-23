@@ -4618,7 +4618,7 @@
         "prefix": "MR2L0:HOMS:VGC:02",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 748.7995
+        "z": 748.0869
     },
     "pc1l0_xtes_vgc01": {
         "_id": "pc1l0_xtes_vgc01",
