@@ -4620,6 +4620,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0869
     },
+    "pa1l0_vfs_01": {
+        "_id": "pa1l0_vfs_01",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Jul 23 09:56:23 2020",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jul 23 09:56:23 2020",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "name": "pa1l0_vfs_01",
+        "prefix": "PA1L0:VFS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 738.7685
+    },
     "pc1l0_xtes_vgc01": {
         "_id": "pc1l0_xtes_vgc01",
         "active": true,
