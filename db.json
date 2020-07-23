@@ -4507,7 +4507,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Apr 16 12:21:04 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "Section 08",
         "macros": null,
         "name": "mr1l0_homs",
@@ -4561,7 +4561,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Apr 16 12:25:06 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "Section 10",
         "macros": null,
         "name": "mr2l0_homs",
