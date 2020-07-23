@@ -4844,5 +4844,28 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 722.2774
+    },
+    "tv3l0_vfs01": {
+        "_id": "tv3l0_vfs01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Jul 23 09:29:06 2020",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jul 23 09:29:06 2020",
+        "lightpath": true,
+        "location_group": "Section 11",
+        "name": "tv3l0_vfs01",
+        "prefix": "TV3L0:VFS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 748.7995
     }
 }
