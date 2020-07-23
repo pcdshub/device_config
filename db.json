@@ -4518,7 +4518,7 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": 740.51
+        "z": 740.00
     },
     "mr1l0_homs_vgc01": {
         "_id": "mr1l0_homs_vgc01",
@@ -4572,7 +4572,7 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": 751.843
+        "z": 747.2860
     },
     "mr2l0_homs_vgc01": {
         "_id": "mr2l0_homs_vgc01",
@@ -4595,7 +4595,7 @@
         "prefix": "MR2L0:HOMS:VGC:01",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 748.7995
+        "z": 746.5919
     },
     "mr2l0_homs_vgc_02": {
         "_id": "mr2l0_homs_vgc_02",
