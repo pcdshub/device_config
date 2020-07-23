@@ -4799,6 +4799,30 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
     },
+    "st1l0_pps": {
+        "_id": "st1l0_pps",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Jul 23 10:14:58 2020",
+        "device_class": "pcdsdevices.valve.PPSStopper",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "kwargs": {
+            "name": "{{name}}",
+            "out_state": "NOT_IN"
+        },
+        "last_edit": "Thu Jul 23 10:14:58 2020",
+        "lightpath": true,
+        "location_group": "Section 11",
+        "name": "st1l0_pps",
+        "prefix": "PPS:NEH1:1:ST1L0INSUM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.2604
+    },
     "tv1l0_vgc01": {
         "_id": "tv1l0_vgc01",
         "active": true,
