@@ -1531,7 +1531,7 @@
     },
     "HX2:UVD:VGC:01": {
         "_id": "HX2:UVD:VGC:01",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
