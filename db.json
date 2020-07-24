@@ -4518,7 +4518,7 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": 740.00
+        "z": 740.0
     },
     "mr1l0_homs_vgc01": {
         "_id": "mr1l0_homs_vgc01",
@@ -4572,7 +4572,7 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": 747.2860
+        "z": 747.286
     },
     "mr2l0_homs_vgc01": {
         "_id": "mr2l0_homs_vgc01",
@@ -4914,5 +4914,74 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.7995
+    },
+    "tv4l0_vgc01": {
+        "_id": "tv4l0_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Fri Jul 24 15:28:50 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul 24 15:28:50 2020",
+        "lightpath": true,
+        "location_group": "H1.1",
+        "name": "tv4l0_vgc01",
+        "prefix": "TV4L0:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 759.479
+    },
+    "tv5l0_vgc01": {
+        "_id": "tv5l0_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Fri Jul 24 15:30:33 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul 24 15:30:33 2020",
+        "lightpath": true,
+        "location_group": "H1.2",
+        "name": "tv5l0_vgc01",
+        "prefix": "TV5L0:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 773.0441
+    },
+    "tv6l0_vgc01": {
+        "_id": "tv6l0_vgc01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Fri Jul 24 15:31:58 2020",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul 24 15:31:58 2020",
+        "lightpath": true,
+        "location_group": "H1.2",
+        "name": "tv6l0_vgc01",
+        "prefix": "TV6L0:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 779.4857
     }
 }
