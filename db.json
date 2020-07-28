@@ -1609,8 +1609,8 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 783.5
     },
-    "HXX:HXM:PIM1": {
-        "_id": "HXX:HXM:PIM1",
+    "HXX:HXM:PIM": {
+        "_id": "HXX:HXM:PIM",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -1626,7 +1626,7 @@
         "macros": null,
         "name": "mec_yag0",
         "parent": null,
-        "prefix": "HXX:HXM:PIM1",
+        "prefix": "HXX:HXM:PIM",
         "screen": null,
         "stand": null,
         "system": null,
