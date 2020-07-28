@@ -1117,6 +1117,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 11:40:14 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_dg2_ipm",
         "parent": null,
@@ -1140,6 +1141,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 10:41:25 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_dg2_slits",
         "parent": null,
@@ -1163,6 +1165,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 11:15:18 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_dg2_pim",
         "parent": null,
@@ -1186,6 +1189,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 15:04:38 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_dg2_stopper",
         "parent": null,
@@ -1209,6 +1213,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_dg2_valve",
         "parent": null,
@@ -1327,6 +1332,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "xrt_dvd_valve",
         "parent": null,
@@ -1568,6 +1574,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_mon_valve_1",
         "parent": null,
@@ -1591,6 +1598,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "hxd_mon_valve_2",
         "parent": null,
@@ -1614,6 +1622,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 11:15:18 2018",
+        "lightpath": true,
         "macros": null,
         "name": "mec_yag0",
         "parent": null,
@@ -1637,6 +1646,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "mxt_valve_1",
         "parent": null,
@@ -1660,6 +1670,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "mxt_valve_2",
         "parent": null,
@@ -1683,6 +1694,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Thu Feb 15 18:25:23 2018",
+        "lightpath": true,
         "macros": null,
         "name": "xrt_mxt_valve",
         "parent": null,
@@ -1753,6 +1765,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 11:40:15 2018",
+        "lightpath": true,
         "macros": null,
         "name": "um6_ipm",
         "parent": null,
@@ -1776,6 +1789,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 10:41:25 2018",
+        "lightpath": true,
         "macros": null,
         "name": "um6_slits",
         "parent": null,
@@ -1799,6 +1813,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 11:15:18 2018",
+        "lightpath": true,
         "macros": null,
         "name": "um6_pim",
         "parent": null,
@@ -1822,6 +1837,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 15:08:45 2018",
+        "lightpath": true,
         "macros": null,
         "name": "um6_stopper",
         "parent": null,
@@ -2579,6 +2595,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 10:46:53 2018",
+        "lightpath": true,
         "macros": null,
         "name": "sh2",
         "parent": null,
@@ -2783,6 +2800,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 12:53:14 2018",
+        "lightpath": true,
         "macros": null,
         "mono_line": "XCS",
         "name": "xcs_lodcm",
@@ -2974,6 +2992,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 15:05:53 2018",
+        "lightpath": true,
         "macros": null,
         "name": "xcs_reference_laser",
         "parent": null,
@@ -3804,6 +3823,7 @@
             ]
         },
         "last_edit": "Tue Feb 27 16:06:20 2018",
+        "lightpath": true,
         "macros": null,
         "name": "xrt_m1h",
         "parent": null,
@@ -3836,6 +3856,7 @@
             ]
         },
         "last_edit": "Tue Feb 27 16:11:09 2018",
+        "lightpath": true,
         "macros": null,
         "name": "xrt_m2h",
         "parent": null,
