@@ -2039,7 +2039,7 @@
         "stand": "DG1",
         "system": "diagnostic",
         "type": "pcdsdevices.happi.containers.IPM",
-        "z": -1.0
+        "z": 1019.59000
     },
     "MFX:DG1:JAWS": {
         "_id": "MFX:DG1:JAWS",
@@ -2213,7 +2213,7 @@
         "stand": "DG2",
         "system": "diagnostic",
         "type": "pcdsdevices.happi.containers.IPM",
-        "z": -1.0
+        "z": 1021.54000
     },
     "MFX:DG2:JAWS:DS": {
         "_id": "MFX:DG2:JAWS:DS",
