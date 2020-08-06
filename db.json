@@ -5040,5 +5040,37 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 779.4857
+    },
+    "xcs_ccm": {
+        "_id": "xcs_ccm",
+        "active": true,
+        "args": [],
+        "beamline": "XCS",
+        "creation": "Wed Aug  5 16:28:16 2020",
+        "device_class": "pcdsdevices.ccm.CCM",
+        "documentation": null,
+        "functional_group": "beam control",
+        "kwargs": {
+            "name": "{{name}}",
+            "alio_prefix": "XCS:MON:MPZ:01",
+            "theta2fine_prefix": "XCS:MON:MPZ:02",
+            "theta2coarse_prefix": "XCS:MON:PIC:05",
+            "chi2_prefix": "XCS:MON:PIC:06",
+            "x_down_prefix": "XCS:MON:MMS:24",
+            "x_up_prefix": "XCS:MON:MMS:25",
+            "y_down_prefix": "XCS:MON:MMS:26",
+            "y_up_north_prefix": "XCS:MON:MMS:27",
+            "y_up_south_prefix": "XCS:MON:MMS:28",
+            "in_pos": 3.3,
+            "out_pos": 13.18
+        },
+        "last_edit": "Wed Aug  5 16:28:16 2020",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "xcs_ccm",
+        "prefix": "''",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 999999.0
     }
 }
