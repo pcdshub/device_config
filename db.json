@@ -1230,7 +1230,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CXI",
+        "beamline": "HXD",
         "creation": "Tue Feb 27 11:40:14 2018",
         "data": null,
         "device_class": "pcdsdevices.device_types.IPM",
@@ -1254,7 +1254,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CXI",
+        "beamline": "HXD",
         "creation": "Tue Feb 27 10:41:25 2018",
         "device_class": "pcdsdevices.device_types.Slits",
         "kwargs": {
@@ -1277,7 +1277,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CXI",
+        "beamline": "HXD",
         "creation": "Tue Feb 27 12:56:05 2018",
         "data": null,
         "device_class": "pcdsdevices.pim.PIM",
@@ -5051,23 +5051,55 @@
         "documentation": null,
         "functional_group": "beam control",
         "kwargs": {
-            "name": "{{name}}",
             "alio_prefix": "XCS:MON:MPZ:01",
-            "theta2fine_prefix": "XCS:MON:MPZ:02",
-            "theta2coarse_prefix": "XCS:MON:PIC:05",
             "chi2_prefix": "XCS:MON:PIC:06",
+            "in_pos": 3.3,
+            "name": "{{name}}",
+            "out_pos": 13.18,
+            "theta2coarse_prefix": "XCS:MON:PIC:05",
+            "theta2fine_prefix": "XCS:MON:MPZ:02",
             "x_down_prefix": "XCS:MON:MMS:24",
             "x_up_prefix": "XCS:MON:MMS:25",
             "y_down_prefix": "XCS:MON:MMS:26",
             "y_up_north_prefix": "XCS:MON:MMS:27",
-            "y_up_south_prefix": "XCS:MON:MMS:28",
-            "in_pos": 3.3,
-            "out_pos": 13.18
+            "y_up_south_prefix": "XCS:MON:MMS:28"
         },
         "last_edit": "Wed Aug  5 16:28:16 2020",
-        "lightpath": false,
+        "lightpath": true,
         "location_group": "None",
         "name": "xcs_ccm",
+        "prefix": "''",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 999999.0
+    },
+    "xpp_ccm": {
+        "_id": "xpp_ccm",
+        "active": true,
+        "args": [],
+        "beamline": "XPP",
+        "creation": "Wed Aug  5 16:28:16 2020",
+        "device_class": "pcdsdevices.ccm.CCM",
+        "documentation": null,
+        "functional_group": "beam control",
+        "kwargs": {
+            "alio_prefix": "XPP:MON:MPZ:07A",
+            "chi2_prefix": "XPP:MON:PIC:05",
+            "in_pos": -8.92,
+            "name": "{{name}}",
+            "out_pos": 0,
+            "theta2coarse_prefix": "XPP:MON:PIC:06",
+            "theta2fine_prefix": "XPP:MON:MPZ:08",
+            "x_down_prefix": "XPP:MON:MMS:22",
+            "x_up_prefix": "XPP:MON:MMS:23",
+            "y_down_prefix": "XPP:MON:MMS:24",
+            "y_up_north_prefix": "XPP:MON:MMS:26",
+            "y_up_south_prefix": "XPP:MON:MMS:25"
+        },
+        "last_edit": "Wed Aug  5 16:28:16 2020",
+        "lightpath": true,
+        "location_group": "None",
+        "name": "xpp_ccm",
         "prefix": "''",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
