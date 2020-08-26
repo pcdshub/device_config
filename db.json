@@ -1065,13 +1065,13 @@
         "documentation": null,
         "functional_group": "",
         "kwargs": {
+            "fine_x_prefix": "CXI:USR:MMS:01",
+            "fine_y_prefix": "CXI:USR:MMS:03",
+            "fine_z_prefix": "CXI:USR:MMS:03",
             "name": "{{name}}",
             "x_prefix": "CXI:PI1:MMS:01",
             "y_prefix": "CXI:PI1:MMS:02",
-            "z_prefix": "CXI:PI1:MMS:03",
-            "fine_x_prefix": "CXI:USR:MMS:01",
-            "fine_y_prefix": "CXI:USR:MMS:03",
-            "fine_z_prefix": "CXI:USR:MMS:03"
+            "z_prefix": "CXI:PI1:MMS:03"
         },
         "last_edit": "Thu Aug 20 10:28:04 2020",
         "lightpath": false,
@@ -1092,13 +1092,13 @@
         "documentation": null,
         "functional_group": "",
         "kwargs": {
+            "fine_x_prefix": "CXI:PI2:MMS:04",
+            "fine_y_prefix": "CXI:PI2:MMS:05",
+            "fine_z_prefix": "CXI:PI2:MMS:06",
             "name": "{{name}}",
             "x_prefix": "CXI:PI2:MMS:01",
             "y_prefix": "CXI:PI2:MMS:02",
-            "z_prefix": "CXI:PI2:MMS:03",
-            "fine_x_prefix": "CXI:PI2:MMS:04",
-            "fine_y_prefix": "CXI:PI2:MMS:05",
-            "fine_z_prefix": "CXI:PI2:MMS:06"
+            "z_prefix": "CXI:PI2:MMS:03"
         },
         "last_edit": "Thu Aug 20 10:28:04 2020",
         "lightpath": false,
@@ -1119,13 +1119,13 @@
         "documentation": null,
         "functional_group": "",
         "kwargs": {
+            "fine_x_prefix": "CXI:PI3:MMS:04",
+            "fine_y_prefix": "CXI:PI3:MMS:05",
+            "fine_z_prefix": "CXI:PI3:MMS:06",
             "name": "{{name}}",
             "x_prefix": "CXI:PI3:MMS:01",
             "y_prefix": "CXI:PI3:MMS:02",
-            "z_prefix": "CXI:PI3:MMS:03",
-            "fine_x_prefix": "CXI:PI3:MMS:04",
-            "fine_y_prefix": "CXI:PI3:MMS:05",
-            "fine_z_prefix": "CXI:PI3:MMS:06"
+            "z_prefix": "CXI:PI3:MMS:03"
         },
         "last_edit": "Thu Aug 20 10:28:04 2020",
         "lightpath": false,
@@ -3835,6 +3835,7 @@
             "in_pos": 3.3,
             "name": "{{name}}",
             "out_pos": 13.18,
+            "theta0": 0.2311318654103,
             "theta2coarse_prefix": "XCS:MON:PIC:05",
             "theta2fine_prefix": "XCS:MON:MPZ:02",
             "x_down_prefix": "XCS:MON:MMS:24",
@@ -4567,6 +4568,31 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 999999.0
+    },
+    "xpp_gon": {
+        "_id": "xpp_gon",
+        "active": true,
+        "args": [],
+        "beamline": "XPP",
+        "creation": "Tue Aug 25 13:47:44 2020",
+        "device_class": "pcdsdevices.gon.BaseGon",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_hor": "XPP:GON:MMS:01",
+            "prefix_ver": "XPP:GON:MMS:02",
+            "prefix_rot": "XPP:GON:MMS:03",
+            "prefix_tip": "XPP:GON:MMS:04",
+            "prefix_tilt": "XPP:GON:MMS:05"
+        },
+        "last_edit": "Tue Aug 25 13:47:44 2020",
+        "lightpath": false,
+        "location_group": "Hutch 3",
+        "name": "xpp_gon",
+        "prefix": "XPP:GON",
+        "stand": "GON",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
     },
     "xpp_las_delay": {
         "_id": "xpp_las_delay",
