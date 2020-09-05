@@ -3956,6 +3956,34 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 990.913
     },
+    "xcs_gon": {
+        "_id": "xcs_gon",
+        "active": true,
+        "args": [],
+        "beamline": "XCS",
+        "creation": "Tue Sep  3 11:47:44 2020",
+        "device_class": "pcdsdevices.gon.GonWithDetArm",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_hor": "XCS:GON:MMS:01",
+            "prefix_ver": "XCS:GON:MMS:02",
+            "prefix_rot": "XCS:GON:MMS:03",
+            "prefix_tip": "XCS:GON:MMS:05",
+            "prefix_tilt": "XCS:GON:MMS:06",
+            "prefix_2theta": "XCS:GON:MMS:04",
+            "prefix_dettilt": "XCS:GON:MMS:11",
+            "prefix_detver": "XCS:GON:MMS:10"
+        },
+        "last_edit": "Tue Sep  3 11:47:44 2020",
+        "lightpath": false,
+        "location_group": "Hutch 4",
+        "name": "xcs_gon",
+        "prefix": "XCS:GON",
+        "stand": "GON",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
+    },
     "xcs_lam_valve_1": {
         "_id": "xcs_lam_valve_1",
         "active": true,
