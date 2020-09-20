@@ -4080,6 +4080,29 @@
         "type": "pcdsdevices.happi.containers.LODCM",
         "z": 964.76
     },
+    "xcs_lxt_fast": {
+        "_id": "xcs_lxt_fast",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Fri Sep 18 18:22:28 2020",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 18 18:22:28 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xcs_lxt_fast",
+        "prefix": "XCS:LAS:MMN:03",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
+    },
     "xcs_mon_ipm": {
         "_id": "xcs_mon_ipm",
         "active": true,
@@ -4534,6 +4557,30 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1002.0
+    },
+    "xcs_txt": {
+        "_id": "xcs_txt",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Fri Sep 18 18:01:57 2020",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "n_bounces": 10,
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 18 18:01:57 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xcs_txt",
+        "prefix": "XCS:LAS:MMN:01",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
     },
     "xcs_xfls": {
         "_id": "xcs_xfls",
