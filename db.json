@@ -3235,6 +3235,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 735.211
     },
+    "pf1k0": {
+        "_id": "pf1k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Sep 29 12:35:12 2020",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "documentation": null,
+        "functional_group": "WFS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Sep 29 12:35:12 2020",
+        "lightpath": true,
+        "location_group": "Section 06",
+        "name": "pf1k0",
+        "prefix": "PF1K0:WFS",
+        "stand": "K0S04",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 731.4
+    },
     "rtdsl0": {
         "_id": "rtdsl0",
         "active": true,
@@ -3446,7 +3469,7 @@
         },
         "last_edit": "Thu Mar 12 17:44:21 2020",
         "lightpath": false,
-        "location_group": "5",
+        "location_group": "Section 06",
         "macros": null,
         "name": "sl2k0",
         "parent": null,
