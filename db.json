@@ -1,4 +1,27 @@
 {
+    "al1k4": {
+        "_id": "al1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 15:17:18 2020",
+        "device_class": "pcdsdevices.device_types.ReflaserL2SI",
+        "documentation": null,
+        "functional_group": "REF",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 15:21:22 2020",
+        "lightpath": false,
+        "location_group": "FEE K4S33",
+        "name": "al1k4",
+        "prefix": "AL1K4:L2SI",
+        "stand": "K4S33",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.87351
+    },
     "at1l0": {
         "_id": "at1l0",
         "active": true,
@@ -2001,7 +2024,7 @@
         },
         "last_edit": "Tue Jun  9 17:37:59 2020",
         "lightpath": true,
-        "location_group": "Section 08",
+        "location_group": "FEE K4S24",
         "macros": null,
         "name": "im1k4",
         "parent": null,
@@ -2166,7 +2189,7 @@
         },
         "last_edit": "Tue Jun  9 17:41:23 2020",
         "lightpath": false,
-        "location_group": "Section 09",
+        "location_group": "FEE K4S33",
         "name": "im2k4",
         "prefix": "IM2K4:PPM",
         "stand": "K4S33",
@@ -2202,6 +2225,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 736.0
     },
+    "im3k4": {
+        "_id": "im3k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 09:41:51 2020",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 09:41:51 2020",
+        "lightpath": false,
+        "location_group": "TMO GS1",
+        "name": "im3k4",
+        "prefix": "TST:IM3K4:PPM",
+        "stand": "GS1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 758.889
+    },
     "im3l0": {
         "_id": "im3l0",
         "active": true,
@@ -2231,6 +2277,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
+    "im4k4": {
+        "_id": "im4k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 09:52:57 2020",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 09:52:57 2020",
+        "lightpath": false,
+        "location_group": "TMO GS1",
+        "name": "im4k4",
+        "prefix": "TST:IM4K4:PPM",
+        "stand": "GS1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.101
+    },
     "im4l0": {
         "_id": "im4l0",
         "active": true,
@@ -2259,6 +2328,52 @@
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 753.6
+    },
+    "im5k4": {
+        "_id": "im5k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 09:57:18 2020",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 09:57:18 2020",
+        "lightpath": false,
+        "location_group": "TMO GS2",
+        "name": "im5k4",
+        "prefix": "TST:IM5K4:PPM",
+        "stand": "GS2",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 764.485
+    },
+    "li1k4": {
+        "_id": "li1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 15:20:03 2020",
+        "device_class": "pcdsdevices.device_types.LaserInCoupling",
+        "documentation": null,
+        "functional_group": "LIC",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 15:20:03 2020",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "li1k4",
+        "prefix": "TST:LI1K4:IP1",
+        "stand": "GS1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.36
     },
     "mec_attenuator": {
         "_id": "mec_attenuator",
@@ -3258,6 +3373,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.4
     },
+    "pf1k4": {
+        "_id": "pf1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 09:59:13 2020",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "documentation": null,
+        "functional_group": "WFS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 09:59:13 2020",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "pf1k4",
+        "prefix": "TST:PF1K4:WFS",
+        "stand": "GS1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 763.666
+    },
     "rtdsl0": {
         "_id": "rtdsl0",
         "active": true,
@@ -3518,13 +3656,13 @@
         "creation": "Mon Jun  8 17:08:34 2020",
         "device_class": "pcdsdevices.sxr_test_absorber.SxrTestAbsorber",
         "documentation": null,
-        "functional_group": "sxr_test_absorber",
+        "functional_group": "Stopper",
         "kwargs": {
             "name": "{{name}}"
         },
         "last_edit": "Mon Jun  8 17:08:34 2020",
         "lightpath": true,
-        "location_group": "Section 09",
+        "location_group": "FEE K4S24",
         "name": "st1k4",
         "prefix": "ST1K4:TEST",
         "stand": "K4S24",
@@ -3554,6 +3692,29 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.2604
+    },
+    "tm1k4": {
+        "_id": "tm1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 15:22:54 2020",
+        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "documentation": null,
+        "functional_group": "ATM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 15:22:54 2020",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "tm1k4",
+        "prefix": "TST:TM1K4:ATM",
+        "stand": "GS1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 763.277
     },
     "tv1l0_vgc01": {
         "_id": "tv1l0_vgc01",
