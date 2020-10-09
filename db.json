@@ -2243,7 +2243,7 @@
         "lightpath": false,
         "location_group": "TMO GS1",
         "name": "im3k4",
-        "prefix": "TST:IM3K4:PPM",
+        "prefix": "IM3K4:PPM",
         "stand": "GS1",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 758.889
@@ -2295,7 +2295,7 @@
         "lightpath": false,
         "location_group": "TMO GS1",
         "name": "im4k4",
-        "prefix": "TST:IM4K4:PPM",
+        "prefix": "IM4K4:PPM",
         "stand": "GS1",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.101
@@ -2347,7 +2347,7 @@
         "lightpath": false,
         "location_group": "TMO GS2",
         "name": "im5k4",
-        "prefix": "TST:IM5K4:PPM",
+        "prefix": "IM5K4:PPM",
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 764.485
@@ -2370,7 +2370,7 @@
         "lightpath": true,
         "location_group": "TMO GS1",
         "name": "li1k4",
-        "prefix": "TST:LI1K4:IP1",
+        "prefix": "LI1K4:IP1",
         "stand": "GS1",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.36
@@ -3391,7 +3391,7 @@
         "lightpath": true,
         "location_group": "TMO GS2",
         "name": "pf1k4",
-        "prefix": "TST:PF1K4:WFS",
+        "prefix": "PF1K4:WFS",
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.666
@@ -3711,7 +3711,7 @@
         "lightpath": true,
         "location_group": "TMO GS2",
         "name": "tm1k4",
-        "prefix": "TST:TM1K4:ATM",
+        "prefix": "TM1K4:ATM",
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.277
