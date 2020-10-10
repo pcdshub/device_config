@@ -3179,6 +3179,37 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 739.0457
     },
+    "mr2k4_kbo": {
+        "_id": "mr2k4_kbo",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  8 22:56:27 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct  9 01:24:13 2020",
+        "lightpath": false,
+        "location_group": "TMO GS1",
+        "macros": null,
+        "name": "mr2k4_kbo",
+        "parent": null,
+        "prefix": "MR2K4:KBO",
+        "prefix_xy": null,
+        "stand": "K4S16",
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 759.494
+    },
     "mr2l0_homs": {
         "_id": "mr2l0_homs",
         "active": true,
@@ -3255,6 +3286,37 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0869
+    },
+    "mr3k4_kbo": {
+        "_id": "mr3k4_kbo",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Fri Oct  9 01:13:56 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct  9 01:24:08 2020",
+        "lightpath": false,
+        "location_group": "TMO GS1",
+        "macros": null,
+        "name": "mr3k4_kbo",
+        "parent": null,
+        "prefix": "MR3K4:KBO",
+        "prefix_xy": null,
+        "stand": "K4S16",
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 759.494
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
@@ -3715,6 +3777,35 @@
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.277
+    },
+    "tmo_lamp": {
+        "_id": "tmo_lamp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Fri Oct  9 13:41:37 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.lamp_motion.LAMP",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct  9 13:41:37 2020",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "macros": null,
+        "name": "tmo_lamp",
+        "parent": null,
+        "prefix": "TMO:LAMP",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": -1.0
     },
     "tv1l0_vgc01": {
         "_id": "tv1l0_vgc01",
