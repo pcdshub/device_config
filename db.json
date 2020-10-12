@@ -2283,7 +2283,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "",
+        "beamline": "TMO",
         "creation": "Thu Oct  1 09:52:57 2020",
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
@@ -2335,7 +2335,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "",
+        "beamline": "TMO",
         "creation": "Thu Oct  1 09:57:18 2020",
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
