@@ -2731,7 +2731,7 @@
         "stand": "DG1",
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 99999
     },
     "mfx_dg2_downstream_slits": {
         "_id": "mfx_dg2_downstream_slits",
