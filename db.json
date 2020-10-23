@@ -1895,6 +1895,35 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 783.5
     },
+    "hxx_von_hamos_y": {
+        "_id": "hxx_von_hamos_y",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXX",
+        "creation": "Thu Oct 22 11:04:20 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct 22 11:21:25 2020",
+        "lightpath": false,
+        "location_group": "HXX",
+        "macros": null,
+        "name": "hxx_von_hamos_y",
+        "parent": null,
+        "prefix": "HXX:VON_HAMOS:MMS:01",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": -1.0
+    },
     "icl_sds_sel_b": {
         "_id": "icl_sds_sel_b",
         "active": true,
