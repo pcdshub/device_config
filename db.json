@@ -2080,7 +2080,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:03:20 2020",
+        "last_edit": "Fri Oct 23 16:16:07 2020",
         "lightpath": true,
         "location_group": "Section 02",
         "macros": null,
@@ -2121,7 +2121,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "LFE",
+        "beamline": "TXI",
         "creation": "Mon Feb 24 13:35:21 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.PPM",
@@ -2132,7 +2132,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:04:01 2020",
+        "last_edit": "Fri Oct 23 16:16:25 2020",
         "lightpath": false,
         "location_group": "Section 09",
         "macros": null,
