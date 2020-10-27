@@ -3737,6 +3737,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
     },
+    "st1k1_zos": {
+        "_id": "st1k1_zos",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Oct 26 10:57:41 2020",
+        "device_class": "pcdsdevices.device_types.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 26 10:57:41 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "name": "st1k1_zos",
+        "prefix": "ST1K1:ZOS:MMS",
+        "stand": "K2S14",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 741.3
+    },
     "st1k4": {
         "_id": "st1k4",
         "active": true,
