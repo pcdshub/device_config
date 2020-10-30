@@ -3092,6 +3092,37 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1018.82
     },
+    "mr1k1_bend": {
+        "_id": "mr1k1_bend",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Oct 29 15:21:45 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror2",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct 29 15:44:04 2020",
+        "lightpath": false,
+        "location_group": "Section 07",
+        "macros": null,
+        "name": "mr1k1_bend",
+        "parent": null,
+        "prefix": "MR1K1:BEND",
+        "prefix_xy": null,
+        "stand": "K1S06",
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 733.772
+    },
     "mr1k2_switch": {
         "_id": "mr1k2_switch",
         "active": true,
@@ -3857,7 +3888,7 @@
         "stand": "K4S02",
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": -1.0
+        "z": 760.0
     },
     "tv1l0_vgc01": {
         "_id": "tv1l0_vgc01",
