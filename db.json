@@ -5079,98 +5079,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 99999.0
     },
-    "xpp_las_delay": {
-        "_id": "xpp_las_delay",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XPP",
-        "creation": "Tue Jul 17 09:52:23 2018",
-        "device_class": "pcdsdevices.device_types.Newport",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Jul 17 16:03:33 2018",
-        "macros": null,
-        "name": "xpp_las_delay",
-        "parent": null,
-        "prefix": "XPP:LAS:MMN:04",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
-    "xpp_las_lensf": {
-        "_id": "xpp_las_lensf",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XPP",
-        "creation": "Tue Jul 17 12:32:43 2018",
-        "device_class": "pcdsdevices.device_types.Newport",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Jul 17 12:32:43 2018",
-        "macros": null,
-        "name": "xpp_las_lensf",
-        "parent": null,
-        "prefix": "XPP:LAS:MMN:08",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
-    "xpp_las_lensh": {
-        "_id": "xpp_las_lensh",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XPP",
-        "creation": "Tue Jul 17 11:14:47 2018",
-        "device_class": "pcdsdevices.device_types.Newport",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Jul 17 16:05:15 2018",
-        "macros": null,
-        "name": "xpp_las_lensh",
-        "parent": null,
-        "prefix": "XPP:LAS:MMN:06",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
-    "xpp_las_lensv": {
-        "_id": "xpp_las_lensv",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "XPP",
-        "creation": "Tue Jul 17 10:39:07 2018",
-        "device_class": "pcdsdevices.device_types.Newport",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Jul 17 10:41:22 2018",
-        "macros": null,
-        "name": "xpp_las_lensv",
-        "parent": null,
-        "prefix": "XPP:LAS:MMN:05",
-        "screen": null,
-        "stand": null,
-        "system": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
     "xpp_las_tt_lensf": {
         "_id": "xpp_las_tt_lensf",
         "active": true,
@@ -5240,6 +5148,93 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "xpp_lens_f": {
+        "_id": "xpp_lens_f",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 13:11:23 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:11:23 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_lens_f",
+        "parent": "None",
+        "prefix": "XPP:LAS:MMN:08",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
+    },
+    "xpp_lens_h": {
+        "_id": "xpp_lens_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 12:59:41 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:08:59 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_lens_h",
+        "parent": "None",
+        "prefix": "XPP:LAS:MMN:06",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
+    },
+    "xpp_lens_v": {
+        "_id": "xpp_lens_v",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 13:08:15 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:08:44 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_lens_v",
+        "parent": "None",
+        "prefix": "XPP:LAS:MMN:05",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
+    },
     "xpp_lodcm": {
         "_id": "xpp_lodcm",
         "active": true,
@@ -5255,7 +5250,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Tue Feb 27 12:53:14 2018",
-        "lightpath": true,
+        "lightpath": false,
         "macros": null,
         "mono_line": "XPP",
         "name": "xpp_lodcm",
@@ -5266,6 +5261,58 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.LODCM",
         "z": 781.1
+    },
+    "xpp_lxt_fast": {
+        "_id": "xpp_lxt_fast",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 12:29:11 2020",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:02:39 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xpp_lxt_fast",
+        "prefix": "XPP:LAS:MMN:04",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
+    },
+    "xpp_pol_wp": {
+        "_id": "xpp_pol_wp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 13:18:39 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": "None",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:25:33 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_pol_wp",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:02",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
     },
     "xpp_pulsepicker": {
         "_id": "xpp_pulsepicker",
@@ -5460,6 +5507,30 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.Slits",
         "z": 787.4860000000001
+    },
+    "xpp_txt": {
+        "_id": "xpp_txt",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Nov 18 12:24:23 2020",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "n_bounces": 14,
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:03:01 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xpp_txt",
+        "prefix": "XPP:LAS:MMN:16",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
     },
     "xpp_xfls": {
         "_id": "xpp_xfls",
