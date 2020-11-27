@@ -4200,6 +4200,209 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 769.0
     },
+    "vls_camera_pitch": {
+        "_id": "vls_camera_pitch",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:39:51 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:39:51 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_camera_pitch",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:CP",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_focus_mirror": {
+        "_id": "vls_focus_mirror",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:37:36 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:37:36 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_focus_mirror",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:FM",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_grating_pitch": {
+        "_id": "vls_grating_pitch",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:39:14 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:39:14 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_grating_pitch",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:GP",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_slit_down": {
+        "_id": "vls_slit_down",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:36:05 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "SLITS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:36:05 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_slit_down",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:SD",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_slit_left": {
+        "_id": "vls_slit_left",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:35:35 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "SLITS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:35:35 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_slit_left",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:SL",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_slit_right": {
+        "_id": "vls_slit_right",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:33:51 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "SLITS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:33:51 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_slit_right",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:SR",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
+    "vls_slit_up": {
+        "_id": "vls_slit_up",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Nov 25 21:36:37 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.EpicsMotorInterface",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "SLITS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 25 21:36:37 2020",
+        "lightpath": false,
+        "location_group": "VLS",
+        "macros": null,
+        "name": "vls_slit_up",
+        "parent": null,
+        "prefix": "TMO:VLS:MMS:SU",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 696.0
+    },
     "xcs_attenuator": {
         "_id": "xcs_attenuator",
         "active": true,
