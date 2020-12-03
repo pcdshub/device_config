@@ -5517,6 +5517,64 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 99999.0
     },
+    "xpp_com_wp": {
+        "_id": "xpp_com_wp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Dec 02 13:18:39 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": "None",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov 18 13:25:33 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_com_wp",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:01",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
+    },
+    "xpp_opa_wp": {
+        "_id": "xpp_opa_wp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Wed Dec 02 13:18:39 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.epics_motor.Newport",
+        "documentation": "None",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motor",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Dec 02 13:25:33 2020",
+        "lightpath": false,
+        "location_group": "LAS",
+        "macros": "None",
+        "name": "xpp_opa_wp",
+        "parent": null,
+        "prefix": "XPP:LAS:MMN:09",
+        "stand": "LAS",
+        "system": "laser",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 99999.0
+    },
     "xpp_pulsepicker": {
         "_id": "xpp_pulsepicker",
         "active": true,
