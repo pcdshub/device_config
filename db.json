@@ -2011,7 +2011,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Thu Dec  3 12:41:50 2020",
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
@@ -2021,7 +2021,7 @@
         },
         "last_edit": "Thu Dec  3 12:41:50 2020",
         "lightpath": true,
-        "location_group": "Section RIX",
+        "location_group": "RIX K2S2",
         "name": "im1k2",
         "prefix": "IM1K2:PPM",
         "stand": "K2S01",
@@ -3121,7 +3121,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Thu Oct 29 15:21:45 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirrorBend",
@@ -3134,7 +3134,7 @@
         },
         "last_edit": "Tue Nov 17 12:11:59 2020",
         "lightpath": false,
-        "location_group": "Section 07",
+        "location_group": "FEE K1S16",
         "macros": null,
         "name": "mr1k1_bend",
         "parent": null,
@@ -3703,6 +3703,35 @@
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 987.1
+    },
+    "sl1k2": {
+        "_id": "sl1k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Dec  7 14:04:16 2020",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.slits.ExitSlits",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Slits",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Dec  7 14:50:25 2020",
+        "lightpath": true,
+        "location_group": "RIX H1.1",
+        "macros": null,
+        "name": "sl1k2",
+        "parent": null,
+        "prefix": "SL1K2:EXIT",
+        "stand": null,
+        "system": null,
+        "type": "Device",
+        "z": 759.122
     },
     "sl1l0": {
         "_id": "sl1l0",
