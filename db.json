@@ -1982,7 +1982,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Tue Feb 25 14:27:02 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.PPM",
@@ -1995,7 +1995,7 @@
         },
         "last_edit": "Tue Feb 25 15:06:36 2020",
         "lightpath": true,
-        "location_group": "Section 07",
+        "location_group": "FEE IM1K1",
         "macros": null,
         "name": "im1k1",
         "parent": null,
@@ -2021,7 +2021,7 @@
         },
         "last_edit": "Thu Dec  3 12:41:50 2020",
         "lightpath": true,
-        "location_group": "RIX K2S2",
+        "location_group": "RIX H2.2",
         "name": "im1k2",
         "prefix": "IM1K2:PPM",
         "stand": "K2S01",
@@ -2202,7 +2202,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Tue Feb 25 15:10:11 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.PPM",
@@ -2215,7 +2215,7 @@
         },
         "last_edit": "Tue Feb 25 15:10:11 2020",
         "lightpath": false,
-        "location_group": "Section 07",
+        "location_group": "FEE IM2K1",
         "macros": null,
         "name": "im2k1",
         "parent": null,
@@ -3134,7 +3134,7 @@
         },
         "last_edit": "Tue Nov 17 12:11:59 2020",
         "lightpath": false,
-        "location_group": "FEE K1S16",
+        "location_group": "FEE MR1K1",
         "macros": null,
         "name": "mr1k1_bend",
         "parent": null,
@@ -3152,7 +3152,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Wed May 13 13:31:42 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirrorSwitch",
@@ -3165,7 +3165,7 @@
         },
         "last_edit": "Tue Nov 17 12:13:11 2020",
         "lightpath": false,
-        "location_group": "Section 07",
+        "location_group": "FEE MR1K2",
         "macros": null,
         "name": "mr1k2_switch",
         "parent": null,
@@ -3797,7 +3797,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Mon Nov 16 11:04:21 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.spectrometer.Mono",
@@ -3810,7 +3810,7 @@
         },
         "last_edit": "Mon Nov 16 11:06:44 2020",
         "lightpath": false,
-        "location_group": "Section 07",
+        "location_group": "FEE MONO",
         "macros": null,
         "name": "sp1k1_mono",
         "parent": null,
@@ -3818,7 +3818,7 @@
         "stand": "K1S11",
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.BeamControl",
-        "z": -1.0
+        "z": 739.622
     },
     "sp1l0": {
         "_id": "sp1l0",
@@ -3855,7 +3855,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "RIX",
         "creation": "Mon Oct 26 10:57:41 2020",
         "device_class": "pcdsdevices.device_types.BeckhoffAxis",
         "documentation": null,
@@ -3865,7 +3865,7 @@
         },
         "last_edit": "Mon Oct 26 10:57:41 2020",
         "lightpath": false,
-        "location_group": "Section 07",
+        "location_group": "FEE ZOS",
         "name": "st1k1_zos",
         "prefix": "ST1K1:ZOS:MMS",
         "stand": "K2S14",
