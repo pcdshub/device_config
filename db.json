@@ -3175,7 +3175,7 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": -1.0
+        "z": 742.922
     },
     "mr1k4_soms": {
         "_id": "mr1k4_soms",
