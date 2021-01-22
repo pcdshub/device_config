@@ -29,6 +29,7 @@
             "{{prefix}}"
         ],
         "beamline": "TMO",
+        "calculator_prefix": "AT1K4:CALC",
         "creation": "Thu Feb 27 17:23:16 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.attenuator.AT1K4",
@@ -37,13 +38,12 @@
         "engineering_screen": null,
         "functional_group": "Attenuator",
         "kwargs": {
-            "name": "{{name}}",
-            "calculator_prefix": "{{calculator_prefix}}"
+            "calculator_prefix": "{{calculator_prefix}}",
+            "name": "{{name}}"
         },
         "last_edit": "Thu Feb 27 17:23:16 2020",
         "lightpath": true,
         "location_group": "FEE K4S24",
-        "calculator_prefix": "AT1K4:CALC",
         "motor_prefix": "AT1K4:L2SI",
         "name": "at1k4",
         "parent": null,
@@ -60,6 +60,7 @@
             "{{prefix}}"
         ],
         "beamline": "TMO",
+        "calculator_prefix": "AT1K4:CALC",
         "creation": "Mon Aug  3 14:08:53 2020",
         "device_class": "pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade",
         "documentation": "Attenuator calculator for AT1K4",
@@ -68,10 +69,9 @@
             "name": "{{name}}"
         },
         "last_edit": "Mon Aug  3 14:08:53 2020",
-        "calculator_prefix": "AT1K4:CALC",
-        "motor_prefix": "AT1K4:L2SI",
         "lightpath": false,
         "location_group": "FEE K4S24",
+        "motor_prefix": "AT1K4:L2SI",
         "name": "at1k4_calc",
         "prefix": "AT1K4:CALC",
         "stand": "K4S24",
@@ -3997,6 +3997,64 @@
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.277
+    },
+    "tmo_cvmi": {
+        "_id": "tmo_cvmi",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Jan 21 13:09:55 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.cvmi_motion.CVMI",
+        "documentation": "https://confluence.slac.stanford.edu/display/L2SI/cVMI+Motion+System",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jan 21 13:09:55 2021",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "macros": null,
+        "name": "tmo_cvmi",
+        "parent": null,
+        "prefix": "TMO:CVMI",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 760.0
+    },
+    "tmo_ktof": {
+        "_id": "tmo_ktof",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Jan 21 13:13:06 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.cvmi_motion.KTOF",
+        "documentation": "https://confluence.slac.stanford.edu/display/L2SI/KTOF+Motion+System",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jan 21 13:13:06 2021",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "macros": null,
+        "name": "tmo_ktof",
+        "parent": null,
+        "prefix": "TMO:KTOF",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 760.0
     },
     "tmo_lamp": {
         "_id": "tmo_lamp",
