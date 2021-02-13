@@ -2281,6 +2281,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "im2k2": {
+        "_id": "im2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Feb 12 15:17:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 12 15:20:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im2k2",
+        "prefix": "IM2K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 780.45
+    },
     "im2k4": {
         "_id": "im2k4",
         "active": true,
