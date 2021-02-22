@@ -4857,7 +4857,7 @@
     },
     "xcs_lodcm": {
         "_id": "xcs_lodcm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5681,7 +5681,7 @@
     },
     "xpp_lodcm": {
         "_id": "xpp_lodcm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
