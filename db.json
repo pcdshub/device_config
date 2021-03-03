@@ -2793,11 +2793,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 14:11:22 2021",
+        "last_edit": "Wed Mar  3 10:43:29 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp1_tf1_nf1",
-        "prefix": "LM1K4:COM_DP1_TF1_NF1",
+        "prefix": "LM1K4:COM_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2830,11 +2830,11 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Mar  2 10:45:56 2021",
+        "last_edit": "Wed Mar  3 10:38:45 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp1_tf1_sl1",
-        "prefix": "LM1K4:COM_DP1_TF1_SL1",
+        "prefix": "LM1K4:COM_DP1_TF1_SL1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
