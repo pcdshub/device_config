@@ -2304,6 +2304,75 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 780.45
     },
+    "im3k2": {
+        "_id": "im3k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:17:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:20:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im3k2",
+        "prefix": "IM3K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 781.825
+    },
+    "im4k2": {
+        "_id": "im4k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:23:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:23:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im4k2",
+        "prefix": "IM4K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 783.519
+    },
+    "im5k2": {
+        "_id": "im5k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:24:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:24:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im5k2",
+        "prefix": "IM5K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 787.337
+    },
     "im2k4": {
         "_id": "im2k4",
         "active": true,
