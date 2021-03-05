@@ -12,6 +12,12 @@ import happi
 client = happi.Client(path='path/to/device_config/db.json')
 ```
 
+### Database Location
+device_config is currently deployed here:
+```
+/reg/g/pcds/pyps/apps/hutch-python/device_config/db.json
+```
+
 ## Backup
 A daily backup is done via CRON job which commits any changes to the `deploy` branch and
 pushes to https://github.com/pcdshub/device_config/. This is performed in case an error
