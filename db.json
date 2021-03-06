@@ -2304,75 +2304,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 780.45
     },
-    "im3k2": {
-        "_id": "im3k2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Fri Mar 5 14:17:27 2021",
-        "device_class": "pcdsdevices.pim.PPM",
-        "documentation": null,
-        "functional_group": "Imager",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Mar 5 14:20:11 2021",
-        "lightpath": false,
-        "location_group": "RIX H2.2",
-        "name": "im3k2",
-        "prefix": "IM3K2:PPM",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 781.825
-    },
-    "im4k2": {
-        "_id": "im4k2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Fri Mar 5 14:23:27 2021",
-        "device_class": "pcdsdevices.pim.PPM",
-        "documentation": null,
-        "functional_group": "Imager",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Mar 5 14:23:11 2021",
-        "lightpath": false,
-        "location_group": "RIX H2.2",
-        "name": "im4k2",
-        "prefix": "IM4K2:PPM",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 783.519
-    },
-    "im5k2": {
-        "_id": "im5k2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Fri Mar 5 14:24:27 2021",
-        "device_class": "pcdsdevices.pim.PPM",
-        "documentation": null,
-        "functional_group": "Imager",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Mar 5 14:24:11 2021",
-        "lightpath": false,
-        "location_group": "RIX H2.2",
-        "name": "im5k2",
-        "prefix": "IM5K2:PPM",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 787.337
-    },
     "im2k4": {
         "_id": "im2k4",
         "active": true,
@@ -2424,6 +2355,29 @@
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 736.0
+    },
+    "im3k2": {
+        "_id": "im3k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:17:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:20:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im3k2",
+        "prefix": "IM3K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 781.825
     },
     "im3k4": {
         "_id": "im3k4",
@@ -2477,6 +2431,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
+    "im4k2": {
+        "_id": "im4k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:23:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:23:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im4k2",
+        "prefix": "IM4K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 783.519
+    },
     "im4k4": {
         "_id": "im4k4",
         "active": true,
@@ -2528,6 +2505,29 @@
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 753.6
+    },
+    "im5k2": {
+        "_id": "im5k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Mar 5 14:24:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 5 14:24:11 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "im5k2",
+        "prefix": "IM5K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 787.337
     },
     "im5k4": {
         "_id": "im5k4",
@@ -2603,11 +2603,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 16:34:15 2021",
+        "last_edit": "Fri Mar  5 15:36:15 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_dp1_tf1_ff1",
-        "prefix": "LM1K4:ATM_DP1_TF1_FF1",
+        "prefix": "LM1K4:ATM_DP1_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2640,11 +2640,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 16:53:59 2021",
+        "last_edit": "Fri Mar  5 15:38:16 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_dp1_tf1_nf1",
-        "prefix": "LM1K4:ATM_DP1_TF1_NF1",
+        "prefix": "LM1K4:ATM_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2714,11 +2714,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 16:49:56 2021",
+        "last_edit": "Fri Mar  5 15:43:57 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_dp2_tf1_ff1",
-        "prefix": "LM1K4:ATM_DP2_TF1_FF1",
+        "prefix": "LM1K4:ATM_DP2_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2751,11 +2751,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 16:57:48 2021",
+        "last_edit": "Fri Mar  5 15:45:01 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_dp2_tf1_nf1",
-        "prefix": "LM1K4:ATM_DP2_TF1_NF1",
+        "prefix": "LM1K4:ATM_DP2_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2825,11 +2825,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 15:41:49 2021",
+        "last_edit": "Fri Mar  5 15:46:20 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp1_tf1_ff1",
-        "prefix": "LM1K4:COM_DP1_TF1_FF1",
+        "prefix": "LM1K4:COM_DP1_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2936,11 +2936,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 15:46:27 2021",
+        "last_edit": "Fri Mar  5 15:48:27 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp2_tf1_ff1",
-        "prefix": "LM1K4:COM_DP2_TF1_FF1",
+        "prefix": "LM1K4:COM_DP2_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -2973,11 +2973,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 13:23:51 2021",
+        "last_edit": "Fri Mar  5 15:49:13 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp3_tf1_ff1",
-        "prefix": "LM1K4:COM_DP3_TF1_FF1",
+        "prefix": "LM1K4:COM_DP3_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3010,11 +3010,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 14:24:06 2021",
+        "last_edit": "Fri Mar  5 15:49:49 2021",
         "lightpath": false,
         "location_group": "lm1k4_com",
         "name": "lm1k4_com_dp3_tf1_nf1",
-        "prefix": "LM1K4:COM_DP3_TF1_NF1",
+        "prefix": "LM1K4:COM_DP3_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3084,11 +3084,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:42:16 2021",
+        "last_edit": "Fri Mar  5 15:50:13 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_dp11_tf1_ff1",
-        "prefix": "LM1K4:EJX_DP11_TF1_FF1",
+        "prefix": "LM1K4:EJX_DP11_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3195,11 +3195,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:47:09 2021",
+        "last_edit": "Fri Mar  5 15:50:45 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_ff1",
-        "prefix": "LM1K4:EJX_DP32_TF1_FF1",
+        "prefix": "LM1K4:EJX_DP32_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3232,11 +3232,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:50:44 2021",
+        "last_edit": "Fri Mar  5 15:51:07 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_nf1",
-        "prefix": "LM1K4:EJX_DP32_TF1_NF1",
+        "prefix": "LM1K4:EJX_DP32_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3343,11 +3343,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:54:01 2021",
+        "last_edit": "Fri Mar  5 15:51:33 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_ff1",
-        "prefix": "LM1K4:EJX_DP6_TF1_FF1",
+        "prefix": "LM1K4:EJX_DP6_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3380,11 +3380,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:57:29 2021",
+        "last_edit": "Fri Mar  5 15:51:57 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_nf1",
-        "prefix": "LM1K4:EJX_DP6_TF1_NF1",
+        "prefix": "LM1K4:EJX_DP6_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3454,11 +3454,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 14:19:13 2021",
+        "last_edit": "Fri Mar  5 15:52:24 2021",
         "lightpath": false,
         "location_group": "lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_ff1",
-        "prefix": "LM1K4:HRM_DP1_TF1_FF1",
+        "prefix": "LM1K4:HRM_DP1_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3491,11 +3491,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 15:23:45 2021",
+        "last_edit": "Fri Mar  5 15:52:45 2021",
         "lightpath": false,
         "location_group": "lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_nf1",
-        "prefix": "LM1K4:HRM_DP1_TF1_NF1",
+        "prefix": "LM1K4:HRM_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3528,11 +3528,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 15:15:46 2021",
+        "last_edit": "Fri Mar  5 15:53:08 2021",
         "lightpath": false,
         "location_group": "lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_ff1",
-        "prefix": "LM1K4:HRM_DP2_TF1_FF1",
+        "prefix": "LM1K4:HRM_DP2_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3565,11 +3565,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 26 15:31:00 2021",
+        "last_edit": "Fri Mar  5 15:53:30 2021",
         "lightpath": false,
         "location_group": "lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_nf1",
-        "prefix": "LM1K4:HRM_DP2_TF1_NF1",
+        "prefix": "LM1K4:HRM_DP2_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3639,11 +3639,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:33:55 2021",
+        "last_edit": "Fri Mar  5 15:54:03 2021",
         "lightpath": false,
         "location_group": "lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_ff1",
-        "prefix": "LM1K4:INJ_DP1_TF1_FF1",
+        "prefix": "LM1K4:INJ_DP1_TF1_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -3676,11 +3676,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  1 18:38:29 2021",
+        "last_edit": "Fri Mar  5 15:54:32 2021",
         "lightpath": false,
         "location_group": "lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_nf1",
-        "prefix": "LM1K4:INJ_DP1_TF1_NF1",
+        "prefix": "LM1K4:INJ_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
