@@ -2760,6 +2760,41 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k4_atm_dp2_tf1_pm1": {
+        "_id": "lm1k4_atm_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:ATM_DP2_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:ATM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-atm-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-atm-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 14:48:20 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_atm",
+        "name": "lm1k4_atm_dp2_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_atm_dp2_tf1_sl1": {
         "_id": "lm1k4_atm_dp2_tf1_sl1",
         "active": true,
@@ -2795,6 +2830,71 @@
         "prefix": "LM1K4:ATM_DP2_TF1_SL1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_atm_dp2_tf1_sp1": {
+        "_id": "lm1k4_atm_dp2_tf1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 16:42:32 2021",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": null,
+        "functional_group": "spectrometers",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "tjohnson",
+        "ioc_evr_channel": "",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS Harmonics TILE",
+        "ioc_name": "ioc-lm1k4-atm-spec-01",
+        "ioc_release": "/reg/neh/home/tjohnson/trunk/workarea/qmini2",
+        "ioc_serial": "21775",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 16:42:32 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_atm",
+        "name": "lm1k4_atm_dp2_tf1_sp1",
+        "prefix": "LM1K4:ATM_DP2_TF1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
+    "lm1k4_atm_env_sens": {
+        "_id": "lm1k4_atm_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 18:21:39 2021",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:ATM_BHC",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-atm-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-atm-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 12:58:41 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_atm",
+        "name": "lm1k4_atm_env_sens",
+        "prefix": "{{ioc_base}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm1k4_atm_mp1_mr1_tilt1": {
@@ -2978,7 +3078,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 14:02:54 2021",
-        "device_class": "pcdsdevices.device_types.EllRotational",
+        "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
         "ioc_alias": "LM1K4:ATM_MP1_WP1_RM1:M3",
@@ -2998,7 +3098,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Mar  9 14:02:54 2021",
+        "last_edit": "Wed Mar 10 15:25:42 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_mp1_wp1_rm1",
@@ -3015,7 +3115,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 13:50:01 2021",
-        "device_class": "pcdsdevices.device_types.EllRotational",
+        "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
         "ioc_alias": "LM1K4:ATM_MP2_POL2:M1",
@@ -3035,7 +3135,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Mar  9 13:50:01 2021",
+        "last_edit": "Wed Mar 10 15:26:06 2021",
         "lightpath": false,
         "location_group": "lm1k4_atm",
         "name": "lm1k4_atm_mp1_wp2_rm1",
@@ -3226,6 +3326,41 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k4_com_dp2_tf1_pm1": {
+        "_id": "lm1k4_com_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:COM_DP2_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:COM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-com-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-com-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 15:13:56 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_com",
+        "name": "lm1k4_com_dp2_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_com_dp2_tf1_sl1": {
         "_id": "lm1k4_com_dp2_tf1_sl1",
         "active": true,
@@ -3261,6 +3396,39 @@
         "prefix": "LM1K4:COM:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_com_dp2_tf1_sp1": {
+        "_id": "lm1k4_com_dp2_tf1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 16:49:06 2021",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": null,
+        "functional_group": "spectrometers",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "tjohnson",
+        "ioc_evr_channel": "2",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS Harmonics TILE",
+        "ioc_name": "ioc-lm1k4-com-spec-01",
+        "ioc_release": "/reg/neh/home/tjohnson/trunk/workarea/qmini2",
+        "ioc_serial": "20423",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "yes",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 16:49:06 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_com",
+        "name": "lm1k4_com_dp2_tf1_sp1",
+        "prefix": "LM1K4:COM_DP2_TF1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
         "z": -1.0
     },
     "lm1k4_com_dp2_xtl1": {
@@ -3374,6 +3542,41 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k4_com_dp3_tf1_pm1": {
+        "_id": "lm1k4_com_dp3_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:COM_DP3_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:COM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "4",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-com-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-com-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 15:14:43 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_com",
+        "name": "lm1k4_com_dp3_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_com_dp3_tf1_sl1": {
         "_id": "lm1k4_com_dp3_tf1_sl1",
         "active": true,
@@ -3409,6 +3612,38 @@
         "prefix": "LM1K4:COM_DP3_TF1_SL1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_com_env_sens": {
+        "_id": "lm1k4_com_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 18:26:19 2021",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:COM_BHC",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-com-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-com-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 12:59:04 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_com",
+        "name": "lm1k4_com_env_sens",
+        "prefix": "{{ioc_base}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm1k4_com_mp1_bs2_tilt1": {
@@ -3791,6 +4026,76 @@
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
     },
+    "lm1k4_ejx_dp12_tf1_pm1": {
+        "_id": "lm1k4_ejx_dp12_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:EJX_DP12_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:EJX_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "4",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-ejx-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 15:11:07 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_dp12_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
+    "lm1k4_ejx_dp2_tau1_pm1": {
+        "_id": "lm1k4_ejx_dp2_tau1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:EJX_DP2_TAU1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:EJX_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "1",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-ejx-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 14:56:40 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_dp2_tau1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp32": {
         "_id": "lm1k4_ejx_dp32",
         "active": true,
@@ -3902,6 +4207,39 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k4_ejx_dp32_tf1_sp1": {
+        "_id": "lm1k4_ejx_dp32_tf1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 16:47:03 2021",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": null,
+        "functional_group": "spectrometers",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "tjohnson",
+        "ioc_evr_channel": "",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS Harmonics TILE",
+        "ioc_name": "ioc-lm1k4-ejx-spec-02",
+        "ioc_release": "/reg/neh/home/tjohnson/trunk/workarea/qmini2",
+        "ioc_serial": "21163",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 16:47:03 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_dp32_tf1_sp1",
+        "prefix": "LM1K4:EJX_DP32_TF1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp4_ap1": {
         "_id": "lm1k4_ejx_dp4_ap1",
         "active": true,
@@ -3970,6 +4308,41 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_ejx_dp4_pm1": {
+        "_id": "lm1k4_ejx_dp4_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:EJX_DP4_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:EJX_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "2",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-ejx-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 15:01:47 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_dp4_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp5": {
         "_id": "lm1k4_ejx_dp5",
         "active": true,
@@ -4005,6 +4378,41 @@
         "prefix": "LM1K4:EJX_DP5:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_ejx_dp5_tf1_pm1": {
+        "_id": "lm1k4_ejx_dp5_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:EJX_DP5_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:EJX_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-ejx-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 15:05:01 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_dp5_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
         "z": -1.0
     },
     "lm1k4_ejx_dp6": {
@@ -4184,6 +4592,38 @@
         "prefix": "LM1K4:EJX_DP6_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm1k4_ejx_env_sens": {
+        "_id": "lm1k4_ejx_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 18:24:46 2021",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:EJX_BHC",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-ejx-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 12:56:06 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_ejx",
+        "name": "lm1k4_ejx_env_sens",
+        "prefix": "{{ioc_base}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm1k4_ejx_mp1_mr1_tilt1": {
@@ -4608,7 +5048,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 14:28:41 2021",
-        "device_class": "pcdsdevices.device_types.EllRotational",
+        "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
         "ioc_alias": "LM1K4:EJX_MP2_ATT1_POL1:ELL:M1",
@@ -4628,7 +5068,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Mar  9 14:28:41 2021",
+        "last_edit": "Wed Mar 10 15:26:20 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_att1_pol1",
@@ -4645,7 +5085,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 14:29:45 2021",
-        "device_class": "pcdsdevices.device_types.EllRotational",
+        "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
         "ioc_alias": "LM1K4:EJX_MP2_ATT1_POL2:ELL:M2",
@@ -4665,7 +5105,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Mar  9 14:29:45 2021",
+        "last_edit": "Wed Mar 10 15:26:33 2021",
         "lightpath": false,
         "location_group": "lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_att1_pol2",
@@ -4955,6 +5395,41 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k4_hrm_dp1_tf1_pm1": {
+        "_id": "lm1k4_hrm_dp1_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:HRM_DP1_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:HRM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-hrm-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-hrm-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 14:31:47 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_hrm",
+        "name": "lm1k4_hrm_dp1_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_hrm_dp2_tf1_ff1": {
         "_id": "lm1k4_hrm_dp2_tf1_ff1",
         "active": true,
@@ -5064,6 +5539,38 @@
         "prefix": "LM1K4:HRM_DP2_TF1_SL1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_hrm_env_sens": {
+        "_id": "lm1k4_hrm_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 18:23:09 2021",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:HRM_BHC",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-hrm-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-hrm-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar  9 18:23:09 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_hrm",
+        "name": "lm1k4_hrm_env_sens",
+        "prefix": "{{ioc_base}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm1k4_hrm_mp1_mr1_lm1": {
@@ -5232,6 +5739,74 @@
         "location_group": "lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr4_tip1",
         "prefix": "LM1K4:HRM_MP1_MR4_TIP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k4_hrm_mp1_mr7_tilt1": {
+        "_id": "lm1k4_hrm_mp1_mr7_tilt1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 17:02:11 2021",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "ioc_alias": "LM1K4:HRM_MP1_MR7_TILT1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:04",
+        "ioc_channel": "12",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-04",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-04",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/smaract/",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar  9 17:02:11 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_hrm",
+        "name": "lm1k4_hrm_mp1_mr7_tilt1",
+        "prefix": "LM1K4:HRM_MP1_MR7_TILT1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k4_hrm_mp1_mr7_tip1": {
+        "_id": "lm1k4_hrm_mp1_mr7_tip1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 17:00:33 2021",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "ioc_alias": "LM1K4:HRM_MP1_MR7_TIP1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:04",
+        "ioc_channel": "11",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-04",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-04",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/smaract/",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar  9 17:00:33 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_hrm",
+        "name": "lm1k4_hrm_mp1_mr7_tip1",
+        "prefix": "LM1K4:HRM_MP1_MR7_TIP1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
@@ -5755,6 +6330,41 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_inj_dp2_tf1_pm1": {
+        "_id": "lm1k4_inj_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 13:23:20 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM1K4:INJ_DP2_TF1_PM1",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:INJ_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-inj-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-inj-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 14:41:34 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_inj",
+        "name": "lm1k4_inj_dp2_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm1k4_inj_dp2_tf1_sl1": {
         "_id": "lm1k4_inj_dp2_tf1_sl1",
         "active": true,
@@ -5790,6 +6400,71 @@
         "prefix": "LM1K4:INJ_DP2_TF1_SL1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k4_inj_dp2_tf1_sp1": {
+        "_id": "lm1k4_inj_dp2_tf1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 16:39:50 2021",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": null,
+        "functional_group": "spectrometers",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "tjohnson",
+        "ioc_evr_channel": "4",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS Harmonics TILE",
+        "ioc_name": "ioc-lm1k4-inj-spec-01",
+        "ioc_release": "/reg/neh/home/tjohnson/trunk/workarea/qmini2",
+        "ioc_serial": "21616",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "yes",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 16:39:50 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_inj",
+        "name": "lm1k4_inj_dp2_tf1_sp1",
+        "prefix": "LM1K4:INJ_DP2_TF1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
+    "lm1k4_inj_env_sens": {
+        "_id": "lm1k4_inj_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 18:18:51 2021",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "ioc_arch": null,
+        "ioc_base": "LM1K4:INJ_BHC",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip1-inj-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-inj-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 12:59:53 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_inj",
+        "name": "lm1k4_inj_env_sens",
+        "prefix": "{{ioc_base}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm1k4_inj_mp1_att1_wp1": {
@@ -5992,6 +6667,40 @@
         "location_group": "lm1k4_inj",
         "name": "lm1k4_inj_mp1_zoo1_ls3",
         "prefix": "LM1K4:INJ_MP1_ZOO1_LS3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k4_int_mp1_dly1": {
+        "_id": "lm1k4_int_mp1_dly1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  9 17:03:27 2021",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "ioc_alias": "LM1K4:INT_MP1_DLY1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:04",
+        "ioc_channel": "16",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-04",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-04",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/smaract/",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar  9 17:03:27 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_int",
+        "name": "lm1k4_int_mp1_dly1",
+        "prefix": "LM1K4:INT_MP1_DLY1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
