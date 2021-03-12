@@ -22,6 +22,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.87351
     },
+    "al1k2": {
+        "_id": "al1k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar 11 15:17:18 2021",
+        "device_class": "pcdsdevices.device_types.ReflaserL2SI",
+        "documentation": null,
+        "functional_group": "REF",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  11 15:21:22 2021",
+        "lightpath": false,
+        "location_group": "RIX H2.2",
+        "name": "al1k2",
+        "prefix": "AL1K2:L2SI",
+        "stand": "K2S02",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 778.833
+    },
     "at1k4": {
         "_id": "at1k4",
         "active": true,
@@ -2574,6 +2597,29 @@
         "stand": "GS1",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.36
+    },
+    "li2k2": {
+        "_id": "li2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar  11 15:20:03 2021",
+        "device_class": "pcdsdevices.device_types.LaserInCoupling",
+        "documentation": null,
+        "functional_group": "LIC",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  11 15:20:03 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "li2k2",
+        "prefix": "LI2K2:K2A",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 786.4340
     },
     "lm1k4_atm_dp1_tf1_ff1": {
         "_id": "lm1k4_atm_dp1_tf1_ff1",
@@ -6435,6 +6481,41 @@
         "type": "pcdsdevices.happi.containers.Qmini",
         "z": -1.0
     },
+    "lm1k4_inj_dp2_tf1_wf1": {
+        "_id": "lm1k4_inj_dp2_tf1_wf1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 10 17:09:01 2021",
+        "device_class": "pcdsdevices.device_types.ThorlabsWfs40",
+        "documentation": null,
+        "functional_group": "wavefront sensors",
+        "ioc_arch": "rhel7-gcc494-x86_64",
+        "ioc_engineer": "tjohnson",
+        "ioc_evr_channel": "8",
+        "ioc_hutch": "LAS",
+        "ioc_id_num": "M00508246",
+        "ioc_lenslet_pitch": "150",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_model": "WFS-40",
+        "ioc_name": "ioc-lm1k4-inj-wfs-01",
+        "ioc_release": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/current/",
+        "ioc_type": "ThorLabsWfs40",
+        "ioc_use_evr": "yes",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 10 17:09:01 2021",
+        "lightpath": false,
+        "location_group": "lm1k4_inj",
+        "name": "lm1k4_inj_dp2_tf1_wf1",
+        "prefix": "LM1K4:INJ_DP2_TF1_WF1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsWfs",
+        "z": -1.0
+    },
     "lm1k4_inj_env_sens": {
         "_id": "lm1k4_inj_env_sens",
         "active": true,
@@ -7860,6 +7941,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.4
     },
+    "pf1k2": {
+        "_id": "pf1k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar  11 09:59:13 2021",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "documentation": null,
+        "functional_group": "WFS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  11 09:59:13 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "pf1k2",
+        "prefix": "PF1K2:WFS",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 786.818
+    },
     "pf1k4": {
         "_id": "pf1k4",
         "active": true,
@@ -8260,6 +8364,29 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.2604
+    },
+    "tm1k2": {
+        "_id": "tm1k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar  11 15:22:54 2021",
+        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "documentation": null,
+        "functional_group": "ATM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  11 15:22:54 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "tm1k2",
+        "prefix": "TM1K2:ATM",
+        "stand": "K2S08",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 784.848
     },
     "tm1k4": {
         "_id": "tm1k4",
