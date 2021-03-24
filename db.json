@@ -8517,7 +8517,7 @@
         "beamline": "TMO",
         "creation": "Fri Oct  9 13:41:37 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.lamp_motion.LAMP",
+        "device_class": "pcdsdevices.lamp_motion.LAMPMagneticBottle",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
