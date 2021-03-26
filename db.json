@@ -7679,7 +7679,7 @@
         "beamline": "LFE",
         "creation": "Thu Apr 16 12:21:04 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -7687,7 +7687,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 16 12:21:04 2020",
+        "last_edit": "Thu Mar 25 16:51:10 2021",
         "lightpath": true,
         "location_group": "Section 08",
         "macros": null,
@@ -7764,7 +7764,7 @@
         "beamline": "LFE",
         "creation": "Thu Apr 16 12:25:06 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -7772,7 +7772,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 16 12:25:06 2020",
+        "last_edit": "Thu Mar 25 16:52:31 2021",
         "lightpath": true,
         "location_group": "Section 10",
         "macros": null,
@@ -10554,40 +10554,6 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 945.9630000000001
     },
-    "xrt_m1h": {
-        "_id": "xrt_m1h",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "HXD",
-        "creation": "Tue Feb 27 16:06:20 2018",
-        "device_class": "pcdsdevices.mirror.PointingMirror",
-        "kwargs": {
-            "in_lines": [
-                "PBT"
-            ],
-            "name": "{{name}}",
-            "out_lines": [
-                "HXD",
-                "MFX",
-                "MEC"
-            ]
-        },
-        "last_edit": "Tue Feb 27 16:06:20 2018",
-        "lightpath": true,
-        "macros": null,
-        "name": "xrt_m1h",
-        "parent": null,
-        "prefix": "XRT:M1H",
-        "prefix_xy": null,
-        "screen": null,
-        "stand": null,
-        "system": "beam control",
-        "type": "pcdsdevices.happi.containers.OffsetMirror",
-        "xgantry_prefix": null,
-        "z": 814.716
-    },
     "xrt_m2h": {
         "_id": "xrt_m2h",
         "active": true,
@@ -10669,5 +10635,37 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.97
+    },
+    "xrtm1_homs": {
+        "_id": "xrtm1_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 25 13:25:15 2021",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "xrtm1_homs",
+        "parent": null,
+        "prefix": "XRTM1:HOMS",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 814.716
     }
 }
