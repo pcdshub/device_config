@@ -8427,6 +8427,29 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.848
     },
+    "tm2k2": {
+        "_id": "tm2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar  26 15:22:54 2021",
+        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "documentation": null,
+        "functional_group": "ATM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  26 15:22:54 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "tm2k2",
+        "prefix": "TM2K2:ATM",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 784.848
+    },
     "tm1k4": {
         "_id": "tm1k4",
         "active": true,
