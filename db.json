@@ -7047,6 +7047,53 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 818.416
     },
+    "mec_yag1": {
+        "_id": "mec_yag1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Tue Mar 30 11:21:07 2021",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 30 11:24:54 2021",
+        "name": "mec_yag1",
+        "prefix": "MEC:HXM:PIM",
+        "type": "OphydItem"
+    },
+    "mec_yag2": {
+        "_id": "mec_yag2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Tue Mar 30 16:31:14 2021",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
+        "documentation": null,
+        "functional_group": "MEC",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 30 16:31:14 2021",
+        "lightpath": true,
+        "location_group": "MEC",
+        "name": "mec_yag2",
+        "prefix": "MEC:PIM2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 821.0
+    },
     "mfx_attenuator": {
         "_id": "mfx_attenuator",
         "active": true,
@@ -8427,29 +8474,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.848
     },
-    "tm2k2": {
-        "_id": "tm2k2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Thu Mar  26 15:22:54 2021",
-        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
-        "documentation": null,
-        "functional_group": "ATM",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Thu Mar  26 15:22:54 2021",
-        "lightpath": true,
-        "location_group": "RIX H2.2",
-        "name": "tm2k2",
-        "prefix": "TM2K2:ATM",
-        "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 784.848
-    },
     "tm1k4": {
         "_id": "tm1k4",
         "active": true,
@@ -8472,6 +8496,29 @@
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.277
+    },
+    "tm2k2": {
+        "_id": "tm2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Mar  26 15:22:54 2021",
+        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "documentation": null,
+        "functional_group": "ATM",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  26 15:22:54 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "tm2k2",
+        "prefix": "TM2K2:ATM",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 784.848
     },
     "tmo_cvmi": {
         "_id": "tmo_cvmi",
@@ -10618,11 +10665,18 @@
         ],
         "beamline": "PBT",
         "creation": "Tue Feb 27 16:12:10 2018",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.device_types.OffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 27 16:12:10 2018",
+        "last_edit": "Tue Mar 30 15:16:20 2021",
+        "lightpath": true,
+        "location_group": "XRT",
         "macros": null,
         "name": "xrt_m3h",
         "parent": null,
