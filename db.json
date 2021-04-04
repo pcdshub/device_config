@@ -9548,6 +9548,36 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 961.3
     },
+    "xcs_pfls": {
+        "_id": "xcs_pfls",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Fri Apr  2 18:12:17 2021",
+        "device_class": "pcdsdevices.lens.Prefocus",
+        "documentation": null,
+        "functional_group": "MOTOR",
+        "ioc_arch": null,
+        "ioc_engineer": "pennebak",
+        "ioc_hutch": "XCS",
+        "ioc_location": "XCS",
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr  2 18:12:17 2021",
+        "lightpath": true,
+        "location_group": "DG3",
+        "name": "xcs_pfls",
+        "prefix": "XCS:DG3:PFLS",
+        "stand": "DG3",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
+    },
     "xcs_pulsepicker": {
         "_id": "xcs_pulsepicker",
         "active": true,
@@ -9594,6 +9624,37 @@
         "system": null,
         "type": "pcdsdevices.happi.containers.Stopper",
         "z": 958.497
+    },
+    "xcs_samplestage": {
+        "_id": "xcs_samplestage",
+        "active": true,
+        "args": [],
+        "beamline": "XCS",
+        "creation": "Fri Apr  2 18:21:38 2021",
+        "device_class": "pcdsdevices.gon.XYZStage",
+        "documentation": null,
+        "functional_group": "MOTOR",
+        "ioc_arch": null,
+        "ioc_engineer": "pennebak",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}",
+            "prefix_x": "XCS:GON:MMS:07",
+            "prefix_y": "XCS:GON:MMS:09",
+            "prefix_z": "XCS:GON:MMS:08"
+        },
+        "last_edit": "Fri Apr  2 18:21:38 2021",
+        "lightpath": false,
+        "location_group": "GON",
+        "name": "xcs_samplestage",
+        "prefix": "XCS:GON",
+        "stand": "GON",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 99999.0
     },
     "xcs_sb1_ipm": {
         "_id": "xcs_sb1_ipm",
