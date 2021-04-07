@@ -7053,16 +7053,29 @@
         "args": [
             "{{prefix}}"
         ],
-        "creation": "Tue Mar 30 11:21:07 2021",
+        "beamline": "HXD",
+        "creation": "Mon Apr  5 17:17:40 2021",
         "device_class": "pcdsdevices.pim.PIMWithFocus",
         "documentation": null,
+        "functional_group": "MEC",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 30 11:24:54 2021",
+        "last_edit": "Mon Apr  5 17:17:40 2021",
+        "lightpath": true,
+        "location_group": "MEC",
         "name": "mec_yag1",
         "prefix": "MEC:HXM:PIM",
-        "type": "OphydItem"
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 819.0
     },
     "mec_yag2": {
         "_id": "mec_yag2",
@@ -7093,6 +7106,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 821.0
+    },
+    "mec_yag3": {
+        "_id": "mec_yag3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MEC",
+        "creation": "Mon Apr  5 17:19:02 2021",
+        "device_class": "pcdsdevices.pim.PIMWithFocus",
+        "documentation": null,
+        "functional_group": "MEC",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr  5 17:19:02 2021",
+        "lightpath": true,
+        "location_group": "MEC",
+        "name": "mec_yag3",
+        "prefix": "MEC:PIM3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 822.0
     },
     "mfx_attenuator": {
         "_id": "mfx_attenuator",
