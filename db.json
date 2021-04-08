@@ -33,11 +33,18 @@
         "device_class": "pcdsdevices.device_types.ReflaserL2SI",
         "documentation": null,
         "functional_group": "REF",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  1 15:21:22 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 14:18:37 2021",
+        "lightpath": true,
         "location_group": "FEE K4S33",
         "name": "al1k4",
         "prefix": "AL1K4:L2SI",
@@ -2113,7 +2120,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "KTXI",
         "creation": "Tue Feb 25 15:09:02 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.PPM",
@@ -2121,10 +2128,17 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:09:02 2020",
+        "last_edit": "Wed Apr  7 12:21:56 2021",
         "lightpath": true,
         "location_group": "Section 07",
         "macros": null,
@@ -2289,11 +2303,18 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:10:11 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 12:52:38 2021",
+        "lightpath": true,
         "location_group": "FEE Imagers",
         "macros": null,
         "name": "im2k1",
@@ -2302,7 +2323,7 @@
         "stand": null,
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 742.15
     },
     "im2k2": {
         "_id": "im2k2",
@@ -8116,6 +8137,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.666
     },
+    "rtdsk0": {
+        "_id": "rtdsk0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Wed Apr  7 12:16:51 2021",
+        "device_class": "pcdsdevices.rtds_ebd.RTDSK0",
+        "documentation": null,
+        "functional_group": "Diagnostic",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  7 12:16:51 2021",
+        "lightpath": true,
+        "location_group": "Section 01",
+        "name": "rtdsk0",
+        "prefix": "RTDSK0",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 695.59
+    },
     "rtdsl0": {
         "_id": "rtdsl0",
         "active": true,
@@ -8279,6 +8330,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 987.1
     },
+    "sl1k0": {
+        "_id": "sl1k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Wed Apr  7 12:47:40 2021",
+        "device_class": "pcdsdevices.slits.PowerSlits",
+        "documentation": null,
+        "functional_group": "Slits",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  7 12:47:40 2021",
+        "lightpath": true,
+        "location_group": "Section 02",
+        "name": "sl1k0",
+        "prefix": "SL1K0:POWER",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 705.86
+    },
     "sl1k2": {
         "_id": "sl1k2",
         "active": true,
@@ -8307,6 +8388,36 @@
         "system": null,
         "type": "Device",
         "z": 759.122
+    },
+    "sl1k4": {
+        "_id": "sl1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Apr  7 16:33:12 2021",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  7 16:33:12 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S33",
+        "name": "sl1k4",
+        "prefix": "SL1K4:SCATTER",
+        "stand": "K4S33",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
     },
     "sl1l0": {
         "_id": "sl1l0",
@@ -8351,11 +8462,18 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Slits",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 12 17:44:21 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 12:41:21 2021",
+        "lightpath": true,
         "location_group": "Section 06",
         "macros": null,
         "name": "sl2k0",
@@ -8364,7 +8482,7 @@
         "stand": null,
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 731.61
+        "z": 731.97
     },
     "sp1k1_mono": {
         "_id": "sp1k1_mono",
