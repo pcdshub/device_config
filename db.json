@@ -10,11 +10,18 @@
         "device_class": "pcdsdevices.device_types.ReflaserL2SI",
         "documentation": null,
         "functional_group": "REF",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar  11 15:21:22 2021",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 10:18:06 2021",
+        "lightpath": true,
         "location_group": "RIX H2.2",
         "name": "al1k2",
         "prefix": "AL1K2:L2SI",
@@ -51,6 +58,36 @@
         "stand": "K4S33",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.87351
+    },
+    "at1k0_gas_vgc_1": {
+        "_id": "at1k0_gas_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "Section 03",
+        "name": "at1k0_gas_vgc_1",
+        "prefix": "AT1K0:GAS:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 706.1876742
     },
     "at1k4": {
         "_id": "at1k4",
@@ -1488,6 +1525,66 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 725.0
     },
+    "em2k0_xgmd_vgc_1": {
+        "_id": "em2k0_xgmd_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "Section 04",
+        "name": "em2k0_xgmd_vgc_1",
+        "prefix": "EM2K0:XGMD:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 725.0793754
+    },
+    "em2k0_xgmd_vgc_2": {
+        "_id": "em2k0_xgmd_vgc_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "Section 04",
+        "name": "em2k0_xgmd_vgc_2",
+        "prefix": "EM2K0:XGMD:VGC:2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 727.306073
+    },
     "em2l0": {
         "_id": "em2l0",
         "active": true,
@@ -2150,6 +2247,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.8
     },
+    "im1k3_ppm_vgc_1": {
+        "_id": "im1k3_ppm_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KTXI",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "name": "im1k3_ppm_vgc_1",
+        "prefix": "IM1K3:PPM:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 740.3000286
+    },
     "im1k4": {
         "_id": "im1k4",
         "active": true,
@@ -2336,11 +2463,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 12 15:20:11 2021",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 10:18:28 2021",
+        "lightpath": true,
         "location_group": "RIX H2.2",
         "name": "im2k2",
         "prefix": "IM2K2:PPM",
@@ -2359,11 +2493,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jun  9 17:41:23 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 17:20:12 2021",
+        "lightpath": true,
         "location_group": "FEE K4S33",
         "name": "im2k4",
         "prefix": "IM2K4:PPM",
@@ -2411,11 +2552,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 5 14:20:11 2021",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 10:19:17 2021",
+        "lightpath": true,
         "location_group": "RIX H2.2",
         "name": "im3k2",
         "prefix": "IM3K2:PPM",
@@ -2434,11 +2582,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  1 09:41:51 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 17:21:52 2021",
+        "lightpath": true,
         "location_group": "TMO GS1",
         "name": "im3k4",
         "prefix": "IM3K4:PPM",
@@ -2486,11 +2641,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 5 14:23:11 2021",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 10:19:39 2021",
+        "lightpath": true,
         "location_group": "RIX H2.2",
         "name": "im4k2",
         "prefix": "IM4K2:PPM",
@@ -2509,11 +2671,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  1 09:52:57 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 17:23:10 2021",
+        "lightpath": true,
         "location_group": "TMO GS1",
         "name": "im4k4",
         "prefix": "IM4K4:PPM",
@@ -2561,11 +2730,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 5 14:24:11 2021",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 10:20:47 2021",
+        "lightpath": true,
         "location_group": "RIX H2.2",
         "name": "im5k2",
         "prefix": "IM5K2:PPM",
@@ -2584,11 +2760,18 @@
         "device_class": "pcdsdevices.pim.PPM",
         "documentation": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  1 09:57:18 2020",
-        "lightpath": false,
+        "last_edit": "Wed Apr  7 17:25:39 2021",
+        "lightpath": true,
         "location_group": "TMO GS2",
         "name": "im5k4",
         "prefix": "IM5K4:PPM",
@@ -2641,6 +2824,36 @@
         "stand": "K2S13",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 786.434
+    },
+    "li3k4_ip1_vwc_01": {
+        "_id": "li3k4_ip1_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "TMO GS2",
+        "name": "li3k4_ip1_vwc_01",
+        "prefix": "LI3K4:IP1:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 762.752
     },
     "lm1k4_atm_dp1_tf1_ff1": {
         "_id": "lm1k4_atm_dp1_tf1_ff1",
@@ -7705,8 +7918,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 17 12:11:59 2020",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 16:22:26 2021",
+        "lightpath": true,
         "location_group": "FEE Mirrors",
         "macros": null,
         "name": "mr1k1_bend",
@@ -7718,6 +7931,36 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 733.772
+    },
+    "mr1k1_vgc_1": {
+        "_id": "mr1k1_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "FEE Mirrors",
+        "name": "mr1k1_vgc_1",
+        "prefix": "MR1K1:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 733.2174256
     },
     "mr1k2_switch": {
         "_id": "mr1k2_switch",
@@ -7736,8 +7979,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 17 12:13:11 2020",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 16:24:09 2021",
+        "lightpath": true,
         "location_group": "FEE Mirrors",
         "macros": null,
         "name": "mr1k2_switch",
@@ -7750,13 +7993,103 @@
         "xgantry_prefix": null,
         "z": 742.922
     },
+    "mr1k2_switch_vgc_1": {
+        "_id": "mr1k2_switch_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "FEE Mirrors",
+        "name": "mr1k2_switch_vgc_1",
+        "prefix": "MR1K2:SWITCH:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 742.5095
+    },
+    "mr1k2_switch_vgc_2": {
+        "_id": "mr1k2_switch_vgc_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "FEE Mirrors",
+        "name": "mr1k2_switch_vgc_2",
+        "prefix": "MR1K2:SWITCH:VGC:2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 743.38
+    },
+    "mr1k3_vgc_1": {
+        "_id": "mr1k3_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KTXI",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "Section 07",
+        "name": "mr1k3_vgc_1",
+        "prefix": "MR1K3:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 734.4617237
+    },
     "mr1k4_soms": {
         "_id": "mr1k4_soms",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KFE",
+        "beamline": "TMO",
         "creation": "Mon Apr 20 11:48:45 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirror",
@@ -7767,9 +8100,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 20 11:48:45 2020",
-        "lightpath": false,
-        "location_group": "Section 07",
+        "last_edit": "Thu Apr  8 16:13:39 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
         "macros": null,
         "name": "mr1k4_soms",
         "parent": null,
@@ -7780,6 +8113,36 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 745.72
+    },
+    "mr1k4_vgc_1": {
+        "_id": "mr1k4_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "mr1k4_vgc_1",
+        "prefix": "MR1K4:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 744.5481127
     },
     "mr1l0_homs": {
         "_id": "mr1l0_homs",
@@ -7852,8 +8215,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Oct  9 01:24:13 2020",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 16:47:18 2021",
+        "lightpath": true,
         "location_group": "TMO GS1",
         "macros": null,
         "name": "mr2k4_kbo",
@@ -7865,6 +8228,36 @@
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
         "z": 759.494
+    },
+    "mr2k4_kbo_vwc_01": {
+        "_id": "mr2k4_kbo_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "mr2k4_kbo_vwc_01",
+        "prefix": "MR2K4:KBO:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 759.043
     },
     "mr2l0_homs": {
         "_id": "mr2l0_homs",
@@ -7960,8 +8353,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Oct  9 01:24:08 2020",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 16:47:07 2021",
+        "lightpath": true,
         "location_group": "TMO GS1",
         "macros": null,
         "name": "mr3k4_kbo",
@@ -7972,7 +8365,67 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
-        "z": 759.494
+        "z": 760.143
+    },
+    "mr3k4_kbo_vfs_01": {
+        "_id": "mr3k4_kbo_vfs_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "mr3k4_kbo_vfs_01",
+        "prefix": "MR3K4:KBO:VFS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 760.63
+    },
+    "mr3k4_kbo_vwc_01": {
+        "_id": "mr3k4_kbo_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "TMO GS1",
+        "name": "mr3k4_kbo_vwc_01",
+        "prefix": "MR3K4:KBO:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 760.536
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
@@ -8067,6 +8520,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 735.211
+    },
+    "pc5k4_vwc_01": {
+        "_id": "pc5k4_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "TMO GS2",
+        "name": "pc5k4_vwc_01",
+        "prefix": "PC5K4:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 765.0
     },
     "pf1k0": {
         "_id": "pf1k0",
@@ -8389,6 +8872,36 @@
         "type": "Device",
         "z": 759.122
     },
+    "sl1k2_exit_vgc_1": {
+        "_id": "sl1k2_exit_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "RIX H1.1",
+        "name": "sl1k2_exit_vgc_1",
+        "prefix": "SL1K2:EXIT:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 759.0
+    },
     "sl1k4": {
         "_id": "sl1k4",
         "active": true,
@@ -8484,6 +8997,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.97
     },
+    "sl2k4": {
+        "_id": "sl2k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Apr  7 17:18:31 2021",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  7 17:18:31 2021",
+        "lightpath": true,
+        "location_group": "TMO GS2",
+        "name": "sl2k4",
+        "prefix": "SL2K4:SCATTER",
+        "stand": "GS2",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 767.204
+    },
     "sp1k1_mono": {
         "_id": "sp1k1_mono",
         "active": true,
@@ -8501,8 +9044,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 16 11:06:44 2020",
-        "lightpath": false,
+        "last_edit": "Thu Apr  8 16:25:47 2021",
+        "lightpath": true,
         "location_group": "FEE Mirrors",
         "macros": null,
         "name": "sp1k1_mono",
@@ -8512,6 +9055,66 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.BeamControl",
         "z": 739.622
+    },
+    "sp1k1_mono_vgc_1": {
+        "_id": "sp1k1_mono_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "FEE Mirrors",
+        "name": "sp1k1_mono_vgc_1",
+        "prefix": "SP1K1:MONO:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 738.2773055
+    },
+    "sp1k1_mono_vgc_2": {
+        "_id": "sp1k1_mono_vgc_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "FEE Mirrors",
+        "name": "sp1k1_mono_vgc_2",
+        "prefix": "SP1K1:MONO:VGC:2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 740.2513984
     },
     "sp1l0": {
         "_id": "sp1l0",
@@ -8565,6 +9168,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 741.3
     },
+    "st1k2_pps_vgc_1": {
+        "_id": "st1k2_pps_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "st1k2_pps_vgc_1",
+        "prefix": "ST1K2:PPS:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 776.836
+    },
     "st1k4": {
         "_id": "st1k4",
         "active": true,
@@ -8611,6 +9244,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.2604
+    },
+    "st3k4_pps_vgc_01": {
+        "_id": "st3k4_pps_vgc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "st3k4_pps_vgc_01",
+        "prefix": "ST3K4:PPS:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.468887
     },
     "tm1k2": {
         "_id": "tm1k2",
@@ -8768,6 +9431,126 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
     },
+    "tv1k2_vfs_1": {
+        "_id": "tv1k2_vfs_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr  8 15:58:06 2021",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:06 2021",
+        "lightpath": true,
+        "location_group": "FEE ZOS",
+        "name": "tv1k2_vfs_1",
+        "prefix": "TV1K2:VFS:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 743.58
+    },
+    "tv1k4_vfs_01": {
+        "_id": "tv1k4_vfs_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "tv1k4_vfs_01",
+        "prefix": "TV1K4:VFS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 747.2815839
+    },
+    "tv1k4_vgc_01": {
+        "_id": "tv1k4_vgc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "tv1k4_vgc_01",
+        "prefix": "TV1K4:VGC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 747.1430483
+    },
+    "tv1k4_vgc_02": {
+        "_id": "tv1k4_vgc_02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "tv1k4_vgc_02",
+        "prefix": "TV1K4:VGC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 748.6694969
+    },
     "tv1l0_vgc01": {
         "_id": "tv1l0_vgc01",
         "active": true,
@@ -8790,6 +9573,66 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 693.5788
+    },
+    "tv2k0_vfs_1": {
+        "_id": "tv2k0_vfs_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "Section 06",
+        "name": "tv2k0_vfs_1",
+        "prefix": "TV2K0:VFS:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 730.0059234
+    },
+    "tv2k0_vgc_1": {
+        "_id": "tv2k0_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "Section 06",
+        "name": "tv2k0_vgc_1",
+        "prefix": "TV2K0:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 729.728736
     },
     "tv2l0_vgc01": {
         "_id": "tv2l0_vgc01",
@@ -8836,6 +9679,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 722.2774
+    },
+    "tv3k0_vgc_1": {
+        "_id": "tv3k0_vgc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Apr  8 15:58:04 2021",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "tv3k0_vgc_1",
+        "prefix": "TV3K0:VGC:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 740.4962675
     },
     "tv3l0_vfs01": {
         "_id": "tv3l0_vfs01",
