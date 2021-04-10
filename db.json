@@ -9168,6 +9168,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 741.3
     },
+    "st1k2_pps": {
+        "_id": "st1k2_pps",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr  9 15:11:49 2021",
+        "device_class": "pcdsdevices.stopper.PPSStopperL2SI",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr  9 15:11:49 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "st1k2_pps",
+        "prefix": "PPS:NEH1:1:ST2K4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 778.3674
+    },
     "st1k2_pps_vgc_1": {
         "_id": "st1k2_pps_vgc_1",
         "active": true,
@@ -9244,6 +9274,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.2604
+    },
+    "st3k4_pps": {
+        "_id": "st3k4_pps",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Fri Apr  9 15:12:53 2021",
+        "device_class": "pcdsdevices.stopper.PPSStopperL2SI",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr  9 15:15:52 2021",
+        "lightpath": true,
+        "location_group": "FEE K4S24",
+        "name": "st3k4_pps",
+        "prefix": "PPS:NEH1:1:ST3K4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.01
     },
     "st3k4_pps_vgc_01": {
         "_id": "st3k4_pps_vgc_01",
