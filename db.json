@@ -168,6 +168,68 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 729.2956
     },
+    "at2k2": {
+        "_id": "at2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "calculator_prefix": "AT2K2:CALC",
+        "creation": "Thu Apr 29 14:18:19 2021",
+        "device_class": "pcdsdevices.attenuator.AttenuatorSXR_Ladder",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "calculator_prefix": "{{calculator_prefix}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 29 14:18:40 2021",
+        "lightpath": true,
+        "location_group": "K2S15",
+        "name": "at2k2",
+        "prefix": "AT2K2:L2SI",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 788.8
+    },
+    "at2k2_calc": {
+        "_id": "at2k2_calc",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr 29 14:23:01 2021",
+        "device_class": "pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade",
+        "documentation": "Attenuator calculator for AT2K2",
+        "functional_group": "Attenuator",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 29 14:23:01 2021",
+        "lightpath": false,
+        "location_group": "K2S15",
+        "name": "at2k2_calc",
+        "prefix": "AT2K2:CALC",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 788.8
+    },
     "at2l0": {
         "_id": "at2l0",
         "active": true,
@@ -2779,6 +2841,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 764.485
     },
+    "im6k2": {
+        "_id": "im6k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 28 14:24:27 2021",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 28 10:20:47 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "im6k2",
+        "prefix": "IM6K2:PPM",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 792.819
+    },
     "li1k4": {
         "_id": "li1k4",
         "active": true,
@@ -2824,6 +2916,29 @@
         "stand": "K2S13",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 786.434
+    },
+    "li3k2": {
+        "_id": "li3k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr  28 15:20:03 2021",
+        "device_class": "pcdsdevices.device_types.LaserInCoupling",
+        "documentation": null,
+        "functional_group": "LIC",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 28 15:20:03 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "li3k2",
+        "prefix": "LI3K2:K2B",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 789.307
     },
     "li3k4_ip1_vwc_01": {
         "_id": "li3k4_ip1_vwc_01",
@@ -8741,6 +8856,29 @@
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.666
+    },
+    "pf2k2": {
+        "_id": "pf2k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 28 09:59:13 2021",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "documentation": null,
+        "functional_group": "WFS",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 28 09:59:13 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "pf2k2",
+        "prefix": "PF2K2:WFS",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 792.319
     },
     "rtdsk0": {
         "_id": "rtdsk0",
