@@ -8435,6 +8435,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 739.0457
     },
+    "mr2k2_flat": {
+        "_id": "mr2k2_flat",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr 29 23:19:46 2021",
+        "device_class": "pcdsdevices.mirror.FFMirror",
+        "documentation": null,
+        "functional_group": "Mirrors",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": "rix",
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 29 23:19:46 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "mr2k2_flat",
+        "prefix": "MR2K2:FLAT",
+        "stand": "K2S03",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mr2k4_kbo": {
         "_id": "mr2k4_kbo",
         "active": true,
@@ -8573,6 +8603,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0869
     },
+    "mr3k2_kbh": {
+        "_id": "mr3k2_kbh",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr 29 22:52:32 2021",
+        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "documentation": null,
+        "functional_group": "Mirrors",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": "rix",
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 29 22:52:32 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "mr3k2_kbh",
+        "prefix": "MR3K2:KBH",
+        "stand": "K2S05",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mr3k4_kbo": {
         "_id": "mr3k4_kbo",
         "active": true,
@@ -8663,6 +8723,36 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 760.536
+    },
+    "mr4k2_kbv": {
+        "_id": "mr4k2_kbv",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr 29 23:18:50 2021",
+        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "documentation": null,
+        "functional_group": "Mirrors",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": "rix",
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 29 23:18:50 2021",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "mr4k2_kbv",
+        "prefix": "MR4K2:KBV",
+        "stand": "K2S07",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
@@ -12163,6 +12253,70 @@
         "name": "xrtm1_homs",
         "parent": null,
         "prefix": "XRTM1:HOMS",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 814.716
+    },
+    "MR2L3_homs": {
+        "_id": "MR2L3_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 25 13:25:15 2021",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "mr2l3_homs",
+        "parent": null,
+        "prefix": "MR2L3:HOMS",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 824.716
+    },
+    "MR1L3_homs": {
+        "_id": "MR1L3_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 25 13:25:15 2021",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "mr1l3_homs",
+        "parent": null,
+        "prefix": "MR1L3:HOMS",
         "prefix_xy": null,
         "screen": null,
         "stand": null,
