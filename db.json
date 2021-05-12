@@ -1,4 +1,68 @@
 {
+    "MR1L3_homs": {
+        "_id": "MR1L3_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 25 13:25:15 2021",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "mr1l3_homs",
+        "parent": null,
+        "prefix": "MR1L3:HOMS",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 814.716
+    },
+    "MR2L3_homs": {
+        "_id": "MR2L3_homs",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "HXD",
+        "creation": "Tue Feb 27 16:06:20 2018",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 25 13:25:15 2021",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "mr2l3_homs",
+        "parent": null,
+        "prefix": "MR2L3:HOMS",
+        "prefix_xy": null,
+        "screen": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": 824.716
+    },
     "al1k2": {
         "_id": "al1k2",
         "active": true,
@@ -9753,17 +9817,24 @@
         "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
         "documentation": null,
         "functional_group": "ATM",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar  26 15:22:54 2021",
+        "last_edit": "Tue May 11 16:35:48 2021",
         "lightpath": true,
         "location_group": "RIX K2S15",
         "name": "tm2k2",
         "prefix": "TM2K2:ATM",
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 784.848
+        "z": 788.476
     },
     "tmo_cvmi": {
         "_id": "tmo_cvmi",
@@ -12228,69 +12299,5 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.97
-    },
-    "MR2L3_homs": {
-        "_id": "MR2L3_homs",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "HXD",
-        "creation": "Tue Feb 27 16:06:20 2018",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
-        "documentation": null,
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Mirrors",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Thu Mar 25 13:25:15 2021",
-        "lightpath": true,
-        "location_group": "XRT",
-        "macros": null,
-        "name": "mr2l3_homs",
-        "parent": null,
-        "prefix": "MR2L3:HOMS",
-        "prefix_xy": null,
-        "screen": null,
-        "stand": null,
-        "system": "beam control",
-        "type": "pcdsdevices.happi.containers.OffsetMirror",
-        "xgantry_prefix": null,
-        "z": 824.716
-    },
-    "MR1L3_homs": {
-        "_id": "MR1L3_homs",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "HXD",
-        "creation": "Tue Feb 27 16:06:20 2018",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
-        "documentation": null,
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Mirrors",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Thu Mar 25 13:25:15 2021",
-        "lightpath": true,
-        "location_group": "XRT",
-        "macros": null,
-        "name": "mr1l3_homs",
-        "parent": null,
-        "prefix": "MR1L3:HOMS",
-        "prefix_xy": null,
-        "screen": null,
-        "stand": null,
-        "system": "beam control",
-        "type": "pcdsdevices.happi.containers.OffsetMirror",
-        "xgantry_prefix": null,
-        "z": 814.716
     }
 }
