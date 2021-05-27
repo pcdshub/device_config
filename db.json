@@ -10011,6 +10011,35 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
     },
+    "tmo_mrco": {
+        "_id": "tmo_mrco",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed May 26 14:30:14 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mrco_motion.MRCO",
+        "documentation": "https://confluence.slac.stanford.edu/display/L2SI/CookieBox+Motion+System",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed May 26 14:30:14 2021",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "macros": null,
+        "name": "tmo_mrco",
+        "parent": null,
+        "prefix": "TMO:MRCO",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 760.0
+    },
     "tv1k2_vfs_1": {
         "_id": "tv1k2_vfs_1",
         "active": true,
