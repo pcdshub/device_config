@@ -8785,36 +8785,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "mr4k2_kbv": {
-        "_id": "mr4k2_kbv",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Thu Apr 29 22:52:32 2021",
-        "device_class": "pcdsdevices.mirror.KBOMirror",
-        "documentation": null,
-        "functional_group": "Mirrors",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": "rix",
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Thu Apr 29 22:52:32 2021",
-        "lightpath": true,
-        "location_group": "RIX K2S05",
-        "name": "mr4k2_kbv",
-        "prefix": "MR4K2:KBV",
-        "stand": "K2S05",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
     "mr3k4_kbo": {
         "_id": "mr3k4_kbo",
         "active": true,
@@ -10058,7 +10028,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed May 26 14:30:14 2021",
+        "last_edit": "Fri May 28 14:32:56 2021",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
