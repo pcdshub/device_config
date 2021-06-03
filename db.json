@@ -9706,7 +9706,7 @@
         "lightpath": true,
         "location_group": "RIX K2S02",
         "name": "st1k2_pps",
-        "prefix": "PPS:NEH1:1:ST2K4",
+        "prefix": "PPS:NEH1:1:ST1K2",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.3674
