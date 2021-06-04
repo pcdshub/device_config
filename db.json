@@ -9689,7 +9689,7 @@
         ],
         "beamline": "RIX",
         "creation": "Fri Apr  9 15:11:49 2021",
-        "device_class": "pcdsdevices.stopper.PPSStopperL2SI",
+        "device_class": "pcdsdevices.stopper.PPSStopper2PV",
         "documentation": null,
         "functional_group": "Stopper",
         "ioc_arch": null,
@@ -9700,13 +9700,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "in_suffix": "IN",
+            "out_suffix": "OUT",
+            "in_value": 1,
+            "out_value": 0
         },
         "last_edit": "Fri Apr  9 15:11:49 2021",
         "lightpath": true,
         "location_group": "RIX K2S02",
         "name": "st1k2_pps",
-        "prefix": "PPS:NEH1:1:ST1K2",
+        "prefix": "STPR:NEH1:2200:ST1K2",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.3674
