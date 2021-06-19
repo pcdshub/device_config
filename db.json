@@ -9700,10 +9700,10 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}",
             "in_suffix": "IN",
-            "out_suffix": "OUT",
             "in_value": 1,
+            "name": "{{name}}",
+            "out_suffix": "OUT",
             "out_value": 1
         },
         "last_edit": "Fri Apr  9 15:11:49 2021",
@@ -11729,6 +11729,122 @@
         "stand": "GON",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 99999.0
+    },
+    "xpp_jj_1": {
+        "_id": "xpp_jj_1",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Jun 18 13:43:28 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.JJSlits",
+        "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "None",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun 18 13:43:28 2021",
+        "lightpath": true,
+        "location_group": "None",
+        "macros": null,
+        "name": "xpp_jj_1",
+        "parent": null,
+        "prefix": "XPP:JAWS_1",
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.Slits",
+        "z": -1.0
+    },
+    "xpp_jj_2": {
+        "_id": "xpp_jj_2",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Jun 18 13:58:52 2021",
+        "detailed_screen": "None",
+        "device_class": "pcdsdevices.device_types.JJSlits",
+        "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
+        "embedded_screen": "None",
+        "engineering_screen": "None",
+        "functional_group": "None",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun 18 13:59:47 2021",
+        "lightpath": true,
+        "location_group": "None",
+        "macros": "None",
+        "name": "xpp_jj_2",
+        "parent": "None",
+        "prefix": "XPP:JAWS_2",
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.Slits",
+        "z": -1.0
+    },
+    "xpp_jj_3": {
+        "_id": "xpp_jj_3",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Jun 18 14:02:27 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.JJslits",
+        "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "None",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun 18 14:02:56 2021",
+        "lightpath": true,
+        "location_group": "None",
+        "macros": null,
+        "name": "xpp_jj_3",
+        "parent": null,
+        "prefix": "XPP:JAWS_3",
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.Slits",
+        "z": -1.0
+    },
+    "xpp_jj_4": {
+        "_id": "xpp_jj_4",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Jun 18 14:07:17 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.JJSlits",
+        "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "None",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun 18 14:07:17 2021",
+        "lightpath": true,
+        "location_group": "None",
+        "macros": null,
+        "name": "xpp_jj_4",
+        "parent": null,
+        "prefix": "XPP:JAWS_4",
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.Slits",
+        "z": -1.0
     },
     "xpp_las_tt_lensf": {
         "_id": "xpp_las_tt_lensf",
