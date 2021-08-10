@@ -7964,6 +7964,41 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm2k2_com_dp2_tf1_pm1": {
+        "_id": "lm2k2_com_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "ChemRIXS_MODS",
+        "creation": "Mon Aug  9 13:52:55 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM2K2:COM_DP2_TF1_PM1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:COM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-com-01",
+        "ioc_location": null,
+        "ioc_name": "ioc-lm2k2-com-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Aug  9 13:52:55 2021",
+        "lightpath": false,
+        "location_group": "2_lm2k2_com",
+        "name": "lm2k2_com_dp2_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm2k2_com_dp3_tf1_ff1": {
         "_id": "lm2k2_com_dp3_tf1_ff1",
         "active": true,
@@ -8036,6 +8071,41 @@
         "prefix": "LM2K2:COM_DP3_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm2k2_com_dp3_tf1_pm1": {
+        "_id": "lm2k2_com_dp3_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "ChemRIXS_MODS",
+        "creation": "Mon Aug  9 13:54:47 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM2K2:COM_DP3_TF1_PM1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:COM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "4",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-com-01",
+        "ioc_location": null,
+        "ioc_name": "ioc-lm2k2-com-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Aug  9 13:54:47 2021",
+        "lightpath": false,
+        "location_group": "2_lm2k2_com",
+        "name": "lm2k2_com_dp3_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
         "z": -1.0
     },
     "lm2k2_com_mp1_bs2": {
@@ -8724,6 +8794,41 @@
         "prefix": "LM2K2:INJ_DP2_MR1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm2k2_inj_dp2_tf1_pm1": {
+        "_id": "lm2k2_inj_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "ChemRIXS_MODS",
+        "creation": "Mon Aug  9 13:58:27 2021",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "ioc_alias": "LM2K2:INJ_DP2_TF1_PM1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:INJ_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-inj-01",
+        "ioc_location": null,
+        "ioc_name": "ioc-lm2k2-inj-ek9000-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Aug  9 13:58:27 2021",
+        "lightpath": false,
+        "location_group": "1_lm2k2_inj",
+        "name": "lm2k2_inj_dp2_tf1_pm1",
+        "prefix": "{{ioc_alias}}",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
         "z": -1.0
     },
     "lm2k2_inj_mp1_att1_wp1": {
