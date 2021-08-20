@@ -13680,20 +13680,26 @@
     },
     "xpp_lodcm": {
         "_id": "xpp_lodcm",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 12:53:14 2018",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.device_types.LODCM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
         "kwargs": {
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 27 12:53:14 2018",
+        "last_edit": "Thu Aug 19 13:29:32 2021",
         "lightpath": false,
+        "location_group": "XPP",
         "macros": null,
         "mono_line": "XPP",
         "name": "xpp_lodcm",
