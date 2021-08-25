@@ -846,7 +846,7 @@
         "name": "cxi_dg2_pim",
         "parent": null,
         "prefix": "CXI:DG2:PIM",
-        "prefix_det": "CXI:DG2:P6740:",
+        "prefix_det": "CXI:DG2:GIGE:",
         "screen": null,
         "stand": "DG2",
         "system": "diagnostic",
@@ -956,8 +956,10 @@
         "creation": "Thu Apr 12 16:32:55 2018",
         "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Thu Apr 12 16:32:55 2018",
         "macros": null,
         "name": "cxi_dg3_pim",
@@ -2307,7 +2309,8 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Wed May 15 14:49:05 2019",
         "lightpath": true,
@@ -2315,6 +2318,7 @@
         "name": "hx2_pim",
         "parent": null,
         "prefix": "HX2:SB1:PIM",
+        "prefix_det": "HX2:SB1:CVV:01:",
         "prefix_det": null,
         "screen": null,
         "stand": null,
@@ -2428,7 +2432,8 @@
         "creation": "Tue Feb 27 11:15:18 2018",
         "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Tue Feb 27 11:15:18 2018",
         "lightpath": true,
@@ -2436,6 +2441,7 @@
         "name": "hxd_dg2_pim",
         "parent": null,
         "prefix": "HFX:DG2:PIM",
+        "prefix_det": "HFX:DG2:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -9134,13 +9140,16 @@
         "creation": "Tue Feb 27 11:15:18 2018",
         "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Feb 27 11:15:18 2018",
         "macros": null,
         "name": "mec_pim1",
         "parent": null,
         "prefix": "MEC:PIM1",
+        "prefix_det": "MEC:PIM1:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -9180,14 +9189,17 @@
         "creation": "Tue Feb 27 11:15:18 2018",
         "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Feb 27 11:15:18 2018",
         "lightpath": true,
         "macros": null,
         "name": "mec_yag0",
         "parent": null,
         "prefix": "HXX:HXM:PIM",
+        "prefix_det": "HXX:HXM:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -9213,13 +9225,16 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Mon Apr  5 17:17:40 2021",
         "lightpath": true,
         "location_group": "MEC",
         "name": "mec_yag1",
         "prefix": "MEC:HXM:PIM",
+        "prefix_det": "MEC:HXM:CVV:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 819.0
@@ -9243,13 +9258,16 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Mar 30 16:31:14 2021",
         "lightpath": true,
         "location_group": "MEC",
         "name": "mec_yag2",
         "prefix": "MEC:PIM2",
+        "prefix_det": "MEC:PIM2:CVV:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 821.0
@@ -9273,13 +9291,16 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Mon Apr  5 17:19:02 2021",
         "lightpath": true,
         "location_group": "MEC",
         "name": "mec_yag3",
         "prefix": "MEC:PIM3",
+        "prefix_det": "MEC:PIM3:CVV:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 822.0
@@ -9733,8 +9754,10 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Wed Apr 14 13:41:35 2021",
         "lightpath": true,
         "location_group": "N/A",
@@ -12126,14 +12149,17 @@
         "creation": "Tue Feb 27 11:15:18 2018",
         "device_class": "pcdsdevices.pim.PIMWithLED",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Feb 27 11:15:18 2018",
         "lightpath": true,
         "macros": null,
         "name": "um6_pim",
         "parent": null,
         "prefix": "HXX:UM6:PIM",
+        "prefix_det": "HXX:UM6:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -12543,14 +12569,17 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue May  7 15:43:49 2019",
         "lightpath": false,
         "macros": null,
         "name": "xcs_dg3_pim",
         "parent": null,
         "prefix": "XCS:DG3:PIM",
+        "prefix_det": "CXI:DG3:P6740:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -12765,14 +12794,17 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue May  7 15:47:17 2019",
         "lightpath": false,
         "macros": null,
         "name": "xcs_pbt_pim",
         "parent": null,
         "prefix": "XCS:PBT:PIM",
+        "prefix_det": "XCS:PBT:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -13022,14 +13054,17 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue May  7 15:37:45 2019",
         "lightpath": false,
         "macros": null,
         "name": "xcs_sb1_pim",
         "parent": null,
         "prefix": "XCS:SB1:PIM",
+        "prefix_det": "XCS:SB1:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -13948,14 +13983,17 @@
         "creation": "Tue Feb 27 11:15:19 2018",
         "device_class": "pcdsdevices.pim.PIMWithFocus",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Feb 27 11:15:19 2018",
         "lightpath": true,
         "macros": null,
         "name": "xpp_sb3_pim",
         "parent": null,
         "prefix": "XPP:SB3:PIM",
+        "prefix_det": "XPP:SB3:CVV:01:",
         "screen": null,
         "stand": null,
         "system": null,
@@ -14069,14 +14107,16 @@
         "data": null,
         "device_class": "pcdsdevices.pim.PIM",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_det": "{{prefix_det}}"
         },
+        "prefix_det": "HFX:DG2:CVV:01:",
         "last_edit": "Tue Feb 27 16:16:11 2018",
         "macros": null,
         "name": "xrt_dg3m_pim",
         "parent": null,
         "prefix": "HFX:DG3:PIM",
-        "prefix_det": null,
+        "prefix_det": "HFX:DG3:CVV:01:",
         "screen": null,
         "stand": null,
         "system": "diagnostic",
