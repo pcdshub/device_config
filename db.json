@@ -7935,7 +7935,7 @@
         "device_class": "pcdsdevices.device_types.EllLinear",
         "documentation": null,
         "functional_group": "elliptecs",
-        "ioc_alias": "LM2K2:ATM_MP1_WP1_LM1",
+        "ioc_alias": "LM2K2:ATM_MP1_WP1_LM1:M2",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:ATM:ELL:1",
         "ioc_channel": "2",
@@ -7952,11 +7952,11 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Aug 27 13:55:13 2021",
+        "last_edit": "Tue Aug 31 15:52:11 2021",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_wp1_lm1",
-        "prefix": "LM2K2:ATM_MP1_WP1_LM1:ELL",
+        "prefix": "LM2K2:ATM_MP1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -7972,7 +7972,7 @@
         "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
-        "ioc_alias": "LM2K2:ATM_MP1_WP1_RM1",
+        "ioc_alias": "LM2K2:ATM_MP1_WP1_RM1:M1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:ATM:ELL:1",
         "ioc_channel": "1",
@@ -7989,11 +7989,11 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Aug 27 13:55:39 2021",
+        "last_edit": "Tue Aug 31 15:47:07 2021",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_wp1_rm1",
-        "prefix": "LM2K2:ATM_MP1_WP1_RM1:ELL",
+        "prefix": "LM2K2:ATM_MP1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -8009,7 +8009,7 @@
         "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
-        "ioc_alias": "LM2K2:MP2_POL1",
+        "ioc_alias": "LM2K2:MP2_POL1:M3",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:ATM:ELL:1",
         "ioc_channel": "3",
@@ -8026,11 +8026,11 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Aug 27 13:55:55 2021",
+        "last_edit": "Tue Aug 31 15:53:47 2021",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp2_pol1",
-        "prefix": "LM2K2:ATM_MP2_POL1:ELL",
+        "prefix": "LM2K2:ATM_MP2:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -9639,11 +9639,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug 27 15:18:42 2021",
+        "last_edit": "Tue Aug 31 15:14:39 2021",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_tf1_wf1",
-        "prefix": "LM2K2_INJ_DP2_TF1_WF1",
+        "prefix": "LM2K2:INJ_DP2_TF1_WF1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.ThorlabsWfs",
         "z": -1.0
