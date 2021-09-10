@@ -7590,11 +7590,11 @@
         "ioc_net_if_num": "1",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0",
         "ioc_type": "BaslerGigE",
-        "ioc_use_evr": "yes",
+        "ioc_use_evr": "no",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 12 10:32:54 2021",
+        "last_edit": "Thu Sep  9 15:53:32 2021",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_ff1",
@@ -9863,8 +9863,8 @@
         "ioc_arch": "rhel7-x86_64",
         "ioc_cam_model": "Basler_acA1440-73gm",
         "ioc_engineer": "tjohnson",
-        "ioc_evr_channel": "1",
-        "ioc_http_port": "7801",
+        "ioc_evr_channel": "2",
+        "ioc_http_port": "7803",
         "ioc_hutch": "LAS",
         "ioc_ip": "172.21.160.207",
         "ioc_location": "CRIX MODS Table",
@@ -9877,7 +9877,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 28 15:50:33 2021",
+        "last_edit": "Thu Sep  9 16:27:55 2021",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp1_tf1_ff1",
@@ -9901,7 +9901,7 @@
         "ioc_cam_model": "Basler_acA2500-20gm",
         "ioc_engineer": "tjohnson",
         "ioc_evr_channel": "1",
-        "ioc_http_port": "7801",
+        "ioc_http_port": "7802",
         "ioc_hutch": "LAS",
         "ioc_ip": "172.21.160.206",
         "ioc_location": "CRIX MODS Table",
@@ -9914,7 +9914,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 28 15:50:33 2021",
+        "last_edit": "Thu Sep  9 16:00:00 2021",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp1_tf1_nf1",
@@ -10119,13 +10119,13 @@
         "ioc_location": "CRIX MODS",
         "ioc_model": "WFS-40",
         "ioc_name": "ioc-lm2k2-inj-wfs-01",
-        "ioc_release": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/current/",
+        "ioc_release": "/reg/neh/home/tjohnson/trunk/common/Thorlabs-WFS",
         "ioc_type": "ThorLabsWfs40",
-        "ioc_use_evr": "yes",
+        "ioc_use_evr": "no",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep  8 16:45:03 2021",
+        "last_edit": "Thu Sep  9 15:21:00 2021",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_tf1_wf1",
