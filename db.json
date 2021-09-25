@@ -13143,7 +13143,7 @@
         "beamline": "TMO",
         "creation": "Tue Sep  7 10:39:35 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_class.Spectrometer",
+        "device_class": "pcdsdevices.spectrometer.TMO_Spectrometer",
         "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=L2SI&title=Spectrometer+Motion+System+and+Spectrometer+Design",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -13151,7 +13151,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep  7 10:39:35 2021",
+        "last_edit": "Fri Sep 24 16:41:17 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": "None",
