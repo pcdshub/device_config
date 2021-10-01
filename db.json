@@ -11325,6 +11325,37 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 945.9630000000001
     },
+    "mfx_lib": {
+        "_id": "mfx_lib",
+        "active": true,
+        "args": [
+            "{{prefix}}",
+            4
+        ],
+        "beamline": "MFX",
+        "creation": "Wed Sep 29 17:50:18 2021",
+        "device_class": "pcdsdevices.n_axis_device.get_n_axis_device",
+        "documentation": null,
+        "functional_group": "None",
+        "ioc_arch": null,
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "plc-mfx-motion",
+        "ioc_name": "ioc-mfx-motion",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 29 17:57:33 2021",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "mfx_lib",
+        "prefix": "MFX:LIB",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mfx_mxt_valve": {
         "_id": "mfx_mxt_valve",
         "active": true,
