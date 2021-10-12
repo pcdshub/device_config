@@ -15048,13 +15048,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jul  6 15:27:22 2021",
+        "last_edit": "Mon Oct 11 12:46:55 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
         "name": "xpp_jj_1",
         "parent": null,
-        "prefix": "XPP:JAWS_1:MMS:",
+        "prefix": "XPP:JAWS:",
         "stand": null,
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.Slits",
