@@ -671,6 +671,94 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
     },
+    "crix_rcc_x": {
+        "_id": "crix_rcc_x",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 20:00:31 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 12 20:00:31 2021",
+        "lightpath": false,
+        "location_group": "CRIX Catcher",
+        "name": "crix_rcc_x",
+        "prefix": "CRIX:RCC:MMS:X",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_rcc_y": {
+        "_id": "crix_rcc_y",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 20:01:53 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 12 20:01:53 2021",
+        "lightpath": false,
+        "location_group": "CRIX Catcher",
+        "name": "crix_rcc_y",
+        "prefix": "CRIX:RCC:MMS:Y",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_rcc_z": {
+        "_id": "crix_rcc_z",
+        "active": true,
+        "args": [],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 19:56:26 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 12 20:04:45 2021",
+        "lightpath": false,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_z",
+        "prefix": "CRIX:RCC:MMS:Z",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
     "cxi_dg1_pim": {
         "_id": "cxi_dg1_pim",
         "active": true,
@@ -13845,11 +13933,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:40:09 2021",
+        "last_edit": "Tue Oct 12 19:52:10 2021",
         "lightpath": false,
         "location_group": "VLS",
         "name": "vls_camera_distance",
-        "prefix": "CRIX:VLS:MMS:CD",
+        "prefix": "CRIX:VLS:CAM:MMS:DIST",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
@@ -13871,13 +13959,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:40:16 2021",
+        "last_edit": "Tue Oct 12 19:51:52 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_camera_pitch",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:CP",
+        "prefix": "CRIX:VLS:CAM:MMS:PITCH",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -13900,13 +13988,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:39:08 2021",
+        "last_edit": "Tue Oct 12 19:51:08 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_focus_mirror",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:FM",
+        "prefix": "CRIX:VLS:MMS:MP",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -13958,13 +14046,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:41:10 2021",
+        "last_edit": "Tue Oct 12 19:50:17 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_slit_down",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:SD",
+        "prefix": "CRIX:VLS:MMS:SLBOTTOM",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -13987,13 +14075,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:41:17 2021",
+        "last_edit": "Tue Oct 12 19:49:47 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_slit_left",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:SL",
+        "prefix": "CRIX:VLS:MMS:SLLEFT",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -14016,13 +14104,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:41:22 2021",
+        "last_edit": "Tue Oct 12 19:49:12 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_slit_right",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:SR",
+        "prefix": "CRIX:VLS:MMS:SLRIGHT",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -14045,13 +14133,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Sep 25 14:41:03 2021",
+        "last_edit": "Tue Oct 12 19:48:46 2021",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
         "name": "vls_slit_up",
         "parent": null,
-        "prefix": "CRIX:VLS:MMS:SU",
+        "prefix": "CRIX:VLS:MMS:SLTOP",
         "stand": null,
         "system": null,
         "type": "Device",
@@ -15040,7 +15128,7 @@
         "beamline": "XPP",
         "creation": "Fri Jun 18 13:43:28 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.JJSlits",
+        "device_class": "pcdsdevices.slits.JJSlits.jj_1",
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15048,7 +15136,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct 11 12:46:55 2021",
+        "last_edit": "Wed Oct 13 13:31:15 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -15069,7 +15157,7 @@
         "beamline": "XPP",
         "creation": "Fri Jun 18 13:58:52 2021",
         "detailed_screen": "None",
-        "device_class": "pcdsdevices.device_types.JJSlits",
+        "device_class": "pcdsdevices.device_types.JJSlits.jj_2",
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
         "embedded_screen": "None",
         "engineering_screen": "None",
@@ -15077,7 +15165,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jul  6 15:27:25 2021",
+        "last_edit": "Wed Oct 13 15:59:28 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": "None",
@@ -15098,7 +15186,7 @@
         "beamline": "XPP",
         "creation": "Fri Jun 18 14:02:27 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.JJSlits",
+        "device_class": "pcdsdevices.device_types.JJSlits.jj_3",
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15106,7 +15194,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jul  6 15:45:29 2021",
+        "last_edit": "Wed Oct 13 15:59:30 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -15127,7 +15215,7 @@
         "beamline": "XPP",
         "creation": "Fri Jun 18 14:07:17 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.JJSlits",
+        "device_class": "pcdsdevices.device_types.JJSlits.jj_4",
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15135,7 +15223,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jul  6 15:27:31 2021",
+        "last_edit": "Wed Oct 13 15:59:31 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
