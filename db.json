@@ -692,9 +692,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 12 20:00:31 2021",
+        "last_edit": "Wed Oct 13 17:34:00 2021",
         "lightpath": false,
-        "location_group": "CRIX Catcher",
+        "location_group": "crix catcher",
         "name": "crix_rcc_x",
         "prefix": "CRIX:RCC:MMS:X",
         "stand": "K2S15",
@@ -722,9 +722,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 12 20:01:53 2021",
+        "last_edit": "Wed Oct 13 17:33:44 2021",
         "lightpath": false,
-        "location_group": "CRIX Catcher",
+        "location_group": "crix catcher",
         "name": "crix_rcc_y",
         "prefix": "CRIX:RCC:MMS:Y",
         "stand": "K2S15",
@@ -734,7 +734,9 @@
     "crix_rcc_z": {
         "_id": "crix_rcc_z",
         "active": true,
-        "args": [],
+         "args": [
+            "{{prefix}}"
+        ],
         "beamline": "RIX",
         "creation": "Tue Oct 12 19:56:26 2021",
         "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
