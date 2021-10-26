@@ -3012,10 +3012,17 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:07:08 2020",
+        "last_edit": "Mon Oct 25 09:16:04 2021",
         "lightpath": true,
         "location_group": "Section 06",
         "macros": null,
@@ -3025,7 +3032,7 @@
         "stand": "K0S04",
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 731.6
+        "z": 731.97
     },
     "im2k1": {
         "_id": "im2k1",
@@ -12920,7 +12927,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  7 12:41:21 2021",
+        "last_edit": "Mon Oct 25 09:16:18 2021",
         "lightpath": true,
         "location_group": "Section 06",
         "macros": null,
@@ -12930,7 +12937,7 @@
         "stand": null,
         "system": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 731.97
+        "z": 731.6
     },
     "sl2k4": {
         "_id": "sl2k4",
