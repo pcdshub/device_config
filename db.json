@@ -9950,7 +9950,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "RIX",
         "creation": "Mon Jun 28 15:07:26 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
