@@ -671,6 +671,66 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
     },
+    "crix_ptc_y_10": {
+        "_id": "crix_ptc_y_10",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Oct 29 13:09:49 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct 29 13:09:49 2021",
+        "lightpath": false,
+        "location_group": "cRIX Tcham",
+        "name": "crix_ptc_y_10",
+        "prefix": "CRIX:PTC:Y:MMS:10",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.007
+    },
+    "crix_ptc_y_11": {
+        "_id": "crix_ptc_y_11",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Oct 29 13:11:08 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct 29 13:11:08 2021",
+        "lightpath": false,
+        "location_group": "cRIX Tcham",
+        "name": "crix_ptc_y_11",
+        "prefix": "CRIX:PTC:Y:MMS:11",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.007
+    },
     "crix_rcc_x": {
         "_id": "crix_rcc_x",
         "active": true,
