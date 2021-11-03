@@ -10010,7 +10010,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "RIX",
+        "beamline": "CRIX_MODS",
         "creation": "Mon Jun 28 15:07:26 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -15264,7 +15264,7 @@
     },
     "xpp_jj_1": {
         "_id": "xpp_jj_1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15279,7 +15279,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct 21 11:48:18 2021",
+        "last_edit": "Mon Nov  1 18:38:28 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
