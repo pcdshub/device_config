@@ -731,96 +731,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.007
     },
-    "crix_rcc_x": {
-        "_id": "crix_rcc_x",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Oct 12 20:00:31 2021",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
-        "documentation": null,
-        "functional_group": "Motion",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Oct 13 17:34:00 2021",
-        "lightpath": false,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_x",
-        "prefix": "CRIX:RCC:MMS:X",
-        "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.009
-    },
-    "crix_rcc_y": {
-        "_id": "crix_rcc_y",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Oct 12 20:01:53 2021",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
-        "documentation": null,
-        "functional_group": "Motion",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Oct 13 17:33:44 2021",
-        "lightpath": false,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_y",
-        "prefix": "CRIX:RCC:MMS:Y",
-        "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.009
-    },
-    "crix_rcc_z": {
-        "_id": "crix_rcc_z",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Oct 12 19:56:26 2021",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
-        "documentation": null,
-        "functional_group": "Motion",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Oct 12 20:04:45 2021",
-        "lightpath": false,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_z",
-        "prefix": "CRIX:RCC:MMS:Z",
-        "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.009
-    },
     "crix_rcc_vrc_1": {
         "_id": "crix_rcc_vrc_1",
         "active": true,
@@ -940,6 +850,96 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.00996
+    },
+    "crix_rcc_x": {
+        "_id": "crix_rcc_x",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 20:00:31 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Oct 13 17:34:00 2021",
+        "lightpath": false,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_x",
+        "prefix": "CRIX:RCC:MMS:X",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_rcc_y": {
+        "_id": "crix_rcc_y",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 20:01:53 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Oct 13 17:33:44 2021",
+        "lightpath": false,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_y",
+        "prefix": "CRIX:RCC:MMS:Y",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_rcc_z": {
+        "_id": "crix_rcc_z",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Oct 12 19:56:26 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 12 20:04:45 2021",
+        "lightpath": false,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_z",
+        "prefix": "CRIX:RCC:MMS:Z",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
     },
     "cxi_dg1_pim": {
         "_id": "cxi_dg1_pim",
@@ -14967,11 +14967,14 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
+        "functional_group": "Diagnostic",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_wave8": "XCS:SB1:BMMON"
         },
-        "last_edit": "Tue May  7 15:36:21 2019",
+        "last_edit": "Wed Dec  8 23:41:21 2021",
         "lightpath": false,
+        "location_group": "XCS SB1",
         "macros": null,
         "name": "xcs_sb1_ipm",
         "parent": null,
