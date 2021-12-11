@@ -10315,7 +10315,7 @@
         "device_class": "pcdsdevices.device_types.Ell9",
         "documentation": null,
         "functional_group": "elliptecs",
-        "ioc_alias": "LM2K2:EJX_MP1_S41:ELL:M1",
+        "ioc_alias": "LM2K2:EJX_MP1_S41:M1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:EJX:ELL:0",
         "ioc_channel": "1",
