@@ -14651,20 +14651,26 @@
     },
     "xcs_lodcm": {
         "_id": "xcs_lodcm",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 12:53:14 2018",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.device_types.LODCM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Beam Control",
         "kwargs": {
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 27 12:53:14 2018",
+        "last_edit": "Tue Jan 11 12:28:47 2022",
         "lightpath": true,
+        "location_group": "MON",
         "macros": null,
         "mono_line": "XCS",
         "name": "xcs_lodcm",
