@@ -13238,6 +13238,35 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.2513984
     },
+    "sp1k4": {
+        "_id": "sp1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Tue Sep  7 10:39:35 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.spectrometer.TMOSpectrometer",
+        "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=L2SI&title=Spectrometer+Motion+System+and+Spectrometer+Design",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jan 12 12:28:27 2022",
+        "lightpath": true,
+        "location_group": "FZPS",
+        "macros": "None",
+        "name": "sp1k4",
+        "parent": null,
+        "prefix": "TMO:SPEC",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 764.266136
+    },
     "sp1l0": {
         "_id": "sp1l0",
         "active": true,
@@ -13652,35 +13681,6 @@
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
-    },
-    "tmo_spectrometer": {
-        "_id": "tmo_spectrometer",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TMO",
-        "creation": "Tue Sep  7 10:39:35 2021",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.spectrometer.TMOSpectrometer",
-        "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=L2SI&title=Spectrometer+Motion+System+and+Spectrometer+Design",
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Motion",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Mon Sep 27 11:22:14 2021",
-        "lightpath": true,
-        "location_group": "FZPS",
-        "macros": "None",
-        "name": "tmo_spectrometer",
-        "parent": null,
-        "prefix": "TMO:SPEC",
-        "stand": null,
-        "system": "motion",
-        "type": "pcdsdevices.happi.containers.Motor",
-        "z": -1.0
     },
     "tv1k2_vfs_1": {
         "_id": "tv1k2_vfs_1",
