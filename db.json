@@ -15707,14 +15707,21 @@
         "device_class": "pcdsdevices.epics_motor.DelayNewport",
         "documentation": null,
         "functional_group": "Motor",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:02:39 2020",
+        "last_edit": "Fri Jan 28 11:17:12 2022",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast",
-        "prefix": "XPP:LAS:MMN:04",
+        "prefix": "XPP:LAS:MMN:02",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 99999.0
