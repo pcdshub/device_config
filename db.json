@@ -731,6 +731,126 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.007
     },
+    "crix_rcc_vrc_1": {
+        "_id": "crix_rcc_vrc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Nov  16 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_vrc_1",
+        "prefix": "CRIX:RCC:VRC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00999
+    },
+    "crix_rcc_vrc_2": {
+        "_id": "crix_rcc_vrc_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Nov  16 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_vrc_2",
+        "prefix": "CRIX:RCC:VRC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00998
+    },
+    "crix_rcc_vrc_3": {
+        "_id": "crix_rcc_vrc_3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Nov  16 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_vrc_3",
+        "prefix": "CRIX:RCC:VRC:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00997
+    },
+    "crix_rcc_vrc_4": {
+        "_id": "crix_rcc_vrc_4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Nov  16 15:58:05 2021",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crix_rcc_vrc_4",
+        "prefix": "CRIX:RCC:VRC:04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00996
+    },
     "crix_rcc_x": {
         "_id": "crix_rcc_x",
         "active": true,
@@ -10010,7 +10130,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "RIX",
+        "beamline": "CRIX_MODS",
         "creation": "Mon Jun 28 15:07:26 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -10195,7 +10315,7 @@
         "device_class": "pcdsdevices.device_types.Ell9",
         "documentation": null,
         "functional_group": "elliptecs",
-        "ioc_alias": "LM2K2:EJX_MP1_S41:ELL:M1",
+        "ioc_alias": "LM2K2:EJX_MP1_S41:M1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:EJX:ELL:0",
         "ioc_channel": "1",
@@ -13118,6 +13238,35 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.2513984
     },
+    "sp1k4": {
+        "_id": "sp1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Tue Sep  7 10:39:35 2021",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.spectrometer.TMOSpectrometer",
+        "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=L2SI&title=Spectrometer+Motion+System+and+Spectrometer+Design",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jan 12 12:28:27 2022",
+        "lightpath": true,
+        "location_group": "FZPS",
+        "macros": "None",
+        "name": "sp1k4",
+        "parent": null,
+        "prefix": "TMO:SPEC",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 764.266136
+    },
     "sp1l0": {
         "_id": "sp1l0",
         "active": true,
@@ -13484,7 +13633,7 @@
         "beamline": "TMO",
         "creation": "Fri Oct  9 13:41:37 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.lamp_motion.LAMPFlowCell",
+        "device_class": "pcdsdevices.lamp_motion.LAMP_LV_17",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -13492,7 +13641,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct  5 09:33:00 2021",
+        "last_edit": "Mon Jan 31 15:47:34 2022",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
@@ -13532,35 +13681,6 @@
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
-    },
-    "tmo_spectrometer": {
-        "_id": "tmo_spectrometer",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TMO",
-        "creation": "Tue Sep  7 10:39:35 2021",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.spectrometer.TMOSpectrometer",
-        "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=L2SI&title=Spectrometer+Motion+System+and+Spectrometer+Design",
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Motion",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Mon Sep 27 11:22:14 2021",
-        "lightpath": true,
-        "location_group": "FZPS",
-        "macros": "None",
-        "name": "tmo_spectrometer",
-        "parent": null,
-        "prefix": "TMO:SPEC",
-        "stand": null,
-        "system": "motion",
-        "type": "pcdsdevices.happi.containers.Motor",
-        "z": -1.0
     },
     "tv1k2_vfs_1": {
         "_id": "tv1k2_vfs_1",
@@ -14531,20 +14651,26 @@
     },
     "xcs_lodcm": {
         "_id": "xcs_lodcm",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "HXD",
         "creation": "Tue Feb 27 12:53:14 2018",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.device_types.LODCM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Beam Control",
         "kwargs": {
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 27 12:53:14 2018",
+        "last_edit": "Tue Jan 11 12:28:47 2022",
         "lightpath": true,
+        "location_group": "MON",
         "macros": null,
         "mono_line": "XCS",
         "name": "xcs_lodcm",
@@ -14847,11 +14973,14 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
+        "functional_group": "Diagnostic",
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "prefix_wave8": "XCS:SB1:BMMON"
         },
-        "last_edit": "Tue May  7 15:36:21 2019",
+        "last_edit": "Wed Dec  8 23:41:21 2021",
         "lightpath": false,
+        "location_group": "XCS SB1",
         "macros": null,
         "name": "xcs_sb1_ipm",
         "parent": null,
@@ -15264,7 +15393,7 @@
     },
     "xpp_jj_1": {
         "_id": "xpp_jj_1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15279,7 +15408,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct 21 11:48:18 2021",
+        "last_edit": "Mon Nov  1 18:38:28 2021",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -15578,14 +15707,21 @@
         "device_class": "pcdsdevices.epics_motor.DelayNewport",
         "documentation": null,
         "functional_group": "Motor",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:02:39 2020",
+        "last_edit": "Fri Jan 28 11:17:12 2022",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast",
-        "prefix": "XPP:LAS:MMN:04",
+        "prefix": "XPP:LAS:MMN:02",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 99999.0
