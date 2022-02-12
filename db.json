@@ -2116,7 +2116,7 @@
         "macros": null,
         "name": "cxi_pulsepicker",
         "parent": null,
-        "prefix": "XRT:DIA:MMS:16",
+        "prefix": "CXI:DIA:MMS:16",
         "screen": null,
         "stand": null,
         "system": "beam control",
