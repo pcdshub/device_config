@@ -2878,6 +2878,35 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 783.5
     },
+    "hxrsss": {
+        "_id": "hxrsss",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Mar  2 19:57:28 2022",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.spectrometer.HXRSpectrometer",
+        "documentation": "https://confluence.slac.stanford.edu/display/PCDS/HXR+Single+Shot+Spectrometer+Controls",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar  2 19:57:28 2022",
+        "lightpath": true,
+        "location_group": "XRT",
+        "macros": null,
+        "name": "hxrsss",
+        "parent": null,
+        "prefix": "STEP:XRT1",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 805.813
+    },
     "hxx_von_hamos_y": {
         "_id": "hxx_von_hamos_y",
         "active": true,
@@ -15705,8 +15734,8 @@
         "type": "pcdsdevices.happi.containers.LODCM",
         "z": 781.1
     },
-    "xpp_lxt_fast": {
-        "_id": "xpp_lxt_fast",
+    "xpp_lxt_fast1": {
+        "_id": "xpp_lxt_fast1",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -15726,14 +15755,44 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Jan 28 11:17:12 2022",
+        "last_edit": "Thu Mar  3 15:59:22 2022",
         "lightpath": false,
         "location_group": "LAS",
-        "name": "xpp_lxt_fast",
+        "name": "xpp_lxt_fast1",
         "prefix": "XPP:LAS:MMN:02",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 99999.0
+    },
+    "xpp_lxt_fast2": {
+        "_id": "xpp_lxt_fast2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Thu Mar  3 16:05:11 2022",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar  3 16:05:11 2022",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xpp_lxt_fast2",
+        "prefix": "XPP:LAS:MMN:01",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "xpp_opa_wp": {
         "_id": "xpp_opa_wp",
