@@ -2488,6 +2488,36 @@
         "xgantry_prefix": "STEP:FEE1:861:MOTR",
         "z": 751.8430000000001
     },
+    "feh_setra": {
+        "_id": "feh_setra",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Mar  7 14:47:33 2022",
+        "device_class": "pcdsdevices.fms.Setra5000",
+        "documentation": null,
+        "functional_group": "SETRA",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar  7 14:47:33 2022",
+        "lightpath": false,
+        "location_group": "FEH",
+        "name": "feh_setra",
+        "prefix": "CXI:SETRA:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "hfx_mon_valve_1": {
         "_id": "hfx_mon_valve_1",
         "active": true,
@@ -12570,6 +12600,36 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 818.2
+    },
+    "neh_setra": {
+        "_id": "neh_setra",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Mar  7 16:04:01 2022",
+        "device_class": "pcdsdevices.fms.Setra5000",
+        "documentation": null,
+        "functional_group": "SETRA",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar  7 16:04:01 2022",
+        "lightpath": false,
+        "location_group": "NEH",
+        "name": "neh_setra",
+        "prefix": "RIX:SETRA:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "pa1l0_vfs_01": {
         "_id": "pa1l0_vfs_01",
