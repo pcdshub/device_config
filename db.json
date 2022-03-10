@@ -15094,7 +15094,7 @@
     },
     "xcs_reference_laser": {
         "_id": "xcs_reference_laser",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -16345,7 +16345,7 @@
     },
     "xrt_m2h": {
         "_id": "xrt_m2h",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -16378,7 +16378,7 @@
     },
     "xrt_m3h": {
         "_id": "xrt_m3h",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -16393,7 +16393,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 30 15:16:20 2021",
+        "last_edit": "Wed Mar  9 16:05:56 2022",
         "lightpath": true,
         "location_group": "XRT",
         "macros": null,
