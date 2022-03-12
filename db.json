@@ -7773,7 +7773,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 14:19:13 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -7795,7 +7795,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:02:09 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_ff1",
@@ -7810,7 +7810,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:23:45 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -7832,7 +7832,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:02:16 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_nf1",
@@ -7847,7 +7847,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Wed Mar 10 13:23:20 2021",
         "device_class": "pcdsdevices.device_types.El3174AiCh",
         "documentation": null,
@@ -7867,7 +7867,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:01:30 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_pm1",
@@ -7882,7 +7882,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  2 11:19:27 2021",
         "device_class": "pcdsdevices.device_types.Ell6",
         "documentation": null,
@@ -7904,7 +7904,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Sep 22 17:01:39 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_sl1",
@@ -7919,7 +7919,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:15:46 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -7941,7 +7941,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:02:01 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_ff1",
@@ -7956,7 +7956,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:31:00 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -7978,7 +7978,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:01:54 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_nf1",
@@ -7993,7 +7993,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Sep 21 18:13:49 2021",
         "device_class": "pcdsdevices.device_types.El3174AiCh",
         "documentation": null,
@@ -8013,7 +8013,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:01:23 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_pm1",
@@ -8028,7 +8028,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  2 11:23:31 2021",
         "device_class": "pcdsdevices.device_types.EllBase",
         "documentation": null,
@@ -8050,7 +8050,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Sep 22 17:01:47 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_sl1",
@@ -8065,7 +8065,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Sep 21 18:20:16 2021",
         "device_class": "pcdsdevices.device_types.QminiSpectrometer",
         "documentation": null,
@@ -8083,7 +8083,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:03:03 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_sp1",
@@ -8098,7 +8098,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 18:23:09 2021",
         "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
         "documentation": null,
@@ -8115,7 +8115,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:02:47 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_env_sens",
@@ -8130,7 +8130,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:46:21 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8149,7 +8149,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:05:48 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr1_lm1",
@@ -8164,7 +8164,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:45:12 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8183,7 +8183,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:05:22 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr1_tilt1",
@@ -8198,7 +8198,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:44:29 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8217,7 +8217,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:05:30 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr1_tip1",
@@ -8232,7 +8232,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:47:44 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8251,7 +8251,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:05:07 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr4_tilt1",
@@ -8266,7 +8266,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:47:02 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8285,7 +8285,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:04:58 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr4_tip1",
@@ -8300,7 +8300,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 17:02:11 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8319,7 +8319,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:58:26 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr7_tilt1",
@@ -8334,7 +8334,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 17:00:33 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8353,7 +8353,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:58:19 2021",
+        "last_edit": "Thu Mar 10 18:02:47 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr7_tip1",
@@ -8368,7 +8368,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:59:17 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8387,7 +8387,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:58:09 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr8_lm1",
@@ -8402,7 +8402,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:58:37 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8421,7 +8421,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:56:11 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr8_tilt1",
@@ -8436,7 +8436,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:58:02 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8455,7 +8455,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:56:04 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr8_tip1",
@@ -8470,7 +8470,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:59:55 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8489,7 +8489,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:55:27 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_pc1",
@@ -8504,7 +8504,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:55:00 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8523,7 +8523,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:55:38 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_pc1_pzm2",
@@ -8538,7 +8538,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:48:26 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8557,7 +8557,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 17:04:31 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_spo1",
@@ -8572,7 +8572,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:54:16 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8591,7 +8591,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:54:46 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr1_tilt1",
@@ -8606,7 +8606,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:53:35 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8625,7 +8625,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:54:39 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr1_tip1",
@@ -8640,7 +8640,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:57:19 2021",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -8659,7 +8659,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:54:19 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr2_lm1",
@@ -8674,7 +8674,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:56:42 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8693,7 +8693,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:53:52 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr2_tilt1",
@@ -8708,7 +8708,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Mar  9 16:55:39 2021",
         "device_class": "pcdsdevices.epics_motor.SmarActOpenLoop",
         "documentation": null,
@@ -8727,7 +8727,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Sep 22 16:53:44 2021",
+        "last_edit": "Thu Mar 10 18:02:48 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr2_tip1",
@@ -13947,7 +13947,7 @@
         "creation": "Fri Mar  4 14:55:45 2022",
         "device_class": "pcdsdevices.slits.BeckhoffSlits",
         "documentation": null,
-        "functional_group": "SLITS",
+        "functional_group": "Apertures",
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -15153,7 +15153,7 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "SLITS",
+        "functional_group": "Apertures",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -15182,7 +15182,7 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "SLITS",
+        "functional_group": "Apertures",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -15211,7 +15211,7 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "SLITS",
+        "functional_group": "Apertures",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -15240,7 +15240,7 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "SLITS",
+        "functional_group": "Apertures",
         "kwargs": {
             "name": "{{name}}"
         },
@@ -15496,6 +15496,126 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 1009.0
+    },
+    "xcs_leviton_r40_t": {
+        "_id": "xcs_leviton_r40_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Mar 10 22:33:42 2022",
+        "device_class": "pcdsdevices.fms.Leviton25",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 10 22:33:42 2022",
+        "lightpath": false,
+        "location_group": "XCS",
+        "name": "xcs_leviton_r40_t",
+        "prefix": "XCS:R40:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "xcs_leviton_r42_t": {
+        "_id": "xcs_leviton_r42_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Fri Mar 11 09:42:16 2022",
+        "device_class": "pcdsdevices.fms.Leviton26",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 11 09:42:16 2022",
+        "lightpath": false,
+        "location_group": "XCS",
+        "name": "xcs_leviton_r42_t",
+        "prefix": "XCS:R42:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "xcs_leviton_r43_t": {
+        "_id": "xcs_leviton_r43_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Fri Mar 11 09:43:43 2022",
+        "device_class": "pcdsdevices.fms.Leviton27",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 11 09:43:43 2022",
+        "lightpath": false,
+        "location_group": "XCS",
+        "name": "xcs_leviton_r43_t",
+        "prefix": "XCS:R43:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "xcs_leviton_r44_t": {
+        "_id": "xcs_leviton_r44_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Fri Mar 11 09:45:28 2022",
+        "device_class": "pcdsdevices.fms.Leviton28",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 11 09:45:28 2022",
+        "lightpath": false,
+        "location_group": "XCS",
+        "name": "xcs_leviton_r44_t",
+        "prefix": "XCS:R44:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "xcs_lodcm": {
         "_id": "xcs_lodcm",
