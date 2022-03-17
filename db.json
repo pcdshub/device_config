@@ -11750,6 +11750,156 @@
         "type": "pcdsdevices.happi.containers.IPM",
         "z": 990.2
     },
+    "mec_leviton_r62_t": {
+        "_id": "mec_leviton_r62_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 20:39:40 2022",
+        "device_class": "pcdsdevices.fms.Leviton51",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 20:39:40 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r62_t",
+        "prefix": "MEC:R62:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mec_leviton_rpci_h": {
+        "_id": "mec_leviton_rpci_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 21:21:15 2022",
+        "device_class": "pcdsdevices.fms.Leviton60",
+        "documentation": null,
+        "functional_group": "Leviton_Humidity",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 21:21:15 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_rpci_h",
+        "prefix": "MEC:RPCI:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mec_leviton_rpci_t": {
+        "_id": "mec_leviton_rpci_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 20:33:22 2022",
+        "device_class": "pcdsdevices.fms.Leviton49",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 20:33:22 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_rpci_t",
+        "prefix": "MEC:RPCI:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mec_leviton_rs67c_t": {
+        "_id": "mec_leviton_rs67c_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 20:36:01 2022",
+        "device_class": "pcdsdevices.fms.Leviton50",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 20:40:06 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_rs67c_t",
+        "prefix": "MEC:RS67C:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mec_leviton_s60_t": {
+        "_id": "mec_leviton_s60_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 20:42:03 2022",
+        "device_class": "pcdsdevices.fms.Leviton52",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 20:42:03 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_s60_t",
+        "prefix": "MEC:S60:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mec_mxt_valve": {
         "_id": "mec_mxt_valve",
         "active": true,
@@ -17230,6 +17380,66 @@
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 99999.0
+    },
+    "xpp_leviton_mon_t": {
+        "_id": "xpp_leviton_mon_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Mar 15 21:46:38 2022",
+        "device_class": "pcdsdevices.fms.Leviton82",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Mar 15 21:46:38 2022",
+        "lightpath": false,
+        "location_group": "XPP",
+        "name": "xpp_leviton_mon_t",
+        "prefix": "XPP:MON:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "xpp_leviton_r32_t": {
+        "_id": "xpp_leviton_r32_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Wed Mar 16 13:46:58 2022",
+        "device_class": "pcdsdevices.fms.Leviton83",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 16 13:49:19 2022",
+        "lightpath": false,
+        "location_group": "XPP",
+        "name": "xpp_leviton_r32_t",
+        "prefix": "XPP:R32:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "xpp_lodcm": {
         "_id": "xpp_lodcm",
