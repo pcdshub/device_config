@@ -4395,6 +4395,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 792.819
     },
+    "las_btps": {
+        "_id": "las_btps",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Mon Mar 21 11:33:32 2022",
+        "device_class": "pcdsdevices.lasers.btps.BtpsState",
+        "documentation": "Laser Beam Transport Protection System (BTPS) State",
+        "functional_group": "BTPS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar 21 11:33:32 2022",
+        "lightpath": false,
+        "location_group": "Bay 1",
+        "name": "las_btps",
+        "prefix": "LTLHN:BTPS:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "las_bts_mcs2_01_m1": {
         "_id": "las_bts_mcs2_01_m1",
         "active": true,
