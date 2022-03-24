@@ -5300,6 +5300,45 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "lm1k4_atm_mp1_mr0": {
+        "_id": "lm1k4_atm_mp1_mr0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Mar 23 14:01:42 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "ioc_alias": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:02",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-02",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-02",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.10",
+        "ioc_tilt_channel": "18",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "17",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Wed Mar 23 14:01:42 2022",
+        "lightpath": false,
+        "location_group": "5_lm1k4_atm",
+        "name": "lm1k4_atm_mp1_mr0",
+        "prefix": "LM1K4:ATM_MP1_MR0",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm1k4_atm_mp1_mr1_tilt1": {
         "_id": "lm1k4_atm_mp1_mr1_tilt1",
         "active": true,
@@ -9289,7 +9328,7 @@
     },
     "lm1k4_int_mp1_dly1": {
         "_id": "lm1k4_int_mp1_dly1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9312,7 +9351,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 12 10:34:40 2021",
+        "last_edit": "Wed Mar 23 12:44:49 2022",
         "lightpath": false,
         "location_group": "4_lm1k4_int",
         "name": "lm1k4_int_mp1_dly1",
