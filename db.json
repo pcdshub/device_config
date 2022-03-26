@@ -11819,6 +11819,36 @@
         "type": "pcdsdevices.happi.containers.IPM",
         "z": 990.2
     },
+    "mec_leviton_r60_t": {
+        "_id": "mec_leviton_r60_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Fri Mar 25 14:54:16 2022",
+        "device_class": "pcdsdevices.fms.Leviton53",
+        "documentation": null,
+        "functional_group": "Leviton_Temp",
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 25 14:54:16 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r60_t",
+        "prefix": "MEC:R60:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mec_leviton_r62_t": {
         "_id": "mec_leviton_r62_t",
         "active": true,
