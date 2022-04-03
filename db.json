@@ -2712,7 +2712,7 @@
         "creation": "Wed Mar  9 19:04:53 2022",
         "device_class": "pcdsdevices.fms.Leviton8",
         "documentation": null,
-        "functional_group": "RackPDU_Temperature",
+        "functional_group": "Leviton_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2723,7 +2723,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 31 13:30:32 2022",
+        "last_edit": "Sat Apr  2 14:46:11 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_t",
