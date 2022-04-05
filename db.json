@@ -15634,7 +15634,7 @@
     },
     "vls_camera_distance": {
         "_id": "vls_camera_distance",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15664,7 +15664,7 @@
     },
     "vls_camera_pitch": {
         "_id": "vls_camera_pitch",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15693,7 +15693,7 @@
     },
     "vls_focus_mirror": {
         "_id": "vls_focus_mirror",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15722,7 +15722,7 @@
     },
     "vls_grating_pitch": {
         "_id": "vls_grating_pitch",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15751,7 +15751,7 @@
     },
     "vls_slit_down": {
         "_id": "vls_slit_down",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15780,7 +15780,7 @@
     },
     "vls_slit_left": {
         "_id": "vls_slit_left",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15809,7 +15809,7 @@
     },
     "vls_slit_right": {
         "_id": "vls_slit_right",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -15838,7 +15838,7 @@
     },
     "vls_slit_up": {
         "_id": "vls_slit_up",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
