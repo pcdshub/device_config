@@ -941,6 +941,96 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
     },
+    "crix_sds_x": {
+        "_id": "crix_sds_x",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Apr 5 19:56:26 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr 5 20:04:45 2021",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_x",
+        "prefix": "CRIX:SDS:MMS:X",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_sds_y": {
+        "_id": "crix_sds_y",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Apr 5 19:56:26 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr 5 20:04:45 2021",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_y",
+        "prefix": "CRIX:SDS:MMS:Y",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
+    "crix_sds_z": {
+        "_id": "crix_sds_z",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Apr 5 19:56:26 2021",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr 5 20:04:45 2021",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_z",
+        "prefix": "CRIX:SDS:MMS:Z",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.009
+    },
     "cxi_dg1_pim": {
         "_id": "cxi_dg1_pim",
         "active": true,
@@ -3329,6 +3419,23 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 977.313
+    },
+    "homs_env": {
+        "_id": "homs_env",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Tue Apr  5 10:57:35 2022",
+        "device_class": "pcdsdevices.rtds_homs.HomsEnvironment",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr  5 15:29:52 2022",
+        "name": "homs_env",
+        "prefix": "",
+        "type": "OphydItem"
     },
     "hx2_ipm": {
         "_id": "hx2_ipm",
@@ -13960,6 +14067,23 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "optics_homs_notepad": {
+        "_id": "optics_homs_notepad",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Tue Apr  5 16:23:43 2022",
+        "device_class": "pcdsdevices.optics_pitch_pad.OpticsPitchNotepad",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr  5 16:46:51 2022",
+        "name": "optics_homs_notepad",
+        "prefix": "",
+        "type": "OphydItem"
+    },
     "pa1l0_vfs_01": {
         "_id": "pa1l0_vfs_01",
         "active": false,
@@ -17221,11 +17345,11 @@
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls",
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "None",
+        "functional_group": "SLITS",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  1 18:38:28 2021",
+        "last_edit": "Tue Apr  5 11:18:45 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
