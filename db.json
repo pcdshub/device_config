@@ -17295,13 +17295,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:25:33 2020",
+        "last_edit": "Wed Apr  6 15:50:07 2022",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
         "name": "xpp_com_wp",
         "parent": null,
-        "prefix": "XPP:LAS:MMN:01",
+        "prefix": "XPP:LAS:MMN:19",
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
