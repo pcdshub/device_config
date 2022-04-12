@@ -14135,6 +14135,40 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "mr4k4_kbo": {
+        "_id": "mr4k4_kbo",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Mon Apr 11 13:27:08 2022",
+        "device_class": "pcdsdevices.mirror.FFMirrorZ",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 11 13:27:08 2022",
+        "name": "mr4k4_kbo",
+        "prefix": "MR4K4:KBO",
+        "type": "OphydItem"
+    },
+    "mr5k4_kbo": {
+        "_id": "mr5k4_kbo",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Mon Apr 11 16:18:22 2022",
+        "device_class": "pcdsdevices.mirror.FFMirrorZ",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 11 16:18:22 2022",
+        "name": "mr5k4_kbo",
+        "prefix": "MR5K4:KBO",
+        "type": "OphydItem"
+    },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
         "active": true,
