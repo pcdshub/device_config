@@ -14141,33 +14141,61 @@
         "args": [
             "{{prefix}}"
         ],
-        "creation": "Mon Apr 11 13:27:08 2022",
+        "beamline": "TMO",
+        "creation": "Wed Apr 13 13:37:37 2022",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.FFMirrorZ",
         "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 11 13:27:08 2022",
+        "last_edit": "Wed Apr 13 13:39:22 2022",
+        "lightpath": true,
+        "location_group": "TMO GS2",
+        "macros": null,
         "name": "mr4k4_kbo",
+        "parent": null,
         "prefix": "MR4K4:KBO",
-        "type": "OphydItem"
+        "prefix_xy": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": -1.0
     },
-    "mr5k4_kbo": {
-        "_id": "mr5k4_kbo",
+    "mr5kr_kbo": {
+        "_id": "mr5kr_kbo",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
-        "creation": "Mon Apr 11 16:18:22 2022",
+        "beamline": "TMO",
+        "creation": "Wed Apr 13 14:38:56 2022",
+        "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.FFMirrorZ",
         "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 11 16:18:22 2022",
-        "name": "mr5k4_kbo",
+        "last_edit": "Wed Apr 13 14:38:56 2022",
+        "lightpath": true,
+        "location_group": "TMO GS2",
+        "macros": null,
+        "name": "mr5kr_kbo",
+        "parent": null,
         "prefix": "MR5K4:KBO",
-        "type": "OphydItem"
+        "prefix_xy": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "xgantry_prefix": null,
+        "z": -1.0
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
