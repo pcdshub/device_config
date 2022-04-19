@@ -15085,6 +15085,35 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
     },
+    "sq1_lamp": {
+        "_id": "sq1_lamp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Apr 18 14:13:58 2022",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.sq1.Sq1",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 18 14:13:58 2022",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "macros": null,
+        "name": "sq1_lamp",
+        "parent": null,
+        "prefix": "MCQ:TMO:01",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 760.0
+    },
     "st1k1_zos": {
         "_id": "st1k1_zos",
         "active": true,
