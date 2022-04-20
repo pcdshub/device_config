@@ -14166,8 +14166,8 @@
         "xgantry_prefix": null,
         "z": -1.0
     },
-    "mr5kr_kbo": {
-        "_id": "mr5kr_kbo",
+    "mr5k4_kbo": {
+        "_id": "mr5k4_kbo",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -14183,11 +14183,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr 13 14:38:56 2022",
+        "last_edit": "Tue Apr 19 10:47:30 2022",
         "lightpath": true,
         "location_group": "TMO GS2",
         "macros": null,
-        "name": "mr5kr_kbo",
+        "name": "mr5k4_kbo",
         "parent": null,
         "prefix": "MR5K4:KBO",
         "prefix_xy": null,
@@ -14282,12 +14282,12 @@
             "{{prefix}}"
         ],
         "creation": "Tue Apr  5 16:23:43 2022",
-        "device_class": "pcdsdevices.optics_pitch_pad.OpticsPitchNotepad",
+        "device_class": "pcdsdevices.mirror.OpticsPitchNotepad",
         "documentation": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Apr  5 16:46:51 2022",
+        "last_edit": "Tue Apr 19 14:43:48 2022",
         "name": "optics_homs_notepad",
         "prefix": "",
         "type": "OphydItem"
