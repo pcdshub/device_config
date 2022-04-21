@@ -15091,7 +15091,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "TMO",
+        "beamline": "None",
         "creation": "Mon Apr 18 14:13:58 2022",
         "detailed_screen": null,
         "device_class": "pcdsdevices.sq1.Sq1",
@@ -15102,9 +15102,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 18 14:13:58 2022",
+        "last_edit": "Wed Apr 20 12:33:27 2022",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "None",
         "macros": null,
         "name": "sq1_lamp",
         "parent": null,
