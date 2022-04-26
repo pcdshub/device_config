@@ -9497,6 +9497,36 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_qadc": {
+        "_id": "lm1k4_qadc",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Apr 25 15:16:14 2022",
+        "device_class": "pcdsdevices.digitizers.Qadc134",
+        "documentation": null,
+        "functional_group": "None",
+        "ioc_arch": null,
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 25 15:23:52 2022",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "lm1k4_qadc",
+        "prefix": "LM1K4:QADC:01",
+        "stand": "IP1",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "lm2k2_atm_dp1_tf1_ff1": {
         "_id": "lm2k2_atm_dp1_tf1_ff1",
         "active": true,
