@@ -9503,7 +9503,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "TMO",
+        "beamline": "None",
         "creation": "Mon Apr 25 15:16:14 2022",
         "device_class": "pcdsdevices.digitizers.Qadc134",
         "documentation": null,
@@ -9518,7 +9518,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 25 15:23:52 2022",
+        "last_edit": "Tue Apr 26 16:31:24 2022",
         "lightpath": false,
         "location_group": "None",
         "name": "lm1k4_qadc",
