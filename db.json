@@ -9503,11 +9503,11 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "None",
+        "beamline": "TMO",
         "creation": "Mon Apr 25 15:16:14 2022",
         "device_class": "pcdsdevices.digitizers.Qadc134",
         "documentation": null,
-        "functional_group": "None",
+        "functional_group": "Digitizer",
         "ioc_arch": null,
         "ioc_engineer": "tjohnson",
         "ioc_hutch": null,
@@ -9518,9 +9518,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Apr 26 16:31:24 2022",
+        "last_edit": "Wed Apr 27 11:23:16 2022",
         "lightpath": false,
-        "location_group": "None",
+        "location_group": "TMO IP1",
         "name": "lm1k4_qadc",
         "prefix": "LM1K4:QADC:01",
         "stand": "IP1",
