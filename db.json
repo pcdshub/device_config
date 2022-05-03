@@ -12083,7 +12083,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "XPP",
+        "beamline": "MEC",
         "creation": "Fri Jun 18 13:43:28 2021",
         "detailed_screen": null,
         "device_class": "pcdsdevices.slits.JJSlits",
@@ -12094,7 +12094,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr  8 16:13:56 2022",
+        "last_edit": "Mon May  2 12:46:27 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -12112,7 +12112,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "XPP",
+        "beamline": "MEC",
         "creation": "Fri Jun 18 13:58:52 2021",
         "detailed_screen": "None",
         "device_class": "pcdsdevices.slits.JJSlits",
@@ -12123,7 +12123,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr  8 16:14:24 2022",
+        "last_edit": "Mon May  2 12:46:34 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": "None",
@@ -12141,7 +12141,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "XPP",
+        "beamline": "MEC",
         "creation": "Fri Jun 18 14:02:27 2021",
         "detailed_screen": null,
         "device_class": "pcdsdevices.slits.JJSlits",
@@ -12152,7 +12152,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr  8 16:14:47 2022",
+        "last_edit": "Mon May  2 12:46:39 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -12170,7 +12170,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "XPP",
+        "beamline": "MEC",
         "creation": "Fri Jun 18 14:07:17 2021",
         "detailed_screen": null,
         "device_class": "pcdsdevices.slits.JJSlits",
@@ -12181,7 +12181,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr  8 16:15:15 2022",
+        "last_edit": "Mon May  2 12:46:44 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
