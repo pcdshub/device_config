@@ -176,9 +176,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "last_edit": "Thu May  5 11:35:11 2022",
         "lightpath": true,
-        "location_group": "Section 03",
+        "location_group": "Electron Beam Dump",
         "name": "at1k0_gas_vgc_1",
         "prefix": "AT1K0:GAS:VGC:1",
         "stand": null,
@@ -262,9 +262,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:37:26 2022",
+        "last_edit": "Thu May  5 11:12:06 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "at1l0",
         "prefix": "SATT:FEE1:320",
         "stand": "L0S05",
@@ -357,9 +357,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:37:34 2022",
+        "last_edit": "Thu May  5 11:12:14 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "at2l0",
         "parent": null,
@@ -390,9 +390,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:48:24 2022",
+        "last_edit": "Thu May  5 11:12:24 2022",
         "lightpath": false,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "at2l0_calc",
         "prefix": "AT2L0:CALC",
         "stand": "L0S07",
@@ -420,9 +420,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:44:18 2022",
+        "last_edit": "Thu May  5 11:18:58 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "bt2l0_pleg_vgc01",
         "prefix": "BT2L0:PLEG:VGC:01",
         "stand": null,
@@ -3162,9 +3162,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:37:55 2022",
+        "last_edit": "Thu May  5 11:12:37 2022",
         "lightpath": false,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "em1l0",
         "parent": null,
@@ -3195,9 +3195,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:38:43 2022",
+        "last_edit": "Thu May  5 11:19:18 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "em1l0_gem_vgc10",
         "prefix": "EM1L0:GEM:VGC:10",
         "stand": null,
@@ -3225,9 +3225,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "last_edit": "Thu May  5 11:36:46 2022",
         "lightpath": true,
-        "location_group": "Section 04",
+        "location_group": "Front End Enclosure",
         "name": "em2k0_xgmd_vgc_1",
         "prefix": "EM2K0:XGMD:VGC:1",
         "stand": null,
@@ -3255,9 +3255,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "last_edit": "Thu May  5 11:36:55 2022",
         "lightpath": true,
-        "location_group": "Section 04",
+        "location_group": "Front End Enclosure",
         "name": "em2k0_xgmd_vgc_2",
         "prefix": "EM2K0:XGMD:VGC:2",
         "stand": null,
@@ -3288,9 +3288,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:38:02 2022",
+        "last_edit": "Thu May  5 11:12:45 2022",
         "lightpath": false,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "em2l0",
         "parent": null,
@@ -3321,9 +3321,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:38:52 2022",
+        "last_edit": "Thu May  5 11:28:47 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "em2l0_gem_vgc70",
         "prefix": "EM2L0:GEM:VGC:70",
         "stand": null,
@@ -3838,9 +3838,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  2 19:57:28 2022",
+        "last_edit": "Thu May  5 11:25:40 2022",
         "lightpath": true,
-        "location_group": "XRT",
+        "location_group": "X-Ray Tunnel",
         "macros": null,
         "name": "hxrsss",
         "parent": null,
@@ -3916,12 +3916,19 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Feb 25 15:06:19 2020",
+        "last_edit": "Thu May  5 11:34:18 2022",
         "lightpath": true,
-        "location_group": "Section 02",
+        "location_group": "Electron Beam Dump",
         "macros": null,
         "name": "im1k0",
         "parent": null,
@@ -4102,9 +4109,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:32:05 2022",
+        "last_edit": "Thu May  5 11:24:32 2022",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "macros": null,
         "name": "im1l0",
         "parent": null,
@@ -4135,9 +4142,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:31:26 2022",
+        "last_edit": "Thu May  5 11:23:07 2022",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "name": "im1l0_xtes_vgc01",
         "prefix": "IM1L0:XTES:VGC:01",
         "stand": null,
@@ -4197,9 +4204,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct 25 09:16:04 2021",
+        "last_edit": "Thu May  5 11:37:40 2022",
         "lightpath": true,
-        "location_group": "Section 06",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "im2k0",
         "parent": null,
@@ -4329,9 +4336,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:39:32 2022",
+        "last_edit": "Thu May  5 11:12:56 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "im2l0",
         "parent": null,
@@ -4425,9 +4432,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:43:49 2022",
+        "last_edit": "Thu May  5 11:13:37 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "im3l0",
         "parent": null,
@@ -4521,9 +4528,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:45:40 2022",
+        "last_edit": "Thu May  5 11:10:42 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "im4l0",
         "parent": null,
@@ -14048,9 +14055,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:42:46 2022",
+        "last_edit": "Thu May  5 11:13:58 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "mr1l0_homs",
         "parent": null,
@@ -14083,9 +14090,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:43:14 2022",
+        "last_edit": "Thu May  5 11:20:02 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "mr1l0_homs_vgc01",
         "prefix": "MR1L0:HOMS:VGC:01",
         "stand": null,
@@ -14200,9 +14207,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:44:54 2022",
+        "last_edit": "Thu May  5 11:14:11 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "mr2l0_homs",
         "parent": null,
@@ -14235,9 +14242,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:45:11 2022",
+        "last_edit": "Thu May  5 11:20:09 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "mr2l0_homs_vgc01",
         "prefix": "MR2L0:HOMS:VGC:01",
         "stand": null,
@@ -14265,9 +14272,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:46:26 2022",
+        "last_edit": "Thu May  5 11:20:29 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "mr2l0_homs_vgc_02",
         "prefix": "MR2L0:HOMS:VGC:02",
         "stand": null,
@@ -14603,9 +14610,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:40:37 2022",
+        "last_edit": "Thu May  5 11:20:45 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "pa1l0_vfs_01",
         "prefix": "PA1L0:VFS:01",
         "stand": null,
@@ -14633,9 +14640,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:40:55 2022",
+        "last_edit": "Thu May  5 11:21:06 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "pc1l0_xtes_vgc01",
         "prefix": "PC1L0:XTES:VGC:01",
         "stand": null,
@@ -14683,12 +14690,19 @@
         "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
         "documentation": null,
         "functional_group": "WFS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 29 12:35:12 2020",
+        "last_edit": "Thu May  5 11:38:42 2022",
         "lightpath": true,
-        "location_group": "Section 06",
+        "location_group": "Front End Enclosure",
         "name": "pf1k0",
         "prefix": "PF1K0:WFS",
         "stand": "K0S04",
@@ -14762,9 +14776,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:41:49 2022",
+        "last_edit": "Thu May  5 11:22:31 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "pf1l0",
         "prefix": "PF1L0:WFS",
         "stand": "L0S08",
@@ -14815,9 +14829,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  7 12:16:51 2021",
+        "last_edit": "Thu May  5 11:32:51 2022",
         "lightpath": true,
-        "location_group": "Section 01",
+        "location_group": "Electron Beam Dump",
         "name": "rtdsk0",
         "prefix": "RTDSK0",
         "stand": null,
@@ -14845,9 +14859,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:23:47 2022",
+        "last_edit": "Thu May  5 11:24:52 2022",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "name": "rtdsl0",
         "prefix": "RTDSL0",
         "stand": null,
@@ -15026,9 +15040,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  7 12:47:40 2021",
+        "last_edit": "Thu May  5 11:34:41 2022",
         "lightpath": true,
-        "location_group": "Section 02",
+        "location_group": "Electron Beam Dump",
         "name": "sl1k0",
         "prefix": "SL1K0:POWER",
         "stand": null,
@@ -15148,9 +15162,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:35:17 2022",
+        "last_edit": "Thu May  5 11:17:09 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "sl1l0",
         "parent": null,
@@ -15184,9 +15198,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct 25 09:16:18 2021",
+        "last_edit": "Thu May  5 11:37:51 2022",
         "lightpath": true,
-        "location_group": "Section 06",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "sl2k0",
         "parent": null,
@@ -15398,9 +15412,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:40:06 2022",
+        "last_edit": "Thu May  5 11:17:30 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "macros": null,
         "name": "sp1l0",
         "parent": null,
@@ -15571,9 +15585,9 @@
             "name": "{{name}}",
             "out_state": "NOT_IN"
         },
-        "last_edit": "Fri Apr 29 15:46:03 2022",
+        "last_edit": "Thu May  5 11:18:07 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "st1l0_pps",
         "prefix": "PPS:NEH1:1:ST1L0INSUM",
         "stand": null,
@@ -15980,9 +15994,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:29:51 2022",
+        "last_edit": "Thu May  5 11:23:25 2022",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "name": "tv1l0_vgc01",
         "prefix": "TV1L0:VGC:01",
         "stand": null,
@@ -16010,9 +16024,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "last_edit": "Thu May  5 11:38:15 2022",
         "lightpath": true,
-        "location_group": "Section 06",
+        "location_group": "Front End Enclosure",
         "name": "tv2k0_vfs_1",
         "prefix": "TV2K0:VFS:1",
         "stand": null,
@@ -16040,9 +16054,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 15:58:04 2021",
+        "last_edit": "Thu May  5 11:38:26 2022",
         "lightpath": true,
-        "location_group": "Section 06",
+        "location_group": "Front End Enclosure",
         "name": "tv2k0_vgc_1",
         "prefix": "TV2K0:VGC:1",
         "stand": null,
@@ -16070,9 +16084,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:30:31 2022",
+        "last_edit": "Thu May  5 11:23:33 2022",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "name": "tv2l0_vgc01",
         "prefix": "TV2L0:VGC:01",
         "stand": null,
@@ -16100,9 +16114,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:33:42 2022",
+        "last_edit": "Thu May  5 11:21:23 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "tv2l0_vgc02",
         "prefix": "TV2L0:VGC:02",
         "stand": null,
@@ -16160,9 +16174,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 29 15:47:14 2022",
+        "last_edit": "Thu May  5 11:22:12 2022",
         "lightpath": true,
-        "location_group": "FEE",
+        "location_group": "Front End Enclosure",
         "name": "tv3l0_vfs01",
         "prefix": "TV3L0:VFS:01",
         "stand": null,
