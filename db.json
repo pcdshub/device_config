@@ -2140,7 +2140,7 @@
         "creation": "Wed Mar  9 19:24:40 2022",
         "device_class": "pcdsdevices.fms.Leviton9",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2151,7 +2151,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:24:40 2022",
+        "last_edit": "Fri May 13 09:09:34 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_h",
@@ -2170,7 +2170,7 @@
         "creation": "Thu Mar 10 12:52:40 2022",
         "device_class": "pcdsdevices.fms.Leviton17",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2181,7 +2181,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:02:01 2022",
+        "last_edit": "Fri May 13 09:09:43 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_l",
@@ -2200,7 +2200,7 @@
         "creation": "Mon Mar  7 21:41:49 2022",
         "device_class": "pcdsdevices.fms.Leviton1",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2211,7 +2211,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:21:30 2022",
+        "last_edit": "Fri May 13 09:09:55 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_t",
@@ -2230,7 +2230,7 @@
         "creation": "Wed Mar  9 19:25:58 2022",
         "device_class": "pcdsdevices.fms.Leviton10",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2241,7 +2241,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:28:25 2022",
+        "last_edit": "Fri May 13 09:09:07 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_h",
@@ -2260,7 +2260,7 @@
         "creation": "Thu Mar 10 13:03:24 2022",
         "device_class": "pcdsdevices.fms.Leviton18",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2271,7 +2271,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:03:24 2022",
+        "last_edit": "Fri May 13 09:08:50 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_l",
@@ -2290,7 +2290,7 @@
         "creation": "Tue Mar  8 12:14:23 2022",
         "device_class": "pcdsdevices.fms.Leviton2",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2301,7 +2301,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:21:44 2022",
+        "last_edit": "Fri May 13 09:08:42 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_t",
@@ -2320,7 +2320,7 @@
         "creation": "Wed Mar  9 19:27:48 2022",
         "device_class": "pcdsdevices.fms.Leviton11",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2331,7 +2331,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:27:48 2022",
+        "last_edit": "Fri May 13 09:07:44 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_h",
@@ -2350,7 +2350,7 @@
         "creation": "Thu Mar 10 13:05:01 2022",
         "device_class": "pcdsdevices.fms.Leviton19",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2361,7 +2361,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:05:01 2022",
+        "last_edit": "Fri May 13 09:07:58 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_l",
@@ -2380,7 +2380,7 @@
         "creation": "Wed Mar  9 18:41:21 2022",
         "device_class": "pcdsdevices.fms.Leviton3",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2391,7 +2391,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:21:57 2022",
+        "last_edit": "Fri May 13 09:08:12 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_t",
@@ -2410,7 +2410,7 @@
         "creation": "Wed Mar  9 19:30:51 2022",
         "device_class": "pcdsdevices.fms.Leviton12",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2421,7 +2421,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:30:51 2022",
+        "last_edit": "Fri May 13 09:07:21 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_h",
@@ -2440,7 +2440,7 @@
         "creation": "Thu Mar 10 13:06:28 2022",
         "device_class": "pcdsdevices.fms.Leviton20",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2451,7 +2451,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:19:35 2022",
+        "last_edit": "Fri May 13 09:07:06 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_l",
@@ -2470,7 +2470,7 @@
         "creation": "Wed Mar  9 18:50:33 2022",
         "device_class": "pcdsdevices.fms.Leviton4",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2481,7 +2481,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:22:07 2022",
+        "last_edit": "Fri May 13 09:06:52 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_t",
@@ -2500,7 +2500,7 @@
         "creation": "Wed Mar  9 19:32:12 2022",
         "device_class": "pcdsdevices.fms.Leviton13",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2511,7 +2511,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:32:12 2022",
+        "last_edit": "Fri May 13 09:05:40 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_h",
@@ -2530,7 +2530,7 @@
         "creation": "Thu Mar 10 13:08:05 2022",
         "device_class": "pcdsdevices.fms.Leviton21",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2541,7 +2541,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:08:05 2022",
+        "last_edit": "Fri May 13 09:05:52 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_l",
@@ -2560,7 +2560,7 @@
         "creation": "Wed Mar  9 18:55:18 2022",
         "device_class": "pcdsdevices.fms.Leviton5",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2571,7 +2571,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:22:25 2022",
+        "last_edit": "Fri May 13 09:06:11 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_t",
@@ -2590,7 +2590,7 @@
         "creation": "Wed Mar  9 19:33:31 2022",
         "device_class": "pcdsdevices.fms.Leviton14",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2601,7 +2601,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:34:23 2022",
+        "last_edit": "Fri May 13 09:04:17 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_h",
@@ -2620,7 +2620,7 @@
         "creation": "Thu Mar 10 13:09:31 2022",
         "device_class": "pcdsdevices.fms.Leviton22",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2631,7 +2631,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:09:31 2022",
+        "last_edit": "Fri May 13 09:04:04 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_l",
@@ -2650,7 +2650,7 @@
         "creation": "Wed Mar  9 19:02:12 2022",
         "device_class": "pcdsdevices.fms.Leviton6",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2661,7 +2661,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:22:35 2022",
+        "last_edit": "Fri May 13 09:03:42 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_t",
@@ -2680,7 +2680,7 @@
         "creation": "Wed Mar  9 19:35:54 2022",
         "device_class": "pcdsdevices.fms.Leviton15",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2691,7 +2691,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:35:54 2022",
+        "last_edit": "Fri May 13 08:57:29 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_h",
@@ -2710,7 +2710,7 @@
         "creation": "Thu Mar 10 13:11:05 2022",
         "device_class": "pcdsdevices.fms.Leviton23",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2721,7 +2721,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:11:05 2022",
+        "last_edit": "Fri May 13 08:57:39 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_l",
@@ -2740,7 +2740,7 @@
         "creation": "Wed Mar  9 19:03:28 2022",
         "device_class": "pcdsdevices.fms.Leviton7",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2751,7 +2751,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:22:43 2022",
+        "last_edit": "Fri May 13 09:03:06 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_t",
@@ -2770,7 +2770,7 @@
         "creation": "Wed Mar  9 19:38:25 2022",
         "device_class": "pcdsdevices.fms.Leviton16",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2781,7 +2781,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar  9 19:38:25 2022",
+        "last_edit": "Fri May 13 08:55:31 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_h",
@@ -2800,7 +2800,7 @@
         "creation": "Thu Mar 10 13:12:29 2022",
         "device_class": "pcdsdevices.fms.Leviton24",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2811,7 +2811,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 13:12:29 2022",
+        "last_edit": "Fri May 13 08:55:13 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_l",
@@ -2830,7 +2830,7 @@
         "creation": "Wed Mar  9 19:04:53 2022",
         "device_class": "pcdsdevices.fms.Leviton8",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -2841,7 +2841,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sat Apr  2 14:46:11 2022",
+        "last_edit": "Fri May 13 08:51:35 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_t",
@@ -12358,7 +12358,7 @@
         "creation": "Fri Mar 25 14:54:16 2022",
         "device_class": "pcdsdevices.fms.Leviton53",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12369,7 +12369,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 25 14:54:16 2022",
+        "last_edit": "Fri May 13 09:37:11 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r60_t",
@@ -12388,7 +12388,7 @@
         "creation": "Tue Mar 15 20:39:40 2022",
         "device_class": "pcdsdevices.fms.Leviton51",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12399,7 +12399,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 20:39:40 2022",
+        "last_edit": "Fri May 13 09:36:53 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r62_t",
@@ -12418,7 +12418,7 @@
         "creation": "Tue Mar 15 21:21:15 2022",
         "device_class": "pcdsdevices.fms.Leviton60",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12429,7 +12429,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 21:21:15 2022",
+        "last_edit": "Fri May 13 09:36:23 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_h",
@@ -12448,7 +12448,7 @@
         "creation": "Tue Mar 15 20:33:22 2022",
         "device_class": "pcdsdevices.fms.Leviton49",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12459,7 +12459,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 20:33:22 2022",
+        "last_edit": "Fri May 13 09:35:40 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_t",
@@ -12478,7 +12478,7 @@
         "creation": "Tue Mar 15 20:36:01 2022",
         "device_class": "pcdsdevices.fms.Leviton50",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12489,7 +12489,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 20:40:06 2022",
+        "last_edit": "Fri May 13 09:35:18 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs67c_t",
@@ -12508,7 +12508,7 @@
         "creation": "Tue Mar 15 20:42:03 2022",
         "device_class": "pcdsdevices.fms.Leviton52",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -12519,7 +12519,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 20:42:03 2022",
+        "last_edit": "Fri May 13 09:34:58 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_s60_t",
@@ -13287,7 +13287,7 @@
         "creation": "Tue Mar 15 15:54:24 2022",
         "device_class": "pcdsdevices.fms.Leviton41",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13298,7 +13298,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 15:54:24 2022",
+        "last_edit": "Fri May 13 09:19:52 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_h",
@@ -13307,8 +13307,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "mfx_leviton_r45_p": {
-        "_id": "mfx_leviton_r45_p",
+    "mfx_leviton_r45_l": {
+        "_id": "mfx_leviton_r45_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -13317,7 +13317,7 @@
         "creation": "Tue Mar 15 16:00:04 2022",
         "device_class": "pcdsdevices.fms.Leviton45",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13328,10 +13328,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 16:00:04 2022",
+        "last_edit": "Fri May 13 09:17:23 2022",
         "lightpath": false,
         "location_group": "MFX",
-        "name": "mfx_leviton_r45_p",
+        "name": "mfx_leviton_r45_l",
         "prefix": "MFX:R45:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -13347,7 +13347,7 @@
         "creation": "Tue Mar 15 13:13:50 2022",
         "device_class": "pcdsdevices.fms.Leviton37",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13358,7 +13358,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 13:13:50 2022",
+        "last_edit": "Fri May 13 09:19:31 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_t",
@@ -13377,7 +13377,7 @@
         "creation": "Tue Mar 15 15:55:57 2022",
         "device_class": "pcdsdevices.fms.Leviton42",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13388,7 +13388,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 15:55:57 2022",
+        "last_edit": "Fri May 13 09:21:02 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_h",
@@ -13397,8 +13397,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "mfx_leviton_r46_p": {
-        "_id": "mfx_leviton_r46_p",
+    "mfx_leviton_r46_l": {
+        "_id": "mfx_leviton_r46_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -13407,7 +13407,7 @@
         "creation": "Tue Mar 15 16:03:54 2022",
         "device_class": "pcdsdevices.fms.Leviton46",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13418,10 +13418,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 16:03:54 2022",
+        "last_edit": "Fri May 13 09:23:03 2022",
         "lightpath": false,
         "location_group": "MFX",
-        "name": "mfx_leviton_r46_p",
+        "name": "mfx_leviton_r46_l",
         "prefix": "MFX:R46:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -13437,7 +13437,7 @@
         "creation": "Tue Mar 15 13:15:28 2022",
         "device_class": "pcdsdevices.fms.Leviton38",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13448,7 +13448,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 13:15:28 2022",
+        "last_edit": "Fri May 13 09:21:13 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_t",
@@ -13467,7 +13467,7 @@
         "creation": "Tue Mar 15 15:57:09 2022",
         "device_class": "pcdsdevices.fms.Leviton43",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13478,7 +13478,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 15:57:09 2022",
+        "last_edit": "Fri May 13 09:25:22 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_h",
@@ -13487,8 +13487,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "mfx_leviton_r49_p": {
-        "_id": "mfx_leviton_r49_p",
+    "mfx_leviton_r49_l": {
+        "_id": "mfx_leviton_r49_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -13497,7 +13497,7 @@
         "creation": "Tue Mar 15 16:04:56 2022",
         "device_class": "pcdsdevices.fms.Leviton47",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13508,10 +13508,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 16:04:56 2022",
+        "last_edit": "Fri May 13 09:24:28 2022",
         "lightpath": false,
         "location_group": "MFX",
-        "name": "mfx_leviton_r49_p",
+        "name": "mfx_leviton_r49_l",
         "prefix": "MFX:R49:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -13527,7 +13527,7 @@
         "creation": "Tue Mar 15 13:18:45 2022",
         "device_class": "pcdsdevices.fms.Leviton39",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13538,7 +13538,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 13:18:45 2022",
+        "last_edit": "Fri May 13 09:25:08 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_t",
@@ -13557,7 +13557,7 @@
         "creation": "Tue Mar 15 15:58:47 2022",
         "device_class": "pcdsdevices.fms.Leviton44",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13568,7 +13568,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 15:58:47 2022",
+        "last_edit": "Fri May 13 09:25:52 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_h",
@@ -13577,8 +13577,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "mfx_leviton_sampletbl_p": {
-        "_id": "mfx_leviton_sampletbl_p",
+    "mfx_leviton_sampletbl_l": {
+        "_id": "mfx_leviton_sampletbl_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -13587,7 +13587,7 @@
         "creation": "Tue Mar 15 16:06:26 2022",
         "device_class": "pcdsdevices.fms.Leviton48",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendre",
         "ioc_hutch": null,
@@ -13598,10 +13598,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 16:06:26 2022",
+        "last_edit": "Fri May 13 09:30:32 2022",
         "lightpath": false,
         "location_group": "MFX",
-        "name": "mfx_leviton_sampletbl_p",
+        "name": "mfx_leviton_sampletbl_l",
         "prefix": "MFX:SAMPLETBL:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -13617,7 +13617,7 @@
         "creation": "Tue Mar 15 13:23:27 2022",
         "device_class": "pcdsdevices.fms.Leviton40",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -13628,7 +13628,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 13:23:27 2022",
+        "last_edit": "Fri May 13 09:30:14 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_t",
@@ -16858,7 +16858,7 @@
         "creation": "Tue Mar 15 12:20:53 2022",
         "device_class": "pcdsdevices.fms.Leviton29",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -16869,7 +16869,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:26:48 2022",
+        "last_edit": "Fri May 13 09:47:43 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_h",
@@ -16878,8 +16878,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "xcs_leviton_r40_p": {
-        "_id": "xcs_leviton_r40_p",
+    "xcs_leviton_r40_l": {
+        "_id": "xcs_leviton_r40_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -16888,7 +16888,7 @@
         "creation": "Tue Mar 15 12:02:06 2022",
         "device_class": "pcdsdevices.fms.Leviton33",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -16899,10 +16899,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:18:42 2022",
+        "last_edit": "Fri May 13 09:46:57 2022",
         "lightpath": false,
         "location_group": "XCS",
-        "name": "xcs_leviton_r40_p",
+        "name": "xcs_leviton_r40_l",
         "prefix": "XCS:R40:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -16918,7 +16918,7 @@
         "creation": "Thu Mar 10 22:33:42 2022",
         "device_class": "pcdsdevices.fms.Leviton25",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -16929,7 +16929,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 10 22:33:42 2022",
+        "last_edit": "Fri May 13 09:46:15 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_t",
@@ -16948,7 +16948,7 @@
         "creation": "Tue Mar 15 12:22:00 2022",
         "device_class": "pcdsdevices.fms.Leviton30",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -16959,7 +16959,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:27:08 2022",
+        "last_edit": "Fri May 13 09:45:54 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_h",
@@ -16968,8 +16968,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "xcs_leviton_r42_p": {
-        "_id": "xcs_leviton_r42_p",
+    "xcs_leviton_r42_l": {
+        "_id": "xcs_leviton_r42_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -16978,7 +16978,7 @@
         "creation": "Tue Mar 15 12:03:22 2022",
         "device_class": "pcdsdevices.fms.Leviton34",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -16989,10 +16989,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:18:58 2022",
+        "last_edit": "Fri May 13 09:45:36 2022",
         "lightpath": false,
         "location_group": "XCS",
-        "name": "xcs_leviton_r42_p",
+        "name": "xcs_leviton_r42_l",
         "prefix": "XCS:R42:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -17008,7 +17008,7 @@
         "creation": "Fri Mar 11 09:42:16 2022",
         "device_class": "pcdsdevices.fms.Leviton26",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17019,7 +17019,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 11 09:42:16 2022",
+        "last_edit": "Fri May 13 09:44:47 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_t",
@@ -17038,7 +17038,7 @@
         "creation": "Tue Mar 15 12:23:10 2022",
         "device_class": "pcdsdevices.fms.Leviton31",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17049,7 +17049,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:27:16 2022",
+        "last_edit": "Fri May 13 09:41:13 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_h",
@@ -17068,7 +17068,7 @@
         "creation": "Tue Mar 15 12:05:34 2022",
         "device_class": "pcdsdevices.fms.Leviton35",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17079,7 +17079,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:19:10 2022",
+        "last_edit": "Fri May 13 09:44:20 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_p",
@@ -17098,7 +17098,7 @@
         "creation": "Fri Mar 11 09:43:43 2022",
         "device_class": "pcdsdevices.fms.Leviton27",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17109,7 +17109,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 11 09:43:43 2022",
+        "last_edit": "Fri May 13 09:41:40 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_t",
@@ -17128,7 +17128,7 @@
         "creation": "Tue Mar 15 12:24:11 2022",
         "device_class": "pcdsdevices.fms.Leviton32",
         "documentation": null,
-        "functional_group": "Leviton_Humidity",
+        "functional_group": "PDU_Humidity",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17139,7 +17139,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:27:23 2022",
+        "last_edit": "Fri May 13 09:40:47 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r44_h",
@@ -17148,8 +17148,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "xcs_leviton_r44_p": {
-        "_id": "xcs_leviton_r44_p",
+    "xcs_leviton_r44_l": {
+        "_id": "xcs_leviton_r44_l",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -17158,7 +17158,7 @@
         "creation": "Tue Mar 15 12:06:52 2022",
         "device_class": "pcdsdevices.fms.Leviton36",
         "documentation": null,
-        "functional_group": "Leviton_Load",
+        "functional_group": "PDU_Load",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17169,10 +17169,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 12:19:23 2022",
+        "last_edit": "Fri May 13 09:40:20 2022",
         "lightpath": false,
         "location_group": "XCS",
-        "name": "xcs_leviton_r44_p",
+        "name": "xcs_leviton_r44_l",
         "prefix": "XCS:R44:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
@@ -17188,7 +17188,7 @@
         "creation": "Fri Mar 11 09:45:28 2022",
         "device_class": "pcdsdevices.fms.Leviton28",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -17199,7 +17199,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 11 09:45:28 2022",
+        "last_edit": "Fri May 13 09:38:57 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r44_t",
@@ -18116,7 +18116,7 @@
         "creation": "Tue Mar 15 21:46:38 2022",
         "device_class": "pcdsdevices.fms.Leviton82",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -18127,7 +18127,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Mar 15 21:46:38 2022",
+        "last_edit": "Fri May 13 09:49:38 2022",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_mon_t",
@@ -18146,7 +18146,7 @@
         "creation": "Wed Mar 16 13:46:58 2022",
         "device_class": "pcdsdevices.fms.Leviton83",
         "documentation": null,
-        "functional_group": "Leviton_Temp",
+        "functional_group": "PDU_Temp",
         "ioc_arch": null,
         "ioc_engineer": "Cynthia Melendrez",
         "ioc_hutch": null,
@@ -18157,7 +18157,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 16 13:49:19 2022",
+        "last_edit": "Fri May 13 09:49:24 2022",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r32_t",
