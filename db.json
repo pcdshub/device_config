@@ -13494,6 +13494,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "mfx_lj": {
+        "_id": "mfx_lj",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Thu May 26 11:18:03 2022",
+        "device_class": "pcdsdevices.liquid_jet.LiquidJet",
+        "documentation": null,
+        "functional_group": "None",
+        "ioc_arch": "rhel7",
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "plc-mfx-motion",
+        "ioc_name": "ioc-mfx-motion",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 26 11:18:03 2022",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "mfx_lj",
+        "prefix": "MFX:LJH",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mfx_mxt_valve": {
         "_id": "mfx_mxt_valve",
         "active": true,
