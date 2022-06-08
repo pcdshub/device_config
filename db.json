@@ -5262,6 +5262,36 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "las_rfof_01": {
+        "_id": "las_rfof_01",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Tue Jun  7 15:33:38 2022",
+        "device_class": "pcdsdevices.lasers.rfof",
+        "documentation": "https://confluence.slac.stanford.edu/display/L2SI/RF+Over+Fiber+System",
+        "functional_group": "FTL",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jun  7 15:33:38 2022",
+        "lightpath": false,
+        "location_group": "LAS FTL",
+        "name": "las_rfof_01",
+        "prefix": "LAS:RFOF:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "li1k4": {
         "_id": "li1k4",
         "active": true,
