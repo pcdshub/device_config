@@ -4649,7 +4649,7 @@
     },
     "im6k4": {
         "_id": "im6k4",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -4668,7 +4668,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 23 12:39:03 2022",
+        "last_edit": "Thu Jun 30 10:44:19 2022",
         "lightpath": true,
         "location_group": "TMO GS3",
         "name": "im6k4",
@@ -15262,13 +15262,13 @@
     },
     "tm2k4": {
         "_id": "tm2k4",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "TMO",
         "creation": "Thu Jun 23 12:28:37 2022",
-        "device_class": "pcdsdevices.atm.TM1K4",
+        "device_class": "pcdsdevices.atm.TM2K4",
         "documentation": null,
         "functional_group": "ATM",
         "ioc_arch": null,
@@ -15281,7 +15281,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 23 13:00:47 2022",
+        "last_edit": "Thu Jun 30 10:43:42 2022",
         "lightpath": true,
         "location_group": "TMO GS3",
         "name": "tm2k4",
