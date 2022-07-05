@@ -14598,7 +14598,7 @@
         "prefix": "SL1K2:EXIT",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.122
     },
     "sl1k2_exit_vgc_1": {
@@ -15983,7 +15983,7 @@
         "prefix": "CRIX:VLS:CAM:MMS:PITCH",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_focus_mirror": {
@@ -16012,7 +16012,7 @@
         "prefix": "CRIX:VLS:MMS:MP",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_grating_pitch": {
@@ -16041,7 +16041,7 @@
         "prefix": "CRIX:VLS:MMS:GP",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_slit_down": {
@@ -16070,7 +16070,7 @@
         "prefix": "CRIX:VLS:MMS:SLBOTTOM",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_slit_left": {
@@ -16099,7 +16099,7 @@
         "prefix": "CRIX:VLS:MMS:SLLEFT",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_slit_right": {
@@ -16128,7 +16128,7 @@
         "prefix": "CRIX:VLS:MMS:SLRIGHT",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "vls_slit_up": {
@@ -16157,7 +16157,7 @@
         "prefix": "CRIX:VLS:MMS:SLTOP",
         "stand": null,
         "system": null,
-        "type": "Device",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
     "xcs_attenuator": {
