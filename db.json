@@ -14331,6 +14331,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "qrix_det_slits": {
+        "_id": "qrix_det_slits",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX",
+        "creation": "Fri Jul  8 18:37:18 2022",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul  8 18:37:55 2022",
+        "lightpath": false,
+        "location_group": "QRIX",
+        "name": "qrix_det_slits",
+        "prefix": "QRIX:DET:SLITS",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
+    },
     "qrix_opt_slits": {
         "_id": "qrix_opt_slits",
         "active": true,
