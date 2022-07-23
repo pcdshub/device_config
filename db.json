@@ -28,7 +28,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -47,7 +47,7 @@
         "location_group": "N/A",
         "name": "al1k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "AL1K2:L2SI",
         "stand": "K2S02",
@@ -66,7 +66,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -85,7 +85,7 @@
         "location_group": "N/A",
         "name": "al1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "AL1K4:L2SI",
         "stand": "K4S33",
@@ -104,7 +104,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -123,7 +123,7 @@
         "location_group": "N/A",
         "name": "at1k0_gas_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "AT1K0:GAS:VGC:1",
         "stand": null,
@@ -142,7 +142,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -162,7 +162,7 @@
         "location_group": "N/A",
         "name": "at1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "AT1K4:L2SI",
         "stand": "K4S24",
@@ -206,7 +206,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -225,7 +225,7 @@
         "location_group": "N/A",
         "name": "at1l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "SATT:FEE1:320",
         "stand": "L0S05",
@@ -244,7 +244,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -264,7 +264,7 @@
         "location_group": "N/A",
         "name": "at2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "AT2K2:L2SI",
         "stand": "K2S15",
@@ -313,7 +313,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -332,7 +332,7 @@
         "location_group": "N/A",
         "name": "at2l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "AT2L0:XTES",
         "stand": "L0S07",
@@ -381,7 +381,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -400,7 +400,7 @@
         "location_group": "N/A",
         "name": "bt2l0_pleg_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "BT2L0:PLEG:VGC:01",
         "stand": null,
@@ -1526,7 +1526,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -1545,7 +1545,7 @@
         "location_group": "N/A",
         "name": "cxi_dsc_tfs",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "CXI:DS1:XFLS",
         "stand": "DSC",
@@ -3179,7 +3179,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -3198,7 +3198,7 @@
         "location_group": "N/A",
         "name": "em1l0_gem_vgc10",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "EM1L0:GEM:VGC:10",
         "stand": null,
@@ -3217,7 +3217,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -3236,7 +3236,7 @@
         "location_group": "N/A",
         "name": "em2k0_xgmd_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "EM2K0:XGMD:VGC:1",
         "stand": null,
@@ -3255,7 +3255,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -3274,7 +3274,7 @@
         "location_group": "N/A",
         "name": "em2k0_xgmd_vgc_2",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "EM2K0:XGMD:VGC:2",
         "stand": null,
@@ -3329,7 +3329,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -3348,7 +3348,7 @@
         "location_group": "N/A",
         "name": "em2l0_gem_vgc70",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "EM2L0:GEM:VGC:70",
         "stand": null,
@@ -3564,7 +3564,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3577,7 +3577,7 @@
         "macros": null,
         "name": "hx2_ipm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX2:SB1:IPM",
@@ -3602,7 +3602,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3616,7 +3616,7 @@
         "macros": null,
         "name": "hx2_pim",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX2:SB1:PIM",
@@ -3641,7 +3641,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3654,7 +3654,7 @@
         "macros": null,
         "name": "hx2_reference_laser",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX2:REFLASER:MIRROR",
@@ -3678,7 +3678,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3691,7 +3691,7 @@
         "macros": null,
         "name": "hx2_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX2:SB1:JAWS",
@@ -3739,7 +3739,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3752,7 +3752,7 @@
         "macros": null,
         "name": "hxd_dg2_ipm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HFX:DG2:IPM",
@@ -3773,7 +3773,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -3793,7 +3793,7 @@
         "location_group": "N/A",
         "name": "hxd_dg2_pim",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "HFX:DG2:PIM",
         "prefix_det": "HFX:DG2:CVV:01:",
@@ -3816,7 +3816,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3829,7 +3829,7 @@
         "macros": null,
         "name": "hxd_dg2_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HFX:DG2:JAWS",
@@ -3853,7 +3853,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3866,7 +3866,7 @@
         "macros": null,
         "name": "hxd_dg2_stopper",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HFX:DG2:STP:01",
@@ -3890,7 +3890,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3903,7 +3903,7 @@
         "macros": null,
         "name": "hxd_dg2_valve",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HFX:DG2:VGC:01",
@@ -3927,7 +3927,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3940,7 +3940,7 @@
         "macros": null,
         "name": "hxd_mon_valve_1",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX3:MON:VGC:01",
@@ -3964,7 +3964,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -3977,7 +3977,7 @@
         "macros": null,
         "name": "hxd_mon_valve_2",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HX3:MON:VGC:02",
@@ -4001,7 +4001,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -4014,7 +4014,7 @@
         "macros": null,
         "name": "hxrsss",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "STEP:XRT1",
@@ -4087,7 +4087,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4106,7 +4106,7 @@
         "location_group": "N/A",
         "name": "im1k0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "IM1K0:XTES",
         "stand": "K0S00",
@@ -4125,7 +4125,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4144,7 +4144,7 @@
         "location_group": "N/A",
         "name": "im1k1",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "prefix": "IM1K1:PPM",
         "stand": "K1S10",
@@ -4163,7 +4163,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4182,7 +4182,7 @@
         "location_group": "N/A",
         "name": "im1k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM1K2:PPM",
         "stand": "K2S01",
@@ -4201,7 +4201,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K3"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4220,7 +4220,7 @@
         "location_group": "N/A",
         "name": "im1k3",
         "output_branches": [
-            "N/A"
+            "K3"
         ],
         "prefix": "IM1K3:PPM",
         "stand": "K0S12",
@@ -4239,7 +4239,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K3"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4258,7 +4258,7 @@
         "location_group": "N/A",
         "name": "im1k3_ppm_vgc_1",
         "output_branches": [
-            "N/A"
+            "K3"
         ],
         "prefix": "IM1K3:PPM:VGC:1",
         "stand": null,
@@ -4277,7 +4277,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4296,7 +4296,7 @@
         "location_group": "N/A",
         "name": "im1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM1K4:XTES",
         "stand": "K4S24",
@@ -4315,7 +4315,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4334,7 +4334,7 @@
         "location_group": "N/A",
         "name": "im1l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "IM1L0:XTES",
         "stand": "L0S00",
@@ -4353,7 +4353,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4372,7 +4372,7 @@
         "location_group": "N/A",
         "name": "im1l0_xtes_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "IM1L0:XTES:VGC:01",
         "stand": null,
@@ -4420,7 +4420,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4439,7 +4439,7 @@
         "location_group": "N/A",
         "name": "im2k0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "IM2K0:XTES",
         "stand": "K0S04",
@@ -4458,7 +4458,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4477,7 +4477,7 @@
         "location_group": "N/A",
         "name": "im2k1",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "prefix": "IM2K1:PPM",
         "stand": null,
@@ -4496,7 +4496,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4515,7 +4515,7 @@
         "location_group": "N/A",
         "name": "im2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM2K2:PPM",
         "stand": null,
@@ -4534,7 +4534,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4553,7 +4553,7 @@
         "location_group": "N/A",
         "name": "im2k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM2K4:PPM",
         "stand": "K4S33",
@@ -4572,7 +4572,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4591,7 +4591,7 @@
         "location_group": "N/A",
         "name": "im2l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "IM2L0:XTES",
         "stand": "L0S08",
@@ -4639,7 +4639,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4658,7 +4658,7 @@
         "location_group": "N/A",
         "name": "im3k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM3K2:PPM",
         "stand": null,
@@ -4677,7 +4677,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4696,7 +4696,7 @@
         "location_group": "N/A",
         "name": "im3k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM3K4:PPM",
         "stand": "GS1",
@@ -4715,7 +4715,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4734,7 +4734,7 @@
         "location_group": "N/A",
         "name": "im3l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "IM3L0:PPM",
         "stand": "L0S16",
@@ -4753,7 +4753,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4772,7 +4772,7 @@
         "location_group": "N/A",
         "name": "im4k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM4K2:PPM",
         "stand": null,
@@ -4791,7 +4791,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4810,7 +4810,7 @@
         "location_group": "N/A",
         "name": "im4k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM4K4:PPM",
         "stand": "GS1",
@@ -4829,7 +4829,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4848,7 +4848,7 @@
         "location_group": "N/A",
         "name": "im4l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "IM4L0:XTES",
         "stand": "L0S21",
@@ -4867,7 +4867,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4886,7 +4886,7 @@
         "location_group": "N/A",
         "name": "im5k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM5K2:PPM",
         "stand": null,
@@ -4905,7 +4905,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4924,7 +4924,7 @@
         "location_group": "N/A",
         "name": "im5k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM5K4:PPM",
         "stand": "GS2",
@@ -4943,7 +4943,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -4962,7 +4962,7 @@
         "location_group": "N/A",
         "name": "im6k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "IM6K2:PPM",
         "stand": null,
@@ -4981,7 +4981,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -5000,7 +5000,7 @@
         "location_group": "N/A",
         "name": "im6k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "IM6K4:PPM",
         "stand": "GS3",
@@ -5835,7 +5835,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -5854,7 +5854,7 @@
         "location_group": "N/A",
         "name": "li1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "LI1K4:IP1",
         "stand": "GS1",
@@ -5873,7 +5873,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -5892,7 +5892,7 @@
         "location_group": "N/A",
         "name": "li2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "LI2K2:K2A",
         "stand": "K2S13",
@@ -5911,7 +5911,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -5930,7 +5930,7 @@
         "location_group": "N/A",
         "name": "li3k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "LI3K2:K2B",
         "stand": "K2S13",
@@ -5949,7 +5949,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -5968,7 +5968,7 @@
         "location_group": "N/A",
         "name": "li3k4_ip1_vwc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "LI3K4:IP1:VWC:01",
         "stand": null,
@@ -14440,7 +14440,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14460,7 +14460,7 @@
         "location_group": "N/A",
         "name": "mec_yag0",
         "output_branches": [
-            "N/A"
+            "L4"
         ],
         "prefix": "HXX:HXM:PIM",
         "prefix_det": "HXX:HXM:CVV:01:",
@@ -14480,7 +14480,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14500,7 +14500,7 @@
         "location_group": "N/A",
         "name": "mec_yag1",
         "output_branches": [
-            "N/A"
+            "L4"
         ],
         "prefix": "MEC:HXM:PIM",
         "prefix_det": "MEC:HXM:CVV:01:",
@@ -14520,7 +14520,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14540,7 +14540,7 @@
         "location_group": "N/A",
         "name": "mec_yag2",
         "output_branches": [
-            "N/A"
+            "L4"
         ],
         "prefix": "MEC:PIM2",
         "prefix_det": "MEC:PIM2:CVV:01:",
@@ -14560,7 +14560,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14580,7 +14580,7 @@
         "location_group": "N/A",
         "name": "mec_yag3",
         "output_branches": [
-            "N/A"
+            "L4"
         ],
         "prefix": "MEC:PIM3",
         "prefix_det": "MEC:PIM3:CVV:01:",
@@ -14600,7 +14600,7 @@
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/MFX+Laser+in-coupling+chamber",
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14619,7 +14619,7 @@
         "location_group": "N/A",
         "name": "mfx_atm",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "prefix": "MFX:ATM",
         "stand": null,
@@ -14641,7 +14641,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14656,7 +14656,7 @@
         "n_filters": 10,
         "name": "mfx_attenuator",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:ATT",
@@ -14681,7 +14681,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14694,7 +14694,7 @@
         "macros": null,
         "name": "mfx_dg1_ipm",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG1:IPM",
@@ -14719,7 +14719,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14733,7 +14733,7 @@
         "macros": null,
         "name": "mfx_dg1_pim",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG1:PIM",
@@ -14758,7 +14758,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14771,7 +14771,7 @@
         "macros": null,
         "name": "mfx_dg1_slits",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG1:JAWS",
@@ -14795,7 +14795,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14808,7 +14808,7 @@
         "macros": null,
         "name": "mfx_dg1_valve_1",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG1:VGC:01",
@@ -14832,7 +14832,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14845,7 +14845,7 @@
         "macros": null,
         "name": "mfx_dg1_valve_2",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG1:VGC:02",
@@ -14866,7 +14866,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -14885,7 +14885,7 @@
         "location_group": "N/A",
         "name": "mfx_dg1_wave8_motor",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "prefix": "MFX:DG1:MMS:08",
         "stand": "DG1",
@@ -14907,7 +14907,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14920,7 +14920,7 @@
         "macros": null,
         "name": "mfx_dg2_downstream_slits",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG2:JAWS:DS",
@@ -14945,7 +14945,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14958,7 +14958,7 @@
         "macros": null,
         "name": "mfx_dg2_ipm",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG2:IPM",
@@ -14982,7 +14982,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -14995,7 +14995,7 @@
         "macros": null,
         "name": "mfx_dg2_midstream_slits",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG2:JAWS:MS",
@@ -15020,7 +15020,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15034,7 +15034,7 @@
         "macros": null,
         "name": "mfx_dg2_pim",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG2:PIM",
@@ -15059,7 +15059,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15072,7 +15072,7 @@
         "macros": null,
         "name": "mfx_dg2_upstream_slits",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DG2:JAWS:US",
@@ -15097,7 +15097,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15110,7 +15110,7 @@
         "macros": null,
         "name": "mfx_dia_ipm",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DIA:IPM",
@@ -15135,7 +15135,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15149,7 +15149,7 @@
         "macros": null,
         "name": "mfx_dia_pim",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DIA:PIM",
@@ -15174,7 +15174,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15187,7 +15187,7 @@
         "macros": null,
         "name": "mfx_dia_valve_01",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DIA:VGC:01",
@@ -15211,7 +15211,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15224,7 +15224,7 @@
         "macros": null,
         "name": "mfx_dia_valve_02",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DIA:VGC:02",
@@ -15248,7 +15248,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15261,7 +15261,7 @@
         "macros": null,
         "name": "mfx_dvd_valve",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DVD:VGC:01",
@@ -15706,7 +15706,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15719,7 +15719,7 @@
         "macros": null,
         "name": "mfx_mxt_valve",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "HXX:MXT:VGC:04",
@@ -15743,7 +15743,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15756,7 +15756,7 @@
         "macros": null,
         "name": "mfx_pulsepicker",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "parent": null,
         "prefix": "MFX:DIA:MMS:07",
@@ -15777,7 +15777,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -15796,7 +15796,7 @@
         "location_group": "N/A",
         "name": "mfx_reflaser",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "prefix": "MFX:DG1:RLM:MIRROR",
         "stand": "DG1",
@@ -15815,7 +15815,7 @@
         "documentation": "MFX Transfocator (transfocate library)",
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -15834,7 +15834,7 @@
         "location_group": "N/A",
         "name": "mfx_tfs",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "prefix": "MFX:LENS",
         "stand": null,
@@ -15856,7 +15856,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15869,7 +15869,7 @@
         "macros": null,
         "name": "mr1k1_bend",
         "output_branches": [
-            "N/A"
+            "K0", "K1"
         ],
         "parent": null,
         "prefix": "MR1K1:BEND",
@@ -15892,7 +15892,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -15911,7 +15911,7 @@
         "location_group": "N/A",
         "name": "mr1k1_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "MR1K1:VGC:1",
         "stand": null,
@@ -15933,7 +15933,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -15946,7 +15946,7 @@
         "macros": null,
         "name": "mr1k2_switch",
         "output_branches": [
-            "N/A"
+            "K1", "K2"
         ],
         "parent": null,
         "prefix": "MR1K2:SWITCH",
@@ -15969,7 +15969,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -15988,7 +15988,7 @@
         "location_group": "N/A",
         "name": "mr1k2_switch_vgc_1",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "prefix": "MR1K2:SWITCH:VGC:1",
         "stand": null,
@@ -16007,7 +16007,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16026,7 +16026,7 @@
         "location_group": "N/A",
         "name": "mr1k2_switch_vgc_2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "MR1K2:SWITCH:VGC:2",
         "stand": null,
@@ -16045,7 +16045,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K3"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16064,7 +16064,7 @@
         "location_group": "N/A",
         "name": "mr1k3_vgc_1",
         "output_branches": [
-            "N/A"
+            "K3"
         ],
         "prefix": "MR1K3:VGC:1",
         "stand": null,
@@ -16086,7 +16086,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16099,7 +16099,7 @@
         "macros": null,
         "name": "mr1k4_soms",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "MR1K4:SOMS",
@@ -16122,7 +16122,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16141,7 +16141,7 @@
         "location_group": "N/A",
         "name": "mr1k4_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "MR1K4:VGC:1",
         "stand": null,
@@ -16163,7 +16163,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16176,7 +16176,7 @@
         "macros": null,
         "name": "mr1l0_homs",
         "output_branches": [
-            "N/A"
+            "L0", "L1"
         ],
         "parent": null,
         "prefix": "MR1L0:HOMS",
@@ -16199,7 +16199,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16218,7 +16218,7 @@
         "location_group": "N/A",
         "name": "mr1l0_homs_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "MR1L0:HOMS:VGC:01",
         "stand": null,
@@ -16240,7 +16240,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16253,7 +16253,7 @@
         "macros": null,
         "name": "mr1l3_homs",
         "output_branches": [
-            "N/A"
+            "L0", "L3"
         ],
         "parent": null,
         "prefix": "MR1L3:HOMS",
@@ -16279,7 +16279,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16292,7 +16292,7 @@
         "macros": null,
         "name": "mr1l4_homs",
         "output_branches": [
-            "N/A"
+            "L0", "L4", "L5"
         ],
         "parent": null,
         "prefix": "MR1L4:HOMS",
@@ -16315,7 +16315,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16334,7 +16334,7 @@
         "location_group": "N/A",
         "name": "mr2k2_flat",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "MR2K2:FLAT",
         "stand": "K2S03",
@@ -16356,7 +16356,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16369,7 +16369,7 @@
         "macros": null,
         "name": "mr2k4_kbo",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "MR2K4:KBO",
@@ -16392,7 +16392,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16411,7 +16411,7 @@
         "location_group": "N/A",
         "name": "mr2k4_kbo_vwc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "MR2K4:KBO:VWC:01",
         "stand": null,
@@ -16433,7 +16433,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16446,7 +16446,7 @@
         "macros": null,
         "name": "mr2l0_homs",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "MR2L0:HOMS",
@@ -16469,7 +16469,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16488,7 +16488,7 @@
         "location_group": "N/A",
         "name": "mr2l0_homs_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "MR2L0:HOMS:VGC:01",
         "stand": null,
@@ -16507,7 +16507,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16526,7 +16526,7 @@
         "location_group": "N/A",
         "name": "mr2l0_homs_vgc_02",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "MR2L0:HOMS:VGC:02",
         "stand": null,
@@ -16548,7 +16548,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L3"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16561,7 +16561,7 @@
         "macros": null,
         "name": "mr2l3_homs",
         "output_branches": [
-            "N/A"
+            "L3"
         ],
         "parent": null,
         "prefix": "MR2L3:HOMS",
@@ -16584,7 +16584,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16603,7 +16603,7 @@
         "location_group": "N/A",
         "name": "mr3k2_kbh",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "MR3K2:KBH",
         "stand": "K2S05",
@@ -16625,7 +16625,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16638,7 +16638,7 @@
         "macros": null,
         "name": "mr3k4_kbo",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "MR3K4:KBO",
@@ -16661,7 +16661,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16680,7 +16680,7 @@
         "location_group": "N/A",
         "name": "mr3k4_kbo_vfs_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "MR3K4:KBO:VFS:01",
         "stand": null,
@@ -16699,7 +16699,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16718,7 +16718,7 @@
         "location_group": "N/A",
         "name": "mr3k4_kbo_vwc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "MR3K4:KBO:VWC:01",
         "stand": null,
@@ -16737,7 +16737,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16756,7 +16756,7 @@
         "location_group": "N/A",
         "name": "mr4k2_kbv",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "MR4K2:KBV",
         "stand": "K2S07",
@@ -16778,7 +16778,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16791,7 +16791,7 @@
         "macros": null,
         "name": "mr4k4_kbo",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "MR4K4:KBO",
@@ -16817,7 +16817,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16830,7 +16830,7 @@
         "macros": null,
         "name": "mr5k4_kbo",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "MR5K4:KBO",
@@ -16856,7 +16856,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16869,7 +16869,7 @@
         "macros": null,
         "name": "mxt_valve_1",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:MXT:VGC:01",
@@ -16893,7 +16893,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -16906,7 +16906,7 @@
         "macros": null,
         "name": "mxt_valve_2",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:MXT:VGC:02",
@@ -16974,7 +16974,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -16993,7 +16993,7 @@
         "location_group": "N/A",
         "name": "pa1l0_vfs_01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "PA1L0:VFS:01",
         "stand": null,
@@ -17012,7 +17012,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17031,7 +17031,7 @@
         "location_group": "N/A",
         "name": "pc1l0_xtes_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "PC1L0:XTES:VGC:01",
         "stand": null,
@@ -17050,7 +17050,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17069,7 +17069,7 @@
         "location_group": "N/A",
         "name": "pc5k4_vwc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "PC5K4:VWC:01",
         "stand": null,
@@ -17088,7 +17088,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17107,7 +17107,7 @@
         "location_group": "N/A",
         "name": "pf1k0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "PF1K0:WFS",
         "stand": "K0S04",
@@ -17126,7 +17126,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17145,7 +17145,7 @@
         "location_group": "N/A",
         "name": "pf1k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "PF1K2:WFS",
         "stand": "K2S13",
@@ -17164,7 +17164,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17183,7 +17183,7 @@
         "location_group": "N/A",
         "name": "pf1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "PF1K4:WFS",
         "stand": "GS2",
@@ -17202,7 +17202,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17221,7 +17221,7 @@
         "location_group": "N/A",
         "name": "pf1l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "PF1L0:WFS",
         "stand": "L0S08",
@@ -17240,7 +17240,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17259,7 +17259,7 @@
         "location_group": "N/A",
         "name": "pf2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "PF2K2:WFS",
         "stand": "K2S13",
@@ -17278,7 +17278,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17297,7 +17297,7 @@
         "location_group": "N/A",
         "name": "pf2k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "PF2K4:WFS",
         "stand": "GS3",
@@ -17376,7 +17376,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17395,7 +17395,7 @@
         "location_group": "N/A",
         "name": "rtdsk0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "RTDSK0",
         "stand": null,
@@ -17414,7 +17414,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17433,7 +17433,7 @@
         "location_group": "N/A",
         "name": "rtdsl0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "RTDSL0",
         "stand": null,
@@ -17476,7 +17476,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17495,7 +17495,7 @@
         "location_group": "N/A",
         "name": "sh2",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "STPR:XRT1:1:SH2_PPSSUM",
         "stand": null,
@@ -17537,7 +17537,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L5"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17556,7 +17556,7 @@
         "location_group": "N/A",
         "name": "sh45",
         "output_branches": [
-            "N/A"
+            "L5"
         ],
         "prefix": "PPS:FEH1:45:S45STPRSUM",
         "stand": null,
@@ -17621,7 +17621,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17640,7 +17640,7 @@
         "location_group": "N/A",
         "name": "sl1k0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "SL1K0:POWER",
         "stand": null,
@@ -17659,7 +17659,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17678,7 +17678,7 @@
         "location_group": "N/A",
         "name": "sl1k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "SL1K2:EXIT",
         "stand": null,
@@ -17697,7 +17697,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17716,7 +17716,7 @@
         "location_group": "N/A",
         "name": "sl1k2_exit_vgc_1",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "SL1K2:EXIT:VGC:1",
         "stand": null,
@@ -17735,7 +17735,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17754,7 +17754,7 @@
         "location_group": "N/A",
         "name": "sl1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "SL1K4:SCATTER",
         "stand": "K4S33",
@@ -17773,7 +17773,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17792,7 +17792,7 @@
         "location_group": "N/A",
         "name": "sl1l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "SL1L0:POWER",
         "stand": null,
@@ -17811,7 +17811,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17830,7 +17830,7 @@
         "location_group": "N/A",
         "name": "sl2k0",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "SL2K0:POWER",
         "stand": null,
@@ -17849,7 +17849,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17868,7 +17868,7 @@
         "location_group": "N/A",
         "name": "sl2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "SL2K2:SCATTER",
         "stand": "K2S18",
@@ -17887,7 +17887,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17906,7 +17906,7 @@
         "location_group": "N/A",
         "name": "sl2k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "SL2K4:SCATTER",
         "stand": "GS2",
@@ -17928,7 +17928,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -17941,7 +17941,7 @@
         "macros": null,
         "name": "sp1k1_mono",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "parent": null,
         "prefix": "SP1K1:MONO",
@@ -17962,7 +17962,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -17981,7 +17981,7 @@
         "location_group": "N/A",
         "name": "sp1k1_mono_vgc_1",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "prefix": "SP1K1:MONO:VGC:1",
         "stand": null,
@@ -18000,7 +18000,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18019,7 +18019,7 @@
         "location_group": "N/A",
         "name": "sp1k1_mono_vgc_2",
         "output_branches": [
-            "N/A"
+            "K1"
         ],
         "prefix": "SP1K1:MONO:VGC:2",
         "stand": null,
@@ -18041,7 +18041,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -18054,7 +18054,7 @@
         "macros": "None",
         "name": "sp1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "parent": null,
         "prefix": "TMO:SPEC",
@@ -18075,7 +18075,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18094,7 +18094,7 @@
         "location_group": "N/A",
         "name": "sp1l0",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "SP1L0:KMONO:MMS",
         "stand": "L0S09",
@@ -18165,7 +18165,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18188,7 +18188,7 @@
         "location_group": "N/A",
         "name": "st1k2_pps",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "STPR:NEH1:2200:ST1K2",
         "stand": null,
@@ -18207,7 +18207,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18226,7 +18226,7 @@
         "location_group": "N/A",
         "name": "st1k2_pps_vgc_1",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "ST1K2:PPS:VGC:1",
         "stand": null,
@@ -18245,7 +18245,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18264,7 +18264,7 @@
         "location_group": "N/A",
         "name": "st1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "ST1K4:TEST",
         "stand": "K4S24",
@@ -18283,7 +18283,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18303,7 +18303,7 @@
         "location_group": "N/A",
         "name": "st1l0_pps",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "PPS:NEH1:1:ST1L0INSUM",
         "stand": null,
@@ -18322,7 +18322,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18341,7 +18341,7 @@
         "location_group": "N/A",
         "name": "st3k4_pps",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "PPS:NEH1:1:ST3K4",
         "stand": null,
@@ -18360,7 +18360,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18379,7 +18379,7 @@
         "location_group": "N/A",
         "name": "st3k4_pps_vgc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "ST3K4:PPS:VGC:01",
         "stand": null,
@@ -18398,7 +18398,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18417,7 +18417,7 @@
         "location_group": "N/A",
         "name": "tm1k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "TM1K2:ATM",
         "stand": "K2S08",
@@ -18436,7 +18436,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18455,7 +18455,7 @@
         "location_group": "N/A",
         "name": "tm1k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "TM1K4:ATM",
         "stand": "GS2",
@@ -18474,7 +18474,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18493,7 +18493,7 @@
         "location_group": "N/A",
         "name": "tm2k2",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "TM2K2:ATM",
         "stand": "K2S15",
@@ -18512,7 +18512,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18531,7 +18531,7 @@
         "location_group": "N/A",
         "name": "tm2k4",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "TM2K4:ATM",
         "stand": "GS3",
@@ -18666,7 +18666,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K2"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18685,7 +18685,7 @@
         "location_group": "N/A",
         "name": "tv1k2_vfs_1",
         "output_branches": [
-            "N/A"
+            "K2"
         ],
         "prefix": "TV1K2:VFS:1",
         "stand": null,
@@ -18704,7 +18704,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18723,7 +18723,7 @@
         "location_group": "N/A",
         "name": "tv1k4_vfs_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "TV1K4:VFS:01",
         "stand": null,
@@ -18742,7 +18742,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18761,7 +18761,7 @@
         "location_group": "N/A",
         "name": "tv1k4_vgc_01",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "TV1K4:VGC:01",
         "stand": null,
@@ -18780,7 +18780,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K4"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18799,7 +18799,7 @@
         "location_group": "N/A",
         "name": "tv1k4_vgc_02",
         "output_branches": [
-            "N/A"
+            "K4"
         ],
         "prefix": "TV1K4:VGC:02",
         "stand": null,
@@ -18818,7 +18818,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18837,7 +18837,7 @@
         "location_group": "N/A",
         "name": "tv1l0_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV1L0:VGC:01",
         "stand": null,
@@ -18856,7 +18856,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18875,7 +18875,7 @@
         "location_group": "N/A",
         "name": "tv2k0_vfs_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "TV2K0:VFS:1",
         "stand": null,
@@ -18894,7 +18894,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18913,7 +18913,7 @@
         "location_group": "N/A",
         "name": "tv2k0_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "TV2K0:VGC:1",
         "stand": null,
@@ -18932,7 +18932,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18951,7 +18951,7 @@
         "location_group": "N/A",
         "name": "tv2l0_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV2L0:VGC:01",
         "stand": null,
@@ -18970,7 +18970,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -18989,7 +18989,7 @@
         "location_group": "N/A",
         "name": "tv2l0_vgc02",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV2L0:VGC:02",
         "stand": null,
@@ -19008,7 +19008,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19027,7 +19027,7 @@
         "location_group": "N/A",
         "name": "tv3k0_vgc_1",
         "output_branches": [
-            "N/A"
+            "K0"
         ],
         "prefix": "TV3K0:VGC:1",
         "stand": null,
@@ -19046,7 +19046,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19065,7 +19065,7 @@
         "location_group": "N/A",
         "name": "tv3l0_vfs01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV3L0:VFS:01",
         "stand": null,
@@ -19084,7 +19084,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19103,7 +19103,7 @@
         "location_group": "N/A",
         "name": "tv4l0_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV4L0:VGC:01",
         "stand": null,
@@ -19122,7 +19122,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19141,7 +19141,7 @@
         "location_group": "N/A",
         "name": "tv5l0_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV5L0:VGC:01",
         "stand": null,
@@ -19160,7 +19160,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19179,7 +19179,7 @@
         "location_group": "N/A",
         "name": "tv6l0_vgc01",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "TV6L0:VGC:01",
         "stand": null,
@@ -19202,7 +19202,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -19215,7 +19215,7 @@
         "macros": null,
         "name": "um6_ipm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:UM6:IPM",
@@ -19236,7 +19236,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19256,7 +19256,7 @@
         "location_group": "N/A",
         "name": "um6_pim",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "HXX:UM6:PIM",
         "prefix_det": "HXX:UM6:CVV:01:",
@@ -19279,7 +19279,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -19292,7 +19292,7 @@
         "macros": null,
         "name": "um6_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:UM6:JAWS",
@@ -19316,7 +19316,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -19329,7 +19329,7 @@
         "macros": null,
         "name": "um6_stopper",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:UM6:STP:01",
@@ -19634,7 +19634,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L3"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -19664,7 +19664,7 @@
         "location_group": "N/A",
         "name": "xcs_ccm",
         "output_branches": [
-            "N/A"
+            "L3"
         ],
         "prefix": "''",
         "stand": null,
@@ -20228,7 +20228,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -20244,7 +20244,7 @@
         "mono_line": "XCS",
         "name": "xcs_lodcm",
         "output_branches": [
-            "N/A"
+            "L0", "L3"
         ],
         "parent": null,
         "prefix": "XCS:LODCM",
@@ -20436,7 +20436,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L3"
         ],
         "ioc_arch": null,
         "ioc_engineer": "pennebak",
@@ -20455,7 +20455,7 @@
         "location_group": "N/A",
         "name": "xcs_pfls",
         "output_branches": [
-            "N/A"
+            "L3"
         ],
         "prefix": "XCS:DG3:PFLS",
         "stand": "DG3",
@@ -20500,7 +20500,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L3"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -20513,7 +20513,7 @@
         "macros": null,
         "name": "xcs_reference_laser",
         "output_branches": [
-            "N/A"
+            "L3"
         ],
         "parent": null,
         "prefix": "XCS:REFLASER1:MIRROR",
@@ -20886,7 +20886,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -20901,7 +20901,7 @@
         "n_filters": 10,
         "name": "xpp_attenuator",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:ATT",
@@ -20920,7 +20920,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -20950,7 +20950,7 @@
         "location_group": "N/A",
         "name": "xpp_ccm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "''",
         "stand": null,
@@ -21026,7 +21026,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21039,7 +21039,7 @@
         "macros": null,
         "name": "xpp_jj_1",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:USR:JJ1:JAWS",
@@ -21063,7 +21063,7 @@
         "engineering_screen": "None",
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21076,7 +21076,7 @@
         "macros": "None",
         "name": "xpp_jj_2",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": "None",
         "prefix": "XPP:USR:JJ2:JAWS",
@@ -21100,7 +21100,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21113,7 +21113,7 @@
         "macros": null,
         "name": "xpp_jj_3",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:USR:JJ3:JAWS",
@@ -21137,7 +21137,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21150,7 +21150,7 @@
         "macros": null,
         "name": "xpp_jj_4",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:USR:JJ4:JAWS",
@@ -21541,7 +21541,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21554,7 +21554,7 @@
         "macros": null,
         "name": "xpp_pulsepicker",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB2:MMS:29",
@@ -21578,7 +21578,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21591,7 +21591,7 @@
         "macros": null,
         "name": "xpp_sb2_high_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB2H:JAWS",
@@ -21616,7 +21616,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21629,7 +21629,7 @@
         "macros": null,
         "name": "xpp_sb2_ipm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB2:IPM",
@@ -21653,7 +21653,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21666,7 +21666,7 @@
         "macros": null,
         "name": "xpp_sb2_low_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB2L:JAWS",
@@ -21690,7 +21690,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21703,7 +21703,7 @@
         "macros": null,
         "name": "xpp_sb2_valve",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB2:VGC:01",
@@ -21728,7 +21728,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21741,7 +21741,7 @@
         "macros": null,
         "name": "xpp_sb3_ipm",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB3:IPM",
@@ -21762,7 +21762,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -21782,7 +21782,7 @@
         "location_group": "N/A",
         "name": "xpp_sb3_pim",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "XPP:SB3:PIM",
         "prefix_det": "XPP:SB3:CVV:01:",
@@ -21805,7 +21805,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21818,7 +21818,7 @@
         "macros": null,
         "name": "xpp_sb3_slits",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XPP:SB3:JAWS",
@@ -21863,7 +21863,7 @@
         "documentation": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -21882,7 +21882,7 @@
         "location_group": "N/A",
         "name": "xpp_xfls",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "prefix": "XPP:SB2:XFLS",
         "stand": null,
@@ -21980,7 +21980,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -21993,7 +21993,7 @@
         "macros": null,
         "name": "xrt_dvd_valve",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HFX:DVD:VGC:01",
@@ -22017,7 +22017,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "in_lines": [
@@ -22037,7 +22037,7 @@
         "macros": null,
         "name": "xrt_m2h",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XRT:M2H",
@@ -22063,7 +22063,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -22076,7 +22076,7 @@
         "macros": null,
         "name": "xrt_m3h",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "XRT:M3H",
@@ -22102,7 +22102,7 @@
         "engineering_screen": null,
         "functional_group": "N/A",
         "input_branches": [
-            "N/A"
+            "L0"
         ],
         "kwargs": {
             "input_branches": "{{input_branches}}",
@@ -22115,7 +22115,7 @@
         "macros": null,
         "name": "xrt_mxt_valve",
         "output_branches": [
-            "N/A"
+            "L0"
         ],
         "parent": null,
         "prefix": "HXX:MXT:VGC:03",
