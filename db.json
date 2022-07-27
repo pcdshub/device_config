@@ -1550,7 +1550,7 @@
         "prefix": "CXI:DS1:XFLS",
         "stand": "DSC",
         "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
-        "z": 99999.0
+        "z": -1.0 
     },
     "cxi_dsc_vgc_01": {
         "_id": "cxi_dsc_vgc_01",
@@ -2868,7 +2868,7 @@
         "prefix": "CXI:PI1",
         "stand": "SC1",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "cxi_pi2": {
         "_id": "cxi_pi2",
@@ -2895,7 +2895,7 @@
         "prefix": "CXI:PI2",
         "stand": "SC2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "cxi_pi3": {
         "_id": "cxi_pi3",
@@ -2922,7 +2922,7 @@
         "prefix": "CXI:PI3",
         "stand": "SC3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "cxi_pulsepicker": {
         "_id": "cxi_pulsepicker",
@@ -3097,7 +3097,7 @@
         "stand": "LAS",
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "cxi_xrt_attenuator": {
         "_id": "cxi_xrt_attenuator",
@@ -4073,7 +4073,7 @@
         "prefix": "ICL:SDS:SEL:B",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 999999.0
+        "z": -1.0
     },
     "im1k0": {
         "_id": "im1k0",
@@ -14890,7 +14890,7 @@
         "prefix": "MFX:DG1:MMS:08",
         "stand": "DG1",
         "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "mfx_dg2_downstream_slits": {
         "_id": "mfx_dg2_downstream_slits",
@@ -19669,7 +19669,7 @@
         "prefix": "''",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
-        "z": 999999.0
+        "z": -1.0
     },
     "xcs_dg3_ipm": {
         "_id": "xcs_dg3_ipm",
@@ -19805,7 +19805,7 @@
         "prefix": "XCS:GON",
         "stand": "GON",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xcs_lam_valve_1": {
         "_id": "xcs_lam_valve_1",
@@ -20274,7 +20274,7 @@
         "prefix": "XCS:LAS:MMN:03",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xcs_mon_ipm": {
         "_id": "xcs_mon_ipm",
@@ -20460,7 +20460,7 @@
         "prefix": "XCS:DG3:PFLS",
         "stand": "DG3",
         "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xcs_pulsepicker": {
         "_id": "xcs_pulsepicker",
@@ -20551,7 +20551,7 @@
         "prefix": "XCS:GON",
         "stand": "GON",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xcs_sb1_ipm": {
         "_id": "xcs_sb1_ipm",
@@ -20846,7 +20846,7 @@
         "prefix": "XCS:LAS:MMN:01",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xcs_xfls": {
         "_id": "xcs_xfls",
@@ -20955,7 +20955,7 @@
         "prefix": "''",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
-        "z": 999999.0
+        "z": -1.0
     },
     "xpp_com_wp": {
         "_id": "xpp_com_wp",
@@ -20984,7 +20984,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_gon": {
         "_id": "xpp_gon",
@@ -21009,7 +21009,7 @@
         "prefix": "XPP:GON",
         "stand": "GON",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_jj_1": {
         "_id": "xpp_jj_1",
@@ -21255,7 +21255,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_lens_h": {
         "_id": "xpp_lens_h",
@@ -21284,7 +21284,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_lens_v": {
         "_id": "xpp_lens_v",
@@ -21313,7 +21313,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_leviton_mon_t": {
         "_id": "xpp_leviton_mon_t",
@@ -21436,7 +21436,7 @@
         "prefix": "XPP:LAS:MMN:02",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_lxt_fast2": {
         "_id": "xpp_lxt_fast2",
@@ -21495,7 +21495,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_pol_wp": {
         "_id": "xpp_pol_wp",
@@ -21524,7 +21524,7 @@
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_pulsepicker": {
         "_id": "xpp_pulsepicker",
@@ -21849,7 +21849,7 @@
         "prefix": "XPP:LAS:MMN:16",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 99999.0
+        "z": -1.0
     },
     "xpp_xfls": {
         "_id": "xpp_xfls",
