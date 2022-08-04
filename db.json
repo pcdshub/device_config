@@ -13479,7 +13479,7 @@
         "beamline": "TMO",
         "creation": "Mon Apr 20 11:48:45 2020",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -13487,7 +13487,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr  8 16:13:39 2021",
+        "last_edit": "Tue Aug  2 09:58:54 2022",
         "lightpath": true,
         "location_group": "FEE K4S24",
         "macros": null,
@@ -14330,6 +14330,66 @@
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
+    },
+    "qrix_det_slits": {
+        "_id": "qrix_det_slits",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX",
+        "creation": "Fri Jul  8 18:37:18 2022",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul  8 18:37:55 2022",
+        "lightpath": false,
+        "location_group": "QRIX",
+        "name": "qrix_det_slits",
+        "prefix": "QRIX:DET:SLITS",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
+    },
+    "qrix_opt_slits": {
+        "_id": "qrix_opt_slits",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX",
+        "creation": "Fri Jul  8 15:28:09 2022",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jul  8 15:29:33 2022",
+        "lightpath": false,
+        "location_group": "QRIX",
+        "name": "qrix_opt_slits",
+        "prefix": "QRIX:OPT:SLITS",
+        "stand": "K2S13",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
     },
     "rtdsk0": {
         "_id": "rtdsk0",
@@ -15299,7 +15359,7 @@
         "beamline": "TMO",
         "creation": "Thu Jan 21 13:09:55 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.cvmi_motion.CVMI",
+        "device_class": "pcdsdevices.cvmi_motion.CVMILY45",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/cVMI+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15307,7 +15367,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jan 21 13:09:55 2021",
+        "last_edit": "Thu Jul 28 17:21:08 2022",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
@@ -15328,7 +15388,7 @@
         "beamline": "TMO",
         "creation": "Thu Jan 21 13:13:06 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.cvmi_motion.KTOF",
+        "device_class": "pcdsdevices.cvmi_motion.KTOFLY45",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/KTOF+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15336,7 +15396,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jan 21 13:13:06 2021",
+        "last_edit": "Thu Jul 28 17:21:42 2022",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
@@ -17466,13 +17526,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  6 15:50:07 2022",
+        "last_edit": "Mon Jul 11 09:43:32 2022",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
         "name": "xpp_com_wp",
         "parent": null,
-        "prefix": "XPP:LAS:MMN:19",
+        "prefix": "XPP:LAS:MMN:03",
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
@@ -17534,7 +17594,7 @@
     },
     "xpp_jj_2": {
         "_id": "xpp_jj_2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -17549,7 +17609,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 23 14:32:48 2022",
+        "last_edit": "Thu Jul 28 16:45:20 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": "None",
@@ -17563,7 +17623,7 @@
     },
     "xpp_jj_3": {
         "_id": "xpp_jj_3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -17578,7 +17638,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 23 14:33:21 2022",
+        "last_edit": "Thu Jul 28 16:45:26 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -17592,7 +17652,7 @@
     },
     "xpp_jj_4": {
         "_id": "xpp_jj_4",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -17607,7 +17667,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 23 14:33:31 2022",
+        "last_edit": "Thu Jul 28 16:45:33 2022",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
