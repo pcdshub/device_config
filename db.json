@@ -5379,7 +5379,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "LAS",
+        "beamline": "FTL",
         "creation": "Tue Jun  7 15:33:38 2022",
         "device_class": "pcdsdevices.lasers.rfof.ItechRfofBase",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/RF+Over+Fiber+System",
@@ -5394,7 +5394,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jun  8 12:17:18 2022",
+        "last_edit": "Mon Aug 29 19:09:57 2022",
         "lightpath": false,
         "location_group": "LAS FTL",
         "name": "las_rfof_01",
