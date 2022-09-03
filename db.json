@@ -15423,7 +15423,7 @@
         "beamline": "TMO",
         "creation": "Thu Jan 21 13:09:55 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.cvmi_motion.CVMILY45",
+        "device_class": "pcdsdevices.cvmi_motion.CVMI",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/cVMI+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15431,7 +15431,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jul 28 17:21:08 2022",
+        "last_edit": "Fri Sep  2 15:59:08 2022",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
@@ -15452,7 +15452,7 @@
         "beamline": "TMO",
         "creation": "Thu Jan 21 13:13:06 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.cvmi_motion.KTOFLY45",
+        "device_class": "pcdsdevices.cvmi_motion.KTOF",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/KTOF+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -15460,7 +15460,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jul 28 17:21:42 2022",
+        "last_edit": "Fri Sep  2 15:59:33 2022",
         "lightpath": false,
         "location_group": "TMO IP1",
         "macros": null,
