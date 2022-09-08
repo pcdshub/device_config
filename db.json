@@ -4013,7 +4013,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KTXI",
+        "beamline": "KFE",
         "creation": "Tue Feb 25 15:09:02 2020",
         "detailed_screen": null,
         "device_class": "pcdsdevices.pim.PPM",
@@ -4698,11 +4698,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar 21 11:33:32 2022",
+        "last_edit": "Wed Sep  7 14:14:12 2022",
         "lightpath": false,
         "location_group": "Bay 1",
         "name": "las_btps",
-        "prefix": "LTLHN:BTPS:",
+        "prefix": "",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
