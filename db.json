@@ -14863,7 +14863,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "RIX",
+        "beamline": "XXX",
         "creation": "Fri Mar  4 14:55:45 2022",
         "device_class": "pcdsdevices.slits.BeckhoffSlits",
         "documentation": null,
