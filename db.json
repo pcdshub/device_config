@@ -14865,9 +14865,6 @@
         "device_class": "pcdsdevices.device_types.IMS",
         "documentation": null,
         "functional_group": "N/A",
-        "input_branches": [
-            "L5"
-        ],
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -14876,20 +14873,15 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:38 2022",
         "lightpath": false,
         "location_group": "N/A",
         "name": "mfx_dg1_wave8_motor",
-        "output_branches": [
-            "L5"
-        ],
         "prefix": "MFX:DG1:MMS:08",
         "stand": "DG1",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mfx_dg2_downstream_slits": {
@@ -15830,7 +15822,7 @@
             "output_branches": "{{output_branches}}"
         },
         "last_edit": "Mon Jul 18 16:05:42 2022",
-        "lightpath": true,
+        "lightpath": false,
         "location_group": "N/A",
         "name": "mfx_tfs",
         "output_branches": [
@@ -15878,6 +15870,9 @@
         "system": "beam control",
         "type": "pcdsdevices.happi.containers.OffsetMirror",
         "xgantry_prefix": null,
+        "y_ranges": [
+            [-19000, -17000], [0, 2000]
+        ],
         "z": 733.772
     },
     "mr1k1_vgc_1": {
@@ -15946,7 +15941,7 @@
         "macros": null,
         "name": "mr1k2_switch",
         "output_branches": [
-            "K1", "K2"
+            "K2"
         ],
         "parent": null,
         "prefix": "MR1K2:SWITCH",
@@ -16176,7 +16171,7 @@
         "macros": null,
         "name": "mr1l0_homs",
         "output_branches": [
-            "L0", "L1"
+            "L0"
         ],
         "parent": null,
         "prefix": "MR1L0:HOMS",
@@ -16234,7 +16229,7 @@
         "beamline": "HXD",
         "creation": "Mon Jul 18 16:05:45 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorXYState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -16245,7 +16240,8 @@
         "kwargs": {
             "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "output_branches": "{{output_branches}}",
+            "pitch_ranges": "{{pitch_ranges}}"
         },
         "last_edit": "Mon Jul 18 16:05:45 2022",
         "lightpath": true,
@@ -16256,6 +16252,10 @@
             "L0", "L3"
         ],
         "parent": null,
+        "pitch_ranges": [
+            [[-500, 500]],
+            [[-500, 500]]
+        ],
         "prefix": "MR1L3:HOMS",
         "prefix_xy": null,
         "stand": null,
@@ -16273,7 +16273,7 @@
         "beamline": "HXD",
         "creation": "Mon Jul 18 16:05:46 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorXYState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -16284,7 +16284,8 @@
         "kwargs": {
             "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "output_branches": "{{output_branches}}",
+            "pitch_ranges": "{{pitch_ranges}}"
         },
         "last_edit": "Mon Jul 18 16:05:46 2022",
         "lightpath": true,
@@ -16295,6 +16296,10 @@
             "L0", "L4", "L5"
         ],
         "parent": null,
+        "pitch_ranges": [
+            [[600, 6000], [-4000, -400]],
+            [[600, 6000], [-4000, -400]]
+        ],
         "prefix": "MR1L4:HOMS",
         "prefix_xy": null,
         "stand": null,
@@ -16542,7 +16547,7 @@
         "beamline": "HXD",
         "creation": "Mon Jul 18 16:05:48 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirror",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorState",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
