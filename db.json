@@ -239,6 +239,7 @@
             "{{prefix}}"
         ],
         "beamline": "RIX",
+        "calculator_prefix": "AT2K2:CALC",
         "creation": "Mon Jul 18 16:05:21 2022",
         "device_class": "pcdsdevices.attenuator.AttenuatorSXR_Ladder",
         "documentation": null,
@@ -20227,7 +20228,7 @@
         "beamline": "HXD",
         "creation": "Mon Jul 18 16:06:06 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.LODCM",
+        "device_class": "pcdsdevices.device_types.XCSLODCM",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -21389,15 +21390,20 @@
         "beamline": "HXD",
         "creation": "Tue Feb 27 12:53:14 2018",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.LODCM",
+        "device_class": "pcdsdevices.device_types.XPPLODCM",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Motion",
+        "input_branches": [
+            "L0"
+        ],
         "kwargs": {
+            "input_branches": "{{input_branches}}",
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "output_branches": "{{output_branches}}"
         },
         "last_edit": "Thu Aug 19 13:29:32 2021",
         "lightpath": false,
@@ -21405,6 +21411,9 @@
         "macros": null,
         "mono_line": "XPP",
         "name": "xpp_lodcm",
+        "output_branches": [
+            "L0", "L2"
+        ],
         "parent": null,
         "prefix": "XPP:LODCM",
         "screen": null,
