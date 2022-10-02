@@ -776,126 +776,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.007
     },
-    "crix_rcc_vrc_1": {
-        "_id": "crix_rcc_vrc_1",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Nov  16 15:58:05 2021",
-        "device_class": "pcdsdevices.valve.VRC",
-        "documentation": null,
-        "functional_group": "Vacuum",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Nov  16 15:58:05 2021",
-        "lightpath": true,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_vrc_1",
-        "prefix": "CRIX:RCC:VRC:01",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.00999
-    },
-    "crix_rcc_vrc_2": {
-        "_id": "crix_rcc_vrc_2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Nov  16 15:58:05 2021",
-        "device_class": "pcdsdevices.valve.VRC",
-        "documentation": null,
-        "functional_group": "Vacuum",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Nov  16 15:58:05 2021",
-        "lightpath": true,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_vrc_2",
-        "prefix": "CRIX:RCC:VRC:02",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.00998
-    },
-    "crix_rcc_vrc_3": {
-        "_id": "crix_rcc_vrc_3",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Nov  16 15:58:05 2021",
-        "device_class": "pcdsdevices.valve.VRC",
-        "documentation": null,
-        "functional_group": "Vacuum",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Nov  16 15:58:05 2021",
-        "lightpath": true,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_vrc_3",
-        "prefix": "CRIX:RCC:VRC:03",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.00997
-    },
-    "crix_rcc_vrc_4": {
-        "_id": "crix_rcc_vrc_4",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Tue Nov  16 15:58:05 2021",
-        "device_class": "pcdsdevices.valve.VRC",
-        "documentation": null,
-        "functional_group": "Vacuum",
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Nov  16 15:58:05 2021",
-        "lightpath": true,
-        "location_group": "crix catcher",
-        "name": "crix_rcc_vrc_4",
-        "prefix": "CRIX:RCC:VRC:04",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 790.00996
-    },
     "crix_rcc_x": {
         "_id": "crix_rcc_x",
         "active": true,
@@ -1075,6 +955,126 @@
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
+    },
+    "crixs_rcc_vrc_1": {
+        "_id": "crixs_rcc_vrc_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 30 17:06:37 2022",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crixs_rcc_vrc_1",
+        "prefix": "CRIXS:RCC:VRC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00999
+    },
+    "crixs_rcc_vrc_2": {
+        "_id": "crixs_rcc_vrc_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 30 17:07:06 2022",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crixs_rcc_vrc_2",
+        "prefix": "CRIXS:RCC:VRC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00998
+    },
+    "crixs_rcc_vrc_3": {
+        "_id": "crixs_rcc_vrc_3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 30 17:07:29 2022",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crixs_rcc_vrc_3",
+        "prefix": "CRIXS:RCC:VRC:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00997
+    },
+    "crixs_rcc_vrc_4": {
+        "_id": "crixs_rcc_vrc_4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Tue Nov  16 15:58:05 2021",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 30 17:07:52 2022",
+        "lightpath": true,
+        "location_group": "crix catcher",
+        "name": "crixs_rcc_vrc_4",
+        "prefix": "CRIXS:RCC:VRC:04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.00996
     },
     "cxi_dg1_pim": {
         "_id": "cxi_dg1_pim",
