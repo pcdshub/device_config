@@ -5413,7 +5413,7 @@
         "creation": "Wed Oct  5 16:49:13 2022",
         "device_class": "pcdsdevices.fms.LCP1",
         "documentation": null,
-        "functional_group": "LCP_Temp",
+        "functional_group": "LCP",
         "ioc_arch": null,
         "ioc_engineer": "cymel123",
         "ioc_hutch": null,
@@ -5424,7 +5424,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  5 16:57:50 2022",
+        "last_edit": "Wed Oct  5 17:04:14 2022",
         "lightpath": false,
         "location_group": "KFE FEE",
         "name": "lcp_kfe_fee_r0708",
@@ -5443,7 +5443,7 @@
         "creation": "Wed Oct  5 16:31:26 2022",
         "device_class": "pcdsdevices.fms.LCP1",
         "documentation": null,
-        "functional_group": "LCP_Temp",
+        "functional_group": "LCP",
         "ioc_arch": null,
         "ioc_engineer": "cymel123",
         "ioc_hutch": null,
@@ -5454,11 +5454,41 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  5 16:31:26 2022",
+        "last_edit": "Wed Oct  5 17:05:41 2022",
         "lightpath": false,
         "location_group": "LFE FEE",
         "name": "lcp_lfe_fee_r0203",
         "prefix": "FEE:LFE:LCP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "lcp_txi_feer1617_": {
+        "_id": "lcp_txi_feer1617_",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Wed Oct  5 17:14:42 2022",
+        "device_class": "pcdsdevices.fms.LCP1",
+        "documentation": null,
+        "functional_group": "LCP",
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Oct  5 17:14:42 2022",
+        "lightpath": false,
+        "location_group": "TXI FEE",
+        "name": "lcp_txi_feer1617_",
+        "prefix": "FEE:TXI:LCP:01",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
