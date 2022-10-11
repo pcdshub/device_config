@@ -4197,6 +4197,35 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 745.4
     },
+    "im2l1": {
+        "_id": "im2l1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Mon Oct 10 13:35:21 2022",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 10 16:16:25 2022",
+        "lightpath": false,
+        "location_group": "H1.1",
+        "macros": null,
+        "name": "im2l1",
+        "parent": null,
+        "prefix": "IM2L1:PPM",
+        "stand": "L1S01",
+        "system": "viewing",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.4
+    },
     "im2k0": {
         "_id": "im2k0",
         "active": true,
