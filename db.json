@@ -4197,35 +4197,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 745.4
     },
-    "im2l1": {
-        "_id": "im2l1",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TXI",
-        "creation": "Mon Oct 10 13:35:21 2022",
-        "detailed_screen": null,
-        "device_class": "pcdsdevices.pim.PPM",
-        "documentation": null,
-        "embedded_screen": null,
-        "engineering_screen": null,
-        "functional_group": "Imager",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Mon Oct 10 16:16:25 2022",
-        "lightpath": false,
-        "location_group": "H1.1",
-        "macros": null,
-        "name": "im2l1",
-        "parent": null,
-        "prefix": "IM2L1:PPM",
-        "stand": "L1S01",
-        "system": "viewing",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 754.4
-    },
     "im2k0": {
         "_id": "im2k0",
         "active": true,
@@ -4393,6 +4364,35 @@
         "system": "viewing",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 736.0
+    },
+    "im2l1": {
+        "_id": "im2l1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Mon Oct 10 13:35:21 2022",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Imager",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 10 16:16:25 2022",
+        "lightpath": false,
+        "location_group": "H1.1",
+        "macros": null,
+        "name": "im2l1",
+        "parent": null,
+        "prefix": "IM2L1:PPM",
+        "stand": "L1S01",
+        "system": "viewing",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.4
     },
     "im3k2": {
         "_id": "im3k2",
@@ -7240,6 +7240,40 @@
         "prefix": "LM1K2:INJ_DP1_TF1_SL1:ELL",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k2_inj_dp2_mr1": {
+        "_id": "lm1k2_inj_dp2_mr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIXS_MODS",
+        "creation": "Tue Oct 11 17:22:00 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "ioc_alias": "LM1K2:INJ_DP2_MR1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "1",
+        "ioc_engineer": "cpino",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIXS MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/smaract/",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 11 17:22:00 2022",
+        "lightpath": false,
+        "location_group": "1_lm1k2_inj",
+        "name": "lm1k2_inj_dp2_mr1",
+        "prefix": "LM1K2:INJ_DP2_MR1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
     "lm1k2_inj_dp2_tf1_pm1": {
