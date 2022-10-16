@@ -9980,29 +9980,29 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 14:19:13 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
         "functional_group": "cameras",
-        "ioc_arch": null,
-        "ioc_cam_model": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1440-73gm",
         "ioc_engineer": "tjohnson",
         "ioc_evr_channel": "1",
         "ioc_http_port": "7801",
-        "ioc_hutch": null,
-        "ioc_ip": null,
-        "ioc_location": null,
-        "ioc_name": null,
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.162",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-hrm-gige-ff-01",
         "ioc_net_if": "ETH0",
         "ioc_net_if_num": "1",
-        "ioc_release": null,
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0",
         "ioc_type": "BaslerGigE",
-        "ioc_use_evr": "no",
+        "ioc_use_evr": "yes",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 24 19:19:13 2022",
+        "last_edit": "Fri Oct 14 17:24:25 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_ff1",
@@ -10017,7 +10017,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:23:45 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -10028,7 +10028,7 @@
         "ioc_evr_channel": "0",
         "ioc_http_port": "7802",
         "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.35.163",
+        "ioc_ip": "172.21.160.163",
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-hrm-gige-nf-01",
         "ioc_net_if": "ETH0",
@@ -10039,7 +10039,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 24 19:19:13 2022",
+        "last_edit": "Fri Oct 14 17:28:53 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_nf1",
@@ -10126,7 +10126,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:15:46 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -10137,7 +10137,7 @@
         "ioc_evr_channel": "3",
         "ioc_http_port": "7803",
         "ioc_hutch": "LAS",
-        "ioc_ip": null,
+        "ioc_ip": "172.21.160.164",
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-hrm-gige-ff-02",
         "ioc_net_if": "ETH0",
@@ -10148,7 +10148,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 24 19:19:13 2022",
+        "last_edit": "Fri Oct 14 17:27:03 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_ff1",
@@ -10163,7 +10163,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:31:00 2021",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
@@ -10174,7 +10174,7 @@
         "ioc_evr_channel": "2",
         "ioc_http_port": "7804",
         "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.35.165",
+        "ioc_ip": "172.21.160.165",
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-hrm-gige-nf-02",
         "ioc_net_if": "ETH0",
@@ -10185,7 +10185,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 24 19:19:13 2022",
+        "last_edit": "Fri Oct 14 17:32:01 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_nf1",
@@ -10272,7 +10272,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "CRIX_MODS",
+        "beamline": "IP1_MODS",
         "creation": "Tue Sep 21 18:20:16 2021",
         "device_class": "pcdsdevices.device_types.QminiSpectrometer",
         "documentation": null,
@@ -10290,7 +10290,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 24 19:19:13 2022",
+        "last_edit": "Fri Oct 14 17:34:58 2022",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_sp1",
@@ -10786,7 +10786,7 @@
         "ioc_evr_channel": "5",
         "ioc_http_port": "7801",
         "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.35.160",
+        "ioc_ip": "172.21.160.160",
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-inj-gige-ff-01",
         "ioc_net_if": "ETH0",
@@ -10797,7 +10797,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Sep  9 15:53:32 2021",
+        "last_edit": "Fri Oct 14 17:47:18 2022",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_ff1",
@@ -10823,7 +10823,7 @@
         "ioc_evr_channel": "4",
         "ioc_http_port": "7802",
         "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.35.159",
+        "ioc_ip": "172.21.160.159",
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-inj-gige-nf-01",
         "ioc_net_if": "ETH0",
@@ -10834,7 +10834,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar 12 10:32:54 2021",
+        "last_edit": "Fri Oct 14 17:48:34 2022",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_nf1",
