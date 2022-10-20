@@ -38,9 +38,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:19 2022",
         "lightpath": true,
@@ -76,9 +74,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:20 2022",
         "lightpath": true,
@@ -114,9 +110,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:20 2022",
         "lightpath": true,
@@ -153,9 +147,7 @@
         "ioc_type": null,
         "kwargs": {
             "calculator_prefix": "{{calculator_prefix}}",
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:20 2022",
         "lightpath": true,
@@ -216,9 +208,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:20 2022",
         "lightpath": true,
@@ -256,9 +246,7 @@
         "ioc_type": null,
         "kwargs": {
             "calculator_prefix": "{{calculator_prefix}}",
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:21 2022",
         "lightpath": true,
@@ -324,9 +312,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:21 2022",
         "lightpath": true,
@@ -392,9 +378,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:21 2022",
         "lightpath": true,
@@ -1537,9 +1521,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:23 2022",
         "lightpath": true,
@@ -3190,9 +3172,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:23 2022",
         "lightpath": true,
@@ -3228,9 +3208,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:23 2022",
         "lightpath": true,
@@ -3266,9 +3244,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:24 2022",
         "lightpath": true,
@@ -3340,9 +3316,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:24 2022",
         "lightpath": true,
@@ -3568,9 +3542,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:24 2022",
         "lightpath": true,
@@ -3606,9 +3578,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:24 2022",
@@ -3645,9 +3615,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:25 2022",
         "lightpath": true,
@@ -3682,9 +3650,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:25 2022",
         "lightpath": true,
@@ -3743,9 +3709,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:25 2022",
         "lightpath": true,
@@ -3784,9 +3748,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:25 2022",
@@ -3820,9 +3782,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:26 2022",
         "lightpath": true,
@@ -3857,9 +3817,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:26 2022",
         "lightpath": true,
@@ -3894,9 +3852,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:26 2022",
         "lightpath": true,
@@ -3931,9 +3887,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:27 2022",
         "lightpath": true,
@@ -3968,9 +3922,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:27 2022",
         "lightpath": true,
@@ -4005,9 +3957,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:27 2022",
         "lightpath": true,
@@ -4098,9 +4048,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:28 2022",
         "lightpath": true,
@@ -4136,9 +4084,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:28 2022",
         "lightpath": true,
@@ -4174,9 +4120,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:28 2022",
         "lightpath": true,
@@ -4212,9 +4156,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:29 2022",
         "lightpath": true,
@@ -4250,9 +4192,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:29 2022",
         "lightpath": true,
@@ -4288,9 +4228,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:29 2022",
         "lightpath": true,
@@ -4326,9 +4264,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:29 2022",
         "lightpath": true,
@@ -4364,9 +4300,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:30 2022",
         "lightpath": true,
@@ -4431,9 +4365,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:30 2022",
         "lightpath": true,
@@ -4469,9 +4401,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:30 2022",
         "lightpath": true,
@@ -4507,9 +4437,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:30 2022",
         "lightpath": true,
@@ -4545,9 +4473,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:31 2022",
         "lightpath": true,
@@ -4583,9 +4509,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:31 2022",
         "lightpath": true,
@@ -4650,9 +4574,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:31 2022",
         "lightpath": true,
@@ -4688,9 +4610,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:31 2022",
         "lightpath": true,
@@ -4726,9 +4646,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:32 2022",
         "lightpath": true,
@@ -4764,9 +4682,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:32 2022",
         "lightpath": true,
@@ -4802,9 +4718,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:32 2022",
         "lightpath": true,
@@ -4840,9 +4754,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:33 2022",
         "lightpath": true,
@@ -4878,9 +4790,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:33 2022",
         "lightpath": true,
@@ -4916,9 +4826,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:33 2022",
         "lightpath": true,
@@ -4954,9 +4862,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:34 2022",
         "lightpath": true,
@@ -4992,9 +4898,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:34 2022",
         "lightpath": true,
@@ -5846,9 +5750,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:34 2022",
         "lightpath": true,
@@ -5884,9 +5786,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:35 2022",
         "lightpath": true,
@@ -5922,9 +5822,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:35 2022",
         "lightpath": true,
@@ -5960,9 +5858,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:35 2022",
         "lightpath": true,
@@ -14451,9 +14347,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:35 2022",
@@ -14491,9 +14385,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:36 2022",
@@ -14531,9 +14423,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:36 2022",
@@ -14571,9 +14461,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:36 2022",
@@ -14611,9 +14499,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:36 2022",
         "lightpath": true,
@@ -14647,8 +14533,7 @@
         "kwargs": {
             "input_branches": "{{input_branches}}",
             "n_filters": "{{n_filters}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:37 2022",
         "lightpath": true,
@@ -14685,9 +14570,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:37 2022",
         "lightpath": true,
@@ -14723,9 +14606,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:37 2022",
@@ -14762,9 +14643,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:37 2022",
         "lightpath": true,
@@ -14799,9 +14678,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:38 2022",
         "lightpath": true,
@@ -14836,9 +14713,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:38 2022",
         "lightpath": true,
@@ -14903,9 +14778,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:39 2022",
         "lightpath": true,
@@ -14941,9 +14814,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:39 2022",
         "lightpath": true,
@@ -14978,9 +14849,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:39 2022",
         "lightpath": true,
@@ -15016,9 +14885,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:39 2022",
@@ -15055,9 +14922,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:40 2022",
         "lightpath": true,
@@ -15093,9 +14958,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:40 2022",
         "lightpath": true,
@@ -15131,9 +14994,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:05:40 2022",
@@ -15170,9 +15031,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:41 2022",
         "lightpath": true,
@@ -15207,9 +15066,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:41 2022",
         "lightpath": true,
@@ -15244,9 +15101,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:41 2022",
         "lightpath": true,
@@ -15702,9 +15557,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:41 2022",
         "lightpath": true,
@@ -15739,9 +15592,7 @@
             "L5"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:42 2022",
         "lightpath": true,
@@ -15780,9 +15631,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:42 2022",
         "lightpath": true,
@@ -15818,9 +15667,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:42 2022",
         "lightpath": false,
@@ -15852,9 +15699,7 @@
             "K0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:42 2022",
         "lightpath": true,
@@ -15898,9 +15743,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:43 2022",
         "lightpath": true,
@@ -15932,9 +15775,7 @@
             "K1"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:43 2022",
         "lightpath": true,
@@ -15975,9 +15816,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:43 2022",
         "lightpath": true,
@@ -16013,9 +15852,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:43 2022",
         "lightpath": true,
@@ -16051,9 +15888,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:44 2022",
         "lightpath": true,
@@ -16085,9 +15920,7 @@
             "K0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Tue Aug  2 09:58:54 2022",
         "lightpath": true,
@@ -16128,9 +15961,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:44 2022",
         "lightpath": true,
@@ -16162,9 +15993,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:45 2022",
         "lightpath": true,
@@ -16205,9 +16034,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:45 2022",
         "lightpath": true,
@@ -16239,9 +16066,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "pitch_ranges": "{{pitch_ranges}}"
         },
         "last_edit": "Mon Jul 18 16:05:45 2022",
@@ -16283,9 +16108,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "pitch_ranges": "{{pitch_ranges}}"
         },
         "last_edit": "Mon Jul 18 16:05:46 2022",
@@ -16331,9 +16154,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:46 2022",
         "lightpath": true,
@@ -16365,9 +16186,7 @@
             "K4"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:46 2022",
         "lightpath": true,
@@ -16408,9 +16227,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:47 2022",
         "lightpath": true,
@@ -16442,9 +16259,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:47 2022",
         "lightpath": true,
@@ -16485,9 +16300,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:47 2022",
         "lightpath": true,
@@ -16523,9 +16336,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:47 2022",
         "lightpath": true,
@@ -16557,9 +16368,7 @@
             "L3"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:48 2022",
         "lightpath": true,
@@ -16600,9 +16409,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:48 2022",
         "lightpath": true,
@@ -16634,9 +16441,7 @@
             "K4"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:48 2022",
         "lightpath": true,
@@ -16677,9 +16482,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:49 2022",
         "lightpath": true,
@@ -16715,9 +16518,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:49 2022",
         "lightpath": true,
@@ -16753,9 +16554,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:49 2022",
         "lightpath": true,
@@ -16787,9 +16586,7 @@
             "K4"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:49 2022",
         "lightpath": true,
@@ -16826,9 +16623,7 @@
             "K4"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:50 2022",
         "lightpath": true,
@@ -16865,9 +16660,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:50 2022",
         "lightpath": true,
@@ -16902,9 +16695,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:50 2022",
         "lightpath": true,
@@ -16990,9 +16781,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:50 2022",
         "lightpath": true,
@@ -17028,9 +16817,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:51 2022",
         "lightpath": true,
@@ -17066,9 +16853,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:51 2022",
         "lightpath": true,
@@ -17104,9 +16889,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:51 2022",
         "lightpath": true,
@@ -17142,9 +16925,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:51 2022",
         "lightpath": true,
@@ -17180,9 +16961,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:52 2022",
         "lightpath": true,
@@ -17218,9 +16997,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:52 2022",
         "lightpath": true,
@@ -17256,9 +17033,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:52 2022",
         "lightpath": true,
@@ -17294,9 +17069,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:53 2022",
         "lightpath": true,
@@ -17392,9 +17165,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:53 2022",
         "lightpath": true,
@@ -17430,9 +17201,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:53 2022",
         "lightpath": true,
@@ -17492,9 +17261,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:53 2022",
         "lightpath": true,
@@ -17553,9 +17320,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:54 2022",
         "lightpath": true,
@@ -17637,9 +17402,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:54 2022",
         "lightpath": true,
@@ -17675,9 +17438,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:54 2022",
         "lightpath": true,
@@ -17713,9 +17474,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:55 2022",
         "lightpath": true,
@@ -17751,9 +17510,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:55 2022",
         "lightpath": true,
@@ -17789,9 +17546,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:55 2022",
         "lightpath": true,
@@ -17827,9 +17582,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:55 2022",
         "lightpath": true,
@@ -17865,9 +17618,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:56 2022",
         "lightpath": true,
@@ -17903,9 +17654,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:56 2022",
         "lightpath": true,
@@ -17937,9 +17686,7 @@
             "K1"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:56 2022",
         "lightpath": true,
@@ -17978,9 +17725,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:57 2022",
         "lightpath": true,
@@ -18016,9 +17761,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:57 2022",
         "lightpath": true,
@@ -18050,9 +17793,7 @@
             "K4"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:57 2022",
         "lightpath": true,
@@ -18091,9 +17832,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:58 2022",
         "lightpath": true,
@@ -18183,11 +17922,9 @@
         "kwargs": {
             "in_suffix": "IN",
             "in_value": 1,
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
             "out_suffix": "OUT",
-            "out_value": 1,
-            "output_branches": "{{output_branches}}"
+            "out_value": 1
         },
         "last_edit": "Mon Jul 18 16:05:58 2022",
         "lightpath": true,
@@ -18223,9 +17960,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:58 2022",
         "lightpath": true,
@@ -18261,9 +17996,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:58 2022",
         "lightpath": true,
@@ -18299,10 +18032,8 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "out_state": "NOT_IN",
-            "output_branches": "{{output_branches}}"
+            "out_state": "NOT_IN"
         },
         "last_edit": "Mon Jul 18 16:05:59 2022",
         "lightpath": true,
@@ -18338,9 +18069,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:59 2022",
         "lightpath": true,
@@ -18376,9 +18105,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:05:59 2022",
         "lightpath": true,
@@ -18414,9 +18141,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:00 2022",
         "lightpath": true,
@@ -18452,9 +18177,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:00 2022",
         "lightpath": true,
@@ -18490,9 +18213,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:00 2022",
         "lightpath": true,
@@ -18528,9 +18249,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:00 2022",
         "lightpath": true,
@@ -18682,9 +18401,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:01 2022",
         "lightpath": true,
@@ -18720,9 +18437,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:01 2022",
         "lightpath": true,
@@ -18758,9 +18473,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:01 2022",
         "lightpath": true,
@@ -18796,9 +18509,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:02 2022",
         "lightpath": true,
@@ -18834,9 +18545,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:02 2022",
         "lightpath": true,
@@ -18872,9 +18581,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:02 2022",
         "lightpath": true,
@@ -18910,9 +18617,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:02 2022",
         "lightpath": true,
@@ -18948,9 +18653,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:03 2022",
         "lightpath": true,
@@ -18986,9 +18689,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:03 2022",
         "lightpath": true,
@@ -19024,9 +18725,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:03 2022",
         "lightpath": true,
@@ -19062,9 +18761,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:03 2022",
         "lightpath": true,
@@ -19100,9 +18797,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:04 2022",
         "lightpath": true,
@@ -19138,9 +18833,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:04 2022",
         "lightpath": true,
@@ -19176,9 +18869,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:04 2022",
         "lightpath": true,
@@ -19211,9 +18902,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:04 2022",
         "lightpath": true,
@@ -19252,9 +18941,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:06:05 2022",
@@ -19288,9 +18975,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:05 2022",
         "lightpath": true,
@@ -19325,9 +19010,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:05 2022",
         "lightpath": true,
@@ -19653,10 +19336,8 @@
             "alio_prefix": "XCS:MON:MPZ:01",
             "chi2_prefix": "XCS:MON:PIC:06",
             "in_pos": 3.3,
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
             "out_pos": 13.18,
-            "output_branches": "{{output_branches}}",
             "theta2coarse_prefix": "XCS:MON:PIC:05",
             "theta2fine_prefix": "XCS:MON:MPZ:02",
             "x_down_prefix": "XCS:MON:MMS:24",
@@ -20237,11 +19918,9 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:06 2022",
         "lightpath": true,
@@ -20452,9 +20131,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:06 2022",
         "lightpath": true,
@@ -20509,9 +20186,7 @@
             "L3"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:06 2022",
         "lightpath": true,
@@ -20897,8 +20572,7 @@
         "kwargs": {
             "input_branches": "{{input_branches}}",
             "n_filters": "{{n_filters}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:07 2022",
         "lightpath": true,
@@ -20939,10 +20613,8 @@
             "alio_prefix": "XPP:MON:MPZ:07A",
             "chi2_prefix": "XPP:MON:PIC:05",
             "in_pos": -8.92,
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
             "out_pos": 0,
-            "output_branches": "{{output_branches}}",
             "theta2coarse_prefix": "XPP:MON:PIC:06",
             "theta2fine_prefix": "XPP:MON:MPZ:08",
             "x_down_prefix": "XPP:MON:MMS:22",
@@ -21035,9 +20707,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:07 2022",
         "lightpath": true,
@@ -21072,9 +20742,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Thu Jul 28 16:45:20 2022",
         "lightpath": true,
@@ -21109,9 +20777,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Thu Jul 28 16:45:26 2022",
         "lightpath": true,
@@ -21146,9 +20812,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Thu Jul 28 16:45:33 2022",
         "lightpath": true,
@@ -21399,11 +21063,9 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Thu Aug 19 13:29:32 2021",
         "lightpath": false,
@@ -21558,9 +21220,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:09 2022",
         "lightpath": true,
@@ -21595,9 +21255,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:09 2022",
         "lightpath": true,
@@ -21633,9 +21291,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:09 2022",
         "lightpath": true,
@@ -21670,9 +21326,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:10 2022",
         "lightpath": true,
@@ -21707,9 +21361,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:10 2022",
         "lightpath": true,
@@ -21745,9 +21397,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:10 2022",
         "lightpath": true,
@@ -21786,9 +21436,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
-            "output_branches": "{{output_branches}}",
             "prefix_det": "{{prefix_det}}"
         },
         "last_edit": "Mon Jul 18 16:06:10 2022",
@@ -21822,9 +21470,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:11 2022",
         "lightpath": true,
@@ -21887,9 +21533,7 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:11 2022",
         "lightpath": true,
@@ -21997,9 +21641,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:11 2022",
         "lightpath": true,
@@ -22038,12 +21680,10 @@
                 "MEC",
                 "MFX"
             ],
-            "input_branches": "{{input_branches}}",
             "name": "{{name}}",
             "out_lines": [
                 "HXD"
-            ],
-            "output_branches": "{{output_branches}}"
+            ]
         },
         "last_edit": "Mon Jul 18 16:06:11 2022",
         "lightpath": true,
@@ -22080,9 +21720,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:12 2022",
         "lightpath": true,
@@ -22119,9 +21757,7 @@
             "L0"
         ],
         "kwargs": {
-            "input_branches": "{{input_branches}}",
-            "name": "{{name}}",
-            "output_branches": "{{output_branches}}"
+            "name": "{{name}}"
         },
         "last_edit": "Mon Jul 18 16:06:12 2022",
         "lightpath": true,
