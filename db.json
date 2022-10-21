@@ -913,6 +913,9 @@
         "device_class": "pcdsdevices.valve.VRC",
         "documentation": null,
         "functional_group": "Vacuum",
+        "input_branches": [
+            "K1"
+        ],
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -927,9 +930,12 @@
         "lightpath": true,
         "location_group": "crix catcher",
         "name": "crixs_rcc_vrc_1",
+        "output_branches": [
+            "K1"
+        ],
         "prefix": "CRIXS:RCC:VRC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
         "z": 790.00999
     },
     "crixs_rcc_vrc_2": {
@@ -943,6 +949,9 @@
         "device_class": "pcdsdevices.valve.VRC",
         "documentation": null,
         "functional_group": "Vacuum",
+        "input_branches": [
+            "K1"
+        ],
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -957,9 +966,12 @@
         "lightpath": true,
         "location_group": "crix catcher",
         "name": "crixs_rcc_vrc_2",
+        "output_branches": [
+            "K1"
+        ],
         "prefix": "CRIXS:RCC:VRC:02",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
         "z": 790.00998
     },
     "crixs_rcc_vrc_3": {
@@ -973,6 +985,9 @@
         "device_class": "pcdsdevices.valve.VRC",
         "documentation": null,
         "functional_group": "Vacuum",
+        "input_branches": [
+            "K1"
+        ],
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -987,9 +1002,12 @@
         "lightpath": true,
         "location_group": "crix catcher",
         "name": "crixs_rcc_vrc_3",
+        "output_branches": [
+            "K1"
+        ],
         "prefix": "CRIXS:RCC:VRC:03",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
         "z": 790.00997
     },
     "crixs_rcc_vrc_4": {
@@ -1003,6 +1021,9 @@
         "device_class": "pcdsdevices.valve.VRC",
         "documentation": null,
         "functional_group": "Vacuum",
+        "input_branches": [
+            "K1"
+        ],
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -1017,9 +1038,12 @@
         "lightpath": true,
         "location_group": "crix catcher",
         "name": "crixs_rcc_vrc_4",
+        "output_branches": [
+            "K1"
+        ],
         "prefix": "CRIXS:RCC:VRC:04",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
         "z": 790.00996
     },
     "cxi_dg1_pim": {
