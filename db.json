@@ -49,7 +49,7 @@
         ],
         "prefix": "AL1K2:L2SI",
         "stand": "K2S02",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.833
     },
     "al1k4": {
@@ -85,7 +85,7 @@
         ],
         "prefix": "AL1K4:L2SI",
         "stand": "K4S33",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.87351
     },
     "at1k0_gas_vgc_1": {
@@ -121,7 +121,7 @@
         ],
         "prefix": "AT1K0:GAS:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 706.1876742
     },
     "at1k4": {
@@ -158,7 +158,7 @@
         ],
         "prefix": "AT1K4:L2SI",
         "stand": "K4S24",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0
     },
     "at1k4_calc": {
@@ -219,7 +219,7 @@
         ],
         "prefix": "SATT:FEE1:320",
         "stand": "L0S05",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 729.2956
     },
     "at2k2": {
@@ -257,7 +257,7 @@
         ],
         "prefix": "AT2K2:L2SI",
         "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 788.8
     },
     "at2k2_calc": {
@@ -323,7 +323,7 @@
         ],
         "prefix": "AT2L0:XTES",
         "stand": "L0S07",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 734.5
     },
     "at2l0_calc": {
@@ -389,7 +389,7 @@
         ],
         "prefix": "BT2L0:PLEG:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 742.4427
     },
     "crix_apd_theta": {
@@ -935,7 +935,7 @@
         ],
         "prefix": "CRIXS:RCC:VRC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.00999
     },
     "crixs_rcc_vrc_2": {
@@ -971,7 +971,7 @@
         ],
         "prefix": "CRIXS:RCC:VRC:02",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.00998
     },
     "crixs_rcc_vrc_3": {
@@ -1007,7 +1007,7 @@
         ],
         "prefix": "CRIXS:RCC:VRC:03",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.00997
     },
     "crixs_rcc_vrc_4": {
@@ -1043,7 +1043,7 @@
         ],
         "prefix": "CRIXS:RCC:VRC:04",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.00996
     },
     "cxi_dg1_pim": {
@@ -1556,7 +1556,7 @@
         ],
         "prefix": "CXI:DS1:XFLS",
         "stand": "DSC",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0 
     },
     "cxi_dsc_vgc_01": {
@@ -3207,7 +3207,7 @@
         ],
         "prefix": "EM1L0:GEM:VGC:10",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 725.0
     },
     "em2k0_xgmd_vgc_1": {
@@ -3243,7 +3243,7 @@
         ],
         "prefix": "EM2K0:XGMD:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 725.0793754
     },
     "em2k0_xgmd_vgc_2": {
@@ -3279,7 +3279,7 @@
         ],
         "prefix": "EM2K0:XGMD:VGC:2",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 727.306073
     },
     "em2l0": {
@@ -3351,7 +3351,7 @@
         ],
         "prefix": "EM2L0:GEM:VGC:70",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 733.0
     },
     "fee_m1h": {
@@ -3785,7 +3785,7 @@
         "prefix": "HFX:DG2:PIM",
         "prefix_det": "HFX:DG2:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 959.053
     },
     "hxd_dg2_slits": {
@@ -4083,7 +4083,7 @@
         ],
         "prefix": "IM1K0:XTES",
         "stand": "K0S00",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.5
     },
     "im1k1": {
@@ -4119,7 +4119,7 @@
         ],
         "prefix": "IM1K1:PPM",
         "stand": "K1S10",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 738.0
     },
     "im1k2": {
@@ -4155,7 +4155,7 @@
         ],
         "prefix": "IM1K2:PPM",
         "stand": "K2S01",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 777.9
     },
     "im1k3": {
@@ -4191,7 +4191,7 @@
         ],
         "prefix": "IM1K3:PPM",
         "stand": "K0S12",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.8
     },
     "im1k3_ppm_vgc_1": {
@@ -4227,7 +4227,7 @@
         ],
         "prefix": "IM1K3:PPM:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.3000286
     },
     "im1k4": {
@@ -4263,7 +4263,7 @@
         ],
         "prefix": "IM1K4:XTES",
         "stand": "K4S24",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.3
     },
     "im1l0": {
@@ -4299,7 +4299,7 @@
         ],
         "prefix": "IM1L0:XTES",
         "stand": "L0S00",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.6
     },
     "im1l0_xtes_vgc01": {
@@ -4335,7 +4335,7 @@
         ],
         "prefix": "IM1L0:XTES:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 699.0447
     },
     "im1l1": {
@@ -4400,7 +4400,7 @@
         ],
         "prefix": "IM2K0:XTES",
         "stand": "K0S04",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.97
     },
     "im2k1": {
@@ -4436,7 +4436,7 @@
         ],
         "prefix": "IM2K1:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 742.15
     },
     "im2k2": {
@@ -4472,7 +4472,7 @@
         ],
         "prefix": "IM2K2:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 780.45
     },
     "im2k4": {
@@ -4508,7 +4508,7 @@
         ],
         "prefix": "IM2K4:PPM",
         "stand": "K4S33",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.32
     },
     "im2l0": {
@@ -4544,7 +4544,7 @@
         ],
         "prefix": "IM2L0:XTES",
         "stand": "L0S08",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 736.0
     },
     "im2l1": {
@@ -4609,7 +4609,7 @@
         ],
         "prefix": "IM3K2:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 781.825
     },
     "im3k4": {
@@ -4645,7 +4645,7 @@
         ],
         "prefix": "IM3K4:PPM",
         "stand": "GS1",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 758.889
     },
     "im3l0": {
@@ -4681,7 +4681,7 @@
         ],
         "prefix": "IM3L0:PPM",
         "stand": "L0S16",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
     "im4k2": {
@@ -4717,7 +4717,7 @@
         ],
         "prefix": "IM4K2:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 783.519
     },
     "im4k4": {
@@ -4753,7 +4753,7 @@
         ],
         "prefix": "IM4K4:PPM",
         "stand": "GS1",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.101
     },
     "im4l0": {
@@ -4789,7 +4789,7 @@
         ],
         "prefix": "IM4L0:XTES",
         "stand": "L0S21",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 753.6
     },
     "im5k2": {
@@ -4825,7 +4825,7 @@
         ],
         "prefix": "IM5K2:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 787.337
     },
     "im5k4": {
@@ -4861,7 +4861,7 @@
         ],
         "prefix": "IM5K4:PPM",
         "stand": "GS2",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 764.485
     },
     "im6k2": {
@@ -4897,7 +4897,7 @@
         ],
         "prefix": "IM6K2:PPM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 792.819
     },
     "im6k4": {
@@ -4933,7 +4933,7 @@
         ],
         "prefix": "IM6K4:PPM",
         "stand": "GS3",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "las_btps": {
@@ -5785,7 +5785,7 @@
         ],
         "prefix": "LI1K4:IP1",
         "stand": "GS1",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.36
     },
     "li2k2": {
@@ -5821,7 +5821,7 @@
         ],
         "prefix": "LI2K2:K2A",
         "stand": "K2S13",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 786.434
     },
     "li3k2": {
@@ -5857,7 +5857,7 @@
         ],
         "prefix": "LI3K2:K2B",
         "stand": "K2S13",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 789.307
     },
     "li3k4_ip1_vwc_01": {
@@ -5893,7 +5893,7 @@
         ],
         "prefix": "LI3K4:IP1:VWC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 762.752
     },
     "lm1k2_atm_dp1_tf1_ff1": {
@@ -14384,7 +14384,7 @@
         "prefix": "HXX:HXM:PIM",
         "prefix_det": "HXX:HXM:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 818.416
     },
     "mec_yag1": {
@@ -14422,7 +14422,7 @@
         "prefix": "MEC:HXM:PIM",
         "prefix_det": "MEC:HXM:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 819.0
     },
     "mec_yag2": {
@@ -14460,7 +14460,7 @@
         "prefix": "MEC:PIM2",
         "prefix_det": "MEC:PIM2:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 821.0
     },
     "mec_yag3": {
@@ -14498,7 +14498,7 @@
         "prefix": "MEC:PIM3",
         "prefix_det": "MEC:PIM3:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 822.0
     },
     "mfx_atm": {
@@ -14534,7 +14534,7 @@
         ],
         "prefix": "MFX:ATM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mfx_attenuator": {
@@ -15666,7 +15666,7 @@
         ],
         "prefix": "MFX:DG1:RLM:MIRROR",
         "stand": "DG1",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 1018.82
     },
     "mfx_tfs": {
@@ -15702,7 +15702,7 @@
         ],
         "prefix": "MFX:LENS",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mr1k1_bend": {
@@ -15778,7 +15778,7 @@
         ],
         "prefix": "MR1K1:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 733.2174256
     },
     "mr1k2_switch": {
@@ -15851,7 +15851,7 @@
         ],
         "prefix": "MR1K2:SWITCH:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 742.5095
     },
     "mr1k2_switch_vgc_2": {
@@ -15887,7 +15887,7 @@
         ],
         "prefix": "MR1K2:SWITCH:VGC:2",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 743.38
     },
     "mr1k3_vgc_1": {
@@ -15923,7 +15923,7 @@
         ],
         "prefix": "MR1K3:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 734.4617237
     },
     "mr1k4_soms": {
@@ -15996,7 +15996,7 @@
         ],
         "prefix": "MR1K4:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 744.5481127
     },
     "mr1l0_homs": {
@@ -16069,7 +16069,7 @@
         ],
         "prefix": "MR1L0:HOMS:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 739.0457
     },
     "mr1l3_homs": {
@@ -16189,7 +16189,7 @@
         ],
         "prefix": "MR2K2:FLAT",
         "stand": "K2S03",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mr2k4_kbo": {
@@ -16262,7 +16262,7 @@
         ],
         "prefix": "MR2K4:KBO:VWC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.043
     },
     "mr2l0_homs": {
@@ -16335,7 +16335,7 @@
         ],
         "prefix": "MR2L0:HOMS:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.5919
     },
     "mr2l0_homs_vgc_02": {
@@ -16371,7 +16371,7 @@
         ],
         "prefix": "MR2L0:HOMS:VGC:02",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0869
     },
     "mr2l3_homs": {
@@ -16444,7 +16444,7 @@
         ],
         "prefix": "MR3K2:KBH",
         "stand": "K2S05",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mr3k4_kbo": {
@@ -16517,7 +16517,7 @@
         ],
         "prefix": "MR3K4:KBO:VFS:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 760.63
     },
     "mr3k4_kbo_vwc_01": {
@@ -16553,7 +16553,7 @@
         ],
         "prefix": "MR3K4:KBO:VWC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 760.536
     },
     "mr4k2_kbv": {
@@ -16589,7 +16589,7 @@
         ],
         "prefix": "MR4K2:KBV",
         "stand": "K2S07",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "mr4k4_kbo": {
@@ -16816,7 +16816,7 @@
         ],
         "prefix": "PA1L0:VFS:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 738.7685
     },
     "pc1l0_xtes_vgc01": {
@@ -16852,7 +16852,7 @@
         ],
         "prefix": "PC1L0:XTES:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 735.211
     },
     "pc5k4_vwc_01": {
@@ -16888,7 +16888,7 @@
         ],
         "prefix": "PC5K4:VWC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 765.0
     },
     "pf1k0": {
@@ -16924,7 +16924,7 @@
         ],
         "prefix": "PF1K0:WFS",
         "stand": "K0S04",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.4
     },
     "pf1k2": {
@@ -16960,7 +16960,7 @@
         ],
         "prefix": "PF1K2:WFS",
         "stand": "K2S13",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 786.818
     },
     "pf1k4": {
@@ -16996,7 +16996,7 @@
         ],
         "prefix": "PF1K4:WFS",
         "stand": "GS2",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.666
     },
     "pf1l0": {
@@ -17032,7 +17032,7 @@
         ],
         "prefix": "PF1L0:WFS",
         "stand": "L0S08",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 735.68
     },
     "pf2k2": {
@@ -17068,7 +17068,7 @@
         ],
         "prefix": "PF2K2:WFS",
         "stand": "K2S13",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 792.319
     },
     "pf2k4": {
@@ -17104,7 +17104,7 @@
         ],
         "prefix": "PF2K4:WFS",
         "stand": "GS3",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "qrix_det_slits": {
@@ -17200,7 +17200,7 @@
         ],
         "prefix": "RTDSK0",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 695.59
     },
     "rtdsl0": {
@@ -17236,7 +17236,7 @@
         ],
         "prefix": "RTDSL0",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 695.0
     },
     "sh1": {
@@ -17296,7 +17296,7 @@
         ],
         "prefix": "STPR:XRT1:1:SH2_PPSSUM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 803.1
     },
     "sh4": {
@@ -17355,7 +17355,7 @@
         ],
         "prefix": "PPS:FEH1:45:S45STPRSUM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 952.2
     },
     "sh5": {
@@ -17437,7 +17437,7 @@
         ],
         "prefix": "SL1K0:POWER",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 705.86
     },
     "sl1k2": {
@@ -17473,7 +17473,7 @@
         ],
         "prefix": "SL1K2:EXIT",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.122
     },
     "sl1k2_exit_vgc_1": {
@@ -17509,7 +17509,7 @@
         ],
         "prefix": "SL1K2:EXIT:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.0
     },
     "sl1k4": {
@@ -17545,7 +17545,7 @@
         ],
         "prefix": "SL1K4:SCATTER",
         "stand": "K4S33",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.1
     },
     "sl1l0": {
@@ -17581,7 +17581,7 @@
         ],
         "prefix": "SL1L0:POWER",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 724.431
     },
     "sl2k0": {
@@ -17617,7 +17617,7 @@
         ],
         "prefix": "SL2K0:POWER",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.6
     },
     "sl2k2": {
@@ -17653,7 +17653,7 @@
         ],
         "prefix": "SL2K2:SCATTER",
         "stand": "K2S18",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.1
     },
     "sl2k4": {
@@ -17689,7 +17689,7 @@
         ],
         "prefix": "SL2K4:SCATTER",
         "stand": "GS2",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 767.204
     },
     "sp1k1_mono": {
@@ -17760,7 +17760,7 @@
         ],
         "prefix": "SP1K1:MONO:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 738.2773055
     },
     "sp1k1_mono_vgc_2": {
@@ -17796,7 +17796,7 @@
         ],
         "prefix": "SP1K1:MONO:VGC:2",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.2513984
     },
     "sp1k4": {
@@ -17867,7 +17867,7 @@
         ],
         "prefix": "SP1L0:KMONO:MMS",
         "stand": "L0S09",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
     },
     "sq1_lamp": {
@@ -17959,7 +17959,7 @@
         ],
         "prefix": "STPR:NEH1:2200:ST1K2",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.3674
     },
     "st1k2_pps_vgc_1": {
@@ -17995,7 +17995,7 @@
         ],
         "prefix": "ST1K2:PPS:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 776.836
     },
     "st1k4": {
@@ -18031,7 +18031,7 @@
         ],
         "prefix": "ST1K4:TEST",
         "stand": "K4S24",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
     },
     "st1l0_pps": {
@@ -18068,7 +18068,7 @@
         ],
         "prefix": "PPS:NEH1:1:ST1L0INSUM",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.2604
     },
     "st3k4_pps": {
@@ -18104,7 +18104,7 @@
         ],
         "prefix": "PPS:NEH1:1:ST3K4",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.01
     },
     "st3k4_pps_vgc_01": {
@@ -18140,7 +18140,7 @@
         ],
         "prefix": "ST3K4:PPS:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.468887
     },
     "tm1k2": {
@@ -18176,7 +18176,7 @@
         ],
         "prefix": "TM1K2:ATM",
         "stand": "K2S08",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.848
     },
     "tm1k4": {
@@ -18212,7 +18212,7 @@
         ],
         "prefix": "TM1K4:ATM",
         "stand": "GS2",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 763.277
     },
     "tm2k2": {
@@ -18248,7 +18248,7 @@
         ],
         "prefix": "TM2K2:ATM",
         "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 788.476
     },
     "tm2k4": {
@@ -18284,7 +18284,7 @@
         ],
         "prefix": "TM2K4:ATM",
         "stand": "GS3",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "tmo_cvmi": {
@@ -18436,7 +18436,7 @@
         ],
         "prefix": "TV1K2:VFS:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 743.58
     },
     "tv1k4_vfs_01": {
@@ -18472,7 +18472,7 @@
         ],
         "prefix": "TV1K4:VFS:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 747.2815839
     },
     "tv1k4_vgc_01": {
@@ -18508,7 +18508,7 @@
         ],
         "prefix": "TV1K4:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 747.1430483
     },
     "tv1k4_vgc_02": {
@@ -18544,7 +18544,7 @@
         ],
         "prefix": "TV1K4:VGC:02",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.6694969
     },
     "tv1l0_vgc01": {
@@ -18580,7 +18580,7 @@
         ],
         "prefix": "TV1L0:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 693.5788
     },
     "tv2k0_vfs_1": {
@@ -18616,7 +18616,7 @@
         ],
         "prefix": "TV2K0:VFS:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 730.0059234
     },
     "tv2k0_vgc_1": {
@@ -18652,7 +18652,7 @@
         ],
         "prefix": "TV2K0:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 729.728736
     },
     "tv2l0_vgc01": {
@@ -18688,7 +18688,7 @@
         ],
         "prefix": "TV2L0:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 710.9864
     },
     "tv2l0_vgc02": {
@@ -18724,7 +18724,7 @@
         ],
         "prefix": "TV2L0:VGC:02",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 722.2774
     },
     "tv3k0_vgc_1": {
@@ -18760,7 +18760,7 @@
         ],
         "prefix": "TV3K0:VGC:1",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 740.4962675
     },
     "tv3l0_vfs01": {
@@ -18796,7 +18796,7 @@
         ],
         "prefix": "TV3L0:VFS:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.7995
     },
     "tv4l0_vgc01": {
@@ -18832,7 +18832,7 @@
         ],
         "prefix": "TV4L0:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.479
     },
     "tv5l0_vgc01": {
@@ -18868,7 +18868,7 @@
         ],
         "prefix": "TV5L0:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 773.0441
     },
     "tv6l0_vgc01": {
@@ -18904,7 +18904,7 @@
         ],
         "prefix": "TV6L0:VGC:01",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 779.4857
     },
     "um6_ipm": {
@@ -18978,7 +18978,7 @@
         "prefix": "HXX:UM6:PIM",
         "prefix_det": "HXX:UM6:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 810.135
     },
     "um6_slits": {
@@ -19379,7 +19379,7 @@
         ],
         "prefix": "''",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "xcs_dg3_ipm": {
@@ -20166,7 +20166,7 @@
         ],
         "prefix": "XCS:DG3:PFLS",
         "stand": "DG3",
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "xcs_pulsepicker": {
@@ -20656,7 +20656,7 @@
         ],
         "prefix": "''",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "xpp_com_wp": {
@@ -21473,7 +21473,7 @@
         "prefix": "XPP:SB3:PIM",
         "prefix_det": "XPP:SB3:CVV:01:",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 787.8
     },
     "xpp_sb3_slits": {
@@ -21568,7 +21568,7 @@
         ],
         "prefix": "XPP:SB2:XFLS",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSLightpathItem",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.9830000000001
     },
     "xrt_dg3m_ipm": {
