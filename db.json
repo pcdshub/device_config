@@ -19833,13 +19833,13 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:08:44 2020",
+        "last_edit": "Tue Oct 25 17:13:48 2022",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
         "name": "xpp_lens_v",
         "parent": "None",
-        "prefix": "XPP:LAS:MMN:05",
+        "prefix": "XPP:LAS:MMN:07",
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
