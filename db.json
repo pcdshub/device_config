@@ -5492,8 +5492,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "lcp_txi_feer1617_": {
-        "_id": "lcp_txi_feer1617_",
+    "lcp_txi_fee_r1617": {
+        "_id": "lcp_txi_fee_r1617",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -5513,10 +5513,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  5 17:14:42 2022",
+        "last_edit": "Thu Oct 27 09:28:38 2022",
         "lightpath": false,
         "location_group": "TXI FEE",
-        "name": "lcp_txi_feer1617_",
+        "name": "lcp_txi_fee_r1617",
         "prefix": "FEE:TXI:LCP:01",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
