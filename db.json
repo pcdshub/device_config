@@ -5985,7 +5985,7 @@
         ],
         "beamline": "FMS",
         "creation": "Wed Oct  5 16:31:26 2022",
-        "device_class": "pcdsdevices.fms.LCP1",
+        "device_class": "pcdsdevices.fms.LCP2",
         "documentation": null,
         "functional_group": "LCP",
         "input_branches": null,
@@ -5999,7 +5999,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:22 2022",
+        "last_edit": "Mon Oct 31 15:03:47 2022",
         "lightpath": false,
         "location_group": "LFE FEE",
         "name": "lcp_lfe_fee_r0203",
@@ -6009,8 +6009,8 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "lcp_txi_feer1617_": {
-        "_id": "lcp_txi_feer1617_",
+    "lcp_txi_fee_r1617": {
+        "_id": "lcp_txi_fee_r1617",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6031,10 +6031,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:22 2022",
+        "last_edit": "Mon Oct 31 15:30:33 2022",
         "lightpath": false,
         "location_group": "TXI FEE",
-        "name": "lcp_txi_feer1617_",
+        "name": "lcp_txi_fee_r1617",
         "output_branches": null,
         "prefix": "FEE:TXI:LCP:01",
         "stand": null,
