@@ -5165,7 +5165,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:20 2022",
+        "last_edit": "Tue Nov  1 13:13:27 2022",
         "lightpath": true,
         "location_group": "TMO GS3",
         "name": "im6k4",
@@ -5175,7 +5175,7 @@
         "prefix": "IM6K4:PPM",
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 769.2111
     },
     "las_btps": {
         "_id": "las_btps",
@@ -6005,6 +6005,38 @@
         "name": "lcp_lfe_fee_r0203",
         "output_branches": null,
         "prefix": "FEE:LFE:LCP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "lcp_tmo_fee_r1819": {
+        "_id": "lcp_tmo_fee_r1819",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Oct 31 17:29:10 2022",
+        "device_class": "pcdsdevices.fms.LCP1",
+        "documentation": "None",
+        "functional_group": "LCP",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 31 17:29:10 2022",
+        "lightpath": false,
+        "location_group": "TMO FEE",
+        "name": "lcp_tmo_fee_r1819",
+        "output_branches": null,
+        "prefix": "FEE:TMO:LCP:01",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
@@ -17598,10 +17630,17 @@
         "input_branches": [
             "K4"
         ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:49 2022",
+        "last_edit": "Tue Nov  1 11:16:43 2022",
         "lightpath": true,
         "location_group": "TMO GS2",
         "macros": null,
@@ -17619,7 +17658,7 @@
         "x_ranges": null,
         "xgantry_prefix": null,
         "y_ranges": null,
-        "z": -1.0
+        "z": 766.3323
     },
     "mr5k4_kbo": {
         "_id": "mr5k4_kbo",
@@ -17638,10 +17677,17 @@
         "input_branches": [
             "K4"
         ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:49 2022",
+        "last_edit": "Tue Nov  1 11:17:21 2022",
         "lightpath": true,
         "location_group": "TMO GS2",
         "macros": null,
@@ -17659,7 +17705,7 @@
         "x_ranges": null,
         "xgantry_prefix": null,
         "y_ranges": null,
-        "z": -1.0
+        "z": 766.9314
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
@@ -18106,7 +18152,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:50 2022",
+        "last_edit": "Tue Nov  1 13:12:51 2022",
         "lightpath": true,
         "location_group": "TMO GS3",
         "name": "pf2k4",
@@ -18116,7 +18162,7 @@
         "prefix": "PF2K4:WFS",
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 768.7332
     },
     "qrix_det_slits": {
         "_id": "qrix_det_slits",
@@ -18695,8 +18741,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:52 2022",
-        "lightpath": true,
+        "last_edit": "Tue Nov  1 13:21:04 2022",
+        "lightpath": false,
         "location_group": "TMO GS2",
         "name": "sl2k4",
         "output_branches": [
@@ -19299,7 +19345,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:53 2022",
+        "last_edit": "Tue Nov  1 13:12:09 2022",
         "lightpath": true,
         "location_group": "TMO GS3",
         "name": "tm2k4",
@@ -19309,7 +19355,7 @@
         "prefix": "TM2K4:ATM",
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 768.3251
     },
     "tmo_cvmi": {
         "_id": "tmo_cvmi",
@@ -22137,16 +22183,25 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Motor",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:11:23 2020",
+        "last_edit": "Tue Nov  1 15:01:15 2022",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
         "name": "xpp_lens_f",
+        "output_branches": null,
         "parent": "None",
-        "prefix": "XPP:LAS:MMN:08",
+        "prefix": "XPP:USR:MMN:02",
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
@@ -22195,16 +22250,25 @@
         "embedded_screen": null,
         "engineering_screen": null,
         "functional_group": "Motor",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 18 13:08:44 2020",
+        "last_edit": "Tue Nov  1 14:59:56 2022",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
         "name": "xpp_lens_v",
+        "output_branches": null,
         "parent": "None",
-        "prefix": "XPP:LAS:MMN:05",
+        "prefix": "XPP:LAS:MMN:07",
         "stand": "LAS",
         "system": "laser",
         "type": "pcdsdevices.happi.containers.Motor",
