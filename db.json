@@ -14822,6 +14822,40 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 979.0
     },
+    "mec_hpi_3": {
+        "_id": "mec_hpi_3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Wed Nov  2 14:48:18 2022",
+        "device_class": "pcdsdevices.radiation.HPI6030",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov  2 14:48:18 2022",
+        "name": "mec_hpi_3",
+        "prefix": "MEC:HPI:3",
+        "type": "OphydItem"
+    },
+    "mec_hpi_4": {
+        "_id": "mec_hpi_4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Wed Nov  2 14:49:35 2022",
+        "device_class": "pcdsdevices.radiation.HPI6030",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov  2 14:51:24 2022",
+        "name": "mec_hpi_4",
+        "prefix": "MEC:HPI:4",
+        "type": "OphydItem"
+    },
     "mec_hxm_valve": {
         "_id": "mec_hxm_valve",
         "active": true,
