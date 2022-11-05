@@ -157,6 +157,7 @@
             "K4"
         ],
         "prefix": "AT1K4:L2SI",
+        "calculator_prefix": "AT1K4:CALC",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0
