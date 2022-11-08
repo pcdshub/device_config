@@ -131,6 +131,7 @@
             "{{prefix}}"
         ],
         "beamline": "TMO",
+        "calculator_prefix": "AT1K4:CALC",
         "creation": "Mon Jul 18 16:05:20 2022",
         "device_class": "pcdsdevices.attenuator.AT1K4",
         "documentation": null,
@@ -157,7 +158,6 @@
             "K4"
         ],
         "prefix": "AT1K4:L2SI",
-        "calculator_prefix": "AT1K4:CALC",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 748.0
@@ -18334,6 +18334,102 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 695.0
+    },
+    "rtdsx0": {
+        "_id": "rtdsx0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Nov  7 16:52:01 2022",
+        "device_class": "RTDSX0ThreeStage",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov  7 16:52:01 2022",
+        "lightpath": true,
+        "location_group": "EBD",
+        "name": "rtdsx0",
+        "output_branches": null,
+        "prefix": "RTDSK0:SCRP",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "rtdsx0_solid_drilling_motion": {
+        "_id": "rtdsx0_solid_drilling_motion",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Nov  7 16:42:36 2022",
+        "device_class": "RTDSX0ThreeStage",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "mkestra",
+        "ioc_hutch": "kfe",
+        "ioc_location": "kfe",
+        "ioc_name": null,
+        "ioc_release": "dev",
+        "ioc_type": null,
+        "kwargs": {
+            "name": "name"
+        },
+        "last_edit": "Mon Nov  7 16:42:36 2022",
+        "lightpath": true,
+        "location_group": "EBD",
+        "name": "rtdsx0_solid_drilling_motion",
+        "output_branches": null,
+        "prefix": "RTDSK0:SCRP",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "rtdsx0_test": {
+        "_id": "rtdsx0_test",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Nov  7 16:50:22 2022",
+        "device_class": null,
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov  7 16:50:22 2022",
+        "lightpath": true,
+        "location_group": "EBD",
+        "name": "rtdsx0_test",
+        "output_branches": null,
+        "prefix": "RTDSK0:SCRP",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "sh1": {
         "_id": "sh1",
