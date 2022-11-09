@@ -18367,6 +18367,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "rtdsx01": {
+        "_id": "rtdsx01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Tue Nov  8 09:38:35 2022",
+        "device_class": "pcdsdevices.rtds_ebd.RTDSX0ThreeStage",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": [
+            "K0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Nov  8 10:40:49 2022",
+        "lightpath": true,
+        "location_group": "EBD",
+        "name": "rtdsx01",
+        "output_branches": [
+            "K0"
+        ],
+        "prefix": "RTDSK0:SCRP",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 696.0
+    },
     "rtdsx0_solid_drilling_motion": {
         "_id": "rtdsx0_solid_drilling_motion",
         "active": true,
