@@ -2265,9 +2265,15 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Mon Mar  7 21:41:49 2022",
-        "device_class": "pcdsdevices.fms.Leviton1",
+        "creation": "Wed Nov  9 10:56:33 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
+        "elevations": [
+            "15",
+            "15",
+            "32",
+            "32"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -2278,16 +2284,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:13 2022",
+        "last_edit": "Wed Nov  9 11:52:54 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_t",
         "output_branches": null,
         "prefix": "CXI:R51:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "cxi_leviton_r52_h": {
@@ -20630,6 +20637,48 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
     },
+    "xcs__pwr": {
+        "_id": "xcs__pwr",
+        "active": true,
+        "args": [
+            15,
+            15,
+            32,
+            32
+        ],
+        "beamline": "FMS",
+        "creation": "Wed Nov  9 10:44:24 2022",
+        "device_class": "PDU_Temp1",
+        "documentation": null,
+        "elevations": [
+            15,
+            15,
+            32,
+            32
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "cymel123",
+        "ioc_hutch": "xcs",
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": "na",
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Nov  9 10:49:15 2022",
+        "lightpath": false,
+        "location_group": "XCS",
+        "name": "xcs__pwr",
+        "output_branches": null,
+        "prefix": "XCS:R43:PWR:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
     "xcs_attenuator": {
         "_id": "xcs_attenuator",
         "active": true,
@@ -22475,7 +22524,7 @@
     },
     "xpp_leviton_r32_t": {
         "_id": "xpp_leviton_r32_t",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -22495,7 +22544,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:59 2022",
+        "last_edit": "Wed Nov  9 16:11:33 2022",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r32_t",
