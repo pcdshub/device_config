@@ -2368,7 +2368,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 15:59:59 2022",
-        "device_class": "pcdsdevices.fms.Leviton2",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "10",
@@ -2388,7 +2388,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:01:43 2022",
+        "last_edit": "Fri Nov 11 17:23:56 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_t",
@@ -2470,7 +2470,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:22:08 2022",
-        "device_class": "pcdsdevices.fms.Leviton3",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -2490,7 +2490,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:35:42 2022",
+        "last_edit": "Fri Nov 11 17:24:39 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_t",
@@ -2572,7 +2572,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:37:28 2022",
-        "device_class": "pcdsdevices.fms.Leviton4",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -2592,7 +2592,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:47:20 2022",
+        "last_edit": "Fri Nov 11 17:25:12 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_t",
@@ -2674,7 +2674,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:50:13 2022",
-        "device_class": "pcdsdevices.fms.Leviton5",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -2694,7 +2694,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:52:09 2022",
+        "last_edit": "Fri Nov 11 17:25:50 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_t",
@@ -2776,7 +2776,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:56:01 2022",
-        "device_class": "pcdsdevices.fms.Leviton6",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -2796,7 +2796,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:57:29 2022",
+        "last_edit": "Fri Nov 11 17:26:18 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_t",
@@ -2878,7 +2878,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:58:29 2022",
-        "device_class": "pcdsdevices.fms.Leviton7",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -2898,7 +2898,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 16:59:42 2022",
+        "last_edit": "Fri Nov 11 17:26:42 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_t",
@@ -2979,9 +2979,14 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Wed Mar  9 19:04:53 2022",
-        "device_class": "pcdsdevices.fms.Leviton8",
+        "creation": "Fri Nov 11 17:06:54 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
+        "elevations": [
+            "15",
+            "15",
+            "32"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -2992,16 +2997,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:15 2022",
+        "last_edit": "Fri Nov 11 17:26:56 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_t",
         "output_branches": null,
         "prefix": "CXI:R59:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "cxi_pi1": {
@@ -21127,9 +21133,13 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Thu Mar 10 22:33:42 2022",
-        "device_class": "pcdsdevices.fms.Leviton25",
+        "creation": "Fri Nov 11 17:19:33 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
+        "elevations": [
+            "28",
+            "28"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -21140,16 +21150,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:56 2022",
+        "last_edit": "Fri Nov 11 17:27:59 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_t",
         "output_branches": null,
         "prefix": "XCS:R40:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "xcs_leviton_r42_h": {
