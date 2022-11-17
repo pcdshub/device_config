@@ -3074,6 +3074,7 @@
         "elevations": [
             "15",
             "15",
+            "32",
             "32"
         ],
         "functional_group": "PDU_Temp",
@@ -3089,7 +3090,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 17:26:56 2022",
+        "last_edit": "Wed Nov 16 14:49:27 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_t",
@@ -15064,7 +15065,7 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Mon Nov 14 16:25:41 2022",
+        "creation": "Wed Nov 16 11:24:08 2022",
         "device_class": "pcdsdevice.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
@@ -15084,7 +15085,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 16:25:41 2022",
+        "last_edit": "Wed Nov 16 11:24:08 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r60_t",
@@ -16641,7 +16642,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:37:14 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp3",
         "documentation": null,
         "elevations": [
             "31",
@@ -16660,7 +16661,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 13:38:57 2022",
+        "last_edit": "Wed Nov 16 15:32:48 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_t",
@@ -23361,7 +23362,7 @@
         "beamline": "XPP",
         "creation": "Mon Jul 18 16:06:11 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.Slits",
+        "device_class": "pcdsdevices.device_types.LusiSlitsWithBlades",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -23377,9 +23378,15 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "blade_pvs_idx": [
+                "09",
+                "10",
+                "08",
+                "07"
+            ],
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 17:15:12 2022",
+        "last_edit": "Wed Nov 16 11:14:03 2022",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
