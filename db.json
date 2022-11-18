@@ -2395,7 +2395,6 @@
         "elevations": [
             "10",
             "10",
-            "32",
             "32"
         ],
         "functional_group": "PDU_Temp",
@@ -2408,9 +2407,10 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 11 17:23:56 2022",
+        "last_edit": "Thu Nov 17 10:03:30 2022",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_t",
@@ -15058,6 +15058,80 @@
         "type": "pcdsdevices.happi.containers.IPM",
         "z": 990.2
     },
+    "mec_leviton_mz64a_t": {
+        "_id": "mec_leviton_mz64a_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 15:35:10 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 15:37:13 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_mz64a_t",
+        "output_branches": null,
+        "prefix": "MEC:MZ64A:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "mec_leviton_pr60_t": {
+        "_id": "mec_leviton_pr60_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 15:45:33 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 15:45:33 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_pr60_t",
+        "output_branches": null,
+        "prefix": "MEC:PR60:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
     "mec_leviton_r60_t": {
         "_id": "mec_leviton_r60_t",
         "active": true,
@@ -15095,6 +15169,43 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
+    "mec_leviton_r61_t": {
+        "_id": "mec_leviton_r61_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 14:53:55 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 14:53:55 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r61_t",
+        "output_branches": null,
+        "prefix": "MEC:R61:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
     "mec_leviton_r62_t": {
         "_id": "mec_leviton_r62_t",
         "active": true,
@@ -15102,13 +15213,12 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Mon Nov 14 16:26:02 2022",
+        "creation": "Thu Nov 17 16:16:07 2022",
         "device_class": "pcdsdevice.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "20",
             "20",
-            "2",
             "2"
         ],
         "functional_group": "PDU_Temp",
@@ -15124,12 +15234,88 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 16:26:02 2022",
+        "last_edit": "Thu Nov 17 16:20:46 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r62_t",
         "output_branches": null,
         "prefix": "MEC:R62:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "mec_leviton_r64a_t": {
+        "_id": "mec_leviton_r64a_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 15:08:41 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1",
+            "2"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 15:11:37 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r64a_t",
+        "output_branches": null,
+        "prefix": "MEC:R64A:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "mec_leviton_r64b_t": {
+        "_id": "mec_leviton_r64b_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 15:21:09 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1",
+            "2"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 15:21:09 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r64b_t",
+        "output_branches": null,
+        "prefix": "MEC:R64B:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -15173,9 +15359,13 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Tue Mar 15 20:33:22 2022",
-        "device_class": "pcdsdevices.fms.Leviton49",
+        "creation": "Thu Nov 17 14:39:58 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -15186,16 +15376,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:43 2022",
+        "last_edit": "Thu Nov 17 14:41:21 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_t",
         "output_branches": null,
         "prefix": "MEC:RPCI:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "mec_leviton_rs67c_t": {
@@ -15206,7 +15397,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 16:28:54 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevice.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
             "6",
@@ -15225,12 +15416,49 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 16:31:09 2022",
+        "last_edit": "Thu Nov 17 16:38:51 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs67c_t",
         "output_branches": null,
         "prefix": "MEC:RS67C:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "mec_leviton_rs68_t": {
+        "_id": "mec_leviton_rs68_t",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 15:54:58 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
+        "functional_group": "PDU_Temp",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 15:54:58 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_rs68_t",
+        "output_branches": null,
+        "prefix": "MEC:RS68:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -15242,9 +15470,13 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Tue Mar 15 20:42:03 2022",
-        "device_class": "pcdsdevices.fms.Leviton52",
+        "creation": "Thu Nov 17 14:27:34 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -15255,16 +15487,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:43 2022",
+        "last_edit": "Thu Nov 17 14:36:02 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_s60_t",
         "output_branches": null,
         "prefix": "MEC:S60:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "mec_mxt_valve": {
@@ -16329,7 +16562,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:52:39 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
             "11",
@@ -16348,7 +16581,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 15 14:54:16 2022",
+        "last_edit": "Thu Nov 17 11:27:29 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_h",
@@ -16402,7 +16635,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:24:07 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
             "11",
@@ -16421,7 +16654,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 13:26:16 2022",
+        "last_edit": "Thu Nov 17 11:34:13 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_t",
@@ -16460,7 +16693,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 15 14:59:34 2022",
+        "last_edit": "Thu Nov 17 11:20:47 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_h",
@@ -16530,7 +16763,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:33:11 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -16551,7 +16784,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 13:36:02 2022",
+        "last_edit": "Thu Nov 17 11:22:09 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_t",
@@ -16569,7 +16802,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 15:03:19 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
             "31",
@@ -16588,7 +16821,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 15 15:05:05 2022",
+        "last_edit": "Thu Nov 17 11:12:14 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_h",
@@ -16642,7 +16875,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:37:14 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
             "31",
@@ -16661,7 +16894,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 16 15:32:48 2022",
+        "last_edit": "Thu Nov 17 11:17:46 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_t",
@@ -16678,9 +16911,13 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Tue Mar 15 15:58:47 2022",
-        "device_class": "pcdsdevices.fms.Leviton44",
+        "creation": "Thu Nov 17 12:17:41 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
         "functional_group": "PDU_Humidity",
         "input_branches": null,
         "ioc_arch": null,
@@ -16691,16 +16928,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:46 2022",
+        "last_edit": "Thu Nov 17 12:19:51 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_h",
         "output_branches": null,
         "prefix": "MFX:SAMPLETBL:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "mfx_leviton_sampletbl_l": {
@@ -16742,9 +16980,13 @@
             "{{prefix}}"
         ],
         "beamline": "FMS",
-        "creation": "Tue Mar 15 13:23:27 2022",
-        "device_class": "pcdsdevices.fms.Leviton40",
+        "creation": "Thu Nov 17 12:03:55 2022",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
         "ioc_arch": null,
@@ -16755,16 +16997,17 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:47 2022",
+        "last_edit": "Thu Nov 17 12:18:13 2022",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_t",
         "output_branches": null,
         "prefix": "MFX:SAMPLETBL:PWR",
         "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
     "mfx_lib": {
@@ -21239,7 +21482,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:28:25 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
             "28",
@@ -21258,7 +21501,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 15 14:30:11 2022",
+        "last_edit": "Thu Nov 17 10:26:32 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_h",
@@ -21312,7 +21555,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 12:18:37 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
             "28",
@@ -21331,7 +21574,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 12:18:37 2022",
+        "last_edit": "Thu Nov 17 10:14:41 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_t",
@@ -21424,7 +21667,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 12:28:21 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "6",
@@ -21441,9 +21684,10 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 12:54:45 2022",
+        "last_edit": "Thu Nov 17 10:34:04 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_t",
@@ -21531,7 +21775,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 12:57:37 2022",
-        "device_class": "pcdsdevice.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
             "15",
@@ -21551,7 +21795,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov 14 13:04:03 2022",
+        "last_edit": "Thu Nov 17 10:44:20 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_t",
