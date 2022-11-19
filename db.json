@@ -15132,6 +15132,43 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
+    "mec_leviton_r60_h": {
+        "_id": "mec_leviton_r60_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 17:16:29 2022",
+        "device_class": "pcdsdevice.fms.PDU_Humidity2",
+        "documentation": null,
+        "elevations": [
+            "12",
+            "12"
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 17:19:28 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r60_h",
+        "output_branches": null,
+        "prefix": "MEC:R60:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
     "mec_leviton_r60_t": {
         "_id": "mec_leviton_r60_t",
         "active": true,
@@ -15244,6 +15281,44 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
+    "mec_leviton_r64a_h": {
+        "_id": "mec_leviton_r64a_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 17:45:33 2022",
+        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1",
+            "2"
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 17:45:33 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_r64a_h",
+        "output_branches": null,
+        "prefix": "MEC:R64A:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
     "mec_leviton_r64a_t": {
         "_id": "mec_leviton_r64a_t",
         "active": true,
@@ -15255,9 +15330,9 @@
         "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
-            "1",
-            "1",
-            "2"
+            "01",
+            "01",
+            "02"
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -15272,7 +15347,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Thu Nov 17 15:11:37 2022",
+        "last_edit": "Fri Nov 18 16:11:02 2022",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r64a_t",
@@ -15459,6 +15534,43 @@
         "name": "mec_leviton_rs68_t",
         "output_branches": null,
         "prefix": "MEC:RS68:PWR",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "mec_leviton_s60_h": {
+        "_id": "mec_leviton_s60_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Thu Nov 17 17:01:03 2022",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
+        "documentation": null,
+        "elevations": [
+            "1",
+            "1"
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Cynthia Melendrez",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov 17 17:01:03 2022",
+        "lightpath": false,
+        "location_group": "MEC",
+        "name": "mec_leviton_s60_h",
+        "output_branches": null,
+        "prefix": "MEC:S60:PWR",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -21595,7 +21707,7 @@
         "device_class": "pcdsdevices.fms.PDU_Humidity1",
         "documentation": null,
         "elevations": [
-            "6",
+            "06",
             "15",
             "15"
         ],
@@ -21612,7 +21724,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 15 14:37:53 2022",
+        "last_edit": "Fri Nov 18 15:58:32 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_h",
@@ -21670,7 +21782,7 @@
         "device_class": "pcdsdevices.fms.PDU_Temp1",
         "documentation": null,
         "elevations": [
-            "6",
+            "06",
             "15",
             "15"
         ],
@@ -21687,7 +21799,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Thu Nov 17 10:34:04 2022",
+        "last_edit": "Fri Nov 18 16:00:34 2022",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_t",
@@ -23606,7 +23718,7 @@
         "beamline": "XPP",
         "creation": "Mon Jul 18 16:06:11 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.device_types.LusiSlitsWithBlades",
+        "device_class": "pcdsdevices.slits.LusiSlits",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -23622,15 +23734,9 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "blade_pvs_idx": [
-                "09",
-                "10",
-                "08",
-                "07"
-            ],
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 16 11:14:03 2022",
+        "last_edit": "Thu Nov 17 17:08:17 2022",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
