@@ -19591,8 +19591,8 @@
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "01:",
+            "01:"
         ],
         "functional_group": "PDU_Humidity",
         "input_branches": null,
@@ -19607,10 +19607,47 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 17:13:43 2022",
+        "last_edit": "Mon Nov 28 14:40:21 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r02_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r02_l": {
+        "_id": "rix_leviton_r02_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 15:03:17 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "01:1:",
+            "01:1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:17:04 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r02_l",
         "output_branches": null,
         "prefix": "RIX:PWR:R02",
         "stand": null,
@@ -19628,8 +19665,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "01:",
+            "01:"
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19644,12 +19681,86 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 15:09:58 2022",
+        "last_edit": "Mon Nov 28 14:56:49 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r02_t",
         "output_branches": null,
         "prefix": "RIX:PWR:R02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r03_h": {
+        "_id": "rix_leviton_r03_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 14:43:52 2022",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
+        "documentation": null,
+        "elevations": [
+            "",
+            ""
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 14:43:52 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r03_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r03_l": {
+        "_id": "rix_leviton_r03_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 16:06:32 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "1:",
+            "1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:18:42 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r03_l",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R03",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -19665,8 +19776,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "",
+            ""
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19681,7 +19792,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 15:29:36 2022",
+        "last_edit": "Mon Nov 28 14:54:02 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r03_t",
@@ -19702,8 +19813,8 @@
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "01:",
+            "01:"
         ],
         "functional_group": "PDU_Humidity",
         "input_branches": null,
@@ -19718,10 +19829,47 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 17:09:30 2022",
+        "last_edit": "Mon Nov 28 14:38:49 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r04_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r04_l": {
+        "_id": "rix_leviton_r04_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 16:22:42 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "01:1:",
+            "01:1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:22:42 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r04_l",
         "output_branches": null,
         "prefix": "RIX:PWR:R04",
         "stand": null,
@@ -19739,8 +19887,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "01:",
+            "01:"
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19755,12 +19903,86 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 15:40:57 2022",
+        "last_edit": "Mon Nov 28 14:57:04 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r04_t",
         "output_branches": null,
         "prefix": "RIX:PWR:R04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r05_h": {
+        "_id": "rix_leviton_r05_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 14:00:40 2022",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
+        "documentation": null,
+        "elevations": [
+            "",
+            ""
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 14:00:40 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r05_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R05",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r05_l": {
+        "_id": "rix_leviton_r05_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 16:25:39 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "1:",
+            "1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:32:45 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r05_l",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R05",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -19776,8 +19998,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "",
+            ""
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19792,7 +20014,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 16:03:38 2022",
+        "last_edit": "Mon Nov 28 14:54:16 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r05_t",
@@ -19813,8 +20035,8 @@
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "",
+            ""
         ],
         "functional_group": "PDU_Humidity",
         "input_branches": null,
@@ -19829,10 +20051,47 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 16:20:35 2022",
+        "last_edit": "Mon Nov 28 12:18:45 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r06_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:06",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r06_l": {
+        "_id": "rix_leviton_r06_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 16:35:18 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "1:",
+            "1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:35:18 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r06_l",
         "output_branches": null,
         "prefix": "RIX:PWR:06",
         "stand": null,
@@ -19850,8 +20109,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "",
+            ""
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19866,12 +20125,86 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 16:08:03 2022",
+        "last_edit": "Mon Nov 28 14:54:28 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r06_t",
         "output_branches": null,
         "prefix": "RIX:PWR:06",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r07_h": {
+        "_id": "rix_leviton_r07_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 14:31:27 2022",
+        "device_class": "pcdsdevices.fms.PDU_Humidity2",
+        "documentation": null,
+        "elevations": [
+            "",
+            ""
+        ],
+        "functional_group": "PDU_Humidity",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 14:31:27 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r07_h",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R07",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "rix_leviton_r07_l": {
+        "_id": "rix_leviton_r07_l",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Mon Nov 28 16:38:07 2022",
+        "device_class": "pcdsdevices.fms.PDU_Load2",
+        "documentation": null,
+        "elevations": [
+            "1:",
+            "1:"
+        ],
+        "functional_group": "PDU_Load",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "Lana Jansen-Whealey",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "elevations": "{{elevations}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov 28 16:38:07 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "rix_leviton_r07_l",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R07",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
@@ -19887,8 +20220,8 @@
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
         "elevations": [
-            "01",
-            "01"
+            "",
+            ""
         ],
         "functional_group": "PDU_Temp",
         "input_branches": null,
@@ -19903,7 +20236,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 23 16:11:21 2022",
+        "last_edit": "Mon Nov 28 14:54:39 2022",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r07_t",
