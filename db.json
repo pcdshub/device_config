@@ -6118,6 +6118,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "lcp_drp_fee_r11112": {
+        "_id": "lcp_drp_fee_r11112",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Fri Dec  2 17:03:35 2022",
+        "device_class": "pcdsdevices.fms.LCP1",
+        "documentation": null,
+        "functional_group": "LCP",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Dec  2 17:03:35 2022",
+        "lightpath": false,
+        "location_group": "DRP FEE",
+        "name": "lcp_drp_fee_r11112",
+        "output_branches": null,
+        "prefix": "FEE:DRP:LCP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "lcp_kfe_fee_r0708": {
         "_id": "lcp_kfe_fee_r0708",
         "active": true,
