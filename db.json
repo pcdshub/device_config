@@ -2202,7 +2202,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 13:40:57 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2281,7 +2281,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 15:41:29 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2322,7 +2322,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 13:46:02 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "10",
@@ -2398,7 +2398,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 15:59:59 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "10",
@@ -2437,7 +2437,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:06:31 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2516,7 +2516,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:22:08 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2557,7 +2557,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:11:08 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2636,7 +2636,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:37:28 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2677,7 +2677,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:14:36 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "15",
@@ -2753,7 +2753,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:50:13 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "15",
@@ -2792,7 +2792,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:17:05 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2871,7 +2871,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:56:01 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "15",
@@ -2912,7 +2912,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:21:56 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "15",
@@ -2988,7 +2988,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 16:58:29 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "15",
@@ -3027,7 +3027,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:25:32 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "15",
@@ -3103,7 +3103,7 @@
         ],
         "beamline": "FMS",
         "creation": "Fri Nov 11 17:06:54 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "15",
@@ -6887,6 +6887,42 @@
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
     },
+    "lm1k2_com_dp1_mr1": {
+        "_id": "lm1k2_com_dp1_mr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Fri Dec  9 17:04:53 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:COM_DP1_MR1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:03",
+        "ioc_channel": "12",
+        "ioc_engineer": "fmurgia",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIXS MODS Table",
+        "ioc_name": "ioc-lm1k2-msc2-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Dec  9 17:04:53 2022",
+        "lightpath": false,
+        "location_group": "_lm1k2_com",
+        "name": "lm1k2_com_dp1_mr1",
+        "output_branches": null,
+        "prefix": "LM1K2:COM_DP1_MR1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k2_com_dp1_tf1_ff1": {
         "_id": "lm1k2_com_dp1_tf1_ff1",
         "active": true,
@@ -7533,6 +7569,88 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k2_com_mp1_mr1": {
+        "_id": "lm1k2_com_mp1_mr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIXS_MODS",
+        "creation": "Fri Dec  9 17:01:34 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:COM_MP1_MR1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM1K2:MCS2:03",
+        "ioc_engineer": "fmurgia",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIXS MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
+        "ioc_tilt_channel": "8",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "7",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Fri Dec  9 17:01:34 2022",
+        "lightpath": false,
+        "location_group": "_lm1k2_com",
+        "name": "lm1k2_com_mp1_mr1",
+        "output_branches": null,
+        "prefix": "LM1K2:COM_MP1_MR1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
+    "lm1k2_com_mp1_mr4": {
+        "_id": "lm1k2_com_mp1_mr4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIXS_MODS",
+        "creation": "Fri Dec  9 17:03:12 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:COM_MP1_MR4",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM1K2:MCS2:03",
+        "ioc_engineer": "fmurgia",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIXS MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
+        "ioc_tilt_channel": "11",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "10",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Fri Dec  9 17:03:12 2022",
+        "lightpath": false,
+        "location_group": "_lm1k2_com",
+        "name": "lm1k2_com_mp1_mr4",
+        "output_branches": null,
+        "prefix": "LM1K2:COM_MP1_MR4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm1k2_com_mp2_dly1": {
         "_id": "lm1k2_com_mp2_dly1",
         "active": true,
@@ -8019,6 +8137,42 @@
         "name": "lm1k2_ejx_dp6_cvs1_mr2",
         "output_branches": null,
         "prefix": "LM1K2:EJX_DP6_CVS1_MR2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k2_ejx_dp6_cvs1_mr3": {
+        "_id": "lm1k2_ejx_dp6_cvs1_mr3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIXS_MODS",
+        "creation": "Fri Dec  9 17:08:21 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:EJX_DP6_CVS1_MR3",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:03",
+        "ioc_channel": "13",
+        "ioc_engineer": "fmurgia",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrix-mods-03",
+        "ioc_location": "QRIXS MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Dec  9 17:08:21 2022",
+        "lightpath": false,
+        "location_group": "_lm1k2_ejx",
+        "name": "lm1k2_ejx_dp6_cvs1_mr3",
+        "output_branches": null,
+        "prefix": "LM1K2:EJX_DP6_CVS1_MR3",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
@@ -16193,7 +16347,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Nov 17 17:45:33 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "1",
@@ -16269,7 +16423,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Nov 17 15:08:41 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "1",
@@ -16308,7 +16462,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 21 17:25:20 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "1",
@@ -16383,7 +16537,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Nov 17 15:21:09 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "1",
@@ -16642,7 +16796,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Nov 17 17:16:29 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "18",
@@ -16721,7 +16875,7 @@
         ],
         "beamline": "FMS",
         "creation": "Wed Nov 16 11:24:08 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "18",
@@ -16872,7 +17026,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 22 15:17:15 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity4",
+        "device_class": "pcdsdevices.fms.PDU_Humidity8",
         "documentation": null,
         "elevations": [
             "1",
@@ -16954,7 +17108,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Nov 17 16:16:07 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp4",
+        "device_class": "pcdsdevices.fms.PDU_Temp8",
         "documentation": null,
         "elevations": [
             "1",
@@ -18601,7 +18755,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:57:34 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "15",
@@ -18677,7 +18831,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:33:11 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "15",
@@ -24282,7 +24436,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:33:36 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "06",
@@ -24361,7 +24515,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 12:28:21 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "06",
@@ -24402,7 +24556,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:40:05 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "10",
@@ -24513,7 +24667,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 12:57:37 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "10",
@@ -24554,7 +24708,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 15 14:42:55 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "17",
@@ -24633,7 +24787,7 @@
         ],
         "beamline": "FMS",
         "creation": "Mon Nov 14 13:05:49 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "17",
@@ -25960,7 +26114,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Dec  1 11:25:40 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity1",
+        "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
         "elevations": [
             "34:1",
@@ -26036,7 +26190,7 @@
         ],
         "beamline": "FMS",
         "creation": "Tue Nov 29 16:34:10 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp1",
+        "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
         "elevations": [
             "34:1",
@@ -26075,7 +26229,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Dec  1 11:12:40 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "06",
@@ -26154,7 +26308,7 @@
         ],
         "beamline": "FMS",
         "creation": "Wed Nov 23 10:24:21 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "06",
@@ -26195,7 +26349,7 @@
         ],
         "beamline": "FMS",
         "creation": "Thu Dec  1 11:18:19 2022",
-        "device_class": "pcdsdevices.fms.PDU_Humidity3",
+        "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
         "elevations": [
             "03",
@@ -26274,7 +26428,7 @@
         ],
         "beamline": "FMS",
         "creation": "Wed Nov 23 17:27:42 2022",
-        "device_class": "pcdsdevices.fms.PDU_Temp3",
+        "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
         "elevations": [
             "03",
