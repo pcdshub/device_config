@@ -24627,38 +24627,6 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
-    "xcs_leviton_r43_p": {
-        "_id": "xcs_leviton_r43_p",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "FMS",
-        "creation": "Tue Mar 15 12:05:34 2022",
-        "device_class": "pcdsdevices.fms.Leviton35",
-        "documentation": null,
-        "functional_group": "PDU_Load",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": "Cynthia Melendrez",
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Tue Oct 25 16:58:57 2022",
-        "lightpath": false,
-        "location_group": "XCS",
-        "name": "xcs_leviton_r43_p",
-        "output_branches": null,
-        "prefix": "XCS:R43:PWR",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
     "xcs_leviton_r43_t": {
         "_id": "xcs_leviton_r43_t",
         "active": true,
