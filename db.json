@@ -9455,6 +9455,42 @@
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
+    "lm1k2_inj_mp1_zoo1_ls1": {
+        "_id": "lm1k2_inj_mp1_zoo1_ls1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Fri Dec  9 15:13:34 2022",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:INJ_MP1_ZOO1_LS1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "5",
+        "ioc_engineer": "fmurgia",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Dec 14 15:42:55 2022",
+        "lightpath": false,
+        "location_group": "1_lm1k2_inj",
+        "name": "lm1k2_inj_mp1_zoo1_ls1",
+        "output_branches": null,
+        "prefix": "LM1K2:INJ_MP1_ZOO1_LS1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k2_inj_mp1_zoo1_ls2": {
         "_id": "lm1k2_inj_mp1_zoo1_ls2",
         "active": true,
@@ -9487,42 +9523,6 @@
         "name": "lm1k2_inj_mp1_zoo1_ls2",
         "output_branches": null,
         "prefix": "LM1K2:INJ_MP1_ZOO1_LS2",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.SmarActMotor",
-        "z": -1.0
-    },
-    "lm1k2_inj_mp1_zoo1_ls3": {
-        "_id": "lm1k2_inj_mp1_zoo1_ls3",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "QRIX_MODS",
-        "creation": "Fri Dec  9 15:13:34 2022",
-        "device_class": "pcdsdevices.epics_motor.SmarAct",
-        "documentation": null,
-        "functional_group": "smaract",
-        "input_branches": null,
-        "ioc_alias": "LM1K2:INJ_MP1_ZOO1_LS3",
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K2:MCS2:01",
-        "ioc_channel": "5",
-        "ioc_engineer": "fmurgia",
-        "ioc_hutch": "LAS",
-        "ioc_ip": "mcp-las-qrixs-mods-01",
-        "ioc_location": "QRIX MODS Table",
-        "ioc_name": "ioc-lm1k2-mcs2-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5",
-        "ioc_type": "SmarAct",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Dec  9 15:13:34 2022",
-        "lightpath": false,
-        "location_group": "1_lm1k2_inj",
-        "name": "lm1k2_inj_mp1_zoo1_ls3",
-        "output_branches": null,
-        "prefix": "LM1K2:INJ_MP1_ZOO1_LS3",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
