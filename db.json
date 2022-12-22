@@ -6182,6 +6182,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "lcp_las_h22_r0507": {
+        "_id": "lcp_las_h22_r0507",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Dec 20 18:30:38 2022",
+        "device_class": "pcdsdevices.fms.LCP3_CMC_TC",
+        "documentation": null,
+        "functional_group": "LCP",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Dec 20 18:30:38 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "lcp_las_h22_r0507",
+        "output_branches": null,
+        "prefix": "H22:LAS:LCP:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "lcp_lfe_fee_r0203": {
         "_id": "lcp_lfe_fee_r0203",
         "active": true,
@@ -6210,6 +6242,70 @@
         "name": "lcp_lfe_fee_r0203",
         "output_branches": null,
         "prefix": "FEE:LFE:LCP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "lcp_rix_h22_r0102": {
+        "_id": "lcp_rix_h22_r0102",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Dec 20 18:08:25 2022",
+        "device_class": "pcdsdevices.fms.LCP3_CMC_TC",
+        "documentation": null,
+        "functional_group": "LCP",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Dec 20 18:08:25 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "lcp_rix_h22_r0102",
+        "output_branches": null,
+        "prefix": "H22:RIX:LCP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "lcp_rix_h22_r0406": {
+        "_id": "lcp_rix_h22_r0406",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "FMS",
+        "creation": "Tue Dec 20 18:26:25 2022",
+        "device_class": "pcdsdevices.fms.LCP3_CMC_TC",
+        "documentation": null,
+        "functional_group": "LCP",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Dec 20 18:26:25 2022",
+        "lightpath": false,
+        "location_group": "RIX",
+        "name": "lcp_rix_h22_r0406",
+        "output_branches": null,
+        "prefix": "H22:RIX:LCP:02",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
