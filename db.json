@@ -6086,6 +6086,84 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "las_lhn_bts_cam_ff": {
+        "_id": "las_lhn_bts_cam_ff",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu Feb  2 16:34:27 2023",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA2500-20gm",
+        "ioc_engineer": "cpino",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7801",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.21",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-lhn-bts-ff-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb  2 16:34:27 2023",
+        "lightpath": false,
+        "location_group": "Beam Transport",
+        "name": "las_lhn_bts_cam_ff",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BTS:CAM:02:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bts_cam_nf": {
+        "_id": "las_lhn_bts_cam_nf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu Feb  2 16:31:13 2023",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA2500-20gm",
+        "ioc_engineer": "cpino",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7801",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.22",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-lhn-bts-nf-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb  2 16:31:13 2023",
+        "lightpath": false,
+        "location_group": "Beam Transport",
+        "name": "las_lhn_bts_cam_nf",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BTS:CAM:01:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "las_rfof_01": {
         "_id": "las_rfof_01",
         "active": false,
@@ -25680,7 +25758,7 @@
             "y_up_north_prefix": "XPP:MON:MMS:26",
             "y_up_south_prefix": "XPP:MON:MMS:25"
         },
-        "last_edit": "Tue Oct 25 16:58:58 2022",
+        "last_edit": "Thu Feb  2 14:27:24 2023",
         "lightpath": true,
         "location_group": "None",
         "name": "xpp_ccm",
@@ -25690,7 +25768,7 @@
         "prefix": "''",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
+        "z": 786.0
     },
     "xpp_com_wp": {
         "_id": "xpp_com_wp",
