@@ -25709,7 +25709,7 @@
             "n_filters": "{{n_filters}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 17:15:11 2022",
+        "last_edit": "Thu Feb  2 18:06:52 2023",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -25758,7 +25758,7 @@
             "y_up_north_prefix": "XPP:MON:MMS:26",
             "y_up_south_prefix": "XPP:MON:MMS:25"
         },
-        "last_edit": "Thu Feb  2 14:27:24 2023",
+        "last_edit": "Fri Feb  3 14:57:59 2023",
         "lightpath": true,
         "location_group": "None",
         "name": "xpp_ccm",
@@ -25768,7 +25768,7 @@
         "prefix": "''",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 786.0
+        "z": 783.0
     },
     "xpp_com_wp": {
         "_id": "xpp_com_wp",
@@ -26735,13 +26735,20 @@
         "input_branches": [
             "L0"
         ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "main_line": "{{beamline}}",
             "mono_line": "{{mono_line}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 16:58:59 2022",
-        "lightpath": false,
+        "last_edit": "Fri Feb  3 16:33:01 2023",
+        "lightpath": true,
         "location_group": "XPP",
         "macros": null,
         "mono_line": "XPP",
@@ -26821,6 +26828,48 @@
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
+    },
+    "xpp_mon_valve_3": {
+        "_id": "xpp_mon_valve_3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Feb  3 15:40:20 2023",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "N/A",
+        "input_branches": [
+            "L2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "xpp_vacuum",
+        "ioc_name": "ioc-xpp-vacuum",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb  3 15:40:20 2023",
+        "lightpath": true,
+        "location_group": "N/A",
+        "macros": null,
+        "name": "xpp_mon_valve_3",
+        "output_branches": [
+            "L2"
+        ],
+        "parent": null,
+        "prefix": "XPP:MON:VGC:03",
+        "stand": null,
+        "system": "vacuum",
+        "type": "pcdsdevices.happi.containers.GateValve",
+        "z": 783.5
     },
     "xpp_opa_wp": {
         "_id": "xpp_opa_wp",
@@ -27049,8 +27098,8 @@
         "type": "pcdsdevices.happi.containers.Slits",
         "z": 784.3860000000001
     },
-    "xpp_sb2_valve": {
-        "_id": "xpp_sb2_valve",
+    "xpp_sb2_valve_1": {
+        "_id": "xpp_sb2_valve_1",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -27076,11 +27125,11 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 25 17:15:12 2022",
+        "last_edit": "Fri Feb  3 16:01:00 2023",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
-        "name": "xpp_sb2_valve",
+        "name": "xpp_sb2_valve_1",
         "output_branches": [
             "L0"
         ],
@@ -27090,6 +27139,90 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 784.132
+    },
+    "xpp_sb2_valve_3": {
+        "_id": "xpp_sb2_valve_3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Feb  3 15:53:04 2023",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "N/A",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "xpp_vacuum",
+        "ioc_name": "ioc-xpp-vacuum",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb  3 15:55:54 2023",
+        "lightpath": true,
+        "location_group": "N/A",
+        "macros": null,
+        "name": "xpp_sb2_valve_3",
+        "output_branches": [
+            "L0"
+        ],
+        "parent": null,
+        "prefix": "XPP:SB2:VGC:03",
+        "stand": null,
+        "system": "vacuum",
+        "type": "pcdsdevices.happi.containers.GateValve",
+        "z": 784.5
+    },
+    "xpp_sb2_valve_4": {
+        "_id": "xpp_sb2_valve_4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Fri Feb  3 15:58:04 2023",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.device_types.GateValve",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "N/A",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "xpp_vacuum",
+        "ioc_name": "ioc-xpp-vacuum",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb  3 15:58:04 2023",
+        "lightpath": true,
+        "location_group": "N/A",
+        "macros": null,
+        "name": "xpp_sb2_valve_4",
+        "output_branches": [
+            "L0"
+        ],
+        "parent": null,
+        "prefix": "XPP:SB2:VGC:04",
+        "stand": null,
+        "system": "vacuum",
+        "type": "pcdsdevices.happi.containers.GateValve",
+        "z": 785.2
     },
     "xpp_sb3_ipm": {
         "_id": "xpp_sb3_ipm",
