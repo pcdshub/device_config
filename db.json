@@ -124,6 +124,75 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 706.1876742
     },
+    "at1k2": {
+        "_id": "at1k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Feb 13 15:20:27 2023",
+        "device_class": "pcdsdevices.attenuator.AT1K2",
+        "documentation": "https://confluence.slac.stanford.edu/display/L2SI/AT1K2-SOLID+SXR+Solid+Attenuator",
+        "functional_group": "Attenuator",
+        "input_branches": [
+            "K2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "calculator_prefix": "{{calculator_prefix}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Feb 13 15:23:10 2023",
+        "lightpath": false,
+        "location_group": "RIX K2S10",
+        "name": "at1k2",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "AT1K2:L2SI",
+        "stand": "K2S10",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 784.233
+    },
+    "at1k2_calc": {
+        "_id": "at1k2_calc",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Feb 13 16:15:33 2023",
+        "device_class": "pcdsdevices.attenuator.AttenuatorCalculatorSXR_TwoBlade",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Feb 13 16:20:37 2023",
+        "lightpath": false,
+        "location_group": "RIX K2S10",
+        "name": "at1k2_calc",
+        "output_branches": null,
+        "prefix": "AT1K2:CALC",
+        "stand": "K2S10",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 784.233
+    },
     "at1k4": {
         "_id": "at1k4",
         "active": true,
