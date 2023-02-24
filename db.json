@@ -6945,12 +6945,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:00 2023",
+        "last_edit": "Wed Feb 22 17:21:36 2023",
         "lightpath": false,
         "location_group": "Beam Transport",
         "name": "las_lhn_bts_cam_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BTS:CAM:01:",
+        "prefix": "LAS:LHN:BTS:CAM:NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
