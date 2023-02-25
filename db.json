@@ -6930,7 +6930,7 @@
         "input_branches": null,
         "ioc_arch": "rhel7-x86_64",
         "ioc_cam_model": "Basler_acA2500-20gm",
-        "ioc_engineer": "cpino",
+        "ioc_engineer": "ljansen7",
         "ioc_evr_channel": "1",
         "ioc_http_port": "7801",
         "ioc_hutch": "LAS",
@@ -6945,7 +6945,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 17:21:36 2023",
+        "last_edit": "Fri Feb 24 11:50:52 2023",
         "lightpath": false,
         "location_group": "Beam Transport",
         "name": "las_lhn_bts_cam_nf",
