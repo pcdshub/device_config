@@ -88,6 +88,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.87351
     },
+    "al1l1": {
+        "_id": "al1l1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Mon Jul 18 16:05:19 2022",
+        "device_class": "pcdsdevices.device_types.ReflaserL2SI",
+        "documentation": null,
+        "functional_group": "REF",
+        "input_branches": [
+            "L1"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Feb 22 15:42:20 2023",
+        "lightpath": true,
+        "location_group": "H1.1",
+        "name": "al1l1",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "AL1L1:L2SI",
+        "stand": "L1S01",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.2
+    },
     "at1k0_gas_vgc_1": {
         "_id": "at1k0_gas_vgc_1",
         "active": true,
@@ -6875,6 +6911,40 @@
         "prefix": "LAS:LHN:BAY4:CAM:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay4_env_sens_1": {
+        "_id": "las_lhn_bay4_env_sens_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Tue Apr 11 16:44:29 2023",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LHN:ADC:04",
+        "ioc_engineer": "cpino",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-timing-04",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-lhn-bhc-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/ek9000/R1.2.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr 11 16:44:29 2023",
+        "lightpath": false,
+        "location_group": "Bay 4",
+        "name": "las_lhn_bay4_env_sens_1",
+        "output_branches": null,
+        "prefix": "LAS:LHN:04:BHC:AI2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "las_lhn_bts_cam_ff": {
