@@ -23470,19 +23470,19 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.6
     },
-    "sl2k2": {
-        "_id": "sl2k2",
+    "sl3l1": {
+        "_id": "sl3l1",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "RIX",
+        "beamline": "TXI",
         "creation": "Mon Jul 18 16:05:56 2022",
         "device_class": "pcdsdevices.slits.BeckhoffSlits",
         "documentation": null,
         "functional_group": "Apertures",
         "input_branches": [
-            "K2"
+            "L1"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -23496,13 +23496,13 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": true,
-        "location_group": "RIX K2S18",
-        "name": "sl2k2",
+        "location_group": "H1.1",
+        "name": "sl3l1",
         "output_branches": [
-            "K2"
+            "L1"
         ],
-        "prefix": "SL2K2:SCATTER",
-        "stand": "K2S18",
+        "prefix": "SL3L1:SCATTER",
+        "stand": "L1S02",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.1
     },
