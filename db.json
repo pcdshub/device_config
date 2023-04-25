@@ -22109,6 +22109,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 768.7332
     },
+    "plc_motor_test": {
+        "_id": "plc_motor_test",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Mon Apr 24 14:41:23 2023",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": "plc-test-motion",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Apr 24 14:41:23 2023",
+        "lightpath": false,
+        "location_group": "MOTION",
+        "name": "plc_motor_test",
+        "output_branches": null,
+        "prefix": "PLC:TST:MOT:SIM:04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "qrix_det_slits": {
         "_id": "qrix_det_slits",
         "active": true,
@@ -23470,42 +23502,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 731.6
     },
-    "sl3l1": {
-        "_id": "sl3l1",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TXI",
-        "creation": "Mon Jul 18 16:05:56 2022",
-        "device_class": "pcdsdevices.slits.BeckhoffSlits",
-        "documentation": null,
-        "functional_group": "Apertures",
-        "input_branches": [
-            "L1"
-        ],
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:46:03 2023",
-        "lightpath": true,
-        "location_group": "H1.1",
-        "name": "sl3l1",
-        "output_branches": [
-            "L1"
-        ],
-        "prefix": "SL3L1:SCATTER",
-        "stand": "L1S02",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 755.1
-    },
     "sl2k4": {
         "_id": "sl2k4",
         "active": true,
@@ -23541,6 +23537,42 @@
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 767.204
+    },
+    "sl3l1": {
+        "_id": "sl3l1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Mon Jul 18 16:05:56 2022",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "Apertures",
+        "input_branches": [
+            "L1"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Feb 22 15:46:03 2023",
+        "lightpath": true,
+        "location_group": "H1.1",
+        "name": "sl3l1",
+        "output_branches": [
+            "L1"
+        ],
+        "prefix": "SL3L1:SCATTER",
+        "stand": "L1S02",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
     },
     "sp1k1_mono": {
         "_id": "sp1k1_mono",
