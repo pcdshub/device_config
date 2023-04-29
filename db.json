@@ -14689,6 +14689,42 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_inj_mp2_ls2": {
+        "_id": "lm1k4_inj_mp2_ls2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Fri Apr 28 11:16:47 2023",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K4:INJ_MP2_LS2",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:01",
+        "ioc_channel": "9",
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-01",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-01",
+        "ioc_release": "/cds/home/t/tjohnson/trunk/common/smaract/",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 28 11:16:47 2023",
+        "lightpath": false,
+        "location_group": "1_lm1k4_inj",
+        "name": "lm1k4_inj_mp2_ls2",
+        "output_branches": null,
+        "prefix": "LM1K4:INJ_MP2_LS2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k4_int_mp1_dly1": {
         "_id": "lm1k4_int_mp1_dly1",
         "active": false,
