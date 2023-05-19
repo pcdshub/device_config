@@ -16279,6 +16279,45 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm2k2_ejx_dp32_tf1_ff1": {
+        "_id": "lm2k2_ejx_dp32_tf1_ff1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Thu May 18 15:02:31 2023",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1440-73gm",
+        "ioc_engineer": "ljansen7",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7801",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.238",
+        "ioc_location": "CRIX MODS Table",
+        "ioc_name": "ioc-lm2k2-ejx-gige-ff-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 15:11:36 2023",
+        "lightpath": false,
+        "location_group": "4_lm2k2_ejx",
+        "name": "lm2k2_ejx_dp32_tf1_ff1",
+        "output_branches": null,
+        "prefix": "LM2K2:EJX_DP32_TF1_FF1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "lm2k2_ejx_dp3_tf1_ff1": {
         "_id": "lm2k2_ejx_dp3_tf1_ff1",
         "active": true,
@@ -21641,6 +21680,42 @@
         "y_ranges": null,
         "z": 766.3323
     },
+    "mr4k4_kbo_vwc_01": {
+        "_id": "mr4k4_kbo_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 12:01:00 2023",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 12:01:00 2023",
+        "lightpath": true,
+        "location_group": "TMO GS3",
+        "name": "mr4k4_kbo_vwc_01",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "MR4K4:KBO:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 766.0
+    },
     "mr5k4_kbo": {
         "_id": "mr5k4_kbo",
         "active": true,
@@ -21687,6 +21762,42 @@
         "xgantry_prefix": null,
         "y_ranges": null,
         "z": 766.9314
+    },
+    "mr5k4_kbo_vwc_01": {
+        "_id": "mr5k4_kbo_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 12:09:31 2023",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 12:09:31 2023",
+        "lightpath": true,
+        "location_group": "TMO GS3",
+        "name": "mr5k4_kbo_vwc_01",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "MR5K4:KBO:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 766.98
     },
     "mxt_valve_1": {
         "_id": "mxt_valve_1",
@@ -24093,6 +24204,78 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.468887
     },
+    "st4k4": {
+        "_id": "st4k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 16:12:31 2023",
+        "device_class": "pcdsdevices.pneumatic.BeckhoffPneumatic",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 16:12:31 2023",
+        "lightpath": true,
+        "location_group": "TMO K4S6",
+        "name": "st4k4",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "ST4K4:TMO_TERM",
+        "stand": "K4S24",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 764.8
+    },
+    "st5k4": {
+        "_id": "st5k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 16:16:40 2023",
+        "device_class": "pcdsdevices.pneumatic.BeckhoffPneumatic",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 16:16:40 2023",
+        "lightpath": true,
+        "location_group": "TMO K4S8",
+        "name": "st5k4",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "ST5K4:TMO_TERM",
+        "stand": "K4S24",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 769.52
+    },
     "tm1k2": {
         "_id": "tm1k2",
         "active": true,
@@ -24236,6 +24419,42 @@
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 768.3251
+    },
+    "tm2k4_kbo_vwc_01": {
+        "_id": "tm2k4_kbo_vwc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 12:11:32 2023",
+        "device_class": "pcdsdevices.valve.VGC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 12:11:32 2023",
+        "lightpath": true,
+        "location_group": "TMO GS3",
+        "name": "tm2k4_kbo_vwc_01",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "TM2K4:KBO:VWC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 768.0
     },
     "tmo_cvmi": {
         "_id": "tmo_cvmi",
