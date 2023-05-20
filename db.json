@@ -21680,6 +21680,42 @@
         "y_ranges": null,
         "z": 766.3323
     },
+    "mr4k4_kbo_vfs_01": {
+        "_id": "mr4k4_kbo_vfs_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu May 18 19:53:49 2023",
+        "device_class": "pcdsdevices.valve.VFS",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May 18 19:53:49 2023",
+        "lightpath": true,
+        "location_group": "TMO GS3",
+        "name": "mr4k4_kbo_vfs_01",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "MR4K4:KBO:VFS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 766.2
+    },
     "mr4k4_kbo_vwc_01": {
         "_id": "mr4k4_kbo_vwc_01",
         "active": true,
