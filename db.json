@@ -20808,6 +20808,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "mfx_von_hamos_6crystal": {
+        "_id": "mfx_von_hamos_6crystal",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Wed Jul 19 16:42:18 2023",
+        "device_class": "pcdsdevices.spectrometer.VonHamos6Crystal",
+        "documentation": null,
+        "functional_group": "None",
+        "input_branches": null,
+        "ioc_arch": "rhel7",
+        "ioc_engineer": "espov",
+        "ioc_hutch": null,
+        "ioc_location": "plc-mfx-motion",
+        "ioc_name": "ioc-mfx-motion",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 19 16:42:18 2023",
+        "lightpath": false,
+        "location_group": "None",
+        "name": "mfx_von_hamos_6crystal",
+        "output_branches": null,
+        "prefix": "MFX:SPEC",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "mr1k1_bend": {
         "_id": "mr1k1_bend",
         "active": true,
