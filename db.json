@@ -13495,7 +13495,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 14:19:13 2021",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBaslerFF",
         "documentation": null,
         "functional_group": "cameras",
         "input_branches": null,
@@ -13516,7 +13516,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Fri Aug  4 17:25:36 2023",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_ff1",
@@ -13534,7 +13534,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:23:45 2021",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBaslerNF",
         "documentation": null,
         "functional_group": "cameras",
         "input_branches": null,
@@ -13555,7 +13555,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Fri Aug  4 18:07:04 2023",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_nf1",
@@ -13649,7 +13649,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:15:46 2021",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBaslerFF",
         "documentation": null,
         "functional_group": "cameras",
         "input_branches": null,
@@ -13670,7 +13670,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:17 2023",
+        "last_edit": "Fri Aug  4 17:53:45 2023",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_ff1",
@@ -13688,7 +13688,7 @@
         ],
         "beamline": "IP1_MODS",
         "creation": "Fri Feb 26 15:31:00 2021",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBaslerNF",
         "documentation": null,
         "functional_group": "cameras",
         "input_branches": null,
@@ -13709,7 +13709,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:17 2023",
+        "last_edit": "Fri Aug  4 18:06:48 2023",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_nf1",
