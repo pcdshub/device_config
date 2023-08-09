@@ -24385,14 +24385,14 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug  7 16:53:59 2023",
+        "last_edit": "Tue Aug  8 14:26:56 2023",
         "lightpath": true,
         "location_group": "FEE K4S24",
         "name": "st1k4",
         "output_branches": [
             "K4"
         ],
-        "prefix": "ST1K4:TEST",
+        "prefix": "ST1K4:MMS:STATE",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
