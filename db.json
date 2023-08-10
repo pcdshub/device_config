@@ -12196,7 +12196,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:46:30 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp11_tf1_ff1",
@@ -12233,7 +12233,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:47:50 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp12_tf1_pm1",
@@ -12272,7 +12272,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:48:50 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp12_tf1_sl1",
@@ -12284,7 +12284,7 @@
     },
     "lm1k4_ejx_dp2_tau1_pm1": {
         "_id": "lm1k4_ejx_dp2_tau1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12309,7 +12309,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:34:39 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp2_tau1_pm1",
@@ -12321,7 +12321,7 @@
     },
     "lm1k4_ejx_dp32_tf1_ff1": {
         "_id": "lm1k4_ejx_dp32_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12348,7 +12348,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:34:39 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_ff1",
@@ -12360,7 +12360,7 @@
     },
     "lm1k4_ejx_dp32_tf1_nf1": {
         "_id": "lm1k4_ejx_dp32_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12387,7 +12387,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:34:39 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_nf1",
@@ -12399,7 +12399,7 @@
     },
     "lm1k4_ejx_dp32_tf1_sl1": {
         "_id": "lm1k4_ejx_dp32_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12426,7 +12426,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:13 2023",
+        "last_edit": "Wed Aug  9 11:34:39 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_sl1",
@@ -12438,7 +12438,7 @@
     },
     "lm1k4_ejx_dp32_tf1_sp1": {
         "_id": "lm1k4_ejx_dp32_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12461,7 +12461,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp32_tf1_sp1",
@@ -12473,7 +12473,7 @@
     },
     "lm1k4_ejx_dp4_ap1": {
         "_id": "lm1k4_ejx_dp4_ap1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12497,7 +12497,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp4_ap1",
@@ -12509,7 +12509,7 @@
     },
     "lm1k4_ejx_dp4_ap2": {
         "_id": "lm1k4_ejx_dp4_ap2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12533,7 +12533,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp4_ap2",
@@ -12545,7 +12545,7 @@
     },
     "lm1k4_ejx_dp4_pm1": {
         "_id": "lm1k4_ejx_dp4_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12570,7 +12570,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp4_pm1",
@@ -12582,7 +12582,7 @@
     },
     "lm1k4_ejx_dp5_tf1_pm1": {
         "_id": "lm1k4_ejx_dp5_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12607,7 +12607,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp5_tf1_pm1",
@@ -12619,7 +12619,7 @@
     },
     "lm1k4_ejx_dp5_tf1_sl1": {
         "_id": "lm1k4_ejx_dp5_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12646,7 +12646,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp5_tf1_sl1",
@@ -12682,7 +12682,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:52:12 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_cvs1_mr1",
@@ -12718,7 +12718,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:52:25 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_cvs1_mr2",
@@ -12730,7 +12730,7 @@
     },
     "lm1k4_ejx_dp6_cvs1_mr3": {
         "_id": "lm1k4_ejx_dp6_cvs1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -12754,7 +12754,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:34:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_cvs1_mr3",
@@ -12793,7 +12793,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:14 2023",
+        "last_edit": "Wed Aug  9 11:53:40 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_ff1",
@@ -12832,7 +12832,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:54:05 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_nf1",
@@ -12871,7 +12871,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:55:16 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_sl1",
@@ -12905,7 +12905,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:37:47 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_env_sens",
@@ -12946,7 +12946,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:36:43 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_mr1",
@@ -12987,7 +12987,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:37:06 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_mr2",
@@ -12999,7 +12999,7 @@
     },
     "lm1k4_ejx_mp1_mr3": {
         "_id": "lm1k4_ejx_mp1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13023,7 +13023,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_mr3",
@@ -13035,7 +13035,7 @@
     },
     "lm1k4_ejx_mp1_oap1_lm1": {
         "_id": "lm1k4_ejx_mp1_oap1_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13059,7 +13059,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_lm1",
@@ -13071,7 +13071,7 @@
     },
     "lm1k4_ejx_mp1_oap1_tt1": {
         "_id": "lm1k4_ejx_mp1_oap1_tt1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13100,7 +13100,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_tt1",
@@ -13112,7 +13112,7 @@
     },
     "lm1k4_ejx_mp1_oap1_tt3": {
         "_id": "lm1k4_ejx_mp1_oap1_tt3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13141,7 +13141,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_tt3",
@@ -13180,7 +13180,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:15 2023",
+        "last_edit": "Wed Aug  9 11:39:57 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_s41",
@@ -13219,7 +13219,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:40:14 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_s42",
@@ -13231,7 +13231,7 @@
     },
     "lm1k4_ejx_mp2_att1_pol1": {
         "_id": "lm1k4_ejx_mp2_att1_pol1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13258,7 +13258,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_att1_pol1",
@@ -13270,7 +13270,7 @@
     },
     "lm1k4_ejx_mp2_att1_pol2": {
         "_id": "lm1k4_ejx_mp2_att1_pol2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13297,7 +13297,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_att1_pol2",
@@ -13309,7 +13309,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm1": {
         "_id": "lm1k4_ejx_mp2_ls3_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13333,7 +13333,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:41 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm1",
@@ -13345,7 +13345,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm2": {
         "_id": "lm1k4_ejx_mp2_ls3_lm2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13369,7 +13369,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:42 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm2",
@@ -13381,7 +13381,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm3": {
         "_id": "lm1k4_ejx_mp2_ls3_lm3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13405,7 +13405,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:42 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm3",
@@ -13417,7 +13417,7 @@
     },
     "lm1k4_ejx_mp2_mr3": {
         "_id": "lm1k4_ejx_mp2_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13441,7 +13441,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:42 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_mr3",
@@ -13453,7 +13453,7 @@
     },
     "lm1k4_ejx_mp2_mr5": {
         "_id": "lm1k4_ejx_mp2_mr5",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -13477,7 +13477,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:16 2023",
+        "last_edit": "Wed Aug  9 11:34:42 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_mr5",
@@ -24385,14 +24385,14 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Aug  8 14:26:56 2023",
+        "last_edit": "Wed Aug  9 16:59:41 2023",
         "lightpath": true,
         "location_group": "FEE K4S24",
         "name": "st1k4",
         "output_branches": [
             "K4"
         ],
-        "prefix": "ST1K4:MMS:STATE",
+        "prefix": "ST1K4:TEST:MMS:STATE",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
