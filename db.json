@@ -24369,7 +24369,7 @@
         ],
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:58 2022",
-        "device_class": "pcdsdevices.inout.TwinCATInOutPositioner",
+        "device_class": "pcdsdevices.sxr_test_absorber.SxrTestAbsorber",
         "documentation": null,
         "functional_group": "Stopper",
         "input_branches": [
@@ -24385,14 +24385,14 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug  9 16:59:41 2023",
+        "last_edit": "Thu Aug 10 11:54:34 2023",
         "lightpath": true,
         "location_group": "FEE K4S24",
         "name": "st1k4",
         "output_branches": [
             "K4"
         ],
-        "prefix": "ST1K4:TEST:MMS:STATE",
+        "prefix": "ST1K4:TEST",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 750.7596
