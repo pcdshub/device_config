@@ -12257,27 +12257,27 @@
         "input_branches": null,
         "ioc_alias": "LM1K4:EJX_DP12_TF1_SL1",
         "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:EJX:ELL:0",
+        "ioc_base": "LM1K4:EJX:ELL:3",
         "ioc_channel": "1",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
-        "ioc_name": "ioc-lm1k4-ejx-ell-04",
+        "ioc_name": "ioc-lm1k4-ejx-ell-03",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
-        "ioc_serial": "DT03B8BM",
+        "ioc_serial": "DT03BF28",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Aug  9 11:48:50 2023",
+        "last_edit": "Wed Aug 16 15:44:25 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp12_tf1_sl1",
         "output_branches": null,
-        "prefix": "LM1K4:EJX_DP12:ELL",
+        "prefix": "LM1K4:EJX:ELL:3",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -12821,27 +12821,27 @@
         "input_branches": null,
         "ioc_alias": "LM1K4:EJX_DP6_TF1_SL1",
         "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:EJX:ELL:0",
+        "ioc_base": "LM1K4:EJX:ELL:4",
         "ioc_channel": "1",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
-        "ioc_name": "ioc-lm1k4-cvmi-ell-01",
+        "ioc_name": "ioc-lm1k4-ejx-ell-04",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
-        "ioc_serial": "DT03BJIH",
+        "ioc_serial": "DT03BIIZ",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Aug  9 11:55:16 2023",
+        "last_edit": "Wed Aug 16 15:41:46 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_sl1",
         "output_branches": null,
-        "prefix": "LM1K4:EJX_DP6:ELL",
+        "prefix": "LM1K4:EJX:ELL:4",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -13035,7 +13035,7 @@
     },
     "lm1k4_ejx_mp1_oap1_lm1": {
         "_id": "lm1k4_ejx_mp1_oap1_lm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13059,7 +13059,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug  9 11:34:41 2023",
+        "last_edit": "Tue Aug 15 17:33:00 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_lm1",
@@ -13071,7 +13071,7 @@
     },
     "lm1k4_ejx_mp1_oap1_tt1": {
         "_id": "lm1k4_ejx_mp1_oap1_tt1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13100,7 +13100,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Aug  9 11:34:41 2023",
+        "last_edit": "Tue Aug 15 17:33:14 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_tt1",
@@ -13112,7 +13112,7 @@
     },
     "lm1k4_ejx_mp1_oap1_tt3": {
         "_id": "lm1k4_ejx_mp1_oap1_tt3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13141,7 +13141,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Aug  9 11:34:41 2023",
+        "last_edit": "Tue Aug 15 17:33:25 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_tt3",
@@ -13309,7 +13309,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm1": {
         "_id": "lm1k4_ejx_mp2_ls3_lm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13333,7 +13333,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug  9 11:34:41 2023",
+        "last_edit": "Tue Aug 15 17:37:19 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm1",
@@ -13345,7 +13345,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm2": {
         "_id": "lm1k4_ejx_mp2_ls3_lm2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13369,7 +13369,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug  9 11:34:42 2023",
+        "last_edit": "Tue Aug 15 17:37:27 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm2",
@@ -13381,7 +13381,7 @@
     },
     "lm1k4_ejx_mp2_ls3_lm3": {
         "_id": "lm1k4_ejx_mp2_ls3_lm3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -13405,7 +13405,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug  9 11:34:42 2023",
+        "last_edit": "Tue Aug 15 17:37:36 2023",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls3_lm3",
