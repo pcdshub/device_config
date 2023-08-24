@@ -6253,6 +6253,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 769.2111
     },
+    "lamp_vcn_01": {
+        "_id": "lamp_vcn_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Tue Aug 22 17:23:39 2023",
+        "device_class": "pcdsdevices.valve.VCN_VAT590",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 22 17:23:39 2023",
+        "lightpath": false,
+        "location_group": "TMO IP1",
+        "name": "lamp_vcn_01",
+        "output_branches": null,
+        "prefix": "LAMP:VCN:01:",
+        "stand": "K4S02",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "las_btps": {
         "_id": "las_btps",
         "active": true,
