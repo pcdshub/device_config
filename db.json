@@ -17294,12 +17294,12 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:26 2023",
+        "last_edit": "Thu Aug 31 14:19:49 2023",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp1_tf1_sl1",
         "output_branches": null,
-        "prefix": "LM2K2:INJ_DP1_TF1_SL1:ELL",
+        "prefix": "LM2K2:INJ:ELL:1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -17406,12 +17406,12 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:26 2023",
+        "last_edit": "Thu Aug 31 14:25:38 2023",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_tf1_sl1",
         "output_branches": null,
-        "prefix": "LM2K2:INJ_DP2_TF1_SL1:ELL",
+        "prefix": "LM2K2:INJ:ELL:1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
