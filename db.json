@@ -6002,6 +6002,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
+    "im3l0_k2700": {
+        "_id": "im3l0_k2700",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Mon Oct  9 11:30:36 2023",
+        "device_class": "pcdsdevices.pim.IM3L0_K2700",
+        "documentation": null,
+        "functional_group": "Multimeter",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct  9 16:56:12 2023",
+        "lightpath": false,
+        "location_group": "Front End Enclosure",
+        "name": "im3l0_k2700",
+        "output_branches": [
+            "L0"
+        ],
+        "prefix": "IM3L0:PPM:SPM:K2700",
+        "stand": "L0S16",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 746.0
+    },
     "im4k2": {
         "_id": "im4k2",
         "active": true,
