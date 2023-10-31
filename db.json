@@ -19738,11 +19738,11 @@
             "n_filters": "{{n_filters}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:44 2023",
+        "last_edit": "Mon Oct 30 14:11:06 2023",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
-        "n_filters": 10,
+        "n_filters": 11,
         "name": "mfx_attenuator",
         "output_branches": [
             "L5"
