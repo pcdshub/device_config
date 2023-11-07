@@ -6902,8 +6902,8 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_cam_ff3": {
-        "_id": "las_lhn_bay3_cam_ff3",
+    "las_lhn_bay3_cam_ff5": {
+        "_id": "las_lhn_bay3_cam_ff5",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6922,7 +6922,7 @@
         "ioc_hutch": "LAS",
         "ioc_ip": "172.21.160.154",
         "ioc_location": "ctl-las-lhn-03",
-        "ioc_name": null,
+        "ioc_name": "ioc-las-lhn-bay3-ff-05",
         "ioc_net_if": "ETH0",
         "ioc_net_if_num": "1",
         "ioc_release": null,
@@ -6931,12 +6931,51 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov  3 15:48:27 2023",
+        "last_edit": "Mon Nov  6 13:27:34 2023",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_ff3",
+        "name": "las_lhn_bay3_cam_ff5",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF3:",
+        "prefix": "LAS:LHN:BAY3:CAM:FF5:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay3_cam_ff6": {
+        "_id": "las_lhn_bay3_cam_ff6",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Mon Nov  6 15:02:04 2023",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "ljansen7",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7801",
+        "ioc_hutch": "LAS",
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": "ioc-las-lhn-bay3-ff-06",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": null,
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov  6 15:12:54 2023",
+        "lightpath": false,
+        "location_group": "Bay 3",
+        "name": "las_lhn_bay3_cam_ff6",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY3:CAM:FF6:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -23720,38 +23759,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 695.0
     },
-    "rtdsx0": {
-        "_id": "rtdsx0",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "KFE",
-        "creation": "Mon Nov  7 16:52:01 2022",
-        "device_class": "RTDSX0ThreeStage",
-        "documentation": null,
-        "functional_group": "Motion",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:45:54 2023",
-        "lightpath": true,
-        "location_group": "EBD",
-        "name": "rtdsx0",
-        "output_branches": null,
-        "prefix": "RTDSK0:SCRP",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
     "rtdsx01": {
         "_id": "rtdsx01",
         "active": true,
@@ -23787,70 +23794,6 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 696.0
-    },
-    "rtdsx0_solid_drilling_motion": {
-        "_id": "rtdsx0_solid_drilling_motion",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "KFE",
-        "creation": "Mon Nov  7 16:42:36 2022",
-        "device_class": "RTDSX0ThreeStage",
-        "documentation": null,
-        "functional_group": "Motion",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": "mkestra",
-        "ioc_hutch": "kfe",
-        "ioc_location": "kfe",
-        "ioc_name": null,
-        "ioc_release": "dev",
-        "ioc_type": null,
-        "kwargs": {
-            "name": "name"
-        },
-        "last_edit": "Wed Feb 22 15:45:54 2023",
-        "lightpath": true,
-        "location_group": "EBD",
-        "name": "rtdsx0_solid_drilling_motion",
-        "output_branches": null,
-        "prefix": "RTDSK0:SCRP",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
-    "rtdsx0_test": {
-        "_id": "rtdsx0_test",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "KFE",
-        "creation": "Mon Nov  7 16:50:22 2022",
-        "device_class": null,
-        "documentation": null,
-        "functional_group": "Motion",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:45:54 2023",
-        "lightpath": true,
-        "location_group": "EBD",
-        "name": "rtdsx0_test",
-        "output_branches": null,
-        "prefix": "RTDSK0:SCRP",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
     },
     "sh1": {
         "_id": "sh1",
