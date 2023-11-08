@@ -4165,14 +4165,14 @@
             "n_bounces": 16,
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  5 21:05:57 2023",
+        "last_edit": "Tue Nov  7 17:46:35 2023",
         "lightpath": false,
         "location_group": "CXI:LAS",
         "macros": null,
         "name": "cxi_txt",
         "output_branches": null,
         "parent": null,
-        "prefix": "CXI:USR:MMN:25",
+        "prefix": "CXI:USR:MMN:17",
         "stand": "LAS",
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
@@ -6902,8 +6902,8 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_cam_ff5": {
-        "_id": "las_lhn_bay3_cam_ff5",
+    "las_lhn_bay3_cam_ff3": {
+        "_id": "las_lhn_bay3_cam_ff3",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6915,14 +6915,14 @@
         "functional_group": "cameras",
         "input_branches": null,
         "ioc_arch": "rhel7-x86_64",
-        "ioc_cam_model": " Basler_acA1600-60gm",
+        "ioc_cam_model": "Basler_acA1600-60gm",
         "ioc_engineer": "ljansen7",
         "ioc_evr_channel": "1",
         "ioc_http_port": "7803",
         "ioc_hutch": "LAS",
         "ioc_ip": "172.21.160.154",
         "ioc_location": "ctl-las-lhn-03",
-        "ioc_name": "ioc-las-lhn-bay3-ff-05",
+        "ioc_name": "ioc-lhn-bay3-ff-03",
         "ioc_net_if": "ETH0",
         "ioc_net_if_num": "1",
         "ioc_release": null,
@@ -6931,18 +6931,18 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  6 13:27:34 2023",
+        "last_edit": "Mon Nov  6 19:27:57 2023",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_ff5",
+        "name": "las_lhn_bay3_cam_ff3",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF5:",
+        "prefix": "LAS:LHN:BAY3:CAM:FF3:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_cam_ff6": {
-        "_id": "las_lhn_bay3_cam_ff6",
+    "las_lhn_bay3_cam_ff4": {
+        "_id": "las_lhn_bay3_cam_ff4",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6961,7 +6961,7 @@
         "ioc_hutch": "LAS",
         "ioc_ip": null,
         "ioc_location": null,
-        "ioc_name": "ioc-las-lhn-bay3-ff-06",
+        "ioc_name": "ioc-lhn-bay3-ff-04",
         "ioc_net_if": "ETH0",
         "ioc_net_if_num": "1",
         "ioc_release": null,
@@ -6970,12 +6970,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  6 15:12:54 2023",
+        "last_edit": "Mon Nov  6 19:28:21 2023",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_ff6",
+        "name": "las_lhn_bay3_cam_ff4",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF6:",
+        "prefix": "LAS:LHN:BAY3:CAM:FF4:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
