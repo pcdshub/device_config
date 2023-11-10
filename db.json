@@ -6824,6 +6824,74 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "las_lhn_bay2_env_sens_1": {
+        "_id": "las_lhn_bay2_env_sens_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu Nov  9 15:01:44 2023",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.51",
+        "ioc_location": "ioc-las-lhn-bhc-02",
+        "ioc_name": "ioc-las-lhn-bhc-02",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov  9 15:01:44 2023",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_env_sens_1",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:02:BHC:AI1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
+    "las_lhn_bay2_env_sens_2": {
+        "_id": "las_lhn_bay2_env_sens_2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu Nov  9 15:07:54 2023",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.160.51",
+        "ioc_location": "ioc-las-lhn-bhc-02",
+        "ioc_name": "ioc-las-lhn-bhc-02",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Nov  9 15:17:21 2023",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_env_sens_2",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:02:BHC:AI3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
     "las_lhn_bay3_cam_ff1": {
         "_id": "las_lhn_bay3_cam_ff1",
         "active": true,
@@ -21231,7 +21299,8 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "name": "{{name}}",
+            "y_ranges": "{{y_ranges}}"
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
