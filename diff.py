@@ -84,22 +84,27 @@ def print_changes(hash1: str, hash2: str) -> None:
     db1, db2 = [get_database_from_commit(sha) for sha in (hash1, hash2)]
 
     device_changes = sorted(get_changes(db1, db2))
+    print("## Summary")
+    print(f"Device changes {len(device_changes)} of total devices {len(db2)}")
+
     for action, device, _ in device_changes:
         print()
-        print(f"* {device} was {action}")
+        print(f"## {device}: {action}")
+        if action == "deleted":
+            continue
         dev1 = db1.get(device, {})
         dev2 = db2.get(device, {})
         for action, key, value in sorted(get_changes(dev1, dev2)):
-            value_str = f": {value}" if value is not None else ""
-            print(f"  {action} key {key}{value_str}")
-
-    print()
-    print("* Summary:")
-    for action, device, _ in device_changes:
-        print(f"  {device} was {action}")
-
-    print()
-    print(f"Device changes {len(device_changes)} of total devices {len(db2)}")
+            if key == "last_edit":
+                continue
+            if action == "deleted":
+                print(f"* ``{key!r}`` deleted")
+            elif action == "added":
+                print(f"* ``{key}``: ``{value!r}``")
+            else:
+                old_value = dev1.get(key, "(no value)")
+                new_value = dev2.get(key, "(no value)")
+                print(f"* {key}: ``{old_value!r}`` -> ``{new_value!r}``")
 
 
 if __name__ == "__main__":
