@@ -77,9 +77,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:20 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "FEE K4S33",
+        "location_group": "1 FEE K4S33",
         "name": "al1k4",
         "output_branches": [
             "K4"
@@ -256,9 +256,9 @@
             "calculator_prefix": "{{calculator_prefix}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:20 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "at1k4",
         "output_branches": [
             "K4"
@@ -291,9 +291,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:21 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": false,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "motor_prefix": "AT1K4:L2SI",
         "name": "at1k4_calc",
         "output_branches": null,
@@ -5554,9 +5554,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:56 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "im1k4",
         "output_branches": [
             "K4"
@@ -5808,9 +5808,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:57 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "FEE K4S33",
+        "location_group": "1 FEE K4S33",
         "name": "im2k4",
         "output_branches": [
             "K4"
@@ -5954,9 +5954,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 28 17:03:36 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "im3k4",
         "output_branches": [
             "K4"
@@ -6098,9 +6098,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 28 17:04:54 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "im4k4",
         "output_branches": [
             "K4"
@@ -6206,9 +6206,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 28 17:05:08 2023",
+        "last_edit": "Thu Dec  7 16:20:33 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "im5k4",
         "output_branches": [
             "K4"
@@ -6278,9 +6278,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 28 17:05:19 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "im6k4",
         "output_branches": [
             "K4"
@@ -6312,9 +6312,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Aug 22 17:23:39 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "name": "lamp_vcn_01",
         "output_branches": null,
         "prefix": "LAMP:VCN:01:",
@@ -7730,9 +7730,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:01 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "li1k4",
         "output_branches": [
             "K4"
@@ -7838,9 +7838,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:01 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "li3k4_ip1_vwc_01",
         "output_branches": [
             "K4"
@@ -15257,9 +15257,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:20 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "name": "lm1k4_qadc",
         "output_branches": null,
         "prefix": "LM1K4:QADC:01",
@@ -21855,9 +21855,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jun  7 11:20:09 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "macros": null,
         "name": "mr1k4_soms",
         "output_branches": [
@@ -21899,9 +21899,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:48 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "mr1k4_vgc_1",
         "output_branches": [
             "K0"
@@ -22233,9 +22233,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:49 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "macros": null,
         "name": "mr2k4_kbo",
         "output_branches": [
@@ -22277,9 +22277,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:49 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "mr2k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -22518,9 +22518,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 28 16:59:29 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "macros": null,
         "name": "mr3k4_kbo",
         "output_branches": [
@@ -22562,9 +22562,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "mr3k4_kbo_vfs_01",
         "output_branches": [
             "K4"
@@ -22598,9 +22598,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS1",
+        "location_group": "2 TMO GS1",
         "name": "mr3k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -22673,9 +22673,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "macros": null,
         "name": "mr4k4_kbo",
         "output_branches": [
@@ -22717,9 +22717,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 19:53:49 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "mr4k4_kbo_vfs_01",
         "output_branches": [
             "K4"
@@ -22753,9 +22753,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 12:01:00 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "mr4k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -22792,9 +22792,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "macros": null,
         "name": "mr5k4_kbo",
         "output_branches": [
@@ -22836,9 +22836,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 12:09:31 2023",
+        "last_edit": "Thu Dec  7 16:20:34 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "mr5k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -23077,9 +23077,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:51 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "pc5k4_vwc_01",
         "output_branches": [
             "K4"
@@ -23185,9 +23185,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:51 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "pf1k4",
         "output_branches": [
             "K4"
@@ -23293,9 +23293,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:51 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "pf2k4",
         "output_branches": [
             "K4"
@@ -24518,9 +24518,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:02 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "FEE K4S33",
+        "location_group": "1 FEE K4S33",
         "name": "sl1k4",
         "output_branches": [
             "K4"
@@ -24626,9 +24626,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:03 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": false,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "sl2k4",
         "output_branches": [
             "K4"
@@ -24815,9 +24815,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:03 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "FZPS",
+        "location_group": "4 FZPS",
         "macros": "None",
         "name": "sp1k4",
         "output_branches": [
@@ -25036,9 +25036,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Aug 10 11:54:34 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "st1k4",
         "output_branches": [
             "K4"
@@ -25109,9 +25109,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:04 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "st3k4_pps",
         "output_branches": [
             "K4"
@@ -25145,9 +25145,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:04 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "st3k4_pps_vgc_01",
         "output_branches": [
             "K4"
@@ -25181,9 +25181,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 16:12:31 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO K4S6",
+        "location_group": "6 TMO K4S6",
         "name": "st4k4",
         "output_branches": [
             "K4"
@@ -25217,9 +25217,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 16:16:40 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO K4S8",
+        "location_group": "8 TMO K4S8",
         "name": "st5k4",
         "output_branches": [
             "K4"
@@ -25289,9 +25289,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:04 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS2",
+        "location_group": "5 TMO GS2",
         "name": "tm1k4",
         "output_branches": [
             "K4"
@@ -25361,9 +25361,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:04 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "tm2k4",
         "output_branches": [
             "K4"
@@ -25397,9 +25397,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu May 18 12:11:32 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": true,
-        "location_group": "TMO GS3",
+        "location_group": "7 TMO GS3",
         "name": "tm2k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -25434,9 +25434,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "macros": null,
         "name": "tmo_cvmi",
         "output_branches": null,
@@ -25472,9 +25472,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "macros": null,
         "name": "tmo_ktof",
         "output_branches": null,
@@ -25510,9 +25510,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:35 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "macros": null,
         "name": "tmo_lamp",
         "output_branches": null,
@@ -25565,9 +25565,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:36 2023",
         "lightpath": false,
-        "location_group": "TMO IP1",
+        "location_group": "3 TMO IP1",
         "macros": null,
         "name": "tmo_mrco",
         "output_branches": null,
@@ -25638,9 +25638,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:36 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "tv1k4_vfs_01",
         "output_branches": [
             "K4"
@@ -25674,9 +25674,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:36 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "tv1k4_vgc_01",
         "output_branches": [
             "K4"
@@ -25710,9 +25710,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:05 2023",
+        "last_edit": "Thu Dec  7 16:20:36 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "tv1k4_vgc_02",
         "output_branches": [
             "K4"
@@ -25926,9 +25926,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:06 2023",
+        "last_edit": "Thu Dec  7 16:20:36 2023",
         "lightpath": true,
-        "location_group": "FEE K4S24",
+        "location_group": "0 FEE K4S24",
         "name": "tv3k0_vgc_1",
         "output_branches": [
             "K0"
