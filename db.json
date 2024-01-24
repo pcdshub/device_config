@@ -12451,6 +12451,47 @@
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
+    "lm1k4_com_mp2_mr11": {
+        "_id": "lm1k4_com_mp2_mr11",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Jan 23 15:50:33 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K4:COM_MP2_MR11",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:03",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-03",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13",
+        "ioc_tilt_channel": "3",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "15",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Tue Jan 23 16:21:14 2024",
+        "lightpath": false,
+        "location_group": "2_lm1k4_com",
+        "name": "lm1k4_com_mp2_mr11",
+        "output_branches": null,
+        "prefix": "LM1K4:COM_MP2_MR11",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp11_tf1_ff1": {
         "_id": "lm1k4_ejx_dp11_tf1_ff1",
         "active": true,
@@ -22183,6 +22224,39 @@
         ],
         "prefix": "MFX:LENS",
         "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mfx_txt": {
+        "_id": "mfx_txt",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "MFX",
+        "creation": "Mon Jan 22 17:24:24 2024",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "n_bounces": 16,
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jan 22 17:31:00 2024",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "mfx_txt",
+        "output_branches": null,
+        "prefix": "MFX:LAS:MMN:06",
+        "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
