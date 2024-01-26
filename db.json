@@ -5430,7 +5430,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:28 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCOOL",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5446,7 +5446,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:56 2023",
+        "last_edit": "Thu Jan 25 16:22:44 2024",
         "lightpath": true,
         "location_group": "RIX Imagers",
         "name": "im1k2",
@@ -5756,7 +5756,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:30 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCOOL",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5772,7 +5772,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:57 2023",
+        "last_edit": "Thu Jan 25 16:22:59 2024",
         "lightpath": true,
         "location_group": "RIX Imagers",
         "name": "im2k2",
@@ -5902,7 +5902,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:31 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCOOL",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5918,7 +5918,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:57 2023",
+        "last_edit": "Thu Jan 25 16:23:10 2024",
         "lightpath": true,
         "location_group": "RIX Imagers",
         "name": "im3k2",
@@ -6046,7 +6046,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:32 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCOOL",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -6062,7 +6062,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:57 2023",
+        "last_edit": "Thu Jan 25 16:23:26 2024",
         "lightpath": true,
         "location_group": "RIX Imagers",
         "name": "im4k2",
@@ -6154,7 +6154,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:33 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCOOL",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -6170,7 +6170,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:57 2023",
+        "last_edit": "Thu Jan 25 16:28:29 2024",
         "lightpath": true,
         "location_group": "RIX Imagers",
         "name": "im5k2",
