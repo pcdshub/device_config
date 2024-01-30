@@ -23176,7 +23176,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:48 2022",
-        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "device_class": "pcdsdevices.mirror.KBOMirrorHE",
         "documentation": null,
         "functional_group": "Mirrors",
         "input_branches": [
@@ -23192,7 +23192,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Mon Jan 29 16:15:41 2024",
         "lightpath": true,
         "location_group": "RIX K2S05",
         "name": "mr3k2_kbh",
@@ -23331,7 +23331,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:49 2022",
-        "device_class": "pcdsdevices.mirror.KBOMirror",
+        "device_class": "pcdsdevices.mirror.KBOMirrorHE",
         "documentation": null,
         "functional_group": "Mirrors",
         "input_branches": [
@@ -23347,7 +23347,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:50 2023",
+        "last_edit": "Mon Jan 29 16:18:39 2024",
         "lightpath": true,
         "location_group": "RIX K2S07",
         "name": "mr4k2_kbv",
