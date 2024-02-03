@@ -5394,7 +5394,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:28 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCoolSwitch",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5410,7 +5410,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:56 2023",
+        "last_edit": "Fri Feb  2 14:04:04 2024",
         "lightpath": true,
         "location_group": "FEE Imagers",
         "name": "im1k1",
@@ -5466,7 +5466,7 @@
         ],
         "beamline": "KTXI",
         "creation": "Mon Jul 18 16:05:29 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCoolSwitch",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5482,7 +5482,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:56 2023",
+        "last_edit": "Fri Feb  2 14:08:12 2024",
         "lightpath": true,
         "location_group": "Section 07",
         "name": "im1k3",
@@ -5720,7 +5720,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:30 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCoolSwitch",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5736,7 +5736,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:56 2023",
+        "last_edit": "Fri Feb  2 14:05:50 2024",
         "lightpath": true,
         "location_group": "FEE Imagers",
         "name": "im2k1",
@@ -5792,7 +5792,7 @@
         ],
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:31 2022",
-        "device_class": "pcdsdevices.pim.PPM",
+        "device_class": "pcdsdevices.pim.PPMCoolSwitch",
         "documentation": null,
         "functional_group": "Imager",
         "input_branches": [
@@ -5808,7 +5808,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:33 2023",
+        "last_edit": "Fri Feb  2 10:00:39 2024",
         "lightpath": true,
         "location_group": "1 FEE K4S33",
         "name": "im2k4",
@@ -17942,6 +17942,43 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm2k2_hrm_dp1_tf1_pm1": {
+        "_id": "lm2k2_hrm_dp1_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Thu Feb  1 17:47:27 2024",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "input_branches": null,
+        "ioc_alias": "LM2K2:HRM_DP1_TF1_PM1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:HRM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "3",
+        "ioc_engineer": "cpino",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-hrm-01",
+        "ioc_location": null,
+        "ioc_name": "ioc-lm2k2-hrm-ek9000-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb  1 17:47:27 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_hrm",
+        "name": "lm2k2_hrm_dp1_tf1_pm1",
+        "output_branches": null,
+        "prefix": "LM2K2:HRM_DP1_TF1_PM1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
+        "z": -1.0
+    },
     "lm2k2_hrm_dp1_tf1_sl1": {
         "_id": "lm2k2_hrm_dp1_tf1_sl1",
         "active": true,
@@ -18057,6 +18094,43 @@
         "prefix": "LM2K2:HRM_DP2_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm2k2_hrm_dp2_tf1_pm1": {
+        "_id": "lm2k2_hrm_dp2_tf1_pm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Thu Feb  1 17:49:10 2024",
+        "device_class": "pcdsdevices.device_types.El3174AiCh",
+        "documentation": null,
+        "functional_group": "power meters",
+        "input_branches": null,
+        "ioc_alias": "LM2K2:HRM_DP2_TF1_PM1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:HRM_BHC",
+        "ioc_card_num": "2",
+        "ioc_chan_num": "4",
+        "ioc_engineer": "cpino",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-hrm-01",
+        "ioc_location": null,
+        "ioc_name": "ioc-lm2k2-hrm-ek9000-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb  1 17:49:10 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_hrm",
+        "name": "lm2k2_hrm_dp2_tf1_pm1",
+        "output_branches": null,
+        "prefix": "LM2K2:HRM_DP2_TF1_PM1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.ThorlabsPM101PowerMeter",
         "z": -1.0
     },
     "lm2k2_hrm_dp2_tf1_sl1": {
@@ -22904,7 +22978,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "HXD",
+        "beamline": "TXI",
         "creation": "Fri Nov  3 10:16:49 2023",
         "detailed_screen": null,
         "device_class": "pcdsdevices.mirror.XOffsetMirrorNoBend",
@@ -22923,7 +22997,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov  3 10:16:49 2023",
+        "last_edit": "Fri Feb  2 13:08:17 2024",
         "lightpath": false,
         "location_group": "FEE",
         "macros": null,
