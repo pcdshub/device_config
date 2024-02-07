@@ -7160,6 +7160,40 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "las_lhn_bay3_env_sens_1_timing": {
+        "_id": "las_lhn_bay3_env_sens_1_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Tue Feb  6 15:31:02 2024",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LHN:ADC:03",
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-timing-03",
+        "ioc_location": "ctl-las-lhn-04",
+        "ioc_name": "ioc-las-lhn-bhc-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/ek9000/R1.2.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb  6 15:31:02 2024",
+        "lightpath": false,
+        "location_group": "Bay 3",
+        "name": "las_lhn_bay3_env_sens_1_timing",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:03:BHC:AI1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
     "las_lhn_bay3_env_sens_2": {
         "_id": "las_lhn_bay3_env_sens_2",
         "active": true,
@@ -7188,6 +7222,40 @@
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_env_sens_2",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:03:BHC:AI3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
+    "las_lhn_bay3_env_sens_2_timing": {
+        "_id": "las_lhn_bay3_env_sens_2_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Tue Feb  6 15:32:00 2024",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LHN:ADC:03",
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-timing-03",
+        "ioc_location": "ctl-las-lhn-04",
+        "ioc_name": "ioc-las-lhn-bhc-03",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/ek9000/R1.2.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb  6 15:32:00 2024",
+        "lightpath": false,
+        "location_group": "Bay 3",
+        "name": "las_lhn_bay3_env_sens_2_timing",
         "output_branches": null,
         "prefix": "LAS:LHN:ADC:03:BHC:AI3",
         "stand": null,
@@ -26206,6 +26274,40 @@
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 769.52
+    },
+    "timing_test_entry": {
+        "_id": "timing_test_entry",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Tue Feb  6 15:10:53 2024",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": "this is just a test",
+        "functional_group": "DO NOT PRESS ME",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_engineer": "aberges",
+        "ioc_hutch": null,
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Feb  6 15:32:48 2024",
+        "lightpath": false,
+        "location_group": "TIMING",
+        "name": "timing_test_entry",
+        "output_branches": null,
+        "prefix": "TEST:FAKE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
     },
     "tm1k2": {
         "_id": "tm1k2",
