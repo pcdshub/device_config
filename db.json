@@ -6892,8 +6892,8 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
-    "las_lhn_bay3_cam_ff1": {
-        "_id": "las_lhn_bay3_cam_ff1",
+    "las_lhn_bay3_amphos_ff1": {
+        "_id": "las_lhn_bay3_amphos_ff1",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6921,24 +6921,24 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:59 2023",
+        "last_edit": "Thu Feb 22 15:24:59 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_ff1",
+        "name": "las_lhn_bay3_amphos_ff1",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_cam_ff2": {
-        "_id": "las_lhn_bay3_cam_ff2",
+    "las_lhn_bay3_amphos_nf1": {
+        "_id": "las_lhn_bay3_amphos_nf1",
         "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "LAS",
-        "creation": "Tue May  3 12:50:55 2022",
+        "creation": "Tue May  3 12:49:01 2022",
         "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
         "documentation": null,
         "functional_group": "cameras",
@@ -6947,11 +6947,11 @@
         "ioc_cam_model": "Basler_acA1300-30gm",
         "ioc_engineer": "cpino",
         "ioc_evr_channel": "1",
-        "ioc_http_port": "7803",
+        "ioc_http_port": "7802",
         "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.161.27",
+        "ioc_ip": "172.21.161.24",
         "ioc_location": "ctl-las-lhn-03",
-        "ioc_name": "ioc-lhn-bay3-ff-02",
+        "ioc_name": "ioc-lhn-bay3-nf-01",
         "ioc_net_if": "ETH0",
         "ioc_net_if_num": "1",
         "ioc_release": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
@@ -6960,12 +6960,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:59 2023",
+        "last_edit": "Thu Feb 22 15:24:28 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_ff2",
+        "name": "las_lhn_bay3_amphos_nf1",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF2:",
+        "prefix": "LAS:LHN:BAY3:CAM:NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7044,84 +7044,6 @@
         "name": "las_lhn_bay3_cam_ff4",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:FF4:",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LasBasler",
-        "z": -1.0
-    },
-    "las_lhn_bay3_cam_nf1": {
-        "_id": "las_lhn_bay3_cam_nf1",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "LAS",
-        "creation": "Tue May  3 12:49:01 2022",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
-        "documentation": null,
-        "functional_group": "cameras",
-        "input_branches": null,
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_cam_model": "Basler_acA1300-30gm",
-        "ioc_engineer": "cpino",
-        "ioc_evr_channel": "1",
-        "ioc_http_port": "7802",
-        "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.161.24",
-        "ioc_location": "ctl-las-lhn-03",
-        "ioc_name": "ioc-lhn-bay3-nf-01",
-        "ioc_net_if": "ETH0",
-        "ioc_net_if_num": "1",
-        "ioc_release": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
-        "ioc_type": "BaslerGigE",
-        "ioc_use_evr": "no",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:44:59 2023",
-        "lightpath": false,
-        "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_nf1",
-        "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:NF1:",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LasBasler",
-        "z": -1.0
-    },
-    "las_lhn_bay3_cam_nf2": {
-        "_id": "las_lhn_bay3_cam_nf2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "LAS",
-        "creation": "Tue May  3 12:52:33 2022",
-        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
-        "documentation": null,
-        "functional_group": "cameras",
-        "input_branches": null,
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_cam_model": "Basler_acA1300-30gm",
-        "ioc_engineer": "cpino",
-        "ioc_evr_channel": "1",
-        "ioc_http_port": "7804",
-        "ioc_hutch": "LAS",
-        "ioc_ip": "172.21.161.26",
-        "ioc_location": "ctl-las-lhn-03",
-        "ioc_name": "ioc-lhn-bay3-nf-02",
-        "ioc_net_if": "ETH0",
-        "ioc_net_if_num": "1",
-        "ioc_release": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
-        "ioc_type": "BaslerGigE",
-        "ioc_use_evr": "no",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:45:00 2023",
-        "lightpath": false,
-        "location_group": "Bay 3",
-        "name": "las_lhn_bay3_cam_nf2",
-        "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:NF2:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7260,6 +7182,84 @@
         "prefix": "LAS:LHN:ADC:03:BHC:AI3",
         "stand": null,
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
+    "las_lhn_bay3_opcpa_ff1": {
+        "_id": "las_lhn_bay3_opcpa_ff1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Tue May  3 12:50:55 2022",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1300-30gm",
+        "ioc_engineer": "cpino",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7803",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.27",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay3-ff-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 22 15:25:46 2024",
+        "lightpath": false,
+        "location_group": "Bay 3",
+        "name": "las_lhn_bay3_opcpa_ff1",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY3:CAM:FF2:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay3_opcpa_nf1": {
+        "_id": "las_lhn_bay3_opcpa_nf1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Tue May  3 12:52:33 2022",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1300-30gm",
+        "ioc_engineer": "cpino",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7804",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.26",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay3-nf-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb 22 15:25:29 2024",
+        "lightpath": false,
+        "location_group": "Bay 3",
+        "name": "las_lhn_bay3_opcpa_nf1",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY3:CAM:NF2:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
     "las_lhn_bay4_cam_ff": {
