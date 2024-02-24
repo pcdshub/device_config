@@ -6824,6 +6824,84 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "las_lhn_bay2_amphos_ff": {
+        "_id": "las_lhn_bay2_amphos_ff",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 12:47:58 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone 2 AMPHOS FF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7805",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.76",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-ff-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 12:47:58 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_amphos_ff",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:FF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay2_amphos_nf": {
+        "_id": "las_lhn_bay2_amphos_nf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 14:27:21 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone 2 AMPHOS NF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7808",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.73",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-nf-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 14:27:21 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_amphos_nf",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:NF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "las_lhn_bay2_env_sens_1": {
         "_id": "las_lhn_bay2_env_sens_1",
         "active": true,
@@ -6892,8 +6970,8 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
-    "las_lhn_bay3_amphos_ff1": {
-        "_id": "las_lhn_bay3_amphos_ff1",
+    "las_lhn_bay3_amphos_ff": {
+        "_id": "las_lhn_bay3_amphos_ff",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6921,18 +6999,18 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 15:24:59 2024",
+        "last_edit": "Thu Feb 22 18:14:58 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_amphos_ff1",
+        "name": "las_lhn_bay3_amphos_ff",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_amphos_nf1": {
-        "_id": "las_lhn_bay3_amphos_nf1",
+    "las_lhn_bay3_amphos_nf": {
+        "_id": "las_lhn_bay3_amphos_nf",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -6960,10 +7038,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 15:24:28 2024",
+        "last_edit": "Thu Feb 22 18:15:08 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_amphos_nf1",
+        "name": "las_lhn_bay3_amphos_nf",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:NF1:",
         "stand": null,
@@ -7184,8 +7262,8 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
-    "las_lhn_bay3_opcpa_ff1": {
-        "_id": "las_lhn_bay3_opcpa_ff1",
+    "las_lhn_bay3_opcpa_ff": {
+        "_id": "las_lhn_bay3_opcpa_ff",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -7213,18 +7291,18 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 15:25:46 2024",
+        "last_edit": "Thu Feb 22 18:15:57 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_opcpa_ff1",
+        "name": "las_lhn_bay3_opcpa_ff",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:FF2:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
-    "las_lhn_bay3_opcpa_nf1": {
-        "_id": "las_lhn_bay3_opcpa_nf1",
+    "las_lhn_bay3_opcpa_nf": {
+        "_id": "las_lhn_bay3_opcpa_nf",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -7252,10 +7330,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 15:25:29 2024",
+        "last_edit": "Thu Feb 22 18:16:12 2024",
         "lightpath": false,
         "location_group": "Bay 3",
-        "name": "las_lhn_bay3_opcpa_nf1",
+        "name": "las_lhn_bay3_opcpa_nf",
         "output_branches": null,
         "prefix": "LAS:LHN:BAY3:CAM:NF2:",
         "stand": null,
