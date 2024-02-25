@@ -6970,6 +6970,162 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "las_lhn_bay2_mpc_ff": {
+        "_id": "las_lhn_bay2_mpc_ff",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 17:21:42 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone 2 MPC FF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7807",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.77",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-ff-03",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 17:21:42 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_mpc_ff",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:FF3:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay2_mpc_nf": {
+        "_id": "las_lhn_bay2_mpc_nf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 17:46:55 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone 2 MPC NF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7810",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.76",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-nf-03",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 17:46:55 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_mpc_nf",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:NF3:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay2_opcpa_ff": {
+        "_id": "las_lhn_bay2_opcpa_ff",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 17:20:07 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone OPCPA FF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7806",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.75",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-ff-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 17:20:07 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_opcpa_ff",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:FF2:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lhn_bay2_opcpa_nf": {
+        "_id": "las_lhn_bay2_opcpa_nf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Fri Feb 23 17:23:20 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "Laser Hall Zone 2 OPCPA NF",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "1",
+        "ioc_http_port": "7809",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "172.21.161.74",
+        "ioc_location": "ctl-las-lhn-03",
+        "ioc_name": "ioc-lhn-bay2-nf-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 23 17:23:20 2024",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_opcpa_nf",
+        "output_branches": null,
+        "prefix": "LAS:LHN:BAY2:CAM:NF2:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "las_lhn_bay3_amphos_ff": {
         "_id": "las_lhn_bay3_amphos_ff",
         "active": true,
@@ -7050,7 +7206,7 @@
     },
     "las_lhn_bay3_cam_ff3": {
         "_id": "las_lhn_bay3_cam_ff3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -7077,7 +7233,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  6 19:27:57 2023",
+        "last_edit": "Fri Feb 23 17:53:46 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_cam_ff3",
@@ -7089,7 +7245,7 @@
     },
     "las_lhn_bay3_cam_ff4": {
         "_id": "las_lhn_bay3_cam_ff4",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -7116,7 +7272,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  6 19:28:21 2023",
+        "last_edit": "Fri Feb 23 17:54:02 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_cam_ff4",
