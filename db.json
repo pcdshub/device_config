@@ -1052,7 +1052,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:23 2023",
+        "last_edit": "Wed Mar  6 15:20:43 2024",
         "lightpath": false,
         "location_group": "crix sds",
         "name": "crix_sds_y",
@@ -26963,6 +26963,38 @@
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
+    },
+    "tst_eps_motor": {
+        "_id": "tst_eps_motor",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TST",
+        "creation": "Wed Mar  6 15:37:01 2024",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "documentation": null,
+        "functional_group": "test",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar  6 15:37:01 2024",
+        "lightpath": false,
+        "location_group": "test",
+        "name": "tst_eps_motor",
+        "output_branches": null,
+        "prefix": "TST:EPS:SIM:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "tv1k2_vfs_1": {
         "_id": "tv1k2_vfs_1",
