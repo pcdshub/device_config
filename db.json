@@ -24485,7 +24485,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:51 2022",
-        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetFDQ",
         "documentation": null,
         "functional_group": "WFS",
         "input_branches": [
@@ -24501,7 +24501,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:51 2023",
+        "last_edit": "Tue Mar 12 11:08:58 2024",
         "lightpath": true,
         "location_group": "RIX K2S13",
         "name": "pf1k2",
