@@ -53,6 +53,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.833
     },
+    "al1k3": {
+        "_id": "al1k3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Thu Jun 13 15:24:49 2024",
+        "device_class": "pcdsdevices.device_types.ReflaserL2SI",
+        "documentation": null,
+        "functional_group": "REF",
+        "input_branches": [
+            "K3"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 13 15:31:36 2024",
+        "lightpath": false,
+        "location_group": "TMO K3S01",
+        "name": "al1k3",
+        "output_branches": [
+            "K3"
+        ],
+        "prefix": "AL1K3:L2SI",
+        "stand": "K3S01",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 754.87351
+    },
     "al1k4": {
         "_id": "al1k4",
         "active": true,
@@ -229,6 +265,43 @@
         "stand": "K2S10",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 784.233
+    },
+    "at1k3": {
+        "_id": "at1k3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Thu Jun 13 15:20:53 2024",
+        "device_class": "pcdsdevices.attenuator.AT1K4",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "input_branches": [
+            "K3"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "calculator_prefix": "{{calculator_prefix}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 13 15:31:50 2024",
+        "lightpath": false,
+        "location_group": "TMO K3S02",
+        "name": "at1k3",
+        "output_branches": [
+            "K3"
+        ],
+        "prefix": "AT1K3:L2SI",
+        "stand": "K3S02",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 748.0
     },
     "at1k4": {
         "_id": "at1k4",
@@ -5464,7 +5537,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "KTXI",
+        "beamline": "K3",
         "creation": "Mon Jul 18 16:05:29 2022",
         "device_class": "pcdsdevices.pim.PPMCoolSwitch",
         "documentation": null,
@@ -5482,9 +5555,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb  2 14:08:12 2024",
+        "last_edit": "Thu Jun 13 15:34:12 2024",
         "lightpath": true,
-        "location_group": "Section 07",
+        "location_group": "FEE",
         "name": "im1k3",
         "output_branches": [
             "K3"
@@ -6038,6 +6111,36 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 746.0
     },
+    "im3l0_r": {
+        "_id": "im3l0_r",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TST",
+        "creation": "Tue Jun 18 13:05:58 2024",
+        "device_class": "pcdsdevices.pim.PPM_R_PowerMeter",
+        "documentation": null,
+        "functional_group": "Imager",
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "prefix": "IM3L0:PPM"
+        },
+        "last_edit": "Tue Jun 18 13:05:58 2024",
+        "lightpath": true,
+        "location_group": "FEE",
+        "name": "im3l0_r",
+        "prefix": "IM3L0:PPM",
+        "stand": "L0S16",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 746.0
+    },
     "im4k2": {
         "_id": "im4k2",
         "active": true,
@@ -6386,6 +6489,222 @@
         "name": "las_bts_mcs2_01_m1",
         "output_branches": null,
         "prefix": "LAS:BTS:MCS2:01:m1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m10": {
+        "_id": "las_bts_mcs2_01_m10",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Wed May  1 11:04:13 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m10",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "10",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:16:21 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 800nm",
+        "name": "las_bts_mcs2_01_m10",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m10",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m11": {
+        "_id": "las_bts_mcs2_01_m11",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Wed May  1 11:20:00 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m11",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "11",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:17:54 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 800nm",
+        "name": "las_bts_mcs2_01_m11",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m11",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m12": {
+        "_id": "las_bts_mcs2_01_m12",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Wed May  1 11:24:06 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m12",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "12",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:18:05 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 800nm",
+        "name": "las_bts_mcs2_01_m12",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m12",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m13": {
+        "_id": "las_bts_mcs2_01_m13",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu May  2 11:21:20 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m13",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "13",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:25:57 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 1um",
+        "name": "las_bts_mcs2_01_m13",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m13",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m14": {
+        "_id": "las_bts_mcs2_01_m14",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu May  2 11:22:40 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m14",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "14",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:27:59 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 1um",
+        "name": "las_bts_mcs2_01_m14",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m14",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "las_bts_mcs2_01_m15": {
+        "_id": "las_bts_mcs2_01_m15",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LAS",
+        "creation": "Thu May  2 11:24:25 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LAS:BTS:MCS2:01:m15",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:BTS:MCS2:01",
+        "ioc_channel": "15",
+        "ioc_engineer": "tjohnson",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-bts-01",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-bts-mcs1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.6",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  2 11:26:43 2024",
+        "lightpath": false,
+        "location_group": "Bay 2 - 1um",
+        "name": "las_bts_mcs2_01_m15",
+        "output_branches": null,
+        "prefix": "LAS:BTS:MCS2:01:m15",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
@@ -8080,6 +8399,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 786.434
     },
+    "li2k4": {
+        "_id": "li2k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Apr  1 14:22:24 2024",
+        "device_class": "pcdsdevices.lic_2d_tmo.TMOLaserInCouplingTwoDimension",
+        "documentation": null,
+        "functional_group": "LIC",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr  2 07:36:30 2024",
+        "lightpath": false,
+        "location_group": "2 TMO GS1",
+        "name": "li2k4",
+        "output_branches": null,
+        "prefix": "LI2K4:IP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.55505
+    },
     "li3k2": {
         "_id": "li3k2",
         "active": true,
@@ -8154,7 +8505,7 @@
     },
     "lm1k2_atm_dp1_tf1_ff1": {
         "_id": "lm1k2_atm_dp1_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8181,7 +8532,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:01 2023",
+        "last_edit": "Wed Jun 12 15:42:09 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp1_tf1_ff1",
@@ -8193,7 +8544,7 @@
     },
     "lm1k2_atm_dp1_tf1_nf1": {
         "_id": "lm1k2_atm_dp1_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8220,7 +8571,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:01 2023",
+        "last_edit": "Wed Jun 12 15:42:09 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp1_tf1_nf1",
@@ -8232,7 +8583,7 @@
     },
     "lm1k2_atm_dp1_tf1_sl1": {
         "_id": "lm1k2_atm_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8259,7 +8610,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:01 2023",
+        "last_edit": "Wed Jun 12 15:42:09 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp1_tf1_sl1",
@@ -8271,7 +8622,7 @@
     },
     "lm1k2_atm_dp2_tf1_ff1": {
         "_id": "lm1k2_atm_dp2_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8298,7 +8649,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp2_tf1_ff1",
@@ -8310,7 +8661,7 @@
     },
     "lm1k2_atm_dp2_tf1_nf1": {
         "_id": "lm1k2_atm_dp2_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8337,7 +8688,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp2_tf1_nf1",
@@ -8349,7 +8700,7 @@
     },
     "lm1k2_atm_dp2_tf1_sl1": {
         "_id": "lm1k2_atm_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8376,7 +8727,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp2_tf1_sl1",
@@ -8388,7 +8739,7 @@
     },
     "lm1k2_atm_dp2_tf1_sp1": {
         "_id": "lm1k2_atm_dp2_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8411,7 +8762,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_dp2_tf1_sp1",
@@ -8423,7 +8774,7 @@
     },
     "lm1k2_atm_env_sens": {
         "_id": "lm1k2_atm_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8435,6 +8786,8 @@
         "input_branches": null,
         "ioc_arch": null,
         "ioc_base": "LM1K2:ATM_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
         "ioc_engineer": "fmurgia",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-ip1-atm-01",
@@ -8445,7 +8798,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_env_sens",
@@ -8455,9 +8808,81 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "lm1k2_atm_mp1_img1_bs1_tilt1": {
+        "_id": "lm1k2_atm_mp1_img1_bs1_tilt1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Wed Jun 12 15:54:16 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": "'qRIXS ATM encoded 2-in encoded tip/tilt'",
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:ATM_MP1_IMG1_BS1_TILT1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "14",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIXS MODS TABLE",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jun 12 16:10:12 2024",
+        "lightpath": false,
+        "location_group": "3_lm1k2_atm",
+        "name": "lm1k2_atm_mp1_img1_bs1_tilt1",
+        "output_branches": null,
+        "prefix": "LM1K2:ATM_MP1_IMG1_BS1_TILT1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k2_atm_mp1_img1_bs1_tip1": {
+        "_id": "lm1k2_atm_mp1_img1_bs1_tip1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Tue Jun 11 18:40:56 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": "'qRIXS ATM encoded 2-in encoded tip/tilt'",
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:ATM_MP1_IMG1_BS1_TIP1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "13",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIXS MODS TABLE",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jun 12 16:10:12 2024",
+        "lightpath": false,
+        "location_group": "3_lm1k2_atm",
+        "name": "lm1k2_atm_mp1_img1_bs1_tip1",
+        "output_branches": null,
+        "prefix": "LM1K2:ATM_MP1_IMG1_BS1_TIP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k2_atm_mp1_mr0": {
         "_id": "lm1k2_atm_mp1_mr0",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8486,7 +8911,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "_lm1k2_atm",
         "name": "lm1k2_atm_mp1_mr0",
@@ -8498,7 +8923,7 @@
     },
     "lm1k2_atm_mp1_mr1": {
         "_id": "lm1k2_atm_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8527,7 +8952,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:10 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_atm",
         "name": "lm1k2_atm_mp1_mr1",
@@ -8537,9 +8962,81 @@
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
+    "lm1k2_atm_mp1_mr1_tilt1": {
+        "_id": "lm1k2_atm_mp1_mr1_tilt1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Tue Jun 11 18:47:23 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": "'qRIXS ATM encoded 1-in tip/tilt'",
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:ATM_MP1_MR1_TILT1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "17",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIXS MODS TABLE",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jun 12 16:10:12 2024",
+        "lightpath": false,
+        "location_group": "3_lm1k2_atm",
+        "name": "lm1k2_atm_mp1_mr1_tilt1",
+        "output_branches": null,
+        "prefix": "LM1K2:ATM_MP1_MR1_TILT1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k2_atm_mp1_mr1_tip1": {
+        "_id": "lm1k2_atm_mp1_mr1_tip1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Tue Jun 11 18:46:20 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": "'qRIXS ATM encoded 1-in tip/tilt'",
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:ATM_MP1_MR1_TIP1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:01",
+        "ioc_channel": "16",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-01",
+        "ioc_location": "QRIXS MODS TABLE",
+        "ioc_name": "ioc-lm1k2-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jun 12 16:10:12 2024",
+        "lightpath": false,
+        "location_group": "3_lm1k2_atm",
+        "name": "lm1k2_atm_mp1_mr1_tip1",
+        "output_branches": null,
+        "prefix": "LM1K2:ATM_MP1_MR1_TIP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k2_atm_mp1_mr3": {
         "_id": "lm1k2_atm_mp1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8568,7 +9065,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_atm",
         "name": "lm1k2_atm_mp1_mr3",
@@ -8580,7 +9077,7 @@
     },
     "lm1k2_atm_mp2_pol2": {
         "_id": "lm1k2_atm_mp2_pol2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8607,7 +9104,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "5_lm1k2_atm",
         "name": "lm1k2_atm_mp2_pol2",
@@ -8619,7 +9116,7 @@
     },
     "lm1k2_com_dp1_mr1": {
         "_id": "lm1k2_com_dp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8643,7 +9140,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:02 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_dp1_mr1",
@@ -8655,7 +9152,7 @@
     },
     "lm1k2_com_dp1_tf1_ff1": {
         "_id": "lm1k2_com_dp1_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8682,7 +9179,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp1_tf1_ff1",
@@ -8694,7 +9191,7 @@
     },
     "lm1k2_com_dp1_tf1_sl1": {
         "_id": "lm1k2_com_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8721,7 +9218,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp1_tf1_sl1",
@@ -8733,7 +9230,7 @@
     },
     "lm1k2_com_dp2_mr3": {
         "_id": "lm1k2_com_dp2_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8757,7 +9254,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:11 2024",
         "lightpath": false,
         "location_group": "3_llm1k2_com",
         "name": "lm1k2_com_dp2_mr3",
@@ -8769,7 +9266,7 @@
     },
     "lm1k2_com_dp2_tf1_ff1": {
         "_id": "lm1k2_com_dp2_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8796,7 +9293,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_tf1_ff1",
@@ -8808,7 +9305,7 @@
     },
     "lm1k2_com_dp2_tf1_nf1": {
         "_id": "lm1k2_com_dp2_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8835,7 +9332,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_tf1_nf1",
@@ -8847,7 +9344,7 @@
     },
     "lm1k2_com_dp2_tf1_pm1": {
         "_id": "lm1k2_com_dp2_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8861,7 +9358,7 @@
         "ioc_arch": null,
         "ioc_base": "LM1K2:COM_BHC",
         "ioc_card_num": "2",
-        "ioc_chan_num": "4",
+        "ioc_chan_num": "3",
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-crixs-com-01",
@@ -8872,7 +9369,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_tf1_pm1",
@@ -8884,7 +9381,7 @@
     },
     "lm1k2_com_dp2_tf1_sl1": {
         "_id": "lm1k2_com_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8911,7 +9408,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_tf1_sl1",
@@ -8923,7 +9420,7 @@
     },
     "lm1k2_com_dp2_tf1_sp1": {
         "_id": "lm1k2_com_dp2_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8946,7 +9443,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_tf1_sp1",
@@ -8958,7 +9455,7 @@
     },
     "lm1k2_com_dp2_xtl1": {
         "_id": "lm1k2_com_dp2_xtl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -8985,7 +9482,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:03 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp2_xtl1",
@@ -8997,7 +9494,7 @@
     },
     "lm1k2_com_dp3_tf1_ff1": {
         "_id": "lm1k2_com_dp3_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9024,7 +9521,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:12 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp3_tf1_ff1",
@@ -9036,7 +9533,7 @@
     },
     "lm1k2_com_dp3_tf1_nf1": {
         "_id": "lm1k2_com_dp3_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9063,7 +9560,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp3_tf1_nf1",
@@ -9075,7 +9572,7 @@
     },
     "lm1k2_com_dp3_tf1_pm1": {
         "_id": "lm1k2_com_dp3_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9100,7 +9597,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp3_tf1_pm1",
@@ -9112,7 +9609,7 @@
     },
     "lm1k2_com_dp3_tf1_sl1": {
         "_id": "lm1k2_com_dp3_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9139,7 +9636,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_dp3_tf1_sl1",
@@ -9151,7 +9648,7 @@
     },
     "lm1k2_com_env_sens": {
         "_id": "lm1k2_com_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9163,6 +9660,8 @@
         "input_branches": null,
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K2:COM_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-qrixs-com-01",
@@ -9173,7 +9672,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_env_sens",
@@ -9185,7 +9684,7 @@
     },
     "lm1k2_com_mp1_bs2": {
         "_id": "lm1k2_com_mp1_bs2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9214,7 +9713,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_mp1_bs2",
@@ -9226,7 +9725,7 @@
     },
     "lm1k2_com_mp1_gt2_lm1": {
         "_id": "lm1k2_com_mp1_gt2_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9250,7 +9749,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_mp1_gt2_lm1",
@@ -9262,7 +9761,7 @@
     },
     "lm1k2_com_mp1_mr1": {
         "_id": "lm1k2_com_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9291,7 +9790,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_mp1_mr1",
@@ -9303,7 +9802,7 @@
     },
     "lm1k2_com_mp1_mr4": {
         "_id": "lm1k2_com_mp1_mr4",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9332,7 +9831,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:13 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_mp1_mr4",
@@ -9344,7 +9843,7 @@
     },
     "lm1k2_com_mp2_dly1": {
         "_id": "lm1k2_com_mp2_dly1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9368,7 +9867,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:04 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_mp2_dly1",
@@ -9380,7 +9879,7 @@
     },
     "lm1k2_com_mp2_mr8": {
         "_id": "lm1k2_com_mp2_mr8",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9409,7 +9908,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "_lm1k2_com",
         "name": "lm1k2_com_mp2_mr8",
@@ -9421,7 +9920,7 @@
     },
     "lm1k2_ejx_dp11_tf1_ff1": {
         "_id": "lm1k2_ejx_dp11_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9448,7 +9947,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp11_tf1_ff1",
@@ -9460,7 +9959,7 @@
     },
     "lm1k2_ejx_dp12_tf1_sl1": {
         "_id": "lm1k2_ejx_dp12_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9487,7 +9986,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp12_tf1_sl1",
@@ -9499,7 +9998,7 @@
     },
     "lm1k2_ejx_dp32_tf1_ff1": {
         "_id": "lm1k2_ejx_dp32_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9526,7 +10025,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp32_tf1_ff1",
@@ -9538,7 +10037,7 @@
     },
     "lm1k2_ejx_dp32_tf1_nf1": {
         "_id": "lm1k2_ejx_dp32_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9565,7 +10064,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp32_tf1_nf1",
@@ -9577,7 +10076,7 @@
     },
     "lm1k2_ejx_dp32_tf1_sl1": {
         "_id": "lm1k2_ejx_dp32_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9604,7 +10103,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp32_tf1_sl1",
@@ -9616,7 +10115,7 @@
     },
     "lm1k2_ejx_dp32_tf1_sp1": {
         "_id": "lm1k2_ejx_dp32_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9639,7 +10138,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp32_tf1_sp1",
@@ -9651,7 +10150,7 @@
     },
     "lm1k2_ejx_dp4_ap1": {
         "_id": "lm1k2_ejx_dp4_ap1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9675,7 +10174,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_dp4_ap1",
@@ -9687,7 +10186,7 @@
     },
     "lm1k2_ejx_dp4_ap2": {
         "_id": "lm1k2_ejx_dp4_ap2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9711,7 +10210,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:14 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_dp4_ap2",
@@ -9723,7 +10222,7 @@
     },
     "lm1k2_ejx_dp5_tf1_sl1": {
         "_id": "lm1k2_ejx_dp5_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9750,7 +10249,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:05 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_dp5_tf1_sl1",
@@ -9762,7 +10261,7 @@
     },
     "lm1k2_ejx_dp6_cvs1_mr1": {
         "_id": "lm1k2_ejx_dp6_cvs1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9786,7 +10285,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_dp6_cvs1_mr1",
@@ -9798,7 +10297,7 @@
     },
     "lm1k2_ejx_dp6_cvs1_mr2": {
         "_id": "lm1k2_ejx_dp6_cvs1_mr2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9822,7 +10321,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_dp6_cvs1_mr2",
@@ -9834,7 +10333,7 @@
     },
     "lm1k2_ejx_dp6_cvs1_mr3": {
         "_id": "lm1k2_ejx_dp6_cvs1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9858,7 +10357,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_dp6_cvs1_mr3",
@@ -9870,7 +10369,7 @@
     },
     "lm1k2_ejx_env_sens": {
         "_id": "lm1k2_ejx_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9882,6 +10381,8 @@
         "input_branches": null,
         "ioc_arch": null,
         "ioc_base": "LM1K2:EJX_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
         "ioc_engineer": "fmurgia",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-ip1-ejx-01",
@@ -9892,7 +10393,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_env_sens",
@@ -9904,7 +10405,7 @@
     },
     "lm1k2_ejx_mp1_mr1": {
         "_id": "lm1k2_ejx_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9933,7 +10434,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_mr1",
@@ -9945,7 +10446,7 @@
     },
     "lm1k2_ejx_mp1_mr2": {
         "_id": "lm1k2_ejx_mp1_mr2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9974,7 +10475,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_mr2",
@@ -9986,7 +10487,7 @@
     },
     "lm1k2_ejx_mp1_mr3": {
         "_id": "lm1k2_ejx_mp1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10010,7 +10511,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_mr3",
@@ -10022,7 +10523,7 @@
     },
     "lm1k2_ejx_mp1_oap1": {
         "_id": "lm1k2_ejx_mp1_oap1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10051,7 +10552,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_oap1",
@@ -10063,7 +10564,7 @@
     },
     "lm1k2_ejx_mp1_oap1_3": {
         "_id": "lm1k2_ejx_mp1_oap1_3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10092,7 +10593,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:15 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_oap1_3",
@@ -10104,7 +10605,7 @@
     },
     "lm1k2_ejx_mp1_s42": {
         "_id": "lm1k2_ejx_mp1_s42",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10131,7 +10632,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:06 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_s42",
@@ -10143,7 +10644,7 @@
     },
     "lm1k2_ejx_mp2_att1_pol2": {
         "_id": "lm1k2_ejx_mp2_att1_pol2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10170,7 +10671,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "6_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_att1_pol2",
@@ -10182,7 +10683,7 @@
     },
     "lm1k2_ejx_mp2_ls3_lm1": {
         "_id": "lm1k2_ejx_mp2_ls3_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10206,7 +10707,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_ls3_lm1",
@@ -10218,7 +10719,7 @@
     },
     "lm1k2_ejx_mp2_ls3_lm2": {
         "_id": "lm1k2_ejx_mp2_ls3_lm2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10242,7 +10743,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_ls3_lm2",
@@ -10254,7 +10755,7 @@
     },
     "lm1k2_ejx_mp2_ls3_lm3": {
         "_id": "lm1k2_ejx_mp2_ls3_lm3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10278,7 +10779,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_ls3_lm3",
@@ -10290,7 +10791,7 @@
     },
     "lm1k2_ejx_mp2_mr3": {
         "_id": "lm1k2_ejx_mp2_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10314,7 +10815,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_mr3",
@@ -10326,7 +10827,7 @@
     },
     "lm1k2_ejx_mp2_mr5": {
         "_id": "lm1k2_ejx_mp2_mr5",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10350,7 +10851,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "_lm1k2_ejx",
         "name": "lm1k2_ejx_mp2_mr5",
@@ -10362,7 +10863,7 @@
     },
     "lm1k2_hrm_dp1_tf1_ff1": {
         "_id": "lm1k2_hrm_dp1_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10389,7 +10890,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp1_tf1_ff1",
@@ -10401,7 +10902,7 @@
     },
     "lm1k2_hrm_dp1_tf1_nf1": {
         "_id": "lm1k2_hrm_dp1_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10428,7 +10929,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:16 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp1_tf1_nf1",
@@ -10440,7 +10941,7 @@
     },
     "lm1k2_hrm_dp1_tf1_pm1": {
         "_id": "lm1k2_hrm_dp1_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10454,7 +10955,7 @@
         "ioc_arch": null,
         "ioc_base": "LM1K2:HRM_BHC",
         "ioc_card_num": "2",
-        "ioc_chan_num": "4",
+        "ioc_chan_num": "3",
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-qrixs-hrm-01",
@@ -10465,7 +10966,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp1_tf1_pm1",
@@ -10477,7 +10978,7 @@
     },
     "lm1k2_hrm_dp1_tf1_sl1": {
         "_id": "lm1k2_hrm_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10504,7 +11005,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:07 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp1_tf1_sl1",
@@ -10516,7 +11017,7 @@
     },
     "lm1k2_hrm_dp2_tf1_ff1": {
         "_id": "lm1k2_hrm_dp2_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10543,7 +11044,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp2_tf1_ff1",
@@ -10555,7 +11056,7 @@
     },
     "lm1k2_hrm_dp2_tf1_nf1": {
         "_id": "lm1k2_hrm_dp2_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10582,7 +11083,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp2_tf1_nf1",
@@ -10594,7 +11095,7 @@
     },
     "lm1k2_hrm_dp2_tf1_pm1": {
         "_id": "lm1k2_hrm_dp2_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10619,7 +11120,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp2_tf1_pm1",
@@ -10631,7 +11132,7 @@
     },
     "lm1k2_hrm_dp2_tf1_sl1": {
         "_id": "lm1k2_hrm_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10658,7 +11159,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp2_tf1_sl1",
@@ -10670,7 +11171,7 @@
     },
     "lm1k2_hrm_dp2_tf1_sp1": {
         "_id": "lm1k2_hrm_dp2_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10693,7 +11194,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_dp2_tf1_sp1",
@@ -10705,7 +11206,7 @@
     },
     "lm1k2_hrm_env_sens": {
         "_id": "lm1k2_hrm_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10717,6 +11218,8 @@
         "input_branches": null,
         "ioc_arch": null,
         "ioc_base": "LM1K2:HRM_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-qrixs-hrm-01",
@@ -10727,7 +11230,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_hrm",
         "name": "lm1k2_hrm_env_sens",
@@ -10739,7 +11242,7 @@
     },
     "lm1k2_inj_dp1_tf1_nf1": {
         "_id": "lm1k2_inj_dp1_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10766,7 +11269,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:17 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp1_tf1_nf1",
@@ -10778,7 +11281,7 @@
     },
     "lm1k2_inj_dp1_tf1_sl1": {
         "_id": "lm1k2_inj_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10805,7 +11308,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp1_tf1_sl1",
@@ -10817,7 +11320,7 @@
     },
     "lm1k2_inj_dp2_mr1": {
         "_id": "lm1k2_inj_dp2_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10841,7 +11344,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp2_mr1",
@@ -10853,7 +11356,7 @@
     },
     "lm1k2_inj_dp2_tf1_pm1": {
         "_id": "lm1k2_inj_dp2_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10867,7 +11370,7 @@
         "ioc_arch": null,
         "ioc_base": "LM1K2:INJ_BHC",
         "ioc_card_num": "2",
-        "ioc_chan_num": "4",
+        "ioc_chan_num": "3",
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-qrix-inj-01",
@@ -10878,7 +11381,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:08 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k2_inj_dp2_tf1_pm1",
@@ -10890,7 +11393,7 @@
     },
     "lm1k2_inj_dp2_tf1_sl1": {
         "_id": "lm1k2_inj_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10917,7 +11420,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp2_tf1_sl1",
@@ -10929,7 +11432,7 @@
     },
     "lm1k2_inj_dp2_tf1_sp1": {
         "_id": "lm1k2_inj_dp2_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10952,7 +11455,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp2_tf1_sp1",
@@ -10964,7 +11467,7 @@
     },
     "lm1k2_inj_dp2_tf1_wf1": {
         "_id": "lm1k2_inj_dp2_tf1_wf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -10989,7 +11492,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_dp2_tf1_wf1",
@@ -11001,7 +11504,7 @@
     },
     "lm1k2_inj_env_sens": {
         "_id": "lm1k2_inj_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11013,6 +11516,8 @@
         "input_branches": null,
         "ioc_arch": null,
         "ioc_base": "LM1K2:INJ_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
         "ioc_engineer": "quarkahr",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-qrix-inj-01",
@@ -11023,7 +11528,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_env_sens",
@@ -11035,7 +11540,7 @@
     },
     "lm1k2_inj_mp1_att1_wp1": {
         "_id": "lm1k2_inj_mp1_att1_wp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11059,7 +11564,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_att1_wp1",
@@ -11071,7 +11576,7 @@
     },
     "lm1k2_inj_mp1_att1_wp2": {
         "_id": "lm1k2_inj_mp1_att1_wp2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11095,7 +11600,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_att1_wp2",
@@ -11107,7 +11612,7 @@
     },
     "lm1k2_inj_mp1_mr1": {
         "_id": "lm1k2_inj_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11136,7 +11641,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:18 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_mr1",
@@ -11148,7 +11653,7 @@
     },
     "lm1k2_inj_mp1_zoo1_ls1": {
         "_id": "lm1k2_inj_mp1_zoo1_ls1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11172,7 +11677,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:19 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_zoo1_ls1",
@@ -11184,7 +11689,7 @@
     },
     "lm1k2_inj_mp1_zoo1_ls2": {
         "_id": "lm1k2_inj_mp1_zoo1_ls2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -11208,7 +11713,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:09 2023",
+        "last_edit": "Wed Jun 12 15:42:19 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_zoo1_ls2",
@@ -12923,19 +13428,19 @@
         "input_branches": null,
         "ioc_alias": "None",
         "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:MCS2:02",
-        "ioc_channel": "12",
-        "ioc_engineer": "tjohnson",
+        "ioc_base": "LM1K4:MCS2:05",
+        "ioc_channel": "2",
+        "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
-        "ioc_ip": "mcp-las-ip1-mods-02",
+        "ioc_ip": "mcp-las-ip1-mods-05",
         "ioc_location": "IP1 MODS Table",
-        "ioc_name": "ioc-lm1k4-mcs2-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13",
+        "ioc_name": "ioc-lm1k4-mcs2-05",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.21",
         "ioc_type": "SmarAct",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug 16 18:51:14 2023",
+        "last_edit": "Fri May 31 17:59:57 2024",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp1_mr1_lm1",
@@ -12943,6 +13448,41 @@
         "prefix": "LM1K4:EJX_DP1_MR1_LM1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm1k4_ejx_dp1_sp1": {
+        "_id": "lm1k4_ejx_dp1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Thu Apr 25 13:50:19 2024",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": "Main diagnostic spectrometer",
+        "functional_group": "spectrometers",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS TILE",
+        "ioc_name": "ioc-lm1k4-ejx-spec-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3",
+        "ioc_serial": "21771",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 25 13:50:19 2024",
+        "lightpath": false,
+        "location_group": "6_lm1k4_ejx",
+        "name": "lm1k4_ejx_dp1_sp1",
+        "output_branches": null,
+        "prefix": "LM1K4:EJX_DP1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
         "z": -1.0
     },
     "lm1k4_ejx_dp2_ap1": {
@@ -13870,19 +14410,19 @@
         "input_branches": null,
         "ioc_alias": "None",
         "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:MCS2:02",
-        "ioc_channel": "6",
-        "ioc_engineer": "tjohnson",
+        "ioc_base": "LM1K4:MCS2:05",
+        "ioc_channel": "2",
+        "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
-        "ioc_ip": "mcp-las-ip1-mods-02",
+        "ioc_ip": "mcp-las-ip1-mods-05",
         "ioc_location": "IP1 MODS Table",
-        "ioc_name": "ioc-lm1k4-mcs2-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13",
+        "ioc_name": "ioc-lm1k4-mcs2-05",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.21",
         "ioc_type": "SmarAct",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug 16 18:40:29 2023",
+        "last_edit": "Fri May 31 17:58:22 2024",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp2_ls1_lm1",
@@ -15155,7 +15695,7 @@
         "ioc_arch": null,
         "ioc_base": "LM1K4:INJ_BHC",
         "ioc_card_num": "2",
-        "ioc_chan_num": "3",
+        "ioc_chan_num": "4",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "bhc-las-ip1-inj-01",
@@ -15166,7 +15706,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:19 2023",
+        "last_edit": "Wed Mar 20 13:58:30 2024",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp2_tf1_pm1",
@@ -15612,7 +16152,7 @@
     },
     "lm1k_com_dp1_tf1_nf1": {
         "_id": "lm1k_com_dp1_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -15639,7 +16179,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:20 2023",
+        "last_edit": "Wed Jun 12 16:57:35 2024",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k_com_dp1_tf1_nf1",
@@ -16532,7 +17072,7 @@
         ],
         "beamline": "CRIX_MODS",
         "creation": "Thu Dec  8 14:32:17 2022",
-        "device_class": "pcdsdevices.device_types.Ell6",
+        "device_class": "pcdsdevices.device_types.EllLinear",
         "documentation": null,
         "functional_group": "elliptecs",
         "input_branches": null,
@@ -16553,7 +17093,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Sep  8 19:23:04 2023",
+        "last_edit": "Tue Mar 19 16:32:36 2024",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_dp2_xtl1",
@@ -17872,7 +18412,7 @@
         "ioc_alias": "LM2K2:EJX_MP1_LS1_LM2",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:MCS2:02",
-        "ioc_channel": "11",
+        "ioc_channel": "14",
         "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-crixs-mods-02",
@@ -17883,7 +18423,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 17 17:02:41 2023",
+        "last_edit": "Wed Jun 12 18:49:54 2024",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_ls1_lm2",
@@ -17908,7 +18448,7 @@
         "ioc_alias": "LM2K2:EJX_MP1_LS1_LM3",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:MCS2:02",
-        "ioc_channel": "12",
+        "ioc_channel": "15",
         "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-crixs-mods-02",
@@ -17919,7 +18459,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 17 17:03:16 2023",
+        "last_edit": "Wed Jun 12 18:50:10 2024",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_ls1_lm3",
@@ -17931,7 +18471,7 @@
     },
     "lm2k2_ejx_mp1_mr1": {
         "_id": "lm2k2_ejx_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17960,7 +18500,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Nov 17 17:06:02 2023",
+        "last_edit": "Thu Mar 14 17:50:17 2024",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_mr1",
@@ -18178,7 +18718,7 @@
         "ioc_alias": "LM2K2:EJX_MP2_MR3",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:MCS2:02",
-        "ioc_channel": "14",
+        "ioc_channel": "11",
         "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-crixs-mods-02",
@@ -18189,7 +18729,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 17 17:22:13 2023",
+        "last_edit": "Wed Jun 12 18:49:25 2024",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp2_mr3",
@@ -18509,7 +19049,7 @@
     },
     "lm2k2_hrm_dp2_tf1_sl1": {
         "_id": "lm2k2_hrm_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18536,7 +19076,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Jan 19 18:33:28 2024",
+        "last_edit": "Fri May 24 18:05:15 2024",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_sl1",
@@ -18579,6 +19119,40 @@
         "prefix": "LM2K2:HRM_DP2_TF1_SP1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
+    "lm2k2_hrm_env_sens": {
+        "_id": "lm2k2_hrm_env_sens",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Tue Apr  2 17:48:20 2024",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:HRM_BHC",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-crixs-hrm-01",
+        "ioc_location": "CRIX_MODS",
+        "ioc_name": "ioc-lm2k2-hrm-ek9000-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/ek9000/R1.2.1",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr  2 17:51:04 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_hrm",
+        "name": "lm2k2_hrm_env_sens",
+        "output_branches": null,
+        "prefix": "LM2K2:HRM_BHC_AI_01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm2k2_hrm_mp1_mr1": {
@@ -23144,6 +23718,49 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 743.38
     },
+    "mr1k3_soms": {
+        "_id": "mr1k3_soms",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Fri Mar 15 13:32:32 2024",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorNoBend",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun  7 16:50:49 2024",
+        "lightpath": false,
+        "location_group": "FEE",
+        "macros": null,
+        "name": "mr1k3_soms",
+        "output_branches": null,
+        "parent": null,
+        "pitch_ranges": null,
+        "prefix": "MR1K3:SOMS",
+        "prefix_xy": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "x_ranges": null,
+        "xgantry_prefix": null,
+        "y_ranges": null,
+        "z": -1.0
+    },
     "mr1k3_vgc_1": {
         "_id": "mr1k3_vgc_1",
         "active": true,
@@ -23556,6 +24173,49 @@
         "prefix": "MR2K2:FLAT",
         "stand": "K2S03",
         "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "mr2k3_soms": {
+        "_id": "mr2k3_soms",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Fri Mar 15 15:13:21 2024",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorNoBend",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Mirrors",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Jun  7 16:39:54 2024",
+        "lightpath": false,
+        "location_group": "FEE",
+        "macros": null,
+        "name": "mr2k3_soms",
+        "output_branches": null,
+        "parent": null,
+        "pitch_ranges": null,
+        "prefix": "MR2K3:SOMS",
+        "prefix_xy": null,
+        "stand": null,
+        "system": "beam control",
+        "type": "pcdsdevices.happi.containers.OffsetMirror",
+        "x_ranges": null,
+        "xgantry_prefix": null,
+        "y_ranges": null,
         "z": -1.0
     },
     "mr2k4_kbo": {
@@ -24369,6 +25029,74 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 738.7685
     },
+    "pc1k0": {
+        "_id": "pc1k0",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K0",
+        "creation": "Wed Mar 13 14:41:05 2024",
+        "device_class": "pcdsdevices.pc.PhotonCollimator",
+        "documentation": null,
+        "functional_group": "Collimator",
+        "input_branches": [
+            "K0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 14:41:05 2024",
+        "lightpath": false,
+        "location_group": "Electron Beam Dump",
+        "name": "pc1k0",
+        "output_branches": [
+            "K0"
+        ],
+        "prefix": "PC1K0:XTES",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "pc1k4": {
+        "_id": "pc1k4",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K4",
+        "creation": "Wed Mar 13 15:10:14 2024",
+        "device_class": "pcdsdevices.pc.PhotonCollimator",
+        "documentation": "n",
+        "functional_group": "Collimator",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 15:10:14 2024",
+        "lightpath": false,
+        "location_group": "Front End Enclosure",
+        "name": "pc1k4",
+        "output_branches": null,
+        "prefix": "PC1K4:XTES",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "pc1l0_xtes_vgc01": {
         "_id": "pc1l0_xtes_vgc01",
         "active": true,
@@ -24449,7 +25177,7 @@
         ],
         "beamline": "KFE",
         "creation": "Mon Jul 18 16:05:51 2022",
-        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetCool",
         "documentation": null,
         "functional_group": "WFS",
         "input_branches": [
@@ -24465,7 +25193,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 15 09:18:03 2024",
+        "last_edit": "Wed Mar 13 15:04:10 2024",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "pf1k0",
@@ -24521,7 +25249,7 @@
         ],
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:52 2022",
-        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetFDQ",
         "documentation": null,
         "functional_group": "WFS",
         "input_branches": [
@@ -24537,7 +25265,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Mon Mar 25 16:31:32 2024",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "name": "pf1k4",
@@ -24629,7 +25357,7 @@
         ],
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:53 2022",
-        "device_class": "pcdsdevices.device_types.WaveFrontSensorTarget",
+        "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetFDQ",
         "documentation": null,
         "functional_group": "WFS",
         "input_branches": [
@@ -24645,7 +25373,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Mon Mar 25 16:32:47 2024",
         "lightpath": true,
         "location_group": "7 TMO GS3",
         "name": "pf2k4",
@@ -25846,6 +26574,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 759.0
     },
+    "sl1k3": {
+        "_id": "sl1k3",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Thu Jun 13 15:17:28 2024",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "input_branches": [
+            "K3"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 13 15:32:57 2024",
+        "lightpath": false,
+        "location_group": "TMO K3S03",
+        "name": "sl1k3",
+        "output_branches": [
+            "K3"
+        ],
+        "prefix": "SL1K3:SCATTER",
+        "stand": "K3S03",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 755.1
+    },
     "sl1k4": {
         "_id": "sl1k4",
         "active": true,
@@ -26363,6 +27127,46 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 776.836
+    },
+    "st1k3_pps": {
+        "_id": "st1k3_pps",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K3",
+        "creation": "Thu Jun 13 15:41:11 2024",
+        "device_class": "pcdsdevices.stopper.PPSStopper2PV",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "input_branches": [
+            "K3"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "in_suffix": "IN",
+            "in_value": 1,
+            "name": "{{name}}",
+            "out_suffix": "OUT",
+            "out_value": 1
+        },
+        "last_edit": "Thu Jun 13 15:41:11 2024",
+        "lightpath": true,
+        "location_group": "FEE K3S",
+        "name": "st1k3_pps",
+        "output_branches": [
+            "K3"
+        ],
+        "prefix": "STPR:NEH1:1200:ST1K3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 778.3674
     },
     "st1k4": {
         "_id": "st1k4",
@@ -27608,6 +28412,134 @@
         "prefix": "XPP:PWR:01",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
+        "z": -1.0
+    },
+    "ued_rcc_vrc_01": {
+        "_id": "ued_rcc_vrc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "UED",
+        "creation": "Wed Mar 13 09:33:26 2024",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 09:33:26 2024",
+        "lightpath": false,
+        "location_group": "ued catcher",
+        "name": "ued_rcc_vrc_01",
+        "output_branches": null,
+        "prefix": "UED:RCC:VRC:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "ued_rcc_vrc_02": {
+        "_id": "ued_rcc_vrc_02",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "UED",
+        "creation": "Wed Mar 13 10:30:03 2024",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 10:30:03 2024",
+        "lightpath": false,
+        "location_group": "ued catcher",
+        "name": "ued_rcc_vrc_02",
+        "output_branches": null,
+        "prefix": "UED:RCC:VRC:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "ued_rcc_vrc_03": {
+        "_id": "ued_rcc_vrc_03",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "UED",
+        "creation": "Wed Mar 13 10:31:17 2024",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 10:31:17 2024",
+        "lightpath": false,
+        "location_group": "ued catcher",
+        "name": "ued_rcc_vrc_03",
+        "output_branches": null,
+        "prefix": "UED:RCC:VRC:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "ued_rcc_vrc_04": {
+        "_id": "ued_rcc_vrc_04",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "UED",
+        "creation": "Wed Mar 13 10:32:27 2024",
+        "device_class": "pcdsdevices.valve.VRC",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar 13 10:32:27 2024",
+        "lightpath": false,
+        "location_group": "ued catcher",
+        "name": "ued_rcc_vrc_04",
+        "output_branches": null,
+        "prefix": "UED:RCC:VRC:04",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "um6_ipm": {
