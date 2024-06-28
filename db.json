@@ -27637,6 +27637,38 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
     },
+    "tmo_cvmi_sqr1": {
+        "_id": "tmo_cvmi_sqr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Jun 27 09:42:08 2024",
+        "device_class": "pcdsdevices.sqr1.SQR1",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 27 10:51:10 2024",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
+        "name": "tmo_cvmi_sqr1",
+        "output_branches": null,
+        "prefix": "MCQ:TMO:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.890169
+    },
     "tmo_ktof": {
         "_id": "tmo_ktof",
         "active": true,
@@ -27719,16 +27751,31 @@
         "args": [
             "{{prefix}}"
         ],
-        "creation": "Fri Sep 22 10:57:35 2023",
-        "device_class": "pcdsdevices.sqr1",
+        "beamline": "TMO",
+        "creation": "Thu Jun 27 09:26:34 2024",
+        "device_class": "pcdsdevices.sqr1.SQR1",
         "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
-            "prefix": "MCQ:TMO:01"
+            "name": "{{name}}"
         },
-        "last_edit": "Fri Sep 22 11:26:10 2023",
+        "last_edit": "Thu Jun 27 10:25:22 2024",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
         "name": "tmo_lamp_sqr1",
+        "output_branches": null,
         "prefix": "MCQ:TMO:01",
-        "type": "OphydItem"
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.890169
     },
     "tmo_mrco": {
         "_id": "tmo_mrco",
@@ -27767,6 +27814,38 @@
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
+    },
+    "tmo_mrco_sqr1": {
+        "_id": "tmo_mrco_sqr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Jun 27 09:40:39 2024",
+        "device_class": "pcdsdevices.sqr1.SQR1",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 27 10:50:32 2024",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
+        "name": "tmo_mrco_sqr1",
+        "output_branches": null,
+        "prefix": "MCQ:TMO:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.890169
     },
     "tst_eps_motor": {
         "_id": "tst_eps_motor",
@@ -28413,6 +28492,38 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
+    },
+    "txi_sqr1_1": {
+        "_id": "txi_sqr1_1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TXI",
+        "creation": "Thu Jun 27 09:52:13 2024",
+        "device_class": "pcdsdevices.sqr1.SQR1",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun 27 10:48:04 2024",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
+        "name": "txi_sqr1_1",
+        "output_branches": null,
+        "prefix": "MCQ:TXI:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 761.890169
     },
     "ued_rcc_vrc_01": {
         "_id": "ued_rcc_vrc_01",
