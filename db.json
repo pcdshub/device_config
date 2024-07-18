@@ -7172,12 +7172,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 12:47:58 2024",
+        "last_edit": "Wed Jul 17 11:17:42 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_amphos_ff",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:FF1:",
+        "prefix": "LAS:LHN:BAY2:CAM:02:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7211,12 +7211,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 14:27:21 2024",
+        "last_edit": "Wed Jul 17 11:18:24 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_amphos_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:NF1:",
+        "prefix": "LAS:LHN:BAY2:CAM:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7318,12 +7318,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 17:21:42 2024",
+        "last_edit": "Wed Jul 17 11:20:29 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_mpc_ff",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:FF3:",
+        "prefix": "LAS:LHN:BAY2:CAM:06:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7357,12 +7357,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 17:46:55 2024",
+        "last_edit": "Wed Jul 17 11:19:57 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_mpc_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:NF3:",
+        "prefix": "LAS:LHN:BAY2:CAM:05:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7396,12 +7396,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 17:20:07 2024",
+        "last_edit": "Wed Jul 17 11:21:09 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_opcpa_ff",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:FF2:",
+        "prefix": "LAS:LHN:BAY2:CAM:04:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7435,12 +7435,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb 23 17:23:20 2024",
+        "last_edit": "Wed Jul 17 11:21:32 2024",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_opcpa_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY2:CAM:NF2:",
+        "prefix": "LAS:LHN:BAY2:CAM:03:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7474,12 +7474,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 18:14:58 2024",
+        "last_edit": "Wed Jul 17 11:24:41 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_amphos_ff",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF1:",
+        "prefix": "LAS:LHN:BAY3:CAM:02:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7513,12 +7513,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 18:15:08 2024",
+        "last_edit": "Wed Jul 17 11:24:12 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_amphos_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:NF1:",
+        "prefix": "LAS:LHN:BAY3:CAM:01:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7766,12 +7766,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 18:15:57 2024",
+        "last_edit": "Wed Jul 17 11:25:17 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_opcpa_ff",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:FF2:",
+        "prefix": "LAS:LHN:BAY3:CAM:04:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
@@ -7805,12 +7805,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb 22 18:16:12 2024",
+        "last_edit": "Wed Jul 17 11:23:23 2024",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_opcpa_nf",
         "output_branches": null,
-        "prefix": "LAS:LHN:BAY3:CAM:NF2:",
+        "prefix": "LAS:LHN:BAY3:CAM:03:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
