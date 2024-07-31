@@ -10431,7 +10431,7 @@
     },
     "lm1k2_ejx_dp2_ff1": {
         "_id": "lm1k2_ejx_dp2_ff1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -10447,7 +10447,7 @@
         "ioc_evr_channel": "TODO",
         "ioc_http_port": "7801",
         "ioc_hutch": "LAS",
-        "ioc_ip": "TODO",
+        "ioc_ip": "cam-las-qrixs-ejx-01",
         "ioc_location": "QRIX MODS Table",
         "ioc_name": "ioc-lm1k2-ejx-gige-ff-01",
         "ioc_net_if": "ETH0",
@@ -10458,12 +10458,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jul 24 16:27:18 2024",
+        "last_edit": "Mon Jul 29 19:37:12 2024",
         "lightpath": false,
-        "location_group": "1_lm1k2_ejx",
+        "location_group": "5_lm1k2_ejx",
         "name": "lm1k2_ejx_dp2_ff1",
         "output_branches": null,
-        "prefix": "LM1K2:EJX_DP2_FF1",
+        "prefix": "LM1K2:EJX_DP2_FF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
