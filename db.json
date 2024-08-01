@@ -9200,13 +9200,13 @@
     },
     "lm1k2_atm_mp1_wp1": {
         "_id": "lm1k2_atm_mp1_wp1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "QRIX_MODS",
         "creation": "Wed Jul 24 17:34:02 2024",
-        "device_class": "pcdsdevices.device_types.Ell14",
+        "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
         "input_branches": null,
@@ -9227,12 +9227,12 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Jul 24 17:34:02 2024",
+        "last_edit": "Tue Jul 30 17:52:04 2024",
         "lightpath": false,
-        "location_group": "2_lm1k2_atm",
+        "location_group": "3_lm1k2_atm",
         "name": "lm1k2_atm_mp1_wp1",
         "output_branches": null,
-        "prefix": "LM1K2:ATM_MP1_WP1",
+        "prefix": "LM1K2:ATM:ELL:1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
@@ -10396,7 +10396,7 @@
     },
     "lm1k2_ejx_dp1_sp1": {
         "_id": "lm1k2_ejx_dp1_sp1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -10408,20 +10408,20 @@
         "input_branches": null,
         "ioc_arch": "rhel7-x86_64",
         "ioc_engineer": "nagar123",
-        "ioc_evr_channel": "TODO",
+        "ioc_evr_channel": "None",
         "ioc_hutch": "LAS",
         "ioc_location": "QRIX MODS Table",
         "ioc_name": "ioc-lm1k2-ejx-spec-01",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.4",
-        "ioc_serial": "TODO",
+        "ioc_serial": "20423",
         "ioc_type": "Qmini",
-        "ioc_use_evr": "TODO",
+        "ioc_use_evr": "No",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jul 24 17:47:11 2024",
+        "last_edit": "Tue Jul 30 18:02:24 2024",
         "lightpath": false,
-        "location_group": "1_lm1k2_ejx",
+        "location_group": "5_lm1k2_ejx",
         "name": "lm1k2_ejx_dp1_sp1",
         "output_branches": null,
         "prefix": "LM1K2:EJX_DP1_SP1",
