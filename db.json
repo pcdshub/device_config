@@ -12387,7 +12387,7 @@
         ],
         "beamline": "QRIX_MODS",
         "creation": "Fri Dec  9 14:45:10 2022",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -12410,7 +12410,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Jul 26 18:59:59 2024",
+        "last_edit": "Thu Aug 15 20:21:58 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_mr1",
