@@ -5311,6 +5311,38 @@
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 783.5
     },
+    "hxr_diffractometer": {
+        "_id": "hxr_diffractometer",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "xpp",
+        "creation": "Tue Aug 20 09:50:51 2024",
+        "device_class": "pcdsdevices.gon.HxrDiffractometer",
+        "documentation": null,
+        "functional_group": "beam control",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "hxr_diffractometer"
+        },
+        "last_edit": "Tue Aug 20 15:37:42 2024",
+        "lightpath": false,
+        "location_group": "gon",
+        "name": "hxr_diffractometer",
+        "output_branches": null,
+        "prefix": "HXR:GON:MMS",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "hxrsss": {
         "_id": "hxrsss",
         "active": true,
