@@ -26827,6 +26827,38 @@
         "prefix": "",
         "type": "OphydItem"
     },
+    "pa1k4": {
+        "_id": "pa1k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Wed Aug 21 10:29:27 2024",
+        "device_class": "pcdsdevices.tmo_ip1.SCaFoil",
+        "documentation": null,
+        "functional_group": "PF",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Aug 21 10:57:37 2024",
+        "lightpath": true,
+        "location_group": "2 TMO GS1",
+        "name": "pa1k4",
+        "output_branches": null,
+        "prefix": "PA1K4:PF",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 760.85
+    },
     "pa1l0_vfs_01": {
         "_id": "pa1l0_vfs_01",
         "active": false,
@@ -27085,7 +27117,7 @@
         "creation": "Mon Jul 18 16:05:52 2022",
         "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetFDQ",
         "documentation": null,
-        "functional_group": "WFS",
+        "functional_group": "PF",
         "input_branches": [
             "K4"
         ],
@@ -27099,7 +27131,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar 25 16:31:32 2024",
+        "last_edit": "Wed Aug 21 10:58:26 2024",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "name": "pf1k4",
@@ -27193,7 +27225,7 @@
         "creation": "Mon Jul 18 16:05:53 2022",
         "device_class": "pcdsdevices.device_types.WaveFrontSensorTargetFDQ",
         "documentation": null,
-        "functional_group": "WFS",
+        "functional_group": "PF",
         "input_branches": [
             "K4"
         ],
@@ -27207,7 +27239,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar 25 16:32:47 2024",
+        "last_edit": "Wed Aug 21 10:58:41 2024",
         "lightpath": true,
         "location_group": "7 TMO GS3",
         "name": "pf2k4",
