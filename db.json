@@ -5333,12 +5333,12 @@
         "kwargs": {
             "name": "hxr_diffractometer"
         },
-        "last_edit": "Tue Aug 20 15:37:42 2024",
+        "last_edit": "Thu Aug 22 14:22:10 2024",
         "lightpath": false,
         "location_group": "gon",
         "name": "hxr_diffractometer",
         "output_branches": null,
-        "prefix": "HXR:GON:MMS",
+        "prefix": "HXR:GON:MMS:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
