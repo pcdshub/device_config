@@ -26850,7 +26850,7 @@
             "name": "{{name}}"
         },
         "last_edit": "Wed Aug 21 10:57:37 2024",
-        "lightpath": true,
+        "lightpath": false,
         "location_group": "2 TMO GS1",
         "name": "pa1k4",
         "output_branches": null,
