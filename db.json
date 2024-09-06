@@ -22231,6 +22231,23 @@
         "type": "pcdsdevices.happi.containers.IPM",
         "z": 990.2
     },
+    "mec_jj_slits": {
+        "_id": "mec_jj_slits",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Thu Sep  5 11:07:26 2024",
+        "device_class": "pcdsdevices.slits.JJSlits",
+        "documentation": "https://confluence.slac.stanford.edu/display/MEC/7.14+JJ+Slit+Controller",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Sep  5 11:07:26 2024",
+        "name": "mec_jj_slits",
+        "prefix": "MEC:JJ:MMS",
+        "type": "OphydItem"
+    },
     "mec_leviton_64a_h": {
         "_id": "mec_leviton_64a_h",
         "active": true,
