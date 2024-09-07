@@ -855,7 +855,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 26 15:38:46 2021",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
         "documentation": null,
         "functional_group": "Motion",
         "input_branches": null,
@@ -869,7 +869,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:22 2023",
+        "last_edit": "Fri Sep  6 09:19:31 2024",
         "lightpath": false,
         "location_group": "cRIX Tcham",
         "name": "crix_dpl_y",
@@ -997,7 +997,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:22 2023",
+        "last_edit": "Fri Sep  6 09:26:16 2024",
         "lightpath": false,
         "location_group": "crix catcher",
         "name": "crix_rcc_x",
@@ -1070,6 +1070,70 @@
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
+    },
+    "crix_sds_rjet": {
+        "_id": "crix_sds_rjet",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Sep  6 08:59:06 2024",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep  6 08:59:06 2024",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_rjet",
+        "output_branches": null,
+        "prefix": "CRIX:SDS:MMS:RJET",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.0
+    },
+    "crix_sds_rx": {
+        "_id": "crix_sds_rx",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Sep  6 08:53:36 2024",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep  6 08:53:36 2024",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_rx",
+        "output_branches": null,
+        "prefix": "CRIX:SDS:MMS:RX",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.0
     },
     "crix_sds_x": {
         "_id": "crix_sds_x",
@@ -1166,6 +1230,38 @@
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
+    },
+    "crix_sds_zencoder": {
+        "_id": "crix_sds_zencoder",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Sep  6 09:01:15 2024",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep  6 09:01:15 2024",
+        "lightpath": false,
+        "location_group": "crix sds",
+        "name": "crix_sds_zencoder",
+        "output_branches": null,
+        "prefix": "CRIX:SDS:MMS:ZENCODER",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 790.0
     },
     "crixs_rcc_vrc_1": {
         "_id": "crixs_rcc_vrc_1",
@@ -20689,7 +20785,7 @@
         "ioc_alias": "LM2K2:INJ_DP2_MR1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "IOC:LM2K2:MCS2:01",
-        "ioc_channel": "6",
+        "ioc_channel": "3",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-crixs-mods-01",
@@ -20700,7 +20796,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:26 2023",
+        "last_edit": "Thu Sep  5 17:51:25 2024",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_mr1",
