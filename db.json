@@ -12441,7 +12441,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "QRIXS_MODS",
+        "beamline": "QRIX_MODS",
         "creation": "Fri Dec  9 14:29:26 2022",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
@@ -12461,7 +12461,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Jul 26 19:01:23 2024",
+        "last_edit": "Wed Sep 11 19:08:42 2024",
         "lightpath": false,
         "location_group": "1_lm1k2_inj",
         "name": "lm1k2_inj_mp1_att1_wp1",
