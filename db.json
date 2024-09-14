@@ -9518,6 +9518,41 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k2_com_dp1_sp1": {
+        "_id": "lm1k2_com_dp1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Thu Sep 12 19:25:19 2024",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": null,
+        "functional_group": "spectrometers",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "None",
+        "ioc_hutch": "LAS",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-com-spec-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.4",
+        "ioc_serial": "22339",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "No",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Sep 12 19:25:50 2024",
+        "lightpath": false,
+        "location_group": "2_lm1k2_com",
+        "name": "lm1k2_com_dp1_sp1",
+        "output_branches": null,
+        "prefix": "LM1K2:COM_DP1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
     "lm1k2_com_dp1_tf1_ff1": {
         "_id": "lm1k2_com_dp1_tf1_ff1",
         "active": false,
@@ -27111,6 +27146,38 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 735.211
+    },
+    "pc5k4": {
+        "_id": "pc5k4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "K4",
+        "creation": "Fri Sep 13 14:34:11 2024",
+        "device_class": "pcdsdevices.pc.PhotonCollimatorFDQ",
+        "documentation": null,
+        "functional_group": "Collimator",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Sep 13 15:47:45 2024",
+        "lightpath": false,
+        "location_group": "5 TMO GS2",
+        "name": "pc5k4",
+        "output_branches": null,
+        "prefix": "PC5K4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "pc5k4_vwc_01": {
         "_id": "pc5k4_vwc_01",
