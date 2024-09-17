@@ -25171,7 +25171,7 @@
     },
     "mfx_lib": {
         "_id": "mfx_lib",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}",
             4
@@ -25192,7 +25192,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Mon Sep 16 16:25:03 2024",
         "lightpath": false,
         "location_group": "None",
         "name": "mfx_lib",
@@ -25204,7 +25204,7 @@
     },
     "mfx_lj": {
         "_id": "mfx_lj",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -25224,7 +25224,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Mon Sep 16 16:39:33 2024",
         "lightpath": false,
         "location_group": "None",
         "name": "mfx_lj",
