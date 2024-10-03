@@ -17998,7 +17998,7 @@
     },
     "lm2k2_com_dp1_tf1_sl1": {
         "_id": "lm2k2_com_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18025,7 +18025,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Wed Sep 13 17:32:56 2023",
+        "last_edit": "Wed Oct  2 15:31:09 2024",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_dp1_tf1_sl1",
@@ -18152,7 +18152,7 @@
     },
     "lm2k2_com_dp2_tf1_sl1": {
         "_id": "lm2k2_com_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18179,7 +18179,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Thu Sep 14 11:50:24 2023",
+        "last_edit": "Wed Oct  2 15:31:18 2024",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_dp2_tf1_sl1",
@@ -18380,7 +18380,7 @@
     },
     "lm2k2_com_dp3_tf1_sl1": {
         "_id": "lm2k2_com_dp3_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18407,7 +18407,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Thu Sep 14 11:51:14 2023",
+        "last_edit": "Wed Oct  2 15:31:28 2024",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_dp3_tf1_sl1",
@@ -20951,7 +20951,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Sep  1 10:48:39 2023",
+        "last_edit": "Wed Oct  2 15:17:16 2024",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp1_tf1_sl1",
@@ -21036,7 +21036,7 @@
     },
     "lm2k2_inj_dp2_tf1_sl1": {
         "_id": "lm2k2_inj_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21063,7 +21063,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Sep  1 10:55:53 2023",
+        "last_edit": "Wed Oct  2 15:17:29 2024",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_tf1_sl1",
