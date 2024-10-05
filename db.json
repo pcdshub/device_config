@@ -9249,7 +9249,7 @@
     },
     "lm1k2_atm_mp1_img1_bs1_tip1": {
         "_id": "lm1k2_atm_mp1_img1_bs1_tip1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -9273,7 +9273,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jul 24 16:59:22 2024",
+        "last_edit": "Thu Oct  3 18:41:50 2024",
         "lightpath": false,
         "location_group": "3_lm1k2_atm",
         "name": "lm1k2_atm_mp1_img1_bs1_tip1",
@@ -17652,9 +17652,50 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "lm2k2_atm_mp1_img1_bs1": {
+        "_id": "lm2k2_atm_mp1_img1_bs1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Thu Oct  3 18:41:14 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
+        "documentation": "chemRIXS ATM encoded tip-tilt for beam splitter",
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM2K2:ATM_MP1_IMG1_BS1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM2K2:MCS2:01",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-crixs-mods-01",
+        "ioc_location": "CRIX MODS Table",
+        "ioc_name": "ioc-lm2k2-mcs2-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.24",
+        "ioc_tilt_channel": "17",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "16",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Thu Oct  3 18:44:37 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_atm",
+        "name": "lm2k2_atm_mp1_img1_bs1",
+        "output_branches": null,
+        "prefix": "LM2K2:ATM_MP1_IMG1_BS1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm2k2_atm_mp1_img1_bs1_tilt1": {
         "_id": "lm2k2_atm_mp1_img1_bs1_tilt1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17678,7 +17719,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Feb 26 16:31:54 2024",
+        "last_edit": "Thu Oct  3 18:45:20 2024",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_img1_bs1_tilt1",
@@ -17690,7 +17731,7 @@
     },
     "lm2k2_atm_mp1_img1_bs1_tip1": {
         "_id": "lm2k2_atm_mp1_img1_bs1_tip1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17714,7 +17755,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Feb 26 16:32:34 2024",
+        "last_edit": "Thu Oct  3 18:45:10 2024",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_img1_bs1_tip1",
