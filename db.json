@@ -21448,7 +21448,7 @@
     },
     "lm2k4_atm_mp1_img1_bs1": {
         "_id": "lm2k4_atm_mp1_img1_bs1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21477,7 +21477,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:40:10 2024",
+        "last_edit": "Mon Oct  7 19:05:30 2024",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_img1_bs1",
@@ -21489,7 +21489,7 @@
     },
     "lm2k4_atm_mp1_mr1": {
         "_id": "lm2k4_atm_mp1_mr1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21518,7 +21518,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:33:18 2024",
+        "last_edit": "Mon Oct  7 19:05:35 2024",
         "lightpath": false,
         "location_group": "4_lm2k4_inj",
         "name": "lm2k4_atm_mp1_mr1",
@@ -21530,7 +21530,7 @@
     },
     "lm2k4_atm_mp1_mr2": {
         "_id": "lm2k4_atm_mp1_mr2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21559,7 +21559,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:36:25 2024",
+        "last_edit": "Mon Oct  7 19:05:39 2024",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr2",
@@ -21571,7 +21571,7 @@
     },
     "lm2k4_atm_mp1_mr3": {
         "_id": "lm2k4_atm_mp1_mr3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21600,7 +21600,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:38:43 2024",
+        "last_edit": "Mon Oct  7 19:05:44 2024",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr3",
@@ -21612,7 +21612,7 @@
     },
     "lm2k4_com_dp1_tf1_nf1": {
         "_id": "lm2k4_com_dp1_tf1_nf1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21639,7 +21639,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug  5 11:57:52 2024",
+        "last_edit": "Mon Oct  7 19:05:48 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_dp1_tf1_nf1",
@@ -21651,7 +21651,7 @@
     },
     "lm2k4_com_mp1_psm1": {
         "_id": "lm2k4_com_mp1_psm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21678,7 +21678,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Aug  5 12:01:14 2024",
+        "last_edit": "Mon Oct  7 19:05:53 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp1_psm1",
@@ -21690,7 +21690,7 @@
     },
     "lm2k4_com_mp1_psm2": {
         "_id": "lm2k4_com_mp1_psm2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21717,7 +21717,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Aug  5 12:54:52 2024",
+        "last_edit": "Mon Oct  7 19:05:58 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp1_psm2",
@@ -21729,7 +21729,7 @@
     },
     "lm2k4_com_mp2_bs7": {
         "_id": "lm2k4_com_mp2_bs7",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21758,7 +21758,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:25:51 2024",
+        "last_edit": "Mon Oct  7 19:06:02 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_bs7",
@@ -21770,7 +21770,7 @@
     },
     "lm2k4_com_mp2_dly1": {
         "_id": "lm2k4_com_mp2_dly1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21794,7 +21794,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:24:08 2024",
+        "last_edit": "Mon Oct  7 19:06:07 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_dly1",
@@ -21806,7 +21806,7 @@
     },
     "lm2k4_com_mp2_psm1": {
         "_id": "lm2k4_com_mp2_psm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21833,7 +21833,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Aug  5 12:55:34 2024",
+        "last_edit": "Mon Oct  7 19:06:11 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_psm1",
@@ -21845,7 +21845,7 @@
     },
     "lm2k4_com_mp2_psm2": {
         "_id": "lm2k4_com_mp2_psm2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21872,7 +21872,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Aug  5 12:56:37 2024",
+        "last_edit": "Mon Oct  7 19:06:16 2024",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_psm2",
@@ -21884,7 +21884,7 @@
     },
     "lm2k4_ejx_dp1_dly1": {
         "_id": "lm2k4_ejx_dp1_dly1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21908,7 +21908,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:46:42 2024",
+        "last_edit": "Mon Oct  7 19:06:20 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_dp1_dly1",
@@ -21918,9 +21918,9 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "lm2k4_ejx_dp1_mr1_lm1": {
-        "_id": "lm2k4_ejx_dp1_mr1_lm1",
-        "active": false,
+    "lm2k4_ejx_dp2_mr1_lm1": {
+        "_id": "lm2k4_ejx_dp2_mr1_lm1",
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -21930,7 +21930,7 @@
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
-        "ioc_alias": "LM2K4:EJX_DP1_MR1_LM1",
+        "ioc_alias": "LM2K4:EJX_DP2_MR1_LM1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K4:MCS2:02",
         "ioc_channel": "12",
@@ -21944,25 +21944,142 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:47:44 2024",
+        "last_edit": "Mon Oct  7 20:04:35 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
-        "name": "lm2k4_ejx_dp1_mr1_lm1",
+        "name": "lm2k4_ejx_dp2_mr1_lm1",
         "output_branches": null,
-        "prefix": "LM2K4:EJX_DP1_MR1_LM1",
+        "prefix": "LM2K4:EJX_DP2_MR1_LM1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm2k4_ejx_dp2_tf1_ff1": {
+        "_id": "lm2k4_ejx_dp2_tf1_ff1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Tue Oct  8 12:05:54 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "IP2 EJX DP2 TF1 FF1",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1440-73gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "NA",
+        "ioc_http_port": "7808",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "cam-las-ip2-ejx-03",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-ejx-gige-ff-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.3",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct  8 12:05:54 2024",
+        "lightpath": false,
+        "location_group": "5_lm2k4_ejx",
+        "name": "lm2k4_ejx_dp2_tf1_ff1",
+        "output_branches": null,
+        "prefix": "LM2K4:EJX_DP2_TF1_FF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm2k4_ejx_dp2_tf1_nf1": {
+        "_id": "lm2k4_ejx_dp2_tf1_nf1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Tue Oct  8 12:12:22 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "IP2 EJX DP2 TF1 NF1",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA2500-20gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "NA",
+        "ioc_http_port": "7807",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "cam-las-ip2-ejx-03",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-ejx-gige-nf-02",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.3",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct  8 12:16:49 2024",
+        "lightpath": false,
+        "location_group": "5_lm2k4_ejx",
+        "name": "lm2k4_ejx_dp2_tf1_nf1",
+        "output_branches": null,
+        "prefix": "LM2K4:EJX_DP2_TF1_NF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm2k4_ejx_loc1_nf1": {
+        "_id": "lm2k4_ejx_loc1_nf1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Tue Oct  8 12:16:18 2024",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": "IP2 EJX LOC1 NF1",
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1440-73gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "NA",
+        "ioc_http_port": "7807",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "cam-las-ip2-ejx-01",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-ejx-gige-nf-01",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.3",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct  8 12:16:18 2024",
+        "lightpath": false,
+        "location_group": "5_lm2k4_ejx",
+        "name": "lm2k4_ejx_loc1_nf1",
+        "output_branches": null,
+        "prefix": "LM2K4:EJX_LOC1_NF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "lm2k4_ejx_mp1_mr97": {
         "_id": "lm2k4_ejx_mp1_mr97",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:42:53 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -21985,7 +22102,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:42:53 2024",
+        "last_edit": "Mon Oct  7 19:46:25 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_mr97",
@@ -21997,13 +22114,13 @@
     },
     "lm2k4_ejx_mp1_mr99": {
         "_id": "lm2k4_ejx_mp1_mr99",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:41:56 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22026,7 +22143,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:41:56 2024",
+        "last_edit": "Mon Oct  7 19:45:53 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_mr99",
@@ -22038,7 +22155,7 @@
     },
     "lm2k4_ejx_mp1_mr99_lm1": {
         "_id": "lm2k4_ejx_mp1_mr99_lm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22062,7 +22179,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:46:58 2024",
+        "last_edit": "Mon Oct  7 19:06:40 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_mr99_lm1",
@@ -22074,7 +22191,7 @@
     },
     "lm2k4_hrm_mp1_pc1_lm1": {
         "_id": "lm2k4_hrm_mp1_pc1_lm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22085,42 +22202,6 @@
         "functional_group": "smaract",
         "input_branches": null,
         "ioc_alias": "LM2K4:HRM_MP1_PC1_LM1",
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM2K4:MCS2:01",
-        "ioc_channel": "16",
-        "ioc_engineer": "aberges",
-        "ioc_hutch": "LAS",
-        "ioc_ip": "mcp-las-ip2-mods-01",
-        "ioc_location": "IP2 MODS Table",
-        "ioc_name": "ioc-lm2k4-mcs2-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
-        "ioc_type": "SmarAct",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Aug  2 18:37:03 2024",
-        "lightpath": false,
-        "location_group": "3_lm2k4_hrm",
-        "name": "lm2k4_hrm_mp1_pc1_lm1",
-        "output_branches": null,
-        "prefix": "LM2K4:HRM_MP1_PC1_LM1",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.SmarActMotor",
-        "z": -1.0
-    },
-    "lm2k4_hrm_mp1_pc1_pzm2": {
-        "_id": "lm2k4_hrm_mp1_pc1_pzm2",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "IP2_MODS",
-        "creation": "Fri Aug  2 18:29:27 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarAct",
-        "documentation": null,
-        "functional_group": "smaract",
-        "input_branches": null,
-        "ioc_alias": "LM2K4:HRM_MP1_PC1_PZM2",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K4:MCS2:01",
         "ioc_channel": "17",
@@ -22134,7 +22215,43 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:29:27 2024",
+        "last_edit": "Mon Oct  7 19:40:59 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k4_hrm",
+        "name": "lm2k4_hrm_mp1_pc1_lm1",
+        "output_branches": null,
+        "prefix": "LM2K4:HRM_MP1_PC1_LM1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm2k4_hrm_mp1_pc1_pzm2": {
+        "_id": "lm2k4_hrm_mp1_pc1_pzm2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Fri Aug  2 18:29:27 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM2K4:HRM_MP1_PC1_PZM2",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K4:MCS2:01",
+        "ioc_channel": "16",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip2-mods-01",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct  7 19:40:40 2024",
         "lightpath": false,
         "location_group": "3_lm2k4_hrm",
         "name": "lm2k4_hrm_mp1_pc1_pzm2",
@@ -22146,7 +22263,7 @@
     },
     "lm2k4_inj_dp1_tf1_ff1": {
         "_id": "lm2k4_inj_dp1_tf1_ff1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22173,7 +22290,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug  5 11:55:24 2024",
+        "last_edit": "Mon Oct  7 19:06:53 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_dp1_tf1_ff1",
@@ -22185,7 +22302,7 @@
     },
     "lm2k4_inj_dp1_tf1_nf1": {
         "_id": "lm2k4_inj_dp1_tf1_nf1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22212,7 +22329,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug  5 11:53:26 2024",
+        "last_edit": "Mon Oct  7 19:06:58 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_dp1_tf1_nf1",
@@ -22224,7 +22341,7 @@
     },
     "lm2k4_inj_mp1_att1_wp1": {
         "_id": "lm2k4_inj_mp1_att1_wp1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22248,7 +22365,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:10:23 2024",
+        "last_edit": "Mon Oct  7 19:07:03 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp1_att1_wp1",
@@ -22260,7 +22377,7 @@
     },
     "lm2k4_inj_mp1_mr1": {
         "_id": "lm2k4_inj_mp1_mr1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22289,7 +22406,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Aug  2 18:05:38 2024",
+        "last_edit": "Mon Oct  7 19:07:07 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp1_mr1",
@@ -22301,7 +22418,7 @@
     },
     "lm2k4_inj_mp1_zoo1_ls2": {
         "_id": "lm2k4_inj_mp1_zoo1_ls2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22325,7 +22442,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:05:08 2024",
+        "last_edit": "Mon Oct  7 19:07:11 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp1_zoo1_ls2",
@@ -22337,7 +22454,7 @@
     },
     "lm2k4_inj_mp1_zoo1_ls3": {
         "_id": "lm2k4_inj_mp1_zoo1_ls3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22361,7 +22478,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:08:15 2024",
+        "last_edit": "Mon Oct  7 19:07:16 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp1_zoo1_ls3",
@@ -22373,7 +22490,7 @@
     },
     "lm2k4_inj_mp2_ls2": {
         "_id": "lm2k4_inj_mp2_ls2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22397,7 +22514,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Aug  2 18:11:58 2024",
+        "last_edit": "Mon Oct  7 19:07:20 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp2_ls2",
