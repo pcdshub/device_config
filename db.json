@@ -21884,7 +21884,7 @@
     },
     "lm2k4_ejx_dp1_dly1": {
         "_id": "lm2k4_ejx_dp1_dly1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21908,7 +21908,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct  7 19:06:20 2024",
+        "last_edit": "Tue Oct  8 18:23:02 2024",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_dp1_dly1",
@@ -22383,7 +22383,7 @@
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 17:59:16 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22406,7 +22406,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Mon Oct  7 19:07:07 2024",
+        "last_edit": "Tue Oct  8 18:12:53 2024",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_mp1_mr1",
