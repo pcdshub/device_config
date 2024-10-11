@@ -20818,6 +20818,47 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm2k2_hrm_mp3_mr2": {
+        "_id": "lm2k2_hrm_mp3_mr2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Thu Oct 10 16:54:00 2024",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM2K2:HRM_MP3_MR2",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM2K2:MCS2:04",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-crixs-mods-04",
+        "ioc_location": "CRIX MODS TABLE",
+        "ioc_name": "ioc-lm2k2-mcs2-04",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
+        "ioc_tilt_channel": "17",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "16",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Thu Oct 10 16:54:37 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_hrm",
+        "name": "lm2k2_hrm_mp3_mr2",
+        "output_branches": null,
+        "prefix": "LM2K2:HRM_MP3_MR2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm2k2_hrm_mp3_mr2_lm1": {
         "_id": "lm2k2_hrm_mp3_mr2_lm1",
         "active": true,
@@ -26812,7 +26853,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:48 2022",
-        "device_class": "pcdsdevices.mirror.KBOMirrorHE",
+        "device_class": "pcdsdevices.mirror.KBOMirrorHEStates",
         "documentation": null,
         "functional_group": "Mirrors",
         "input_branches": [
@@ -26828,7 +26869,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 16:15:41 2024",
+        "last_edit": "Thu Oct 10 14:59:29 2024",
         "lightpath": true,
         "location_group": "RIX K2S05",
         "name": "mr3k2_kbh",
@@ -26967,7 +27008,7 @@
         ],
         "beamline": "RIX",
         "creation": "Mon Jul 18 16:05:49 2022",
-        "device_class": "pcdsdevices.mirror.KBOMirrorHE",
+        "device_class": "pcdsdevices.mirror.KBOMirrorHEStates",
         "documentation": null,
         "functional_group": "Mirrors",
         "input_branches": [
@@ -26983,7 +27024,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan 29 16:18:39 2024",
+        "last_edit": "Thu Oct 10 14:59:54 2024",
         "lightpath": true,
         "location_group": "RIX K2S07",
         "name": "mr4k2_kbv",
