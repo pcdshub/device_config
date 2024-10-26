@@ -29663,7 +29663,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Fri Oct 25 11:53:49 2024",
         "lightpath": true,
         "location_group": "4 FZPS",
         "macros": "None",
@@ -30053,7 +30053,7 @@
         ],
         "beamline": "TMO",
         "creation": "Thu May 18 16:12:31 2023",
-        "device_class": "pcdsdevices.pneumatic.BeckhoffPneumatic",
+        "device_class": "pcdsdevices.pneumatic.BeckhoffPneumaticFDQ",
         "documentation": null,
         "functional_group": "Stopper",
         "input_branches": [
@@ -30069,7 +30069,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Fri Oct 25 11:54:34 2024",
         "lightpath": true,
         "location_group": "6 TMO K4S6",
         "name": "st4k4",
