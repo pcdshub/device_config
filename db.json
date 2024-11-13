@@ -17778,7 +17778,7 @@
         ],
         "beamline": "CRIX_MODS",
         "creation": "Thu Oct  3 18:41:14 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
         "documentation": "chemRIXS ATM encoded tip-tilt for beam splitter",
         "functional_group": "smaract",
         "input_branches": null,
@@ -17801,7 +17801,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Thu Oct  3 18:44:37 2024",
+        "last_edit": "Tue Nov 12 10:53:04 2024",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_img1_bs1",
