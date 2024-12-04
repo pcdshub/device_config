@@ -2997,7 +2997,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 13:40:57 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -3022,7 +3022,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:11 2023",
+        "last_edit": "Tue Dec  3 16:05:21 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_h",
@@ -3038,7 +3038,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 15:51:45 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -3060,7 +3060,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:11 2023",
+        "last_edit": "Tue Dec  3 16:05:25 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_l",
@@ -3076,7 +3076,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 15:41:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -3101,7 +3101,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:11 2023",
+        "last_edit": "Tue Dec  3 16:05:28 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r51_t",
@@ -3117,7 +3117,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 13:46:02 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -3140,7 +3140,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:11 2023",
+        "last_edit": "Tue Dec  3 16:05:30 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_h",
@@ -3156,7 +3156,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 15:58:25 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -3177,7 +3177,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:11 2023",
+        "last_edit": "Tue Dec  3 16:05:34 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_l",
@@ -3193,7 +3193,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 15:59:59 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -3216,7 +3216,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:37 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r52_t",
@@ -3232,7 +3232,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:06:31 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -3257,7 +3257,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:39 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_h",
@@ -3273,7 +3273,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:04:25 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -3295,7 +3295,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:42 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_l",
@@ -3311,7 +3311,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 16:22:08 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -3336,7 +3336,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:46 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r53_t",
@@ -3352,7 +3352,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:11:08 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -3377,7 +3377,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:48 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_h",
@@ -3393,7 +3393,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:07:21 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -3415,7 +3415,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:51 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_l",
@@ -3431,7 +3431,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 16:37:28 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -3456,7 +3456,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:53 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r54_t",
@@ -3472,7 +3472,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:14:36 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -3495,7 +3495,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:57 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_h",
@@ -3511,7 +3511,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:08:52 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -3532,7 +3532,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:05:59 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_l",
@@ -3548,7 +3548,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 16:50:13 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -3571,7 +3571,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:12 2023",
+        "last_edit": "Tue Dec  3 16:06:02 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r56_t",
@@ -3587,7 +3587,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:17:05 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -3612,7 +3612,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:04 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_h",
@@ -3628,7 +3628,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:13:36 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -3650,7 +3650,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:07 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_l",
@@ -3666,7 +3666,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 16:56:01 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -3691,7 +3691,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:09 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r57_t",
@@ -3707,7 +3707,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:21:56 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -3730,7 +3730,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:12 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_h",
@@ -3746,7 +3746,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:17:33 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -3767,7 +3767,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:15 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_l",
@@ -3783,7 +3783,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 16:58:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -3806,7 +3806,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:19 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r58_t",
@@ -3822,7 +3822,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:25:32 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -3845,7 +3845,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:22 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_h",
@@ -3861,7 +3861,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:19:28 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -3882,7 +3882,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:24 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_l",
@@ -3898,7 +3898,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 11 17:06:54 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -3921,7 +3921,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:13 2023",
+        "last_edit": "Tue Dec  3 16:06:26 2024",
         "lightpath": false,
         "location_group": "CXI",
         "name": "cxi_leviton_r59_t",
@@ -23018,7 +23018,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 17:45:33 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -23041,7 +23041,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:30 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64a_h",
@@ -23057,7 +23057,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:07:15 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -23078,7 +23078,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:33 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64a_l",
@@ -23094,7 +23094,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 15:08:41 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -23117,7 +23117,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:35 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64a_t",
@@ -23133,7 +23133,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 17:25:20 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -23156,7 +23156,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:39 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64b_h",
@@ -23172,7 +23172,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:10:50 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23192,7 +23192,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:42 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64b_l",
@@ -23208,7 +23208,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 15:21:09 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -23231,7 +23231,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:46 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_64b_t",
@@ -23247,7 +23247,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 10:44:11 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -23268,7 +23268,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:49 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_mz64a_h",
@@ -23284,7 +23284,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:15:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23304,7 +23304,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:52 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_mz64a_l",
@@ -23320,7 +23320,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 15:35:10 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -23341,7 +23341,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:54 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_mz64a_t",
@@ -23357,7 +23357,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 18 17:03:57 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -23378,7 +23378,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:35 2023",
+        "last_edit": "Tue Dec  3 16:06:56 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_pr60_h",
@@ -23394,7 +23394,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 15:56:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23414,7 +23414,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:06:59 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_pr60_l",
@@ -23430,7 +23430,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 15:45:33 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -23451,7 +23451,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:02 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_pr60_t",
@@ -23467,7 +23467,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 17:16:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -23492,7 +23492,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:04 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r60_h",
@@ -23508,7 +23508,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 14:52:11 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -23530,7 +23530,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:09 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r60_l",
@@ -23546,7 +23546,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 16 11:24:08 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -23571,7 +23571,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:13 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r60_t",
@@ -23587,7 +23587,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 18 17:08:16 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -23608,7 +23608,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:17 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r61_h",
@@ -23624,7 +23624,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:01:37 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23644,7 +23644,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:20 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r61_l",
@@ -23660,7 +23660,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 14:53:55 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -23681,7 +23681,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:23 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r61_t",
@@ -23697,7 +23697,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 15:17:15 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity8",
         "documentation": null,
@@ -23724,7 +23724,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:36 2023",
+        "last_edit": "Tue Dec  3 16:07:25 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r62_h",
@@ -23740,7 +23740,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 15:31:45 2022",
         "device_class": "pcdsdevices.fms.PDU_Load4",
         "documentation": null,
@@ -23763,7 +23763,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:28 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r62_l",
@@ -23779,7 +23779,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 16:16:07 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp8",
         "documentation": null,
@@ -23806,7 +23806,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:31 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_r62_t",
@@ -23822,7 +23822,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 18 17:28:57 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -23843,7 +23843,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:34 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_h",
@@ -23859,7 +23859,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:21:55 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23879,7 +23879,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:37 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_l",
@@ -23895,7 +23895,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 14:39:58 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -23916,7 +23916,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:40 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rpci_t",
@@ -23932,7 +23932,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 15:51:43 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -23953,7 +23953,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:43 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs67c_h",
@@ -23969,7 +23969,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 15:56:03 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -23989,7 +23989,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:46 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs67c_l",
@@ -24005,7 +24005,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 16:28:54 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -24026,7 +24026,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:49 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs67c_t",
@@ -24042,7 +24042,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Nov 18 17:22:08 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -24063,7 +24063,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:52 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs68_h",
@@ -24079,7 +24079,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:27:44 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -24099,7 +24099,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:37 2023",
+        "last_edit": "Tue Dec  3 16:07:55 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs68_l",
@@ -24115,7 +24115,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 15:54:58 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -24136,7 +24136,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:38 2023",
+        "last_edit": "Tue Dec  3 16:07:58 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_rs68_t",
@@ -24152,7 +24152,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 17:01:03 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -24173,7 +24173,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:38 2023",
+        "last_edit": "Tue Dec  3 16:08:00 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_s60_h",
@@ -24189,7 +24189,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 16:36:27 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -24209,7 +24209,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:38 2023",
+        "last_edit": "Tue Dec  3 16:08:02 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_s60_l",
@@ -24225,7 +24225,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 14:27:34 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -24246,7 +24246,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:38 2023",
+        "last_edit": "Tue Dec  3 16:08:05 2024",
         "lightpath": false,
         "location_group": "MEC",
         "name": "mec_leviton_s60_t",
@@ -25361,7 +25361,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:52:39 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -25382,7 +25382,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:43 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_h",
@@ -25398,7 +25398,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:36:10 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -25418,7 +25418,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:46 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_l",
@@ -25434,7 +25434,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 13:24:07 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -25455,7 +25455,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:49 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r45_t",
@@ -25471,7 +25471,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:57:34 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -25494,7 +25494,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:52 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_h",
@@ -25510,7 +25510,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:39:29 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -25531,7 +25531,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:54 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_l",
@@ -25547,7 +25547,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 13:33:11 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -25570,7 +25570,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:56 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r46_t",
@@ -25586,7 +25586,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 15:03:19 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -25607,7 +25607,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:46 2023",
+        "last_edit": "Tue Dec  3 16:08:59 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_h",
@@ -25623,7 +25623,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:40:02 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -25645,7 +25645,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Tue Dec  3 16:09:01 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_l",
@@ -25661,7 +25661,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 13:37:14 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -25682,7 +25682,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Tue Dec  3 16:09:03 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_r49_t",
@@ -25698,7 +25698,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 12:17:41 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -25719,7 +25719,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Tue Dec  3 16:09:06 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_h",
@@ -25735,7 +25735,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 15:43:56 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -25755,7 +25755,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Tue Dec  3 16:09:08 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_l",
@@ -25771,7 +25771,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Nov 17 12:03:55 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -25792,7 +25792,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:47 2023",
+        "last_edit": "Tue Dec  3 16:09:10 2024",
         "lightpath": false,
         "location_group": "MFX",
         "name": "mfx_leviton_sampletbl_t",
@@ -28338,7 +28338,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 17:13:43 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28359,7 +28359,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:15:52 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r02_h",
@@ -28375,7 +28375,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 15:03:17 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28395,7 +28395,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:15:54 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r02_l",
@@ -28411,7 +28411,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 15:09:58 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28432,7 +28432,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:15:58 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r02_t",
@@ -28448,7 +28448,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 14:43:52 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28469,7 +28469,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:16:01 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r03_h",
@@ -28485,7 +28485,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 16:06:32 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28505,7 +28505,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:16:03 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r03_l",
@@ -28521,7 +28521,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 15:29:36 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -28542,7 +28542,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:16:06 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r03_t",
@@ -28558,7 +28558,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 17:05:33 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28579,7 +28579,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:16:08 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r04_h",
@@ -28595,7 +28595,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 16:22:42 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28615,7 +28615,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:52 2023",
+        "last_edit": "Tue Dec  3 16:16:10 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r04_l",
@@ -28631,7 +28631,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 15:40:57 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -28652,7 +28652,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:13 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r04_t",
@@ -28668,7 +28668,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 14:00:40 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28689,7 +28689,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:15 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r05_h",
@@ -28705,7 +28705,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 16:25:39 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28725,7 +28725,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:17 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r05_l",
@@ -28741,7 +28741,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 15:51:34 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -28762,7 +28762,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:19 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r05_t",
@@ -28778,7 +28778,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 16:20:35 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28799,7 +28799,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:22 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r06_h",
@@ -28815,7 +28815,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 16:35:18 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28835,7 +28835,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:24 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r06_l",
@@ -28851,7 +28851,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 16:00:12 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -28872,7 +28872,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:26 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r06_t",
@@ -28888,7 +28888,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 14:31:27 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -28909,7 +28909,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:29 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r07_h",
@@ -28925,7 +28925,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 28 16:38:07 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -28945,7 +28945,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:31 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r07_l",
@@ -28961,7 +28961,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 16:11:21 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -28982,7 +28982,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:53 2023",
+        "last_edit": "Tue Dec  3 16:16:33 2024",
         "lightpath": false,
         "location_group": "RIX",
         "name": "rix_leviton_r07_t",
@@ -31240,7 +31240,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Dec  2 10:51:14 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -31261,7 +31261,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:06 2023",
+        "last_edit": "Tue Dec  3 16:16:35 2024",
         "lightpath": false,
         "location_group": "TXI",
         "name": "txi_leviton_r13_h",
@@ -31277,7 +31277,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Dec  2 10:59:02 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -31297,7 +31297,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:07 2023",
+        "last_edit": "Tue Dec  3 16:16:38 2024",
         "lightpath": false,
         "location_group": "TXI",
         "name": "txi_leviton_r13_l",
@@ -31313,7 +31313,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Dec  2 10:48:37 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -31334,7 +31334,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:07 2023",
+        "last_edit": "Tue Dec  3 16:16:44 2024",
         "lightpath": false,
         "location_group": "TXI",
         "name": "txi_leviton_r13_t",
@@ -32015,7 +32015,7 @@
             32,
             32
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov  9 10:44:24 2022",
         "device_class": "PDU_Temp1",
         "documentation": null,
@@ -32038,7 +32038,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:10 2023",
+        "last_edit": "Tue Dec  3 16:17:42 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs__pwr",
@@ -32416,7 +32416,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:28:25 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -32437,7 +32437,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:22 2023",
+        "last_edit": "Tue Dec  3 16:08:07 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_h",
@@ -32453,7 +32453,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:23:09 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -32473,7 +32473,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:22 2023",
+        "last_edit": "Tue Dec  3 16:08:09 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_l",
@@ -32489,7 +32489,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 12:18:37 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -32510,7 +32510,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:22 2023",
+        "last_edit": "Tue Dec  3 16:08:12 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r40_t",
@@ -32526,7 +32526,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:33:36 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -32551,7 +32551,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:15 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_h",
@@ -32567,7 +32567,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:25:23 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -32589,7 +32589,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:19 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_l",
@@ -32605,7 +32605,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 12:28:21 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -32630,7 +32630,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:22 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r42_t",
@@ -32646,7 +32646,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:40:05 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -32671,7 +32671,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:25 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_h",
@@ -32687,7 +32687,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 21 13:55:47 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -32709,7 +32709,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:27 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_l",
@@ -32725,7 +32725,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 12:57:37 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -32750,7 +32750,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:31 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r43_t",
@@ -32766,7 +32766,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 14:42:55 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -32791,7 +32791,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:34 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r44_h",
@@ -32807,7 +32807,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 15 16:33:58 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -32829,7 +32829,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:37 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r44_l",
@@ -32845,7 +32845,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Mon Nov 14 13:05:49 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -32870,7 +32870,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:23 2023",
+        "last_edit": "Tue Dec  3 16:08:41 2024",
         "lightpath": false,
         "location_group": "XCS",
         "name": "xcs_leviton_r44_t",
@@ -34374,7 +34374,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Dec  1 11:08:19 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity2",
         "documentation": null,
@@ -34395,7 +34395,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:19 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_mon_h",
@@ -34411,7 +34411,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 29 16:02:41 2022",
         "device_class": "pcdsdevices.fms.PDU_Load1",
         "documentation": null,
@@ -34431,7 +34431,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:32 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_mon_l",
@@ -34447,7 +34447,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 22 16:46:15 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp2",
         "documentation": null,
@@ -34468,7 +34468,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:36 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_mon_t",
@@ -34484,7 +34484,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Dec  1 11:25:40 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -34507,7 +34507,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:39 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r30_h",
@@ -34523,7 +34523,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 29 16:46:40 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -34544,7 +34544,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:42 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r30_l",
@@ -34560,7 +34560,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 29 16:34:10 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -34583,7 +34583,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:45 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r30_t",
@@ -34599,7 +34599,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Dec  1 11:12:40 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -34624,7 +34624,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Tue Dec  3 16:04:48 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r32_h",
@@ -34640,7 +34640,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 29 16:09:46 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -34662,7 +34662,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:04:50 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r32_l",
@@ -34678,7 +34678,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 10:24:21 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -34703,7 +34703,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:04:53 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r32_t",
@@ -34719,7 +34719,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Thu Dec  1 11:18:19 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity6",
         "documentation": null,
@@ -34744,7 +34744,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:04:56 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r35_h",
@@ -34760,7 +34760,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Tue Nov 29 16:26:39 2022",
         "device_class": "pcdsdevices.fms.PDU_Load3",
         "documentation": null,
@@ -34782,7 +34782,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:04:58 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r35_l",
@@ -34798,7 +34798,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 17:27:42 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp6",
         "documentation": null,
@@ -34823,7 +34823,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:05:05 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r35_t",
@@ -34839,7 +34839,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Dec 16 15:56:55 2022",
         "device_class": "pcdsdevices.fms.PDU_Humidity4",
         "documentation": null,
@@ -34862,7 +34862,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:05:11 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r39_h",
@@ -34878,7 +34878,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Fri Dec 16 16:02:11 2022",
         "device_class": "pcdsdevices.fms.PDU_Load2",
         "documentation": null,
@@ -34899,7 +34899,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:05:14 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r39_l",
@@ -34915,7 +34915,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "FMS",
+        "beamline": "INF",
         "creation": "Wed Nov 23 11:17:53 2022",
         "device_class": "pcdsdevices.fms.PDU_Temp4",
         "documentation": null,
@@ -34938,7 +34938,7 @@
             "elevations": "{{elevations}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Tue Dec  3 16:05:19 2024",
         "lightpath": false,
         "location_group": "XPP",
         "name": "xpp_leviton_r39_t",
