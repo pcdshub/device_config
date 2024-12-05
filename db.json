@@ -18045,9 +18045,48 @@
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
+    "lm2k2_atm_mp1_sl1": {
+        "_id": "lm2k2_atm_mp1_sl1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CRIX_MODS",
+        "creation": "Wed Dec  4 15:52:01 2024",
+        "device_class": "pcdsdevices.device_types.Ell6",
+        "documentation": null,
+        "functional_group": "elliptecs",
+        "input_branches": null,
+        "ioc_alias": "LM2K2:ATM_MP1_SL1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K2:ATM:ELL:1",
+        "ioc_channel": "2",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_location": "ChemRIXS MODS",
+        "ioc_model": "ELL6",
+        "ioc_name": "ioc-lm2k2-atm-ell-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_serial": "DT03B1JU",
+        "ioc_type": "Elliptec",
+        "kwargs": {
+            "channel": "{{ioc_channel}}",
+            "name": "{{name}}",
+            "port": "0"
+        },
+        "last_edit": "Wed Dec  4 15:52:01 2024",
+        "lightpath": false,
+        "location_group": "3_lm2k2_atm",
+        "name": "lm2k2_atm_mp1_sl1",
+        "output_branches": null,
+        "prefix": "LM2K2:ATM:ELL:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
     "lm2k2_atm_mp1_wp1_lm1": {
         "_id": "lm2k2_atm_mp1_wp1_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18074,7 +18113,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Sep 11 12:16:47 2023",
+        "last_edit": "Wed Dec  4 16:05:45 2024",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_wp1_lm1",
