@@ -5409,7 +5409,7 @@
     },
     "hxr_diffractometer": {
         "_id": "hxr_diffractometer",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5429,7 +5429,7 @@
         "kwargs": {
             "name": "hxr_diffractometer"
         },
-        "last_edit": "Thu Aug 22 14:22:10 2024",
+        "last_edit": "Fri Dec  6 15:32:35 2024",
         "lightpath": false,
         "location_group": "gon",
         "name": "hxr_diffractometer",
@@ -33150,7 +33150,7 @@
     },
     "xcs_lxt_fast": {
         "_id": "xcs_lxt_fast",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -33170,7 +33170,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:24 2023",
+        "last_edit": "Fri Dec  6 15:57:07 2024",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xcs_lxt_fast",
@@ -33970,7 +33970,7 @@
     },
     "xcs_txt": {
         "_id": "xcs_txt",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -33991,7 +33991,7 @@
             "n_bounces": 10,
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:44 2023",
+        "last_edit": "Fri Dec  6 15:57:47 2024",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xcs_txt",
@@ -34039,7 +34039,7 @@
     },
     "xpp_attenuator": {
         "_id": "xpp_attenuator",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34066,7 +34066,7 @@
             "n_filters": "{{n_filters}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:46 2023",
+        "last_edit": "Fri Dec  6 15:37:01 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -34084,7 +34084,7 @@
     },
     "xpp_ccm": {
         "_id": "xpp_ccm",
-        "active": true,
+        "active": false,
         "args": [],
         "beamline": "XPP",
         "creation": "Mon Jul 18 16:06:07 2022",
@@ -34115,7 +34115,7 @@
             "y_up_north_prefix": "XPP:MON:MMS:26",
             "y_up_south_prefix": "XPP:MON:MMS:25"
         },
-        "last_edit": "Wed Feb 22 15:46:46 2023",
+        "last_edit": "Fri Dec  6 15:49:11 2024",
         "lightpath": true,
         "location_group": "None",
         "name": "xpp_ccm",
@@ -34129,7 +34129,7 @@
     },
     "xpp_com_wp": {
         "_id": "xpp_com_wp",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34152,7 +34152,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:46 2023",
+        "last_edit": "Fri Dec  6 15:35:17 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -34167,7 +34167,7 @@
     },
     "xpp_gon": {
         "_id": "xpp_gon",
-        "active": true,
+        "active": false,
         "args": [],
         "beamline": "XPP",
         "creation": "Tue Aug 25 13:47:44 2020",
@@ -34190,7 +34190,7 @@
             "prefix_tip": "XPP:GON:MMS:04",
             "prefix_ver": "XPP:GON:MMS:02"
         },
-        "last_edit": "Wed Feb 22 15:46:47 2023",
+        "last_edit": "Fri Dec  6 15:35:31 2024",
         "lightpath": false,
         "location_group": "Hutch 3",
         "name": "xpp_gon",
@@ -34202,7 +34202,7 @@
     },
     "xpp_jj_1": {
         "_id": "xpp_jj_1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34227,7 +34227,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:47 2023",
+        "last_edit": "Fri Dec  6 15:35:51 2024",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -34244,7 +34244,7 @@
     },
     "xpp_jj_2": {
         "_id": "xpp_jj_2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34269,7 +34269,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:47 2023",
+        "last_edit": "Fri Dec  6 15:35:58 2024",
         "lightpath": true,
         "location_group": "None",
         "macros": "None",
@@ -34286,7 +34286,7 @@
     },
     "xpp_jj_3": {
         "_id": "xpp_jj_3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34311,7 +34311,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:47 2023",
+        "last_edit": "Fri Dec  6 15:36:05 2024",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -34328,7 +34328,7 @@
     },
     "xpp_jj_4": {
         "_id": "xpp_jj_4",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34353,7 +34353,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:47 2023",
+        "last_edit": "Fri Dec  6 15:36:16 2024",
         "lightpath": true,
         "location_group": "None",
         "macros": null,
@@ -34370,7 +34370,7 @@
     },
     "xpp_las_tt_lensf": {
         "_id": "xpp_las_tt_lensf",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34390,7 +34390,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:49 2023",
+        "last_edit": "Fri Dec  6 15:37:16 2024",
         "lightpath": false,
         "location_group": "N/A",
         "macros": null,
@@ -34406,7 +34406,7 @@
     },
     "xpp_las_tt_lensh": {
         "_id": "xpp_las_tt_lensh",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34426,7 +34426,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:50 2023",
+        "last_edit": "Fri Dec  6 15:37:24 2024",
         "lightpath": false,
         "location_group": "N/A",
         "macros": null,
@@ -34442,7 +34442,7 @@
     },
     "xpp_las_tt_lensv": {
         "_id": "xpp_las_tt_lensv",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34462,7 +34462,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:51 2023",
+        "last_edit": "Fri Dec  6 15:37:32 2024",
         "lightpath": false,
         "location_group": "N/A",
         "macros": null,
@@ -34478,7 +34478,7 @@
     },
     "xpp_lens_f": {
         "_id": "xpp_lens_f",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34501,7 +34501,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Fri Dec  6 15:37:45 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -34516,7 +34516,7 @@
     },
     "xpp_lens_h": {
         "_id": "xpp_lens_h",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34539,7 +34539,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Fri Dec  6 15:37:55 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -34554,7 +34554,7 @@
     },
     "xpp_lens_v": {
         "_id": "xpp_lens_v",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34577,7 +34577,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:52 2023",
+        "last_edit": "Fri Dec  6 15:38:03 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -35219,7 +35219,7 @@
     },
     "xpp_lxt_fast1": {
         "_id": "xpp_lxt_fast1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35239,7 +35239,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:38:18 2024",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast1",
@@ -35251,7 +35251,7 @@
     },
     "xpp_lxt_fast2": {
         "_id": "xpp_lxt_fast2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35271,7 +35271,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:38:24 2024",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast2",
@@ -35325,7 +35325,7 @@
     },
     "xpp_opa_wp": {
         "_id": "xpp_opa_wp",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35348,7 +35348,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:38:37 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -35363,7 +35363,7 @@
     },
     "xpp_pol_wp": {
         "_id": "xpp_pol_wp",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35386,7 +35386,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:38:48 2024",
         "lightpath": false,
         "location_group": "LAS",
         "macros": "None",
@@ -35401,7 +35401,7 @@
     },
     "xpp_pulsepicker": {
         "_id": "xpp_pulsepicker",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35426,7 +35426,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:38:58 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35443,7 +35443,7 @@
     },
     "xpp_sb2_high_slits": {
         "_id": "xpp_sb2_high_slits",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35468,7 +35468,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:39:20 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35485,7 +35485,7 @@
     },
     "xpp_sb2_ipm": {
         "_id": "xpp_sb2_ipm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35511,7 +35511,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:39:30 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35528,7 +35528,7 @@
     },
     "xpp_sb2_low_slits": {
         "_id": "xpp_sb2_low_slits",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35553,7 +35553,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:39:39 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35570,7 +35570,7 @@
     },
     "xpp_sb2_valve_1": {
         "_id": "xpp_sb2_valve_1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35595,7 +35595,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:54 2023",
+        "last_edit": "Fri Dec  6 15:39:51 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35612,7 +35612,7 @@
     },
     "xpp_sb2_valve_3": {
         "_id": "xpp_sb2_valve_3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35637,7 +35637,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:04 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35654,7 +35654,7 @@
     },
     "xpp_sb2_valve_4": {
         "_id": "xpp_sb2_valve_4",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35679,7 +35679,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:11 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35696,7 +35696,7 @@
     },
     "xpp_sb3_ipm": {
         "_id": "xpp_sb3_ipm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35722,7 +35722,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:23 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35739,7 +35739,7 @@
     },
     "xpp_sb3_pim": {
         "_id": "xpp_sb3_pim",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35762,7 +35762,7 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:34 2024",
         "lightpath": true,
         "location_group": "N/A",
         "name": "xpp_sb3_pim",
@@ -35777,7 +35777,7 @@
     },
     "xpp_sb3_slits": {
         "_id": "xpp_sb3_slits",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35802,7 +35802,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:42 2024",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -35819,7 +35819,7 @@
     },
     "xpp_txt": {
         "_id": "xpp_txt",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35840,7 +35840,7 @@
             "n_bounces": 14,
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:51 2024",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_txt",
@@ -35852,7 +35852,7 @@
     },
     "xpp_xfls": {
         "_id": "xpp_xfls",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35874,7 +35874,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:55 2023",
+        "last_edit": "Fri Dec  6 15:40:59 2024",
         "lightpath": true,
         "location_group": "N/A",
         "name": "xpp_xfls",
