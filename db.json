@@ -35172,7 +35172,7 @@
     },
     "xpp_lodcm": {
         "_id": "xpp_lodcm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35199,7 +35199,7 @@
             "mono_line": "{{mono_line}}",
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:53 2023",
+        "last_edit": "Mon Dec 16 16:40:56 2024",
         "lightpath": true,
         "location_group": "XPP",
         "macros": null,
