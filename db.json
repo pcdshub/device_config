@@ -33150,7 +33150,7 @@
     },
     "xcs_lxt_fast": {
         "_id": "xcs_lxt_fast",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -33170,7 +33170,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Dec  6 15:57:07 2024",
+        "last_edit": "Thu Jan  9 09:24:14 2025",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xcs_lxt_fast",
@@ -33970,7 +33970,7 @@
     },
     "xcs_txt": {
         "_id": "xcs_txt",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -33991,7 +33991,7 @@
             "n_bounces": 10,
             "name": "{{name}}"
         },
-        "last_edit": "Fri Dec  6 15:57:47 2024",
+        "last_edit": "Thu Jan  9 09:11:15 2025",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xcs_txt",
