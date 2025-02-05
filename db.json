@@ -30681,7 +30681,7 @@
         "beamline": "TMO",
         "creation": "Thu Jan 21 13:09:55 2021",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.cvmi_motion.CVMI",
+        "device_class": "pcdsdevices.cvmi_bootstrap.CVMI",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/cVMI+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
@@ -30697,7 +30697,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Tue Feb  4 13:45:16 2025",
         "lightpath": false,
         "location_group": "3 TMO IP1",
         "macros": null,
