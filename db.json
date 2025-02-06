@@ -32356,6 +32356,39 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "xcs_delay": {
+        "_id": "xcs_delay",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XCS",
+        "creation": "Wed Feb  5 14:38:24 2025",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "n_bounces": 10,
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Feb  5 14:38:24 2025",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "xcs_delay",
+        "output_branches": null,
+        "prefix": "XCS:USR:MMN:05",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "xcs_dg3_ipm": {
         "_id": "xcs_dg3_ipm",
         "active": true,
