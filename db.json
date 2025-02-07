@@ -1,4 +1,21 @@
 {
+    "SP1L0": {
+        "_id": "SP1L0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Thu Feb  6 14:16:10 2025",
+        "device_class": "pcdsdevices.spectrometer.DCCMono",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Feb  6 14:16:10 2025",
+        "name": "SP1L0",
+        "prefix": "SP1L0:DCCM",
+        "type": "OphydItem"
+    },
     "TMO_RSPowersupply": {
         "_id": "TMO_RSPowersupply",
         "active": true,
@@ -30043,14 +30060,14 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:03 2023",
+        "last_edit": "Thu Feb  6 15:48:22 2025",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "sp1l0",
         "output_branches": [
             "L0"
         ],
-        "prefix": "SP1L0:KMONO:MMS",
+        "prefix": "SP1L0:DCCM",
         "stand": "L0S09",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
