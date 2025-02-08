@@ -30044,7 +30044,7 @@
         ],
         "beamline": "LFE",
         "creation": "Mon Jul 18 16:05:58 2022",
-        "device_class": "pcdsdevices.spectrometer.Kmono",
+        "device_class": "pcdsdevices.spectrometer.DCCMono",
         "documentation": null,
         "functional_group": "Spectrometer",
         "input_branches": [
@@ -30060,7 +30060,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb  6 15:48:22 2025",
+        "last_edit": "Fri Feb  7 15:16:24 2025",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "sp1l0",
