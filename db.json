@@ -19422,7 +19422,7 @@
     },
     "lm2k2_ejx_dp1_tf1_wf1": {
         "_id": "lm2k2_ejx_dp1_tf1_wf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -19447,7 +19447,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Nov 22 16:23:45 2023",
+        "last_edit": "Mon Mar 17 16:40:45 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp1_tf1_wf1",
@@ -21692,7 +21692,7 @@
     },
     "lm2k2_inj_dp2_tf1_wf1": {
         "_id": "lm2k2_inj_dp2_tf1_wf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21717,7 +21717,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:26 2023",
+        "last_edit": "Mon Mar 17 16:41:05 2025",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp2_tf1_wf1",
