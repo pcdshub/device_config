@@ -17702,14 +17702,14 @@
     },
     "lm1k4_qadc": {
         "_id": "lm1k4_qadc",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "TMO",
         "creation": "Mon Apr 25 15:16:14 2022",
         "device_class": "pcdsdevices.digitizers.Qadc134",
-        "documentation": null,
+        "documentation": "'Do not use. Use the GUI provided by Tyler'",
         "functional_group": "Digitizer",
         "input_branches": null,
         "ioc_arch": null,
@@ -17722,7 +17722,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Tue Mar 18 15:49:11 2025",
         "lightpath": false,
         "location_group": "3 TMO IP1",
         "name": "lm1k4_qadc",
