@@ -14580,6 +14580,84 @@
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
+    "lm1k4_ejx_dp0_tf1_ff1": {
+        "_id": "lm1k4_ejx_dp0_tf1_ff1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Thu Mar 20 15:58:40 2025",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA1440-73gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "0",
+        "ioc_http_port": "7813",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "cam-las-ip1-ejx-06",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-gige-ff-04",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/gigECam/R5.2.0",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 20 16:11:27 2025",
+        "lightpath": false,
+        "location_group": "6_lm1k4_ejx",
+        "name": "lm1k4_ejx_dp0_tf1_ff1",
+        "output_branches": null,
+        "prefix": "LM1K4:EJX_DP0_TF1_FF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm1k4_ejx_dp0_tf1_nf1": {
+        "_id": "lm1k4_ejx_dp0_tf1_nf1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Thu Mar 20 16:00:39 2025",
+        "device_class": "pcdsdevices.areadetector.detectors.LasBasler",
+        "documentation": null,
+        "functional_group": "cameras",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_cam_model": "Basler_acA2500-20gm",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "0",
+        "ioc_http_port": "7812",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "cam-las-ip1-ejx-05",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-ejx-gige-nf-03",
+        "ioc_net_if": "ETH0",
+        "ioc_net_if_num": "1",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/gigECam/R5.2.0",
+        "ioc_type": "BaslerGigE",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Mar 20 16:11:18 2025",
+        "lightpath": false,
+        "location_group": "6_lm1k4_ejx",
+        "name": "lm1k4_ejx_dp0_tf1_nf1",
+        "output_branches": null,
+        "prefix": "LM1K4:EJX_DP0_TF1_NF1:",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp11_tf1_ff1": {
         "_id": "lm1k4_ejx_dp11_tf1_ff1",
         "active": true,
@@ -17962,7 +18040,7 @@
     },
     "lm2k2_atm_dp3_tf1_sl1": {
         "_id": "lm2k2_atm_dp3_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17989,7 +18067,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Sep 11 12:04:11 2023",
+        "last_edit": "Thu Mar 20 11:19:30 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_dp3_tf1_sl1",
@@ -19383,7 +19461,7 @@
     },
     "lm2k2_ejx_dp1_tf1_sl1": {
         "_id": "lm2k2_ejx_dp1_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -19410,7 +19488,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Thu Nov 16 17:08:37 2023",
+        "last_edit": "Thu Mar 20 16:55:40 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp1_tf1_sl1",
@@ -19646,7 +19724,7 @@
     },
     "lm2k2_ejx_dp2_tf1_sl1": {
         "_id": "lm2k2_ejx_dp2_tf1_sl1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -19673,7 +19751,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Thu Nov 16 17:46:25 2023",
+        "last_edit": "Thu Mar 20 16:55:58 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp2_tf1_sl1",
