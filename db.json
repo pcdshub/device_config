@@ -20518,8 +20518,8 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "lm2k2_ejx_mp3_pol1": {
-        "_id": "lm2k2_ejx_mp3_pol1",
+    "lm2k2_ejx_mp3_wp1": {
+        "_id": "lm2k2_ejx_mp3_wp1",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -20530,7 +20530,7 @@
         "documentation": null,
         "functional_group": "elliptecs",
         "input_branches": null,
-        "ioc_alias": "LM2K2:EJX_MP3_POL1",
+        "ioc_alias": "LM2K2:EJX_MP3_WP1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM2K2:EJX:ELL:1",
         "ioc_channel": "2",
@@ -20547,10 +20547,10 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Thu Nov 16 15:31:27 2023",
+        "last_edit": "Thu Mar 20 17:49:09 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
-        "name": "lm2k2_ejx_mp3_pol1",
+        "name": "lm2k2_ejx_mp3_wp1",
         "output_branches": null,
         "prefix": "LM2K2:EJX:ELL:1",
         "stand": null,
