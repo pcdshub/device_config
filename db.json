@@ -4388,6 +4388,42 @@
         "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 982.0
     },
+    "dream": {
+        "_id": "dream",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Fri Mar 28 11:11:52 2025",
+        "device_class": "pcdsdevices.dream_motion.DREAM",
+        "documentation": "https://confluence.slac.stanford.edu/spaces/L2SI/pages/341266541/DREAM+Motion+controls",
+        "functional_group": "Motion",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Mar 28 11:26:29 2025",
+        "lightpath": false,
+        "location_group": "TMO_IP2",
+        "name": "dream",
+        "output_branches": [
+            "L0"
+        ],
+        "prefix": "DREAM",
+        "stand": "K4S08",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 767.0
+    },
     "em1l0": {
         "_id": "em1l0",
         "active": true,
