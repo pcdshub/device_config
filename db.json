@@ -22418,6 +22418,47 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm2k4_com_mp2_mr4": {
+        "_id": "lm2k4_com_mp2_mr4",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Wed Apr  2 15:37:39 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM2K4:COM_MP2_MR4",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM2K4:MCS2:01",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip2-mods-01",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25",
+        "ioc_tilt_channel": "12",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "11",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Wed Apr  2 15:37:39 2025",
+        "lightpath": false,
+        "location_group": "2_lm2k4_com",
+        "name": "lm2k4_com_mp2_mr4",
+        "output_branches": null,
+        "prefix": "LM2K4:COM_MP2_MR4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
     "lm2k4_com_mp2_psm1": {
         "_id": "lm2k4_com_mp2_psm1",
         "active": true,
