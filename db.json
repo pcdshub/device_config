@@ -22391,7 +22391,7 @@
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:24:08 2024",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
-        "documentation": null,
+        "documentation": "{'PTYP':420}",
         "functional_group": "smaract",
         "input_branches": null,
         "ioc_alias": "LM2K4:COM_MP2_DLY1",
@@ -22408,7 +22408,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct  7 19:06:07 2024",
+        "last_edit": "Wed Apr  2 17:03:48 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_dly1",
@@ -22427,7 +22427,7 @@
         "beamline": "IP2_MODS",
         "creation": "Wed Apr  2 15:37:39 2025",
         "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
-        "documentation": null,
+        "documentation": "\"Use Open-loop ONLY\"",
         "functional_group": "smaract",
         "input_branches": null,
         "ioc_alias": "LM2K4:COM_MP2_MR4",
@@ -22449,7 +22449,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Apr  2 15:37:39 2025",
+        "last_edit": "Wed Apr  2 17:02:26 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_mr4",
