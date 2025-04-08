@@ -4388,20 +4388,21 @@
         "type": "pcdsdevices.happi.containers.Attenuator",
         "z": 982.0
     },
-    "dream": {
-        "_id": "dream",
-        "active": false,
+    "dream_coil": {
+        "_id": "dream_coil",
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "TMO",
-        "creation": "Fri Mar 28 11:11:52 2025",
-        "device_class": "pcdsdevices.dream_motion.DREAM",
-        "documentation": "https://confluence.slac.stanford.edu/spaces/L2SI/pages/341266541/DREAM+Motion+controls",
-        "functional_group": "Motion",
-        "input_branches": [
-            "L0"
-        ],
+        "creation": "Mon Apr  7 11:41:47 2025",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.dream_motion.DREAM_CoilMover",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "DREAM COIL Mover",
+        "input_branches": null,
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -4410,19 +4411,125 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "{{name}}"
+            "DREAM": "COIL"
         },
-        "last_edit": "Fri Mar 28 11:26:29 2025",
+        "last_edit": "Mon Apr  7 11:41:47 2025",
         "lightpath": false,
-        "location_group": "TMO_IP2",
-        "name": "dream",
-        "output_branches": [
-            "L0"
+        "location_group": "IP2",
+        "macros": null,
+        "name": "dream_coil",
+        "output_branches": null,
+        "parent": null,
+        "prefix": "DREAM:COIL",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 767.72783
+    },
+    "dream_gsjn": {
+        "_id": "dream_gsjn",
+        "active": true,
+        "args": [
+            "{{prefix}}"
         ],
-        "prefix": "DREAM",
-        "stand": "K4S08",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 767.0
+        "beamline": "TMO",
+        "creation": "Mon Apr  7 11:49:20 2025",
+        "detailed_screen": null,
+        "device_class": "[pcdsdevices.dream_motion.DREAM_GasNozzle",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "DREAM GasJet Nozzle",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "DREAM": "GSJN"
+        },
+        "last_edit": "Mon Apr  7 11:50:00 2025",
+        "lightpath": false,
+        "location_group": "IP2",
+        "macros": null,
+        "name": "dream_gsjn",
+        "output_branches": null,
+        "parent": null,
+        "prefix": "DREAM:GSJN",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 767.72783
+    },
+    "dream_gsjp": {
+        "_id": "dream_gsjp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Apr  7 11:52:32 2025",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.dream_motion.DREAM_GasJet",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "DREAM GasJet Pointing",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "DREAM": "GSJP"
+        },
+        "last_edit": "Mon Apr  7 11:53:12 2025",
+        "lightpath": false,
+        "location_group": "IP2",
+        "macros": null,
+        "name": "dream_gsjp",
+        "output_branches": null,
+        "parent": null,
+        "prefix": "DREAM:GSJP",
+        "stand": null,
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 767.72783
+    },
+    "dream_mc": {
+        "_id": "dream_mc",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Apr  7 11:58:55 2025",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.dream_motion.DREAM_MC_Y",
+        "documentation": null,
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "DREAM_MC_Y",
+        "kwargs": {
+            "DREAM": "MC"
+        },
+        "last_edit": "Mon Apr  7 11:58:55 2025",
+        "lightpath": false,
+        "location_group": "IP2",
+        "macros": null,
+        "name": "dream_mc",
+        "parent": null,
+        "prefix": "DREAM:MC",
+        "stand": null,
+        "system": "changeover",
+        "type": "pcdsdevices.happi.containers.MovableStand",
+        "z": 767.72783
     },
     "em1l0": {
         "_id": "em1l0",
