@@ -30759,6 +30759,78 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 769.52
     },
+    "svls_slit_left": {
+        "_id": "svls_slit_left",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr  9 15:16:44 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "Apertures",
+        "input_branches": null,
+        "ioc_alias": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_channel": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  9 15:28:11 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_slit_left",
+        "output_branches": null,
+        "prefix": "CRIX:SVLS:SLITS-X-L:motor",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "svls_slit_right": {
+        "_id": "svls_slit_right",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr  9 15:18:56 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "Apertures",
+        "input_branches": null,
+        "ioc_alias": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_channel": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  9 15:27:58 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_slit_right",
+        "output_branches": null,
+        "prefix": "CRIX:SVLS:SLITS-X-R:motor",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "timing_test_entry": {
         "_id": "timing_test_entry",
         "active": false,
