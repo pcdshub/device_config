@@ -22208,13 +22208,13 @@
     },
     "lm2k4_atm_mp1_img1_bs1": {
         "_id": "lm2k4_atm_mp1_img1_bs1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:40:10 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22237,7 +22237,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Mon Oct  7 19:05:30 2024",
+        "last_edit": "Fri Apr 11 11:34:40 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_img1_bs1",
@@ -22249,13 +22249,13 @@
     },
     "lm2k4_atm_mp1_mr1": {
         "_id": "lm2k4_atm_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:33:18 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22278,7 +22278,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Mon Oct  7 19:05:35 2024",
+        "last_edit": "Fri Apr 11 11:34:43 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_inj",
         "name": "lm2k4_atm_mp1_mr1",
@@ -22290,13 +22290,13 @@
     },
     "lm2k4_atm_mp1_mr2": {
         "_id": "lm2k4_atm_mp1_mr2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:35:12 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22319,7 +22319,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Mon Oct  7 19:05:39 2024",
+        "last_edit": "Fri Apr 11 11:34:46 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr2",
@@ -22331,13 +22331,13 @@
     },
     "lm2k4_atm_mp1_mr3": {
         "_id": "lm2k4_atm_mp1_mr3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "IP2_MODS",
         "creation": "Fri Aug  2 18:38:20 2024",
-        "device_class": "pcdsdevices.epics_motor.SmarActEnocodedTipTilt",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
         "documentation": null,
         "functional_group": "smaract",
         "input_branches": null,
@@ -22360,7 +22360,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Mon Oct  7 19:05:44 2024",
+        "last_edit": "Fri Apr 11 11:34:50 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr3",
@@ -23060,6 +23060,41 @@
         "prefix": "LM2K4:HRM_MP1_PC1_PZM2",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm2k4_inj_dp1_sp1": {
+        "_id": "lm2k4_inj_dp1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Fri Apr 11 11:22:27 2025",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": "NIR Qmini which is shared in IP1",
+        "functional_group": "spectrometers",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "None",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP2 MODS TILE",
+        "ioc_name": "ioc-lm2k4-inj-spec-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3",
+        "ioc_serial": "22761",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 11:24:16 2025",
+        "lightpath": false,
+        "location_group": "1_lm2k4_inj",
+        "name": "lm2k4_inj_dp1_sp1",
+        "output_branches": null,
+        "prefix": "LM2K4:INJ_DP1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
         "z": -1.0
     },
     "lm2k4_inj_dp1_tf1_ff1": {
@@ -30759,6 +30794,170 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 769.52
     },
+    "svls_det_y_angle": {
+        "_id": "svls_det_y_angle",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 14:26:20 2025",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 14:44:23 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_det_y_angle",
+        "output_branches": null,
+        "prefix": "CRIXS:SVLS:DET:MMS:Y_Angle",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "svls_det_y_h": {
+        "_id": "svls_det_y_h",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 14:35:01 2025",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 14:35:01 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_det_y_h",
+        "output_branches": null,
+        "prefix": "CRIXS:SVLS:DET:MMS:Y_H",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "svls_det_z": {
+        "_id": "svls_det_z",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 14:31:56 2025",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 14:46:19 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_det_z",
+        "output_branches": null,
+        "prefix": "CRIXS:SVLS:DET:MMS:Z",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "svls_grat_y": {
+        "_id": "svls_grat_y",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 14:36:55 2025",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 14:36:55 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_grat_y",
+        "output_branches": null,
+        "prefix": "CRIXS:SVLS:GRA:MMS:Y",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "svls_slit_bottom": {
+        "_id": "svls_slit_bottom",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 13:34:36 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "Apertures",
+        "input_branches": null,
+        "ioc_alias": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_channel": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 13:34:36 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_slit_bottom",
+        "output_branches": null,
+        "prefix": "CRIX:SVLS:SLITS-Y-B:motor",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "svls_slit_left": {
         "_id": "svls_slit_left",
         "active": true,
@@ -30827,6 +31026,42 @@
         "name": "svls_slit_right",
         "output_branches": null,
         "prefix": "CRIX:SVLS:SLITS-X-R:motor",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "svls_slit_top": {
+        "_id": "svls_slit_top",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Apr 11 13:32:52 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "Apertures",
+        "input_branches": null,
+        "ioc_alias": null,
+        "ioc_arch": null,
+        "ioc_base": null,
+        "ioc_channel": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_ip": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Apr 11 13:32:52 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_slit_top",
+        "output_branches": null,
+        "prefix": "CRIX:SVLS:SLITS-Y-T:motor",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
