@@ -30999,8 +30999,8 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "svls_slit_left": {
-        "_id": "svls_slit_left",
+    "svls_slit_h_ds": {
+        "_id": "svls_slit_h_ds",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -31025,18 +31025,18 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  9 15:28:11 2025",
+        "last_edit": "Wed Apr 16 14:53:32 2025",
         "lightpath": false,
         "location_group": "VLS",
-        "name": "svls_slit_left",
+        "name": "svls_slit_h_ds",
         "output_branches": null,
         "prefix": "CRIX:SVLS:SLITS-X-L:motor",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "svls_slit_right": {
-        "_id": "svls_slit_right",
+    "svls_slit_h_us": {
+        "_id": "svls_slit_h_us",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -31061,10 +31061,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  9 15:27:58 2025",
+        "last_edit": "Wed Apr 16 14:53:54 2025",
         "lightpath": false,
         "location_group": "VLS",
-        "name": "svls_slit_right",
+        "name": "svls_slit_h_us",
         "output_branches": null,
         "prefix": "CRIX:SVLS:SLITS-X-R:motor",
         "stand": null,
