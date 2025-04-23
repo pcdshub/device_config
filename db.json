@@ -22760,6 +22760,41 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm2k4_ejx_dp1_sp1": {
+        "_id": "lm2k4_ejx_dp1_sp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Tue Apr 22 11:49:21 2025",
+        "device_class": "pcdsdevices.device_types.QminiSpectrometer",
+        "documentation": "NIR Qmini for EJX",
+        "functional_group": "spectrometers",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_engineer": "aberges",
+        "ioc_evr_channel": "None",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP2 MODS TILE",
+        "ioc_name": "ioc-lm2k4-ejx-spec-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3",
+        "ioc_serial": "23561",
+        "ioc_type": "Qmini",
+        "ioc_use_evr": "no",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Apr 22 11:49:21 2025",
+        "lightpath": false,
+        "location_group": "5_lm2k4_ejx",
+        "name": "lm2k4_ejx_dp1_sp1",
+        "output_branches": null,
+        "prefix": "LM2K4:EJX_DP1_SP1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Qmini",
+        "z": -1.0
+    },
     "lm2k4_ejx_dp2_mr1_lm1": {
         "_id": "lm2k4_ejx_dp2_mr1_lm1",
         "active": true,
@@ -23122,13 +23157,13 @@
         "ioc_location": "IP2 MODS TILE",
         "ioc_name": "ioc-lm2k4-inj-spec-01",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3",
-        "ioc_serial": "22761",
+        "ioc_serial": "21291",
         "ioc_type": "Qmini",
         "ioc_use_evr": "no",
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 11 11:24:16 2025",
+        "last_edit": "Tue Apr 22 11:51:43 2025",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_dp1_sp1",
@@ -30999,8 +31034,8 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "svls_slit_h_ds": {
-        "_id": "svls_slit_h_ds",
+    "svls_slit_left": {
+        "_id": "svls_slit_left",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -31025,18 +31060,18 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr 16 14:53:32 2025",
+        "last_edit": "Tue Apr 22 09:39:00 2025",
         "lightpath": false,
         "location_group": "VLS",
-        "name": "svls_slit_h_ds",
+        "name": "svls_slit_left",
         "output_branches": null,
         "prefix": "CRIX:SVLS:SLITS-X-L:motor",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "svls_slit_h_us": {
-        "_id": "svls_slit_h_us",
+    "svls_slit_right": {
+        "_id": "svls_slit_right",
         "active": true,
         "args": [
             "{{prefix}}"
@@ -31061,10 +31096,10 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr 16 14:53:54 2025",
+        "last_edit": "Tue Apr 22 09:39:22 2025",
         "lightpath": false,
         "location_group": "VLS",
-        "name": "svls_slit_h_us",
+        "name": "svls_slit_right",
         "output_branches": null,
         "prefix": "CRIX:SVLS:SLITS-X-R:motor",
         "stand": null,
