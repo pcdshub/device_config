@@ -4531,6 +4531,25 @@
         "type": "pcdsdevices.happi.containers.MovableStand",
         "z": 767.72783
     },
+    "dream_nc_ptm_01": {
+        "_id": "dream_nc_ptm_01",
+        "active": true,
+        "args": [
+            [
+                "DREAM:NC:PTM:01"
+            ]
+        ],
+        "creation": "Wed Apr 23 13:42:10 2025",
+        "device_class": "pcdsdevices.pump.PTMPLC",
+        "documentation": "DREAM nozzol chamber turbo pump #1",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 23 13:42:10 2025",
+        "name": "dream_nc_ptm_01",
+        "prefix": "DREAM:NC:PTM:01",
+        "type": "OphydItem"
+    },
     "em1l0": {
         "_id": "em1l0",
         "active": true,
