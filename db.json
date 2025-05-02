@@ -549,6 +549,43 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 734.5
     },
+    "at3k2": {
+        "_id": "at3k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu May  1 09:16:42 2025",
+        "device_class": "pcdsdevices.attenuator.AttenuatorSXR_LadderTwoBladeLBD",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "input_branches": [
+            "K2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "calculator_prefix": "{{calculator_prefix}}",
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu May  1 14:03:28 2025",
+        "lightpath": true,
+        "location_group": "RIX K2S18",
+        "name": "at3k2",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "AT3K2:L2SI",
+        "stand": "K2S18",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 788.8
+    },
     "bt2l0_pleg_vgc01": {
         "_id": "bt2l0_pleg_vgc01",
         "active": true,
@@ -12285,9 +12322,9 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Tue Nov 19 14:36:10 2024",
+        "last_edit": "Thu May  1 14:36:32 2025",
         "lightpath": false,
-        "location_group": "5_lm1k4_ejx",
+        "location_group": "5_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_s41",
         "output_branches": null,
         "prefix": "LM1K2:EJX:ELL:1",
