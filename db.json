@@ -31486,6 +31486,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "svls_shutter": {
+        "_id": "svls_shutter",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed May  7 16:55:13 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": "SVLS Shutter",
+        "functional_group": "Apertures",
+        "input_branches": null,
+        "ioc_alias": null,
+        "ioc_arch": "rhel7-x86",
+        "ioc_base": "CRIX:SVLS:MCS2:02",
+        "ioc_channel": "1",
+        "ioc_engineer": "tparas",
+        "ioc_hutch": "RIX",
+        "ioc_ip": "mcp-rix-crix-03",
+        "ioc_location": null,
+        "ioc_name": "ioc-rix-crix-mcs2-03",
+        "ioc_release": "ioc/common/smaract/R1.0.27",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed May  7 16:55:13 2025",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "svls_shutter",
+        "output_branches": null,
+        "prefix": "CRIX:MCS2:02:SVLS_SHUTTER",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "svls_slit_bottom": {
         "_id": "svls_slit_bottom",
         "active": true,
