@@ -23214,7 +23214,7 @@
     },
     "lm2k4_ejx_dp1_dly1": {
         "_id": "lm2k4_ejx_dp1_dly1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -23238,7 +23238,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct  8 18:23:02 2024",
+        "last_edit": "Fri May  9 16:48:19 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_dp1_dly1",
@@ -23550,6 +23550,42 @@
         "name": "lm2k4_ejx_mp1_mr99_lm1",
         "output_branches": null,
         "prefix": "LM2K4:EJX_MP1_MR99_LM1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
+    "lm2k4_hrm_mp0_dly1": {
+        "_id": "lm2k4_hrm_mp0_dly1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Fri May  9 16:49:58 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM2K4:HRM_MP0_DLY1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K4:MCS2:01",
+        "ioc_channel": "18",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip2-mods-01",
+        "ioc_location": "IP2 MODS Table",
+        "ioc_name": "ioc-lm2k4-mcs2-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri May  9 16:49:58 2025",
+        "lightpath": false,
+        "location_group": "3_lm2k4_hrm",
+        "name": "lm2k4_hrm_mp0_dly1",
+        "output_branches": null,
+        "prefix": "LM2K4:HRM_MP0_DLY1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
