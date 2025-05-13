@@ -574,8 +574,8 @@
             "calculator_prefix": "{{calculator_prefix}}",
             "name": "{{name}}"
         },
-        "last_edit": "Thu May  1 14:03:28 2025",
-        "lightpath": true,
+        "last_edit": "Mon May 12 15:35:34 2025",
+        "lightpath": false,
         "location_group": "RIX K2S18",
         "name": "at3k2",
         "output_branches": [
@@ -30979,8 +30979,8 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Feb  7 15:16:24 2025",
-        "lightpath": true,
+        "last_edit": "Mon May 12 13:45:15 2025",
+        "lightpath": false,
         "location_group": "Front End Enclosure",
         "name": "sp1l0",
         "output_branches": [
