@@ -557,8 +557,8 @@
         ],
         "beamline": "RIX",
         "creation": "Thu May  1 09:16:42 2025",
-        "device_class": "pcdsdevices.attenuator.AttenuatorSXR_LadderTwoBladeLBD",
-        "documentation": null,
+        "device_class": "pcdsdevice.attenuator.AT3K2",
+        "documentation": "https://confluence.slac.stanford.edu/pages/viewpage.action?pageId=587600705&spaceKey=L2SI&title=TXAS%2BSolid%2BAttenuator",
         "functional_group": "Attenuator",
         "input_branches": [
             "K2"
@@ -574,7 +574,7 @@
             "calculator_prefix": "{{calculator_prefix}}",
             "name": "{{name}}"
         },
-        "last_edit": "Mon May 12 15:35:34 2025",
+        "last_edit": "Tue May 13 09:10:40 2025",
         "lightpath": false,
         "location_group": "RIX K2S18",
         "name": "at3k2",
