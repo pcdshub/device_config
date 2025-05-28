@@ -1,22 +1,4 @@
 {
-    "TMO_RSPowersupply": {
-        "_id": "TMO_RSPowersupply",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TMO",
-        "creation": "Mon Jun 13 15:55:21 2022",
-        "device_class": "pcdsdevices.rs_powersupply.RohdeSchwarzPowerSupply",
-        "documentation": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Feb 22 15:42:20 2023",
-        "name": "TMO_RSPowersupply",
-        "prefix": "TMO:IP1:HMP:01",
-        "type": "OphydItem"
-    },
     "al1k2": {
         "_id": "al1k2",
         "active": true,
@@ -4482,9 +4464,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun May 11 15:01:57 2025",
+        "last_edit": "Tue May 27 14:17:10 2025",
         "lightpath": false,
-        "location_group": "7 TMO GS3",
+        "location_group": "6 TMO IP2",
         "macros": null,
         "name": "dream_coil",
         "output_branches": null,
@@ -4521,9 +4503,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 28 16:14:57 2025",
+        "last_edit": "Tue May 27 12:33:15 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_dgpd_ret",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m3",
@@ -4557,9 +4539,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 28 16:11:03 2025",
+        "last_edit": "Tue May 27 12:33:21 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_dgpd_x",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m2",
@@ -4593,9 +4575,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 28 16:17:43 2025",
+        "last_edit": "Tue May 27 12:33:39 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_dgpd_y",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m1",
@@ -4629,9 +4611,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Apr 28 16:17:16 2025",
+        "last_edit": "Tue May 27 12:33:48 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_dgpd_z",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m4",
@@ -4664,9 +4646,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun May 11 14:44:02 2025",
+        "last_edit": "Tue May 27 14:17:15 2025",
         "lightpath": false,
-        "location_group": "7 TMO GS3",
+        "location_group": "6 TMO IP2",
         "macros": null,
         "name": "dream_gsjn",
         "output_branches": null,
@@ -4702,9 +4684,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun May 11 15:02:17 2025",
+        "last_edit": "Tue May 27 14:17:20 2025",
         "lightpath": false,
-        "location_group": "7 TMO GS3",
+        "location_group": "6 TMO IP2",
         "macros": null,
         "name": "dream_gsjp",
         "output_branches": null,
@@ -4741,9 +4723,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:12:25 2025",
+        "last_edit": "Tue May 27 12:33:55 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_gsjs_east",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m6",
@@ -4777,9 +4759,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:10:48 2025",
+        "last_edit": "Tue May 27 12:34:08 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_gsjs_north",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m5",
@@ -4813,9 +4795,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:11:53 2025",
+        "last_edit": "Tue May 27 12:34:23 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_gsjs_south",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m10",
@@ -4849,9 +4831,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:12:41 2025",
+        "last_edit": "Tue May 27 12:34:34 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "dream_gsjs_west",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m11",
@@ -4876,9 +4858,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun May 11 15:06:29 2025",
+        "last_edit": "Tue May 27 14:17:28 2025",
         "lightpath": false,
-        "location_group": "7 TMO GS3",
+        "location_group": "6 TMO IP2",
         "macros": null,
         "name": "dream_mc",
         "parent": null,
@@ -30639,9 +30621,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 14:50:09 2025",
+        "last_edit": "Tue May 27 12:58:08 2025",
         "lightpath": false,
-        "location_group": "7 TMO GS3",
+        "location_group": "5 TMO GS2",
         "name": "sl2k4",
         "output_branches": [
             "K4"
@@ -30661,7 +30643,7 @@
         "creation": "Mon Apr 28 16:25:14 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": "slit y2",
-        "functional_group": "Motion",
+        "functional_group": "SLITS",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -30677,9 +30659,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:17:16 2025",
+        "last_edit": "Tue May 27 12:52:47 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "sl3k4_bottom",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m12",
@@ -30697,7 +30679,7 @@
         "creation": "Mon Apr 28 16:23:18 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": "slit x2",
-        "functional_group": "Motion",
+        "functional_group": "SLITS",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -30713,9 +30695,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:16:49 2025",
+        "last_edit": "Tue May 27 12:52:55 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "sl3k4_north",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m9",
@@ -30733,7 +30715,7 @@
         "creation": "Mon Apr 28 16:22:29 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": "slit x1",
-        "functional_group": "Motion",
+        "functional_group": "SLITS",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -30749,9 +30731,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:16:31 2025",
+        "last_edit": "Tue May 27 12:53:04 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "sl3k4_south",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m8",
@@ -30769,7 +30751,7 @@
         "creation": "Mon Apr 28 16:21:39 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": "sslit y1",
-        "functional_group": "Motion",
+        "functional_group": "SLITS",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -30785,9 +30767,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 20 16:17:06 2025",
+        "last_edit": "Tue May 27 12:53:15 2025",
         "lightpath": false,
-        "location_group": "8 TMO K4S8",
+        "location_group": "6 TMO IP2",
         "name": "sl3k4_top",
         "output_branches": null,
         "prefix": "TMO:DREAM:MCS2:01:m7",
@@ -31378,9 +31360,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Oct 25 11:54:34 2024",
+        "last_edit": "Tue May 27 12:47:47 2025",
         "lightpath": true,
-        "location_group": "6 TMO K4S6",
+        "location_group": "5 TMO GS2",
         "name": "st4k4",
         "output_branches": [
             "K4"
@@ -31414,9 +31396,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Tue May 27 13:02:22 2025",
         "lightpath": true,
-        "location_group": "8 TMO K4S8",
+        "location_group": "7 TMO GS3",
         "name": "st5k4",
         "output_branches": [
             "K4"
@@ -32195,6 +32177,38 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.890169
+    },
+    "tmo_rspowersupply": {
+        "_id": "tmo_rspowersupply",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Tue May 27 15:31:14 2025",
+        "device_class": "pcdsdevices.rs_powersupply.RohdeSchwarzPowerSupply",
+        "documentation": null,
+        "functional_group": "PS",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue May 27 15:31:14 2025",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
+        "name": "tmo_rspowersupply",
+        "output_branches": null,
+        "prefix": "TMO:IP1:HMP:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     },
     "tmp_spd_01": {
         "_id": "tmp_spd_01",
