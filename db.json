@@ -9354,9 +9354,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Wed May 28 12:29:33 2025",
         "lightpath": true,
-        "location_group": "5 TMO GS2",
+        "location_group": "3 TMO IP1",
         "name": "li3k4_ip1_vwc_01",
         "output_branches": [
             "K4"
@@ -28544,9 +28544,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Wed May 28 11:59:53 2025",
         "lightpath": true,
-        "location_group": "7 TMO GS3",
+        "location_group": "5 TMO GS2",
         "name": "mr4k4_kbo_vfs_01",
         "output_branches": [
             "K4"
@@ -28580,9 +28580,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Wed May 28 12:00:08 2025",
         "lightpath": true,
-        "location_group": "7 TMO GS3",
+        "location_group": "5 TMO GS2",
         "name": "mr4k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -28663,9 +28663,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Wed May 28 12:00:24 2025",
         "lightpath": true,
-        "location_group": "7 TMO GS3",
+        "location_group": "5 TMO GS2",
         "name": "mr5k4_kbo_vwc_01",
         "output_branches": [
             "K4"
@@ -31918,9 +31918,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
+        "last_edit": "Wed May 28 12:00:46 2025",
         "lightpath": true,
-        "location_group": "7 TMO GS3",
+        "location_group": "5 TMO GS2",
         "name": "tm2k4_kbo_vwc_01",
         "output_branches": [
             "K4"
