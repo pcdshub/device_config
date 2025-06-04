@@ -556,8 +556,8 @@
             "calculator_prefix": "{{calculator_prefix}}",
             "name": "{{name}}"
         },
-        "last_edit": "Fri May 30 10:53:19 2025",
-        "lightpath": false,
+        "last_edit": "Tue Jun  3 10:18:28 2025",
+        "lightpath": true,
         "location_group": "RIX K2S18",
         "name": "at3k2",
         "output_branches": [
