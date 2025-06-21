@@ -31637,6 +31637,24 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "test_pdu_mkr2": {
+        "_id": "test_pdu_mkr2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Fri Jun 20 14:08:08 2025",
+        "device_class": "pcdsdevices.pdu.PDU",
+        "documentation": null,
+        "kwargs": {
+            "num_channels": 8,
+            "pdu_type": "tripplite"
+        },
+        "last_edit": "Fri Jun 20 14:20:10 2025",
+        "name": "test_pdu_mkr2",
+        "prefix": "TST:PWR:MKR",
+        "type": "OphydItem"
+    },
     "timing_test_entry": {
         "_id": "timing_test_entry",
         "active": false,
