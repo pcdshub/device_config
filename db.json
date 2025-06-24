@@ -31643,17 +31643,32 @@
         "args": [
             "{{prefix}}"
         ],
-        "creation": "Fri Jun 20 14:08:08 2025",
+        "beamline": "TST",
+        "creation": "Mon Jun 23 15:42:43 2025",
         "device_class": "pcdsdevices.pdu.PDU",
         "documentation": null,
+        "functional_group": "NA",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
         "kwargs": {
             "num_channels": 8,
             "pdu_type": "tripplite"
         },
-        "last_edit": "Fri Jun 20 14:20:10 2025",
+        "last_edit": "Mon Jun 23 15:42:43 2025",
+        "lightpath": false,
+        "location_group": "NA",
         "name": "test_pdu_mkr2",
+        "output_branches": null,
         "prefix": "TST:PWR:MKR",
-        "type": "OphydItem"
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.PDU",
+        "z": -1.0
     },
     "timing_test_entry": {
         "_id": "timing_test_entry",
