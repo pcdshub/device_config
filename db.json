@@ -30085,6 +30085,39 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
+    "rix_pdu_r2": {
+        "_id": "rix_pdu_r2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TST",
+        "creation": "Wed Jun 25 14:04:07 2025",
+        "device_class": "pcdsdevices.pdu.PDU",
+        "documentation": null,
+        "functional_group": "NA",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "num_channels": 24,
+            "pdu_type": "Sentry4"
+        },
+        "last_edit": "Wed Jun 25 14:04:07 2025",
+        "lightpath": false,
+        "location_group": "NA",
+        "name": "rix_pdu_r2",
+        "output_branches": null,
+        "prefix": "RIX:PWR:R02:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.PDU",
+        "z": -1.0
+    },
     "rtdsk0": {
         "_id": "rtdsk0",
         "active": true,
