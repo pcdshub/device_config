@@ -30702,13 +30702,13 @@
             "{{prefix}}"
         ],
         "beamline": "TMO",
-        "creation": "Tue Jun 17 14:21:05 2025",
-        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "cam": "IM6K4:PPM:CAM",
+        "creation": "Thu Jun 26 10:56:36 2025",
+        "data_source": "IMAGE2",
+        "device_class": "pcdsdevices.slits.SL2K4Slits",
         "documentation": null,
         "functional_group": "SLITS",
-        "input_branches": [
-            "K4"
-        ],
+        "input_branches": null,
         "ioc_arch": null,
         "ioc_engineer": null,
         "ioc_hutch": null,
@@ -30717,15 +30717,15 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
+            "cam": "{{cam}}",
+            "data_source": "{{data_source}}",
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jun 17 14:21:05 2025",
-        "lightpath": true,
+        "last_edit": "Thu Jun 26 11:46:35 2025",
+        "lightpath": false,
         "location_group": "5 TMO GS2",
         "name": "sl2k4",
-        "output_branches": [
-            "K4"
-        ],
+        "output_branches": null,
         "prefix": "SL2K4:SCATTER",
         "stand": "GS2",
         "type": "pcdsdevices.happi.containers.LCLSItem",
