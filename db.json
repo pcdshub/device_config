@@ -12150,6 +12150,45 @@
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
     },
+    "lm1k2_ejx_mp1_wp1": {
+        "_id": "lm1k2_ejx_mp1_wp1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Fri Jun 27 12:17:56 2025",
+        "device_class": "pcdsdevices.device_types.EllRotation",
+        "documentation": null,
+        "functional_group": "elliptecs",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:EJX_MP1_WP1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:EJX:ELL:1",
+        "ioc_channel": "2",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_location": "QRIXS EJX TILE",
+        "ioc_model": "ELL14",
+        "ioc_name": "ioc-lm1k2-ejx-ell-01",
+        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_serial": "DT03B8QE",
+        "ioc_type": "Elliptec",
+        "kwargs": {
+            "channel": "{{ioc_channel}}",
+            "name": "{{name}}",
+            "port": "0"
+        },
+        "last_edit": "Fri Jun 27 12:38:37 2025",
+        "lightpath": false,
+        "location_group": "5_lm1k2_ejx",
+        "name": "lm1k2_ejx_mp1_wp1",
+        "output_branches": null,
+        "prefix": "LM1K2:EJX:ELL:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
     "lm1k2_ejx_mp2_att1_pol2": {
         "_id": "lm1k2_ejx_mp2_att1_pol2",
         "active": false,
@@ -22672,7 +22711,7 @@
     },
     "lm2k4_atm_mp1_img1_bs1": {
         "_id": "lm2k4_atm_mp1_img1_bs1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22691,9 +22730,9 @@
         "ioc_location": "IP2 MODS TABLE",
         "ioc_name": "ioc-lm2k4-mcs2-02",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
-        "ioc_tilt_channel": "8",
+        "ioc_tilt_channel": "5",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "7",
+        "ioc_tip_channel": "4",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -22701,7 +22740,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Apr 11 11:34:40 2025",
+        "last_edit": "Thu Jun 26 19:19:16 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_img1_bs1",
@@ -22713,7 +22752,7 @@
     },
     "lm2k4_atm_mp1_mr1": {
         "_id": "lm2k4_atm_mp1_mr1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22742,9 +22781,9 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Apr 11 11:34:43 2025",
+        "last_edit": "Thu Jun 26 19:18:22 2025",
         "lightpath": false,
-        "location_group": "4_lm2k4_inj",
+        "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr1",
         "output_branches": null,
         "prefix": "LM2K4:ATM_MP1_MR1",
@@ -22783,7 +22822,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Apr 11 11:34:46 2025",
+        "last_edit": "Thu Jun 26 19:16:38 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr2",
@@ -22795,7 +22834,7 @@
     },
     "lm2k4_atm_mp1_mr3": {
         "_id": "lm2k4_atm_mp1_mr3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22816,7 +22855,7 @@
         "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24",
         "ioc_tilt_channel": "6",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "4",
+        "ioc_tip_channel": "3",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -22824,7 +22863,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Apr 11 11:34:50 2025",
+        "last_edit": "Thu Jun 26 19:17:17 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_mr3",
