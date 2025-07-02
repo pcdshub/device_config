@@ -22951,6 +22951,42 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm2k4_com_env_sens": {
+        "_id": "lm2k4_com_env_sens",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Mon Jun 30 18:56:49 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": "COM tile ENV sensor",
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K4:MODS_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip2-mods-01",
+        "ioc_location": "IP2_MODS",
+        "ioc_name": "ioc-lm2k4-mods-ek9000-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun 30 18:56:49 2025",
+        "lightpath": false,
+        "location_group": "2_lm2k4_com",
+        "name": "lm2k4_com_env_sens",
+        "output_branches": null,
+        "prefix": "LM2K4:COM_BHC_AI_01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
     "lm2k4_com_mp1_psm1": {
         "_id": "lm2k4_com_mp1_psm1",
         "active": true,
@@ -23589,14 +23625,14 @@
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm2k4-ejx-ell-01",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
-        "ioc_serial": "TODO",
+        "ioc_serial": "DT0427L6",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Jun 27 19:45:58 2025",
+        "last_edit": "Mon Jun 30 19:00:59 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s41_ic",
@@ -23628,14 +23664,14 @@
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm2k4-ejx-ell-01",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
-        "ioc_serial": "TODO",
+        "ioc_serial": "DT0427L6",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Jun 27 19:45:47 2025",
+        "last_edit": "Mon Jun 30 19:01:07 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s42_oc",
@@ -23643,6 +23679,42 @@
         "prefix": "LM2K4:EJX:ELL:1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm2k4_hrm_env_sens": {
+        "_id": "lm2k4_hrm_env_sens",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Mon Jun 30 18:59:02 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": "HRM tile ENV sensor",
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K4:MODS_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip2-mods-01",
+        "ioc_location": "IP2_MODS",
+        "ioc_name": "ioc-lm2k4-mods-ek9000-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun 30 18:59:02 2025",
+        "lightpath": false,
+        "location_group": "3_lm2k4_hrm",
+        "name": "lm2k4_hrm_env_sens",
+        "output_branches": null,
+        "prefix": "LM2K4:HRM_BHC_AI_01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm2k4_hrm_mp0_dly1": {
@@ -23864,6 +23936,42 @@
         "prefix": "LM2K4:INJ_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm2k4_inj_env_sens": {
+        "_id": "lm2k4_inj_env_sens",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP2_MODS",
+        "creation": "Mon Jun 30 18:54:42 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": "INJ tile ENV sensor",
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM2K4:MODS_BHC",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ip2-mods-01",
+        "ioc_location": "IP2_MODS",
+        "ioc_name": "ioc-lm2k4-mods-ek9000-01",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3",
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun 30 18:55:05 2025",
+        "lightpath": false,
+        "location_group": "1_lm2k4_inj",
+        "name": "lm2k4_inj_env_sens",
+        "output_branches": null,
+        "prefix": "LM2K4:INJ_BHC_AI_01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "lm2k4_inj_mp1_att1_wp1": {
