@@ -22875,7 +22875,7 @@
     },
     "lm2k4_atm_mp1_wp1": {
         "_id": "lm2k4_atm_mp1_wp1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22902,7 +22902,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Fri Jun 27 19:43:34 2025",
+        "last_edit": "Wed Jul  2 20:02:47 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_wp1",
@@ -22953,7 +22953,7 @@
     },
     "lm2k4_com_env_sens": {
         "_id": "lm2k4_com_env_sens",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -22977,7 +22977,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 30 18:56:49 2025",
+        "last_edit": "Wed Jul  2 20:01:02 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_env_sens",
@@ -23605,7 +23605,7 @@
     },
     "lm2k4_ejx_mp1_s41_ic": {
         "_id": "lm2k4_ejx_mp1_s41_ic",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -23632,7 +23632,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Jun 30 19:00:59 2025",
+        "last_edit": "Wed Jul  2 20:02:02 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s41_ic",
@@ -23644,7 +23644,7 @@
     },
     "lm2k4_ejx_mp1_s42_oc": {
         "_id": "lm2k4_ejx_mp1_s42_oc",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -23671,7 +23671,7 @@
             "name": "{{name}}",
             "port": "0"
         },
-        "last_edit": "Mon Jun 30 19:01:07 2025",
+        "last_edit": "Wed Jul  2 20:01:58 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s42_oc",
@@ -23683,7 +23683,7 @@
     },
     "lm2k4_hrm_env_sens": {
         "_id": "lm2k4_hrm_env_sens",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -23707,7 +23707,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 30 18:59:02 2025",
+        "last_edit": "Wed Jul  2 20:01:05 2025",
         "lightpath": false,
         "location_group": "3_lm2k4_hrm",
         "name": "lm2k4_hrm_env_sens",
@@ -23940,7 +23940,7 @@
     },
     "lm2k4_inj_env_sens": {
         "_id": "lm2k4_inj_env_sens",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -23964,7 +23964,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 30 18:55:05 2025",
+        "last_edit": "Wed Jul  2 20:01:09 2025",
         "lightpath": false,
         "location_group": "1_lm2k4_inj",
         "name": "lm2k4_inj_env_sens",
