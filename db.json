@@ -363,7 +363,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "LFE",
+        "beamline": "FEE",
         "creation": "Mon Jul 18 16:05:20 2022",
         "device_class": "pcdsdevices.attenuator.FeeAtt",
         "documentation": null,
@@ -381,7 +381,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:21 2023",
+        "last_edit": "Thu Jul  3 17:52:06 2025",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "at1l0",
