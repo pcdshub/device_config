@@ -10032,15 +10032,15 @@
         "ioc_location": "qRIX MODS Compression TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm1k2-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DM014VTI",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Jul 30 17:52:04 2024",
+        "last_edit": "Wed Jul  9 17:45:34 2025",
         "lightpath": false,
         "location_group": "3_lm1k2_atm",
         "name": "lm1k2_atm_mp1_wp1",
@@ -10911,15 +10911,15 @@
         "ioc_location": "qRIX MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k2-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8BM",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Jul 29 15:28:58 2024",
+        "last_edit": "Wed Jul  9 17:45:34 2025",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_mp1_psm1",
@@ -10950,15 +10950,15 @@
         "ioc_location": "qRIX MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k2-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8BM",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Jul 29 15:28:48 2024",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_mp1_psm2",
@@ -11148,15 +11148,15 @@
         "ioc_location": "qRIX MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k2-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8BM",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Jul 29 15:29:09 2024",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_mp2_psm1",
@@ -11187,15 +11187,15 @@
         "ioc_location": "qRIX MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k2-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8BM",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Jul 29 15:29:26 2024",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "2_lm1k2_com",
         "name": "lm1k2_com_mp2_psm2",
@@ -12093,15 +12093,15 @@
         "ioc_location": "QRIXS EJX TILE",
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm1k2-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8QE",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu May  1 14:36:32 2025",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_s41",
@@ -12171,15 +12171,15 @@
         "ioc_location": "QRIXS EJX TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm1k2-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B8QE",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jun 27 12:38:37 2025",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k2_ejx",
         "name": "lm1k2_ejx_mp1_wp1",
@@ -13552,15 +13552,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BWP7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Sat Aug  5 18:56:13 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k4_atm",
         "name": "lm1k4_atm_dp1_tf1_sl1",
@@ -13706,15 +13706,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BWP7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Sat Aug  5 18:58:13 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k4_atm",
         "name": "lm1k4_atm_dp2_tf1_sl1",
@@ -13937,15 +13937,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k4-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BWP7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Oct 12 18:42:53 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k4_atm",
         "name": "lm1k4_atm_mp1_wp2_lm1",
@@ -13976,15 +13976,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm1k4-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BWP7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Oct 12 18:42:09 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "5_lm1k4_atm",
         "name": "lm1k4_atm_mp1_wp2_rm1",
@@ -14168,15 +14168,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DK0BKCH7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:13:27 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_dp1_tf1_sl1",
@@ -14322,15 +14322,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DK0BKCH7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:13:42 2023",
+        "last_edit": "Wed Jul  9 17:45:35 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_dp2_tf1_sl1",
@@ -14396,15 +14396,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm1k4-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT042T5V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:14:18 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_dp2_xtl1",
@@ -14550,15 +14550,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-com-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DK0BKCH7",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:13:50 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_dp3_tf1_sl1",
@@ -14854,15 +14854,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL17",
         "ioc_name": "ioc-lm1k4-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT042T5V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:14:40 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_mp1_pzm1",
@@ -14893,15 +14893,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL17",
         "ioc_name": "ioc-lm1k4-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT042T5V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Fri Jul 14 19:14:32 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "2_lm1k4_com",
         "name": "lm1k4_com_mp1_pzm2",
@@ -15245,15 +15245,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-ejx-ell-03",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BF28",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Aug 16 15:44:25 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp12_tf1_sl1",
@@ -15766,15 +15766,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-ejx-ell-04",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIIZ",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Aug 16 15:41:46 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_dp6_tf1_sl1",
@@ -16110,15 +16110,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm1k4-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BFPF",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Aug 17 20:16:39 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_s41",
@@ -16149,15 +16149,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm1k4-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BFPF",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Aug 17 20:16:46 2023",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_s42",
@@ -16188,15 +16188,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm1k4-ejx-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B430",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Oct 29 15:59:19 2024",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_wp1",
@@ -16227,15 +16227,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm1k4-ejx-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B430",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Oct 29 15:59:06 2024",
+        "last_edit": "Wed Jul  9 17:45:36 2025",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_wp2",
@@ -16819,15 +16819,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-hrm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DP03UHC8",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Sat Aug  5 19:29:45 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_sl1",
@@ -16973,15 +16973,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-hrm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DP03UHC8",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Sat Aug  5 19:29:45 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "3_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_sl1",
@@ -17657,15 +17657,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-inj-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DK0BBP1U",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Apr 14 14:05:23 2025",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp1_tf1_sl1",
@@ -17769,15 +17769,15 @@
         "ioc_location": "IP1 MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm1k4-inj-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DK0BBP1U",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Apr 14 13:47:25 2025",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "1_lm1k4_inj",
         "name": "lm1k4_inj_dp2_tf1_sl1",
@@ -18817,15 +18817,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm2k2-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B1JU",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Dec  4 15:52:01 2024",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_sl1",
@@ -18895,15 +18895,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k2-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Sep 11 12:35:07 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp1_wp1_rm1",
@@ -18934,15 +18934,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k2-atm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Sep 11 12:25:05 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_mp2_pol2",
@@ -19315,15 +19315,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm2k2-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B1JU",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Mar 19 16:32:36 2024",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_dp2_xtl1",
@@ -19701,15 +19701,15 @@
         "ioc_location": "ChemRIXS MODS ",
         "ioc_model": "ELL17",
         "ioc_name": "ioc-lm2k2-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT042T5V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Sep 14 16:15:41 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_mp1_pzm1",
@@ -19740,15 +19740,15 @@
         "ioc_location": "ChemRIXS MODS ",
         "ioc_model": "ELL17",
         "ioc_name": "ioc-lm2k2-com-ell-02",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT042T5V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Sep 14 16:15:02 2023",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "2_lm2k2_com",
         "name": "lm2k2_com_mp1_pzm2",
@@ -20915,7 +20915,7 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm2k2-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
@@ -20923,7 +20923,7 @@
             "name": "{{name}}",
             "port": "15"
         },
-        "last_edit": "Wed Jul  9 15:10:35 2025",
+        "last_edit": "Wed Jul  9 17:45:37 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_sl1",
@@ -20954,15 +20954,15 @@
         "ioc_location": "cRIXS MODS",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k2-ejx-ell-02",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Apr  8 11:06:01 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_wp1",
@@ -20993,15 +20993,15 @@
         "ioc_location": "cRIXS MODS",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k2-ejx-ell-02",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Tue Apr  8 14:53:26 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_wp2",
@@ -21068,15 +21068,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k2-ejx-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BIFA",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Thu Mar 20 17:49:09 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp3_wp1",
@@ -21222,15 +21222,15 @@
         "ioc_location": "CRIX MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm2k2-hrm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BK06",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Apr 14 17:59:37 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp1_tf1_sl1",
@@ -21376,15 +21376,15 @@
         "ioc_location": "CRIX MODS TILE",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm2k2-hrm-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03BK06",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Apr 14 17:59:40 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_sl1",
@@ -22132,15 +22132,15 @@
         "ioc_location": "ChemRIXS MODS",
         "ioc_model": "ELL6",
         "ioc_name": "ioc-lm2k2-inj-ell-01",
-        "ioc_release": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DO01211V",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Apr 14 17:59:43 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "1_lm2k2_inj",
         "name": "lm2k2_inj_dp1_tf1_sl1",
@@ -22894,15 +22894,15 @@
         "ioc_location": "IP2 MODS ATM TILE",
         "ioc_model": "ELL14",
         "ioc_name": "ioc-lm2k4-atm-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT03B9Z5",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Jul  2 20:02:47 2025",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "4_lm2k4_atm",
         "name": "lm2k4_atm_mp1_wp1",
@@ -23008,15 +23008,15 @@
         "ioc_location": "IP2 MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm2k4-com-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "TODO",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Oct  7 19:05:53 2024",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp1_psm1",
@@ -23047,15 +23047,15 @@
         "ioc_location": "IP2 MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm2k4-com-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "TODO",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Oct  7 19:05:58 2024",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp1_psm2",
@@ -23204,15 +23204,15 @@
         "ioc_location": "IP2 MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm2k4-com-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "TODO",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Oct  7 19:06:11 2024",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_psm1",
@@ -23243,15 +23243,15 @@
         "ioc_location": "IP2 MODS Compression TILE",
         "ioc_model": "ELL20",
         "ioc_name": "ioc-lm2k4-com-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "TODO",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Mon Oct  7 19:06:16 2024",
+        "last_edit": "Wed Jul  9 17:45:38 2025",
         "lightpath": false,
         "location_group": "2_lm2k4_com",
         "name": "lm2k4_com_mp2_psm2",
@@ -23624,15 +23624,15 @@
         "ioc_location": "IP2 MODS EJX TILE",
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm2k4-ejx-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT0427L6",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Jul  2 20:02:02 2025",
+        "last_edit": "Wed Jul  9 17:45:39 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s41_ic",
@@ -23663,15 +23663,15 @@
         "ioc_location": "IP2 MODS EJX TILE",
         "ioc_model": "ELL9",
         "ioc_name": "ioc-lm2k4-ejx-ell-01",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
         "ioc_serial": "DT0427L6",
         "ioc_type": "Elliptec",
         "kwargs": {
             "channel": "{{ioc_channel}}",
             "name": "{{name}}",
-            "port": "0"
+            "port": "15"
         },
-        "last_edit": "Wed Jul  2 20:01:58 2025",
+        "last_edit": "Wed Jul  9 17:45:39 2025",
         "lightpath": false,
         "location_group": "5_lm2k4_ejx",
         "name": "lm2k4_ejx_mp1_s42_oc",
