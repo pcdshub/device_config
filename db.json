@@ -7793,6 +7793,42 @@
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
+    "las_lhn_bay2_env_sens_1_timing": {
+        "_id": "las_lhn_bay2_env_sens_1_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Wed Jul 23 16:43:02 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LHN:ADC:02",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-timing-02",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-lhn-bhc-02",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 23 16:47:02 2025",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_env_sens_1_timing",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:02:BHC:AI2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
     "las_lhn_bay2_env_sens_2": {
         "_id": "las_lhn_bay2_env_sens_2",
         "active": true,
@@ -7823,6 +7859,42 @@
         "name": "las_lhn_bay2_env_sens_2",
         "output_branches": null,
         "prefix": "LAS:LHN:ADC:02:BHC:AI3",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
+    "las_lhn_bay2_env_sens_2_timing": {
+        "_id": "las_lhn_bay2_env_sens_2_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Wed Jul 23 16:54:37 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LHN:ADC:02",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-timing-02",
+        "ioc_location": "ctl-las-lhn-01",
+        "ioc_name": "ioc-las-lhn-bhc-02",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Jul 23 16:54:37 2025",
+        "lightpath": false,
+        "location_group": "Bay 2",
+        "name": "las_lhn_bay2_env_sens_2_timing",
+        "output_branches": null,
+        "prefix": "LAS:LHN:ADC:02:BHC:AI4",
         "stand": null,
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
