@@ -32070,38 +32070,6 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
-    "test_pdu": {
-        "_id": "test_pdu",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "na",
-        "creation": "Wed Aug  6 16:53:12 2025",
-        "device_class": "pcdsdevices.pdu.TripplitePDU8",
-        "documentation": null,
-        "functional_group": "na",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "test_pdu"
-        },
-        "last_edit": "Wed Aug  6 16:53:12 2025",
-        "lightpath": false,
-        "location_group": "na",
-        "name": "test_pdu",
-        "output_branches": null,
-        "prefix": "TST:PWR:HE",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
     "test_pdu_mkr2": {
         "_id": "test_pdu_mkr2",
         "active": true,
