@@ -31131,6 +31131,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "sl3l0": {
+        "_id": "sl3l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Tue Aug 12 12:27:58 2025",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "Slits",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Aug 12 12:27:58 2025",
+        "lightpath": true,
+        "location_group": "Front End Enclosure",
+        "name": "sl3l0",
+        "output_branches": [
+            "L0"
+        ],
+        "prefix": "SL3L0:SCATTER",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 774.634
+    },
     "sl3l1": {
         "_id": "sl3l1",
         "active": true,
