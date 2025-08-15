@@ -107,6 +107,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 754.87351
     },
+    "al1l0": {
+        "_id": "al1l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Aug 14 10:26:53 2025",
+        "device_class": "pcdsdevices.device_types.ReflaserL2SI",
+        "documentation": null,
+        "functional_group": "REF",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Aug 14 10:26:53 2025",
+        "lightpath": true,
+        "location_group": "H1.2",
+        "name": "al1l0",
+        "output_branches": [
+            "L0"
+        ],
+        "prefix": "AL1L0:REF",
+        "stand": "L0S05",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 774.634
+    },
     "al1l1": {
         "_id": "al1l1",
         "active": true,
@@ -6891,6 +6927,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 764.485
     },
+    "im5l0": {
+        "_id": "im5l0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Thu Aug 14 10:23:16 2025",
+        "device_class": "pcdsdevices.pim.PPM",
+        "documentation": null,
+        "functional_group": "Imager",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Aug 14 10:23:16 2025",
+        "lightpath": true,
+        "location_group": "H1.2",
+        "name": "im5l0",
+        "output_branches": [
+            "L0"
+        ],
+        "prefix": "IM5L0:PPM",
+        "stand": "L0S05",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 774.634
+    },
     "im6k2": {
         "_id": "im6k2",
         "active": true,
@@ -10122,7 +10194,7 @@
             "{{prefix}}"
         ],
         "beamline": "QRIX_MODS",
-        "creation": "Wed Jul 24 17:34:02 2024",
+        "creation": "Thu Aug 14 13:02:14 2025",
         "device_class": "pcdsdevices.device_types.EllRotation",
         "documentation": null,
         "functional_group": "elliptecs",
@@ -10130,6 +10202,45 @@
         "ioc_alias": "LM1K2:ATM_MP1_WP1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K2:ATM_MP1_WP1",
+        "ioc_channel": "2",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_location": "qRIX MODS ATM TILE",
+        "ioc_model": "ELL14",
+        "ioc_name": "ioc-lm1k2-atm-ell-01",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_serial": "DM014VTI",
+        "ioc_type": "Elliptec",
+        "kwargs": {
+            "channel": "{{ioc_channel}}",
+            "name": "{{name}}",
+            "port": "15"
+        },
+        "last_edit": "Thu Aug 14 13:02:37 2025",
+        "lightpath": false,
+        "location_group": "3_lm1k2_atm",
+        "name": "lm1k2_atm_mp1_wp1",
+        "output_branches": null,
+        "prefix": "LM1K2:ATM:ELL:1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
+    "lm1k2_atm_mp1_wp2": {
+        "_id": "lm1k2_atm_mp1_wp2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Wed Jul 24 17:34:02 2024",
+        "device_class": "pcdsdevices.device_types.EllRotation",
+        "documentation": null,
+        "functional_group": "elliptecs",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:ATM_MP1_WP2",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:ATM_MP1_WP2",
         "ioc_channel": "1",
         "ioc_engineer": "nagar123",
         "ioc_hutch": "LAS",
@@ -10144,10 +10255,10 @@
             "name": "{{name}}",
             "port": "15"
         },
-        "last_edit": "Wed Jul  9 17:45:34 2025",
+        "last_edit": "Thu Aug 14 13:00:32 2025",
         "lightpath": false,
         "location_group": "3_lm1k2_atm",
-        "name": "lm1k2_atm_mp1_wp1",
+        "name": "lm1k2_atm_mp1_wp2",
         "output_branches": null,
         "prefix": "LM1K2:ATM:ELL:1",
         "stand": null,
@@ -13586,9 +13697,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug 13 16:51:17 2025",
+        "last_edit": "Wed Aug 13 19:16:48 2025",
         "lightpath": false,
-        "location_group": "4_lm2k2_opa",
+        "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_dp1_tf1_ff1",
         "output_branches": null,
         "prefix": "LM1K2:OPA_DP1_TF1_FF1:",
@@ -13625,14 +13736,96 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug 13 16:52:48 2025",
+        "last_edit": "Wed Aug 13 19:16:57 2025",
         "lightpath": false,
-        "location_group": "4_lm2k2_opa",
+        "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_dp1_tf1_nf1",
         "output_branches": null,
         "prefix": "LM1K2:OPA_DP1_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "lm1k2_opa_mp1_mr1": {
+        "_id": "lm1k2_opa_mp1_mr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Wed Aug 13 19:10:25 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:OPA_MP1_MR1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM1K2:MCS2:03",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
+        "ioc_tilt_channel": "2",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "1",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Wed Aug 13 19:10:25 2025",
+        "lightpath": false,
+        "location_group": "4_lm1k2_opa",
+        "name": "lm1k2_opa_mp1_mr1",
+        "output_branches": null,
+        "prefix": "LM1K2:OPA_MP1_MR1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
+    "lm1k2_opa_mp1_mr2": {
+        "_id": "lm1k2_opa_mp1_mr2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Wed Aug 13 19:15:43 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarActTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:OPA_MP1_MR2",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM1K2:MCS2:03",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
+        "ioc_tilt_channel": "5",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "4",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Wed Aug 13 19:15:43 2025",
+        "lightpath": false,
+        "location_group": "4_lm1k2_opa",
+        "name": "lm1k2_opa_mp1_mr2",
+        "output_branches": null,
+        "prefix": "LM1K2:OPA_MP1_MR2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
     },
     "lm1k4_atm_dp1_tf1_ff1": {
@@ -31233,9 +31426,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Aug 12 12:27:58 2025",
+        "last_edit": "Thu Aug 14 10:08:40 2025",
         "lightpath": true,
-        "location_group": "Front End Enclosure",
+        "location_group": "H1.2",
         "name": "sl3l0",
         "output_branches": [
             "L0"
