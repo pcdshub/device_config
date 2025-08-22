@@ -7923,12 +7923,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jul 23 16:47:02 2025",
+        "last_edit": "Thu Aug 21 12:09:52 2025",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_env_sens_1_timing",
         "output_branches": null,
-        "prefix": "LAS:LHN:ADC:02:BHC:AI2",
+        "prefix": "LAS:LHN:ADC:02:BHC:AI1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
@@ -7993,12 +7993,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Jul 23 16:54:37 2025",
+        "last_edit": "Thu Aug 21 12:10:13 2025",
         "lightpath": false,
         "location_group": "Bay 2",
         "name": "las_lhn_bay2_env_sens_2_timing",
         "output_branches": null,
-        "prefix": "LAS:LHN:ADC:02:BHC:AI4",
+        "prefix": "LAS:LHN:ADC:02:BHC:AI3",
         "stand": null,
         "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
@@ -8985,6 +8985,42 @@
         "prefix": "LAS:LHN:BTS:CAM:NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
+        "z": -1.0
+    },
+    "las_lln_env_sens_1_timing": {
+        "_id": "las_lln_env_sens_1_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Thu Aug 21 15:19:48 2025",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LAS:LLN:ADC:01",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-lln-01",
+        "ioc_location": "ctl-las-lln-01",
+        "ioc_name": "ioc-las-lln-bhc-01",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Aug 21 15:19:48 2025",
+        "lightpath": false,
+        "location_group": "Laser Research Lab",
+        "name": "las_lln_env_sens_1_timing",
+        "output_branches": null,
+        "prefix": "LAS:LLN:ADC:01:BHC:AI1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
         "z": -1.0
     },
     "las_rfof_01": {
