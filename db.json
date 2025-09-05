@@ -32381,6 +32381,38 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "test_diag_paddle": {
+        "_id": "test_diag_paddle",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "na",
+        "creation": "Thu Sep  4 13:55:10 2025",
+        "device_class": "pcdsdevices.dream_motion.DREAM_Sample_Paddle",
+        "documentation": null,
+        "functional_group": "na",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Sep  4 13:55:10 2025",
+        "lightpath": false,
+        "location_group": "na",
+        "name": "test_diag_paddle",
+        "output_branches": null,
+        "prefix": "TMO:DREAM:MCS2:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "timing_test_entry": {
         "_id": "timing_test_entry",
         "active": false,
