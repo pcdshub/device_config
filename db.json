@@ -32956,6 +32956,39 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "tst_pdu_16chan": {
+        "_id": "tst_pdu_16chan",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "na",
+        "creation": "Fri Sep  5 11:41:35 2025",
+        "device_class": "pcdsdevices.pdu.PDU16",
+        "documentation": null,
+        "functional_group": "na",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "tst_pdu_16chan",
+            "pdu_type": "sentry4"
+        },
+        "last_edit": "Fri Sep  5 11:41:35 2025",
+        "lightpath": false,
+        "location_group": "na",
+        "name": "tst_pdu_16chan",
+        "output_branches": null,
+        "prefix": "XPP:PDU:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "tv1k2_vfs_1": {
         "_id": "tv1k2_vfs_1",
         "active": true,
