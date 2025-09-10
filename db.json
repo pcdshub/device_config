@@ -8620,12 +8620,12 @@
         "functional_group": "cameras",
         "input_branches": null,
         "ioc_arch": "rhel7-x86_64",
-        "ioc_cam_model": "Basler_acA1600-60gm",
+        "ioc_cam_model": "Basler_acA2500-20gm",
         "ioc_engineer": "aberges",
         "ioc_evr_channel": "1",
         "ioc_http_port": "7808",
         "ioc_hutch": "LAS",
-        "ioc_ip": "cam-las-lhn-bay3-07",
+        "ioc_ip": "cam-las-lhn-bay3-08",
         "ioc_location": "ctl-las-lhn-sp01",
         "ioc_name": "ioc-lhn-bay3-ff-04",
         "ioc_net_if": "ETH0",
@@ -8636,7 +8636,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Sep 23 17:28:37 2024",
+        "last_edit": "Tue Sep  9 12:19:57 2025",
         "lightpath": false,
         "location_group": "Bay 3",
         "name": "las_lhn_bay3_opcpa_bts_ff",
