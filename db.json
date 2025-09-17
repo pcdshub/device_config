@@ -18828,7 +18828,7 @@
     },
     "lm2k2_atm_dp1_tf1_sp1": {
         "_id": "lm2k2_atm_dp1_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18851,7 +18851,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:21 2023",
+        "last_edit": "Tue Sep 16 14:31:24 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_dp1_tf1_sp1",
@@ -20325,7 +20325,7 @@
     },
     "lm2k2_ejx_dp1_tf1_pm1": {
         "_id": "lm2k2_ejx_dp1_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -20350,7 +20350,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov 21 13:14:29 2023",
+        "last_edit": "Tue Sep 16 15:09:52 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp1_tf1_pm1",
@@ -20510,7 +20510,7 @@
     },
     "lm2k2_ejx_dp2_tf1_ff1": {
         "_id": "lm2k2_ejx_dp2_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -20537,7 +20537,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 17 11:47:06 2023",
+        "last_edit": "Tue Sep 16 14:33:45 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp2_tf1_ff1",
@@ -20549,7 +20549,7 @@
     },
     "lm2k2_ejx_dp2_tf1_nf1": {
         "_id": "lm2k2_ejx_dp2_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -20576,7 +20576,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov 17 17:14:03 2023",
+        "last_edit": "Tue Sep 16 14:34:08 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp2_tf1_nf1",
@@ -20804,7 +20804,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Nov  8 17:59:55 2024",
+        "last_edit": "Tue Sep 16 14:34:47 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp3_tf1_nf1",
@@ -21230,7 +21230,7 @@
     },
     "lm2k2_ejx_mp1_mr6": {
         "_id": "lm2k2_ejx_mp1_mr6",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21259,7 +21259,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Nov 17 16:21:08 2023",
+        "last_edit": "Tue Sep 16 15:08:50 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_mp1_mr6",
@@ -21653,7 +21653,7 @@
     },
     "lm2k2_hrm_dp2_tf1_ff1": {
         "_id": "lm2k2_hrm_dp2_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21680,7 +21680,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb  1 16:29:51 2024",
+        "last_edit": "Tue Sep 16 14:29:25 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_ff1",
@@ -21692,7 +21692,7 @@
     },
     "lm2k2_hrm_dp2_tf1_nf1": {
         "_id": "lm2k2_hrm_dp2_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21719,7 +21719,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb  1 16:30:08 2024",
+        "last_edit": "Tue Sep 16 14:27:39 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_nf1",
@@ -21807,7 +21807,7 @@
     },
     "lm2k2_hrm_dp2_tf1_sp1": {
         "_id": "lm2k2_hrm_dp2_tf1_sp1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21830,7 +21830,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb  1 16:57:04 2024",
+        "last_edit": "Tue Sep 16 14:31:59 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_sp1",
