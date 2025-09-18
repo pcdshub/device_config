@@ -13782,6 +13782,42 @@
         "type": "pcdsdevices.happi.containers.LasBasler",
         "z": -1.0
     },
+    "lm1k2_opa_mp1_dly1": {
+        "_id": "lm1k2_opa_mp1_dly1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Tue Sep 16 17:54:15 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:OPA_MP1_DLY1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K2:MCS2:03",
+        "ioc_channel": "3",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Sep 16 18:22:30 2025",
+        "lightpath": false,
+        "location_group": "4_lm1k2_opa",
+        "name": "lm1k2_opa_mp1_dly1",
+        "output_branches": null,
+        "prefix": "LM1K2:OPA_MP1_DLY1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k2_opa_mp1_mr1": {
         "_id": "lm1k2_opa_mp1_mr1",
         "active": true,
@@ -13803,9 +13839,9 @@
         "ioc_location": "QRIX MODS Table",
         "ioc_name": "ioc-lm1k2-mcs2-03",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
-        "ioc_tilt_channel": "2",
+        "ioc_tilt_channel": "8",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "1",
+        "ioc_tip_channel": "7",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -13813,7 +13849,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Aug 13 19:10:25 2025",
+        "last_edit": "Tue Sep 16 17:47:53 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_mp1_mr1",
@@ -13844,6 +13880,47 @@
         "ioc_location": "QRIX MODS Table",
         "ioc_name": "ioc-lm1k2-mcs2-03",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
+        "ioc_tilt_channel": "2",
+        "ioc_tilt_suffix": "_TILT1",
+        "ioc_tip_channel": "1",
+        "ioc_tip_suffix": "_TIP1",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}",
+            "tilt_pv": "{{ioc_tilt_suffix}}",
+            "tip_pv": "{{ioc_tip_suffix}}"
+        },
+        "last_edit": "Tue Sep 16 18:23:11 2025",
+        "lightpath": false,
+        "location_group": "4_lm1k2_opa",
+        "name": "lm1k2_opa_mp1_mr2",
+        "output_branches": null,
+        "prefix": "LM1K2:OPA_MP1_MR2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
+        "z": -1.0
+    },
+    "lm1k2_opa_mp2_mr1": {
+        "_id": "lm1k2_opa_mp2_mr1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "QRIX_MODS",
+        "creation": "Tue Sep 16 17:55:54 2025",
+        "device_class": "pcdsdevices.epics_motor.SmarActEncodedTipTilt",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "LM1K2:OPA_MP1_MR1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "IOC:LM1K2:MCS2:03",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-qrixs-mods-03",
+        "ioc_location": "QRIX MODS Table",
+        "ioc_name": "ioc-lm1k2-mcs2-03",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
         "ioc_tilt_channel": "5",
         "ioc_tilt_suffix": "_TILT1",
         "ioc_tip_channel": "4",
@@ -13854,12 +13931,12 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Aug 13 19:15:43 2025",
+        "last_edit": "Tue Sep 16 17:55:54 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
-        "name": "lm1k2_opa_mp1_mr2",
+        "name": "lm1k2_opa_mp2_mr1",
         "output_branches": null,
-        "prefix": "LM1K2:OPA_MP1_MR2",
+        "prefix": "LM1K2:OPA_MP2_MR1",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActTipTiltMotor",
         "z": -1.0
@@ -18791,7 +18868,7 @@
     },
     "lm2k2_atm_dp1_tf1_pm1": {
         "_id": "lm2k2_atm_dp1_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18816,7 +18893,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:20 2023",
+        "last_edit": "Tue Sep 16 17:11:45 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_atm",
         "name": "lm2k2_atm_dp1_tf1_pm1",
@@ -20510,7 +20587,7 @@
     },
     "lm2k2_ejx_dp2_tf1_ff1": {
         "_id": "lm2k2_ejx_dp2_tf1_ff1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -20537,7 +20614,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 16 14:33:45 2025",
+        "last_edit": "Wed Sep 17 15:08:33 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp2_tf1_ff1",
@@ -20777,7 +20854,7 @@
     },
     "lm2k2_ejx_dp3_tf1_nf1": {
         "_id": "lm2k2_ejx_dp3_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -20804,7 +20881,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 16 14:34:47 2025",
+        "last_edit": "Tue Sep 16 17:12:14 2025",
         "lightpath": false,
         "location_group": "5_lm2k2_ejx",
         "name": "lm2k2_ejx_dp3_tf1_nf1",
@@ -21731,7 +21808,7 @@
     },
     "lm2k2_hrm_dp2_tf1_pm1": {
         "_id": "lm2k2_hrm_dp2_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -21756,7 +21833,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Feb  1 17:49:10 2024",
+        "last_edit": "Tue Sep 16 17:19:09 2025",
         "lightpath": false,
         "location_group": "3_lm2k2_hrm",
         "name": "lm2k2_hrm_dp2_tf1_pm1",
