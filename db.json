@@ -5055,9 +5055,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:02:24 2025",
+        "last_edit": "Thu Oct  2 11:39:51 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB3",
         "name": "em1l2",
         "output_branches": [
             "L2"
@@ -5237,9 +5237,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:04:05 2025",
+        "last_edit": "Thu Oct  2 11:40:27 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB6",
         "name": "em2l2",
         "output_branches": [
             "L2"
@@ -6451,9 +6451,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 08:56:28 2025",
+        "last_edit": "Thu Oct  2 11:41:00 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB3",
         "name": "im1l2",
         "output_branches": [
             "L2"
@@ -6705,9 +6705,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 08:59:12 2025",
+        "last_edit": "Thu Oct  2 11:41:24 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB6",
         "name": "im2l2",
         "output_branches": [
             "L2"
@@ -9515,9 +9515,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:22:59 2025",
+        "last_edit": "Thu Oct  2 11:43:19 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB3",
         "name": "li1l2",
         "output_branches": [
             "L2"
@@ -30581,9 +30581,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:17:14 2025",
+        "last_edit": "Thu Oct  2 11:44:12 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB6",
         "name": "pf2l2",
         "output_branches": [
             "L2"
@@ -31947,9 +31947,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:25:40 2025",
+        "last_edit": "Thu Oct  2 11:44:51 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB2",
         "name": "sl1l2",
         "output_branches": [
             "L2"
@@ -32039,7 +32039,7 @@
         ],
         "beamline": "XPP",
         "creation": "Wed Oct  1 09:19:35 2025",
-        "device_class": "pcdsdevices.slits.BeckhoffSlits ",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
         "documentation": null,
         "functional_group": "Slits",
         "input_branches": [
@@ -32055,9 +32055,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:19:35 2025",
+        "last_edit": "Thu Oct  2 11:47:32 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB3",
         "name": "sl2l2",
         "output_branches": [
             "L2"
@@ -33204,9 +33204,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Oct  1 09:30:55 2025",
+        "last_edit": "Thu Oct  2 11:47:03 2025",
         "lightpath": true,
-        "location_group": "H3",
+        "location_group": "XPP SB3",
         "name": "tm1l2",
         "output_branches": [
             "L2"
