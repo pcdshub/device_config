@@ -4535,7 +4535,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  9 15:32:55 2025",
+        "last_edit": "Fri Oct 10 10:17:47 2025",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd",
@@ -4547,7 +4547,7 @@
     },
     "dream_dgpd_ret": {
         "_id": "dream_dgpd_ret",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -4571,7 +4571,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:33:15 2025",
+        "last_edit": "Fri Oct 10 11:28:06 2025",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd_ret",
@@ -4583,7 +4583,7 @@
     },
     "dream_dgpd_x": {
         "_id": "dream_dgpd_x",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -4607,7 +4607,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:33:21 2025",
+        "last_edit": "Fri Oct 10 11:27:44 2025",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd_x",
@@ -4619,7 +4619,7 @@
     },
     "dream_dgpd_y": {
         "_id": "dream_dgpd_y",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -4643,7 +4643,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:33:39 2025",
+        "last_edit": "Fri Oct 10 11:27:51 2025",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd_y",
@@ -4655,7 +4655,7 @@
     },
     "dream_dgpd_z": {
         "_id": "dream_dgpd_z",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -4679,7 +4679,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:33:48 2025",
+        "last_edit": "Fri Oct 10 11:27:59 2025",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd_z",
