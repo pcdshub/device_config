@@ -14174,9 +14174,9 @@
         "ioc_location": "QRIX MODS Table",
         "ioc_name": "ioc-lm1k2-mcs2-03",
         "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R2.0.0",
-        "ioc_tilt_channel": "11",
+        "ioc_tilt_channel": "15",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "10",
+        "ioc_tip_channel": "14",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -14184,7 +14184,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Sep 23 14:47:16 2025",
+        "last_edit": "Mon Oct 20 16:50:42 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_mp2_mr2",
@@ -14209,7 +14209,7 @@
         "ioc_alias": "LM1K2:OPA_MP2_MR2_LM1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K2:MCS2:03",
-        "ioc_channel": "13",
+        "ioc_channel": "11",
         "ioc_engineer": "cpino",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-qrixs-mods-03",
@@ -14220,7 +14220,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 23 14:49:38 2025",
+        "last_edit": "Mon Oct 20 16:51:52 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_mp2_mr2_lm1",
@@ -14245,7 +14245,7 @@
         "ioc_alias": "LM1K2:OPA_MP2_MR3_LM1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K2:MCS2:03",
-        "ioc_channel": "14",
+        "ioc_channel": "10",
         "ioc_engineer": "cpino",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-qrixs-mods-03",
@@ -14256,7 +14256,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 23 14:51:10 2025",
+        "last_edit": "Mon Oct 20 16:52:11 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_mp2_mr3_lm1",
@@ -14281,7 +14281,7 @@
         "ioc_alias": "LM1K2:OPA_MP2_MR4_LM1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K2:MCS2:03",
-        "ioc_channel": "15",
+        "ioc_channel": "13",
         "ioc_engineer": "cpino",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-qrixs-mods-03",
@@ -14292,7 +14292,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Sep 23 14:52:39 2025",
+        "last_edit": "Mon Oct 20 16:52:31 2025",
         "lightpath": false,
         "location_group": "4_lm1k2_opa",
         "name": "lm1k2_opa_mp2_mr4_lm1",
