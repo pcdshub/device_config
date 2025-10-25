@@ -33114,6 +33114,39 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "test_pdu_xpp": {
+        "_id": "test_pdu_xpp",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "NA",
+        "creation": "Fri Oct 24 11:05:32 2025",
+        "device_class": "pcdsdevices.pdu.PDU16",
+        "documentation": null,
+        "functional_group": "N",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "test_pdu_xpp",
+            "pdu_type": "sentry4"
+        },
+        "last_edit": "Fri Oct 24 11:05:32 2025",
+        "lightpath": false,
+        "location_group": "NA",
+        "name": "test_pdu_xpp",
+        "output_branches": null,
+        "prefix": "XPP:TEST:PDU",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "timing_test_entry": {
         "_id": "timing_test_entry",
         "active": false,
