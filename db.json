@@ -4689,6 +4689,38 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "dream_gas_jet_slits": {
+        "_id": "dream_gas_jet_slits",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "NA",
+        "creation": "Mon Nov  3 13:21:30 2025",
+        "device_class": "pcdsdevices.dream_motion.DREAM_Gas_Jet_Slits",
+        "documentation": null,
+        "functional_group": "NA",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "tparas",
+        "ioc_hutch": "TMO",
+        "ioc_location": null,
+        "ioc_name": "TMO:DREAM:MCS2:01",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Nov  3 13:21:30 2025",
+        "lightpath": false,
+        "location_group": "NA",
+        "name": "dream_gas_jet_slits",
+        "output_branches": null,
+        "prefix": "TMO:DREAM:MCS2:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "dream_gsjn": {
         "_id": "dream_gsjn",
         "active": true,
