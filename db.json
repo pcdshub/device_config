@@ -34887,7 +34887,7 @@
     },
     "vls_camera_distance": {
         "_id": "vls_camera_distance",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34907,7 +34907,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:12:17 2025",
         "lightpath": false,
         "location_group": "VLS",
         "name": "vls_camera_distance",
@@ -34919,7 +34919,7 @@
     },
     "vls_camera_pitch": {
         "_id": "vls_camera_pitch",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34942,7 +34942,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:12:55 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -34957,7 +34957,7 @@
     },
     "vls_focus_mirror": {
         "_id": "vls_focus_mirror",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -34980,7 +34980,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:13:28 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -34995,7 +34995,7 @@
     },
     "vls_grating_pitch": {
         "_id": "vls_grating_pitch",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35018,7 +35018,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:13:45 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35033,7 +35033,7 @@
     },
     "vls_slit_down": {
         "_id": "vls_slit_down",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35056,7 +35056,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:14:06 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35071,7 +35071,7 @@
     },
     "vls_slit_left": {
         "_id": "vls_slit_left",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35094,7 +35094,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:09 2023",
+        "last_edit": "Tue Nov  4 12:14:22 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35109,7 +35109,7 @@
     },
     "vls_slit_right": {
         "_id": "vls_slit_right",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35132,7 +35132,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:10 2023",
+        "last_edit": "Tue Nov  4 12:14:44 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35147,7 +35147,7 @@
     },
     "vls_slit_up": {
         "_id": "vls_slit_up",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35170,7 +35170,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:46:10 2023",
+        "last_edit": "Tue Nov  4 12:15:07 2025",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
