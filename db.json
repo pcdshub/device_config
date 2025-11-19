@@ -4695,7 +4695,7 @@
         "args": [
             "{{prefix}}"
         ],
-        "beamline": "NA",
+        "beamline": "TMO",
         "creation": "Mon Nov  3 13:21:30 2025",
         "device_class": "pcdsdevices.dream_motion.DREAM_Gas_Jet_Slits",
         "documentation": null,
@@ -4711,7 +4711,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Nov  3 13:21:30 2025",
+        "last_edit": "Tue Nov 18 15:57:49 2025",
         "lightpath": false,
         "location_group": "NA",
         "name": "dream_gas_jet_slits",
@@ -32320,42 +32320,6 @@
         "prefix": "CRIX:SVLS:SLITS-Y-T:motor",
         "stand": null,
         "type": "pcdsdevices.happi.containers.SmarActMotor",
-        "z": -1.0
-    },
-    "test_dream_slits": {
-        "_id": "test_dream_slits",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "NA",
-        "creation": "Wed Oct  8 13:57:01 2025",
-        "device_class": "pcdsdevices.slits.SmaractSlits",
-        "documentation": null,
-        "functional_group": "NA",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": "tparas",
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": "test_dream_slits",
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "bottom_pv": "m4",
-            "name": "test_dream_slits",
-            "north_pv": "m1",
-            "south_pv": "m2",
-            "top_pv": "m3"
-        },
-        "last_edit": "Wed Oct  8 16:05:29 2025",
-        "lightpath": false,
-        "location_group": "NA",
-        "name": "test_dream_slits",
-        "output_branches": null,
-        "prefix": "LAS:LLN:MCS2:01",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
     "test_pdu_xpp": {
