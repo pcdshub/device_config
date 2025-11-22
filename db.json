@@ -32469,7 +32469,7 @@
         ],
         "beamline": "XPP",
         "creation": "Wed Oct  1 09:30:55 2025",
-        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "device_class": "pcdsdevices.atm.TM1L2",
         "documentation": null,
         "functional_group": "ATM",
         "input_branches": [
@@ -32485,7 +32485,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Oct  2 11:47:03 2025",
+        "last_edit": "Fri Nov 21 10:51:24 2025",
         "lightpath": true,
         "location_group": "XPP SB3",
         "name": "tm1l2",
