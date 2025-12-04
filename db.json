@@ -29837,6 +29837,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 768.7332
     },
+    "pf2l0": {
+        "_id": "pf2l0",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Dec  3 15:12:32 2025",
+        "device_class": "pcdsdevices.gbs.GratingBeamSplitterTarget",
+        "documentation": null,
+        "functional_group": "GBS",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Dec  3 15:12:32 2025",
+        "lightpath": false,
+        "location_group": "Front End Enclosure",
+        "name": "pf2l0",
+        "output_branches": null,
+        "prefix": "PF2L0:GBS",
+        "stand": "L0S21",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 751.7
+    },
     "pf2l2": {
         "_id": "pf2l2",
         "active": true,
