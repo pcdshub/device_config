@@ -1281,10 +1281,11 @@
         "ioc_tip_suffix": "_TIP",
         "ioc_type": "SmarAct",
         "kwargs": {
+            "name": "{{name}}",
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Fri Dec  5 09:44:17 2025",
+        "last_edit": "Tue Dec  9 10:15:34 2025",
         "lightpath": false,
         "location_group": "cRIX Tcham",
         "name": "crix_questar",
