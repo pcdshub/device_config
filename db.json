@@ -37691,6 +37691,39 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "xpp_pwr_r03_01": {
+        "_id": "xpp_pwr_r03_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "NA",
+        "creation": "Wed Dec 17 09:45:52 2025",
+        "device_class": "pcdsdevices.pdu.PDU8",
+        "documentation": null,
+        "functional_group": "NA",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "tparas",
+        "ioc_hutch": "XPP",
+        "ioc_location": null,
+        "ioc_name": "XPP:PWR:R03:01",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "xpp_pwr_r03_01",
+            "pdu_type": "sentry4"
+        },
+        "last_edit": "Wed Dec 17 09:45:52 2025",
+        "lightpath": false,
+        "location_group": "NA",
+        "name": "xpp_pwr_r03_01",
+        "output_branches": null,
+        "prefix": "XPP:PWR:R03:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "xpp_pwr_r04_01": {
         "_id": "xpp_pwr_r04_01",
         "active": true,
