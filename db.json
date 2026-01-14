@@ -30072,7 +30072,7 @@
     },
     "pf2l0": {
         "_id": "pf2l0",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -30092,7 +30092,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jan  5 11:39:52 2026",
+        "last_edit": "Tue Jan 13 11:42:02 2026",
         "lightpath": false,
         "location_group": "Front End Enclosure",
         "name": "pf2l0",
