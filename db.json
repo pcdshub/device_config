@@ -5032,7 +5032,7 @@
     },
     "dream_gsjs_east": {
         "_id": "dream_gsjs_east",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5056,7 +5056,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:33:55 2025",
+        "last_edit": "Thu Jan 22 11:23:24 2026",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_gsjs_east",
@@ -5068,7 +5068,7 @@
     },
     "dream_gsjs_north": {
         "_id": "dream_gsjs_north",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5092,7 +5092,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:34:08 2025",
+        "last_edit": "Thu Jan 22 11:23:44 2026",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_gsjs_north",
@@ -5104,7 +5104,7 @@
     },
     "dream_gsjs_south": {
         "_id": "dream_gsjs_south",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5128,7 +5128,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:34:23 2025",
+        "last_edit": "Thu Jan 22 11:23:53 2026",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_gsjs_south",
@@ -5140,7 +5140,7 @@
     },
     "dream_gsjs_west": {
         "_id": "dream_gsjs_west",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -5164,7 +5164,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue May 27 12:34:34 2025",
+        "last_edit": "Thu Jan 22 11:23:35 2026",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_gsjs_west",
