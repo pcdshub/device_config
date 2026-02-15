@@ -9454,9 +9454,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Sep 22 12:17:17 2025",
+        "last_edit": "Fri Feb 13 18:49:19 2026",
         "lightpath": false,
-        "location_group": "LRL",
+        "location_group": "FTL",
         "name": "las_lln_env_sens_1_timing",
         "output_branches": null,
         "prefix": "LAS:LLN:ADC:01:BHC:AI1",
