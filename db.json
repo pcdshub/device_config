@@ -1094,6 +1094,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "crix_obj_y": {
+        "_id": "crix_obj_y",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Feb 20 14:10:58 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Feb 20 14:10:58 2026",
+        "lightpath": false,
+        "location_group": "cRIX_cham",
+        "name": "crix_obj_y",
+        "output_branches": null,
+        "prefix": "CRIX:OBJ:MMS:Y",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "crix_outcoup_y": {
         "_id": "crix_outcoup_y",
         "active": true,
