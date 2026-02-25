@@ -38431,5 +38431,38 @@
         "system": "vacuum",
         "type": "pcdsdevices.happi.containers.GateValve",
         "z": 870.97
+    },
+    "xrt_pwr_101w_r04_01": {
+        "_id": "xrt_pwr_101w_r04_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "NA",
+        "creation": "Tue Feb 24 09:55:36 2026",
+        "device_class": "pcdsdevices.pdu.PDU8",
+        "documentation": "XRT PDU",
+        "functional_group": "NA",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "tparas",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "xrt-pwr-101w-r04-01",
+            "pdu_type": "sentry4"
+        },
+        "last_edit": "Tue Feb 24 10:12:45 2026",
+        "lightpath": false,
+        "location_group": "NA",
+        "name": "xrt_pwr_101w_r04_01",
+        "output_branches": null,
+        "prefix": "XPP:PWR:101W:R04:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
     }
 }
