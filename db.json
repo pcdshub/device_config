@@ -4283,6 +4283,38 @@
         "type": "pcdsdevices.happi.containers.Leviton",
         "z": -1.0
     },
+    "cxi_lxt_fast1": {
+        "_id": "cxi_lxt_fast1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "CXI",
+        "creation": "Mon Mar  2 16:35:23 2026",
+        "device_class": "pcdsdevices.epics_motor.DelayNewport",
+        "documentation": null,
+        "functional_group": "Motor",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "iroque",
+        "ioc_hutch": "CXI",
+        "ioc_location": null,
+        "ioc_name": "ioc-cxi-usdusb4",
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar  2 16:35:23 2026",
+        "lightpath": false,
+        "location_group": "LAS",
+        "name": "cxi_lxt_fast1",
+        "output_branches": null,
+        "prefix": "CXI:LAS:MMN:12",
+        "stand": "LAS",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "cxi_pi1": {
         "_id": "cxi_pi1",
         "active": true,
