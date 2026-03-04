@@ -32013,6 +32013,43 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 737.317
     },
+    "sp1l2": {
+        "_id": "sp1l2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Mon Mar  2 17:12:48 2026",
+        "device_class": "pcdsdevices.he_lodcm.HE_LODCM",
+        "documentation": null,
+        "functional_group": "Spectrometer",
+        "input_branches": [
+            "L0"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Mar  2 17:22:08 2026",
+        "lightpath": false,
+        "location_group": "XPP",
+        "name": "sp1l2",
+        "output_branches": [
+            "L0",
+            "L2"
+        ],
+        "prefix": "SP1L2:LODCM",
+        "stand": "L2S01",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "sq1_lamp": {
         "_id": "sq1_lamp",
         "active": true,
