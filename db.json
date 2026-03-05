@@ -31064,6 +31064,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "rix_sds_lc20_hplc_01": {
+        "_id": "rix_sds_lc20_hplc_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Mar  4 09:31:01 2026",
+        "device_class": "pcdsdevices.sample_delivery.HPLC",
+        "documentation": null,
+        "functional_group": "SDS",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Mar  4 09:31:01 2026",
+        "lightpath": false,
+        "location_group": "SDS",
+        "name": "rix_sds_lc20_hplc_01",
+        "output_branches": null,
+        "prefix": "RIX:SDS:LC20:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "rtdsk0": {
         "_id": "rtdsk0",
         "active": true,
@@ -38424,9 +38456,9 @@
             "{{prefix}}"
         ],
         "beamline": "NA",
-        "creation": "Tue Feb 24 09:55:36 2026",
+        "creation": "Wed Mar  4 09:25:49 2026",
         "device_class": "pcdsdevices.pdu.PDU8",
-        "documentation": "XRT PDU",
+        "documentation": null,
         "functional_group": "NA",
         "input_branches": null,
         "ioc_arch": null,
@@ -38437,10 +38469,10 @@
         "ioc_release": null,
         "ioc_type": null,
         "kwargs": {
-            "name": "xrt-pwr-101w-r04-01",
+            "name": "xrt_pwr_101w_r04_01",
             "pdu_type": "sentry4"
         },
-        "last_edit": "Tue Feb 24 10:12:45 2026",
+        "last_edit": "Wed Mar  4 09:25:49 2026",
         "lightpath": false,
         "location_group": "NA",
         "name": "xrt_pwr_101w_r04_01",
