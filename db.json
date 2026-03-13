@@ -31068,7 +31068,7 @@
         ],
         "beamline": "RIX",
         "creation": "Fri Mar  6 10:54:39 2026",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
         "documentation": null,
         "functional_group": "Motion",
         "input_branches": null,
@@ -31082,7 +31082,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar  6 10:54:39 2026",
+        "last_edit": "Thu Mar 12 13:36:47 2026",
         "lightpath": false,
         "location_group": "TXAS",
         "name": "rix_txas_ry",
@@ -31100,7 +31100,7 @@
         ],
         "beamline": "RIX",
         "creation": "Fri Mar  6 10:49:07 2026",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
         "documentation": null,
         "functional_group": "Motion",
         "input_branches": null,
@@ -31114,7 +31114,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar  6 10:49:07 2026",
+        "last_edit": "Thu Mar 12 13:36:57 2026",
         "lightpath": false,
         "location_group": "TXAS",
         "name": "rix_txas_x",
@@ -31132,7 +31132,7 @@
         ],
         "beamline": "RIX",
         "creation": "Fri Mar  6 10:52:27 2026",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
         "documentation": null,
         "functional_group": "Motion",
         "input_branches": null,
@@ -31146,7 +31146,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar  6 10:52:27 2026",
+        "last_edit": "Thu Mar 12 13:37:07 2026",
         "lightpath": false,
         "location_group": "TXAS",
         "name": "rix_txas_y",
@@ -31164,7 +31164,7 @@
         ],
         "beamline": "RIX",
         "creation": "Fri Mar  6 10:53:50 2026",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxisEPSCustom",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
         "documentation": null,
         "functional_group": "Motion",
         "input_branches": null,
@@ -31178,7 +31178,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Mar  6 10:53:50 2026",
+        "last_edit": "Thu Mar 12 13:37:16 2026",
         "lightpath": false,
         "location_group": "TXAS",
         "name": "rix_txas_z",
