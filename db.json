@@ -1158,6 +1158,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.0
     },
+    "crix_piranha_rotation": {
+        "_id": "crix_piranha_rotation",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr  8 16:13:00 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr  8 16:15:46 2026",
+        "lightpath": false,
+        "location_group": "crixs fzp",
+        "name": "crix_piranha_rotation",
+        "output_branches": null,
+        "prefix": "CRIX:PIR:MMS:ROT",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 792.0
+    },
     "crix_ptc_y_10": {
         "_id": "crix_ptc_y_10",
         "active": true,
