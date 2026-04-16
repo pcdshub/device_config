@@ -1180,12 +1180,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr  8 16:15:46 2026",
+        "last_edit": "Wed Apr 15 14:34:41 2026",
         "lightpath": false,
         "location_group": "crixs fzp",
         "name": "crix_piranha_rotation",
         "output_branches": null,
-        "prefix": "CRIX:PIR:MMS:ROT",
+        "prefix": "PIR:FZP:MMS:ROT",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 792.0
