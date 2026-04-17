@@ -16094,6 +16094,45 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_ejx_dp6_pol1": {
+        "_id": "lm1k4_ejx_dp6_pol1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Tue Mar  2 10:59:59 2021",
+        "device_class": "pcdsdevices.device_types.EllRotation",
+        "documentation": null,
+        "functional_group": "elliptecs",
+        "input_branches": null,
+        "ioc_alias": "LM1K4:EJX_DP6_POL1",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:EJX:ELL:4",
+        "ioc_channel": "1",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_location": "IP1 MODS TILE",
+        "ioc_model": "ELL14",
+        "ioc_name": "ioc-lm1k4-ejx-ell-04",
+        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
+        "ioc_serial": "DT03BIIZ",
+        "ioc_type": "Elliptec",
+        "kwargs": {
+            "channel": "{{ioc_channel}}",
+            "name": "{{name}}",
+            "port": "15"
+        },
+        "last_edit": "Thu Apr 16 16:51:38 2026",
+        "lightpath": false,
+        "location_group": "6_lm1k4_ejx",
+        "name": "lm1k4_ejx_dp6_pol1",
+        "output_branches": null,
+        "prefix": "LM1K4:EJX:ELL:4",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.Elliptec",
+        "z": -1.0
+    },
     "lm1k4_ejx_dp6_tf1_ff1": {
         "_id": "lm1k4_ejx_dp6_tf1_ff1",
         "active": true,
@@ -16170,45 +16209,6 @@
         "prefix": "LM1K4:EJX_DP6_TF1_NF1:",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LasBasler",
-        "z": -1.0
-    },
-    "lm1k4_ejx_dp6_tf1_sl1": {
-        "_id": "lm1k4_ejx_dp6_tf1_sl1",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "IP1_MODS",
-        "creation": "Tue Mar  2 10:59:59 2021",
-        "device_class": "pcdsdevices.device_types.Ell6",
-        "documentation": null,
-        "functional_group": "elliptecs",
-        "input_branches": null,
-        "ioc_alias": "LM1K4:EJX_DP6_TF1_SL1",
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:EJX:ELL:4",
-        "ioc_channel": "1",
-        "ioc_engineer": "tjohnson",
-        "ioc_hutch": "LAS",
-        "ioc_location": "IP1 MODS TILE",
-        "ioc_model": "ELL6",
-        "ioc_name": "ioc-lm1k4-ejx-ell-04",
-        "ioc_release": "ioc/common/thorlabs-ell/R1.2.0",
-        "ioc_serial": "DT03BIIZ",
-        "ioc_type": "Elliptec",
-        "kwargs": {
-            "channel": "{{ioc_channel}}",
-            "name": "{{name}}",
-            "port": "15"
-        },
-        "last_edit": "Thu Feb 26 19:05:14 2026",
-        "lightpath": false,
-        "location_group": "6_lm1k4_ejx",
-        "name": "lm1k4_ejx_dp6_tf1_sl1",
-        "output_branches": null,
-        "prefix": "LM1K4:EJX:ELL:4",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
     },
     "lm1k4_ejx_dp6_tf1_sp1": {
