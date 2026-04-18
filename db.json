@@ -32495,7 +32495,7 @@
     },
     "sp1l2": {
         "_id": "sp1l2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -32517,7 +32517,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Mar  2 17:22:08 2026",
+        "last_edit": "Fri Apr 17 16:32:41 2026",
         "lightpath": false,
         "location_group": "XPP",
         "name": "sp1l2",
