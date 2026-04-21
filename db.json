@@ -25,7 +25,7 @@
         },
         "last_edit": "Wed Feb 22 15:42:20 2023",
         "lightpath": true,
-        "location_group": "RIX K2S02",
+        "location_group": "RIX H2.2",
         "name": "al1k2",
         "output_branches": [
             "K2"
@@ -242,7 +242,7 @@
         },
         "last_edit": "Wed Feb 22 15:42:20 2023",
         "lightpath": false,
-        "location_group": "RIX K2S10",
+        "location_group": "RIX H2.2",
         "name": "at1k2",
         "output_branches": [
             "K2"
@@ -276,7 +276,7 @@
         },
         "last_edit": "Wed Feb 22 15:42:20 2023",
         "lightpath": false,
-        "location_group": "RIX K2S10",
+        "location_group": "RIX H2.2",
         "name": "at1k2_calc",
         "output_branches": null,
         "prefix": "AT1K2:CALC",
@@ -457,7 +457,7 @@
         },
         "last_edit": "Wed Feb 22 15:42:21 2023",
         "lightpath": true,
-        "location_group": "RIX K2S15",
+        "location_group": "RIX H2.2",
         "name": "at2k2",
         "output_branches": [
             "K2"
@@ -491,7 +491,7 @@
         },
         "last_edit": "Wed Feb 22 15:42:21 2023",
         "lightpath": false,
-        "location_group": "RIX K2S15",
+        "location_group": "RIX H2.2",
         "name": "at2k2_calc",
         "output_branches": null,
         "prefix": "AT2K2:CALC",
@@ -594,7 +594,7 @@
         },
         "last_edit": "Tue Jun  3 10:18:28 2025",
         "lightpath": true,
-        "location_group": "RIX K2S18",
+        "location_group": "RIX H2.2",
         "name": "at3k2",
         "output_branches": [
             "K2"
@@ -6556,7 +6556,7 @@
         },
         "last_edit": "Fri Feb  2 14:04:04 2024",
         "lightpath": true,
-        "location_group": "FEE Imagers",
+        "location_group": "FEE",
         "name": "im1k1",
         "output_branches": [
             "K1"
@@ -6592,7 +6592,7 @@
         },
         "last_edit": "Thu Jan 25 16:22:44 2024",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im1k2",
         "output_branches": [
             "K2"
@@ -6918,7 +6918,7 @@
         },
         "last_edit": "Fri Feb  2 14:05:50 2024",
         "lightpath": true,
-        "location_group": "FEE Imagers",
+        "location_group": "FEE",
         "name": "im2k1",
         "output_branches": [
             "K1"
@@ -6954,7 +6954,7 @@
         },
         "last_edit": "Thu Jan 25 16:22:59 2024",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im2k2",
         "output_branches": [
             "K2"
@@ -7136,7 +7136,7 @@
         },
         "last_edit": "Thu Jan 25 16:23:10 2024",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im3k2",
         "output_branches": [
             "K2"
@@ -7310,7 +7310,7 @@
         },
         "last_edit": "Thu Jan 25 16:23:26 2024",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im4k2",
         "output_branches": [
             "K2"
@@ -7418,7 +7418,7 @@
         },
         "last_edit": "Thu Jan 25 16:28:29 2024",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im5k2",
         "output_branches": [
             "K2"
@@ -7526,7 +7526,7 @@
         },
         "last_edit": "Wed Feb 22 15:44:58 2023",
         "lightpath": true,
-        "location_group": "RIX Imagers",
+        "location_group": "RIX H2.2",
         "name": "im6k2",
         "output_branches": [
             "K2"
@@ -9910,7 +9910,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:01 2023",
         "lightpath": true,
-        "location_group": "RIX K2S13",
+        "location_group": "RIX H2.2",
         "name": "li2k2",
         "output_branches": [
             "K2"
@@ -9978,7 +9978,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:01 2023",
         "lightpath": true,
-        "location_group": "RIX K2S15",
+        "location_group": "RIX H2.2",
         "name": "li3k2",
         "output_branches": [
             "K2"
@@ -28441,7 +28441,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "macros": null,
         "name": "mr1k1_bend",
         "output_branches": [
@@ -28495,7 +28495,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "name": "mr1k1_vgc_1",
         "output_branches": [
             "K0"
@@ -28534,7 +28534,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "macros": null,
         "name": "mr1k2_switch",
         "output_branches": [
@@ -28578,7 +28578,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "name": "mr1k2_switch_vgc_1",
         "output_branches": [
             "K1"
@@ -28614,7 +28614,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:48 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "name": "mr1k2_switch_vgc_2",
         "output_branches": [
             "K2"
@@ -29071,7 +29071,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:49 2023",
         "lightpath": true,
-        "location_group": "RIX K2S03",
+        "location_group": "RIX H2.2",
         "name": "mr2k2_flat",
         "output_branches": [
             "K2"
@@ -29442,7 +29442,7 @@
         },
         "last_edit": "Thu Oct 10 14:59:29 2024",
         "lightpath": true,
-        "location_group": "RIX K2S05",
+        "location_group": "RIX H2.2",
         "name": "mr3k2_kbh",
         "output_branches": [
             "K2"
@@ -29683,7 +29683,7 @@
         },
         "last_edit": "Thu Oct 10 14:59:54 2024",
         "lightpath": true,
-        "location_group": "RIX K2S07",
+        "location_group": "RIX H2.2",
         "name": "mr4k2_kbv",
         "output_branches": [
             "K2"
@@ -30373,7 +30373,7 @@
         },
         "last_edit": "Tue Mar 12 11:08:58 2024",
         "lightpath": true,
-        "location_group": "RIX K2S13",
+        "location_group": "RIX H2.2",
         "name": "pf1k2",
         "output_branches": [
             "K2"
@@ -30481,7 +30481,7 @@
         },
         "last_edit": "Wed Feb 22 15:45:51 2023",
         "lightpath": true,
-        "location_group": "RIX K2S18",
+        "location_group": "RIX H2.2",
         "name": "pf2k2",
         "output_branches": [
             "K2"
@@ -32330,7 +32330,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "macros": null,
         "name": "sp1k1_mono",
         "output_branches": [
@@ -32369,7 +32369,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "name": "sp1k1_mono_vgc_1",
         "output_branches": [
             "K1"
@@ -32405,7 +32405,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": true,
-        "location_group": "FEE Mirrors",
+        "location_group": "FEE",
         "name": "sp1k1_mono_vgc_2",
         "output_branches": [
             "K1"
@@ -32592,7 +32592,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": false,
-        "location_group": "FEE ZOS",
+        "location_group": "FEE",
         "name": "st1k1_zos",
         "output_branches": null,
         "prefix": "ST1K1:ZOS:MMS",
@@ -32630,7 +32630,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:03 2023",
         "lightpath": true,
-        "location_group": "RIX K2S02",
+        "location_group": "RIX H2.2",
         "name": "st1k2_pps",
         "output_branches": [
             "K2"
@@ -32666,7 +32666,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:04 2023",
         "lightpath": true,
-        "location_group": "RIX K2S02",
+        "location_group": "RIX H2.2",
         "name": "st1k2_pps_vgc_1",
         "output_branches": [
             "K2"
@@ -33334,7 +33334,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:04 2023",
         "lightpath": true,
-        "location_group": "RIX K2S08",
+        "location_group": "RIX H2.2",
         "name": "tm1k2",
         "output_branches": [
             "K2"
@@ -33442,7 +33442,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:04 2023",
         "lightpath": true,
-        "location_group": "RIX K2S15",
+        "location_group": "RIX H2.2",
         "name": "tm2k2",
         "output_branches": [
             "K2"
@@ -33950,7 +33950,7 @@
         },
         "last_edit": "Wed Feb 22 15:46:05 2023",
         "lightpath": true,
-        "location_group": "FEE ZOS",
+        "location_group": "FEE",
         "name": "tv1k2_vfs_1",
         "output_branches": [
             "K2"
