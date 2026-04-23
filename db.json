@@ -966,6 +966,102 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.009
     },
+    "crix_fzp_x": {
+        "_id": "crix_fzp_x",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 22 14:50:51 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 22 14:50:51 2026",
+        "lightpath": false,
+        "location_group": "FZP",
+        "name": "crix_fzp_x",
+        "output_branches": null,
+        "prefix": "CRIX:FZP:MMS:X",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_fzp_y": {
+        "_id": "crix_fzp_y",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 22 14:53:24 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 22 14:53:24 2026",
+        "lightpath": false,
+        "location_group": "FZP",
+        "name": "crix_fzp_y",
+        "output_branches": null,
+        "prefix": "CRIX:FZP:MMS:Y",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_fzp_z": {
+        "_id": "crix_fzp_z",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 22 14:53:56 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 22 14:53:56 2026",
+        "lightpath": false,
+        "location_group": "FZP",
+        "name": "crix_fzp_z",
+        "output_branches": null,
+        "prefix": "CRIX:FZP:MMS:Z",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "crix_ilm_x": {
         "_id": "crix_ilm_x",
         "active": true,
@@ -1160,7 +1256,7 @@
     },
     "crix_piranha_rotation": {
         "_id": "crix_piranha_rotation",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -1180,7 +1276,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr 15 14:34:41 2026",
+        "last_edit": "Wed Apr 22 14:35:08 2026",
         "lightpath": false,
         "location_group": "crixs fzp",
         "name": "crix_piranha_rotation",
@@ -31416,6 +31512,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "rix_txas_rx": {
+        "_id": "rix_txas_rx",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 22 14:59:15 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 22 14:59:15 2026",
+        "lightpath": false,
+        "location_group": "TXAS",
+        "name": "rix_txas_rx",
+        "output_branches": null,
+        "prefix": "SP2K2:TXAS:MMS:RX:01",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "rix_txas_ry": {
         "_id": "rix_txas_ry",
         "active": false,
@@ -31508,6 +31636,38 @@
         "name": "rix_txas_y",
         "output_branches": null,
         "prefix": "SP2K2:TXAS:DET:MMS:Y",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "rix_txas_yag_focus": {
+        "_id": "rix_txas_yag_focus",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Apr 22 15:00:27 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Apr 22 15:00:27 2026",
+        "lightpath": false,
+        "location_group": "TXAS",
+        "name": "rix_txas_yag_focus",
+        "output_branches": null,
+        "prefix": "SP2K2:TXAS:MMS:YAG:01",
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
