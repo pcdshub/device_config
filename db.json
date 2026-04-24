@@ -31512,14 +31512,14 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
-    "rix_txas_rx": {
-        "_id": "rix_txas_rx",
+    "rix_txas_navitar_x": {
+        "_id": "rix_txas_navitar_x",
         "active": false,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "RIX",
-        "creation": "Wed Apr 22 14:59:15 2026",
+        "creation": "Thu Apr 23 11:59:49 2026",
         "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
         "documentation": null,
         "functional_group": "Motion",
@@ -31534,12 +31534,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Apr 22 14:59:15 2026",
+        "last_edit": "Thu Apr 23 11:59:49 2026",
         "lightpath": false,
         "location_group": "TXAS",
-        "name": "rix_txas_rx",
+        "name": "rix_txas_navitar_x",
         "output_branches": null,
-        "prefix": "SP2K2:TXAS:MMS:RX:01",
+        "prefix": "SP2K2:TXAS:MMS:YAG:01",
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
@@ -31572,6 +31572,38 @@
         "name": "rix_txas_ry",
         "output_branches": null,
         "prefix": "SP2K2:TXAS:DET:MMS:RY",
+        "stand": "K2S15",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "rix_txas_target_rx": {
+        "_id": "rix_txas_target_rx",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Thu Apr 23 11:59:20 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Apr 23 11:59:20 2026",
+        "lightpath": false,
+        "location_group": "TXAS",
+        "name": "rix_txas_target_rx",
+        "output_branches": null,
+        "prefix": "SP2K2:TXAS:MMS:RX:01",
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
@@ -31636,38 +31668,6 @@
         "name": "rix_txas_y",
         "output_branches": null,
         "prefix": "SP2K2:TXAS:DET:MMS:Y",
-        "stand": "K2S15",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": -1.0
-    },
-    "rix_txas_yag_focus": {
-        "_id": "rix_txas_yag_focus",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Wed Apr 22 15:00:27 2026",
-        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
-        "documentation": null,
-        "functional_group": "Motion",
-        "input_branches": null,
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Apr 22 15:00:27 2026",
-        "lightpath": false,
-        "location_group": "TXAS",
-        "name": "rix_txas_yag_focus",
-        "output_branches": null,
-        "prefix": "SP2K2:TXAS:MMS:YAG:01",
         "stand": "K2S15",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
