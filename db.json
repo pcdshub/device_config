@@ -395,7 +395,7 @@
     },
     "at1l0": {
         "_id": "at1l0",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -417,7 +417,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jul  3 17:52:06 2025",
+        "last_edit": "Tue May  5 18:55:50 2026",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "at1l0",
@@ -6069,7 +6069,7 @@
     },
     "hx2_ipm": {
         "_id": "hx2_ipm",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -6095,7 +6095,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:52 2023",
+        "last_edit": "Tue May  5 18:54:57 2026",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -6112,7 +6112,7 @@
     },
     "hx2_pim": {
         "_id": "hx2_pim",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -6139,7 +6139,7 @@
             "name": "{{name}}",
             "prefix_det": "{{prefix_det}}"
         },
-        "last_edit": "Wed Feb 22 15:44:52 2023",
+        "last_edit": "Tue May  5 18:54:20 2026",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -6364,7 +6364,7 @@
     },
     "hxd_mon_valve_1": {
         "_id": "hxd_mon_valve_1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -6389,7 +6389,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:55 2023",
+        "last_edit": "Tue May  5 19:00:36 2026",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -6406,7 +6406,7 @@
     },
     "hxd_mon_valve_2": {
         "_id": "hxd_mon_valve_2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -6431,7 +6431,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:55 2023",
+        "last_edit": "Tue May  5 19:00:51 2026",
         "lightpath": true,
         "location_group": "N/A",
         "macros": null,
@@ -6491,7 +6491,7 @@
         "documentation": "https://confluence.slac.stanford.edu/display/PCDS/HXR+Single+Shot+Spectrometer+Controls",
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "motion",
+        "functional_group": "Spectrometer",
         "input_branches": [
             "L0"
         ],
@@ -6505,7 +6505,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:44:55 2023",
+        "last_edit": "Tue May  5 18:09:28 2026",
         "lightpath": true,
         "location_group": "X-Ray Tunnel",
         "macros": null,
@@ -7316,7 +7316,7 @@
     },
     "im3l0_k2700": {
         "_id": "im3l0_k2700",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -7338,7 +7338,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct  9 16:56:12 2023",
+        "last_edit": "Tue May  5 18:21:24 2026",
         "lightpath": false,
         "location_group": "Front End Enclosure",
         "name": "im3l0_k2700",
@@ -31704,6 +31704,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "rix_vls_slit": {
+        "_id": "rix_vls_slit",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed May  6 16:04:41 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Slits",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": "ctsoi",
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed May  6 16:09:12 2026",
+        "lightpath": false,
+        "location_group": "VLS",
+        "name": "rix_vls_slit",
+        "output_branches": null,
+        "prefix": "RIX:VLS:SLIT:MMS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "rtdsk0": {
         "_id": "rtdsk0",
         "active": true,
@@ -31800,9 +31832,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:45:54 2023",
+        "last_edit": "Tue May  5 17:54:34 2026",
         "lightpath": true,
-        "location_group": "EBD",
+        "location_group": "Electron Beam Dump",
         "name": "rtdsx01",
         "output_branches": [
             "K0"
