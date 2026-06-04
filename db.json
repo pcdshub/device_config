@@ -15786,42 +15786,6 @@
         "type": "pcdsdevices.happi.containers.Elliptec",
         "z": -1.0
     },
-    "lm1k4_ejx_dp1_mr1_lm1": {
-        "_id": "lm1k4_ejx_dp1_mr1_lm1",
-        "active": false,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "IP1_MODS",
-        "creation": "Wed Aug 16 18:51:14 2023",
-        "device_class": "pcdsdevices.epics_motor.SmarAct",
-        "documentation": null,
-        "functional_group": "smaract",
-        "input_branches": null,
-        "ioc_alias": "None",
-        "ioc_arch": "rhel7-x86_64",
-        "ioc_base": "LM1K4:MCS2:05",
-        "ioc_channel": "2",
-        "ioc_engineer": "aberges",
-        "ioc_hutch": "LAS",
-        "ioc_ip": "mcp-las-ip1-mods-05",
-        "ioc_location": "IP1 MODS Table",
-        "ioc_name": "ioc-lm1k4-mcs2-05",
-        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.21",
-        "ioc_type": "SmarAct",
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Mar 18 17:24:42 2026",
-        "lightpath": false,
-        "location_group": "6_lm1k4_ejx",
-        "name": "lm1k4_ejx_dp1_mr1_lm1",
-        "output_branches": null,
-        "prefix": "LM1K4:EJX_DP1_MR1_LM1",
-        "stand": null,
-        "type": "pcdsdevices.happi.containers.SmarActMotor",
-        "z": -1.0
-    },
     "lm1k4_ejx_dp1_sp1": {
         "_id": "lm1k4_ejx_dp1_sp1",
         "active": true,
@@ -16391,7 +16355,7 @@
         "ioc_alias": null,
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K4:MCS2:02",
-        "ioc_channel": "7",
+        "ioc_channel": "16",
         "ioc_engineer": "aberges",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-ip1-mods-05",
@@ -16402,7 +16366,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 19 11:41:18 2026",
+        "last_edit": "Tue Jun  2 20:02:11 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_frog_dly1",
@@ -16530,9 +16494,45 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "lm1k4_ejx_mp1_mr4_lm1": {
+        "_id": "lm1k4_ejx_mp1_mr4_lm1",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "IP1_MODS",
+        "creation": "Wed Aug 16 18:51:14 2023",
+        "device_class": "pcdsdevices.epics_motor.SmarAct",
+        "documentation": null,
+        "functional_group": "smaract",
+        "input_branches": null,
+        "ioc_alias": "None",
+        "ioc_arch": "rhel7-x86_64",
+        "ioc_base": "LM1K4:MCS2:05",
+        "ioc_channel": "18",
+        "ioc_engineer": "aberges",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "mcp-las-ip1-mods-05",
+        "ioc_location": "IP1 MODS Table",
+        "ioc_name": "ioc-lm1k4-mcs2-05",
+        "ioc_release": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.21",
+        "ioc_type": "SmarAct",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Jun  2 20:01:34 2026",
+        "lightpath": false,
+        "location_group": "6_lm1k4_ejx",
+        "name": "lm1k4_ejx_mp1_mr4_lm1",
+        "output_branches": null,
+        "prefix": "LM1K4:EJX_MP1_MR4_LM1",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.SmarActMotor",
+        "z": -1.0
+    },
     "lm1k4_ejx_mp1_oap1_lm1": {
         "_id": "lm1k4_ejx_mp1_oap1_lm1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -16545,7 +16545,7 @@
         "ioc_alias": "None",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K4:MCS2:02",
-        "ioc_channel": "3",
+        "ioc_channel": "17",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-ip1-mods-02",
@@ -16556,7 +16556,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 17:24:43 2026",
+        "last_edit": "Tue Jun  2 20:02:37 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_lm1",
@@ -16568,7 +16568,7 @@
     },
     "lm1k4_ejx_mp1_oap1_mr1": {
         "_id": "lm1k4_ejx_mp1_oap1_mr1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -16587,9 +16587,9 @@
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-mcs2-02",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13",
-        "ioc_tilt_channel": "1",
+        "ioc_tilt_channel": "5",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "2",
+        "ioc_tip_channel": "4",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -16597,7 +16597,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Mar 18 17:24:43 2026",
+        "last_edit": "Tue Jun  2 19:17:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_mr1",
@@ -16609,7 +16609,7 @@
     },
     "lm1k4_ejx_mp1_oap1_mr3": {
         "_id": "lm1k4_ejx_mp1_oap1_mr3",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -16628,9 +16628,9 @@
         "ioc_location": "IP1 MODS Table",
         "ioc_name": "ioc-lm1k4-mcs2-02",
         "ioc_release": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13",
-        "ioc_tilt_channel": "5",
+        "ioc_tilt_channel": "2",
         "ioc_tilt_suffix": "_TILT1",
-        "ioc_tip_channel": "4",
+        "ioc_tip_channel": "1",
         "ioc_tip_suffix": "_TIP1",
         "ioc_type": "SmarAct",
         "kwargs": {
@@ -16638,7 +16638,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Wed Mar 18 17:24:43 2026",
+        "last_edit": "Tue Jun  2 19:17:13 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mp1_oap1_mr3",
@@ -17100,7 +17100,7 @@
     },
     "lm1k4_ejx_mrco_ap": {
         "_id": "lm1k4_ejx_mrco_ap",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17124,7 +17124,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 19:04:56 2026",
+        "last_edit": "Tue Jun  2 19:05:33 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mrco_ap",
@@ -17136,7 +17136,7 @@
     },
     "lm1k4_ejx_mrco_ls1": {
         "_id": "lm1k4_ejx_mrco_ls1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17160,7 +17160,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 19:04:57 2026",
+        "last_edit": "Tue Jun  2 19:05:33 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mrco_ls1",
@@ -17172,7 +17172,7 @@
     },
     "lm1k4_ejx_mrco_ls2": {
         "_id": "lm1k4_ejx_mrco_ls2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17196,7 +17196,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 19:04:57 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mrco_ls2",
@@ -17208,7 +17208,7 @@
     },
     "lm1k4_ejx_mrco_ls3": {
         "_id": "lm1k4_ejx_mrco_ls3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17232,7 +17232,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 19:04:56 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_mrco_ls3",
@@ -17244,7 +17244,7 @@
     },
     "lm1k4_ejx_msc_dly": {
         "_id": "lm1k4_ejx_msc_dly",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17268,7 +17268,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Mar 18 19:04:06 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_msc_dly",
@@ -17280,7 +17280,7 @@
     },
     "lm1k4_ejx_msc_ls1": {
         "_id": "lm1k4_ejx_msc_ls1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17304,7 +17304,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 19 11:40:44 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_msc_ls1",
@@ -17316,7 +17316,7 @@
     },
     "lm1k4_ejx_msc_ls2": {
         "_id": "lm1k4_ejx_msc_ls2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17340,7 +17340,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 19 11:40:52 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_msc_ls2",
@@ -17352,7 +17352,7 @@
     },
     "lm1k4_ejx_msc_ls3": {
         "_id": "lm1k4_ejx_msc_ls3",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17376,7 +17376,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar 19 11:40:59 2026",
+        "last_edit": "Tue Jun  2 19:05:34 2026",
         "lightpath": false,
         "location_group": "6_lm1k4_ejx",
         "name": "lm1k4_ejx_msc_ls3",
@@ -17532,7 +17532,7 @@
     },
     "lm1k4_hrm_dp1_tf1_ff1": {
         "_id": "lm1k4_hrm_dp1_tf1_ff1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17559,7 +17559,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:35:43 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_ff1",
@@ -17571,7 +17571,7 @@
     },
     "lm1k4_hrm_dp1_tf1_nf1": {
         "_id": "lm1k4_hrm_dp1_tf1_nf1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17598,7 +17598,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:35:31 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_nf1",
@@ -17610,7 +17610,7 @@
     },
     "lm1k4_hrm_dp1_tf1_pm1": {
         "_id": "lm1k4_hrm_dp1_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17635,7 +17635,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:37:04 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_dp1_tf1_pm1",
@@ -17764,7 +17764,7 @@
     },
     "lm1k4_hrm_dp2_tf1_pm1": {
         "_id": "lm1k4_hrm_dp2_tf1_pm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17789,7 +17789,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:37:17 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_dp2_tf1_pm1",
@@ -17875,7 +17875,7 @@
     },
     "lm1k4_hrm_env_sens": {
         "_id": "lm1k4_hrm_env_sens",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17899,7 +17899,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:36:44 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_env_sens",
@@ -17911,7 +17911,7 @@
     },
     "lm1k4_hrm_mp1_mr1": {
         "_id": "lm1k4_hrm_mp1_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17940,7 +17940,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Oct 21 16:43:30 2025",
+        "last_edit": "Tue Jun  2 18:31:20 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr1",
@@ -17952,7 +17952,7 @@
     },
     "lm1k4_hrm_mp1_mr1_lm1": {
         "_id": "lm1k4_hrm_mp1_mr1_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -17976,7 +17976,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:43:45 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr1_lm1",
@@ -17988,7 +17988,7 @@
     },
     "lm1k4_hrm_mp1_mr4": {
         "_id": "lm1k4_hrm_mp1_mr4",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18017,7 +18017,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Oct 21 16:44:09 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr4",
@@ -18070,7 +18070,7 @@
     },
     "lm1k4_hrm_mp1_mr8": {
         "_id": "lm1k4_hrm_mp1_mr8",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18099,7 +18099,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Oct 21 16:44:48 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr8",
@@ -18111,7 +18111,7 @@
     },
     "lm1k4_hrm_mp1_mr8_lm1": {
         "_id": "lm1k4_hrm_mp1_mr8_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18135,7 +18135,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:44:59 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_mr8_lm1",
@@ -18160,7 +18160,7 @@
         "ioc_alias": "LM1K4:HRM_MP1_PC1",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K4:MCS2:04",
-        "ioc_channel": "7",
+        "ioc_channel": "1",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-ip1-mods-04",
@@ -18171,7 +18171,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:45:54 2025",
+        "last_edit": "Tue Jun  2 18:43:48 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_pc1",
@@ -18196,7 +18196,7 @@
         "ioc_alias": "LM1K4:HRM_MP1_PC1_PZM2",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K4:MCS2:04",
-        "ioc_channel": "8",
+        "ioc_channel": "2",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-ip1-mods-04",
@@ -18207,7 +18207,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:46:10 2025",
+        "last_edit": "Tue Jun  2 18:46:57 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_pc1_pzm2",
@@ -18219,7 +18219,7 @@
     },
     "lm1k4_hrm_mp1_spo1": {
         "_id": "lm1k4_hrm_mp1_spo1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18243,7 +18243,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:46:45 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_spo1",
@@ -18255,7 +18255,7 @@
     },
     "lm1k4_hrm_mp3_mr1": {
         "_id": "lm1k4_hrm_mp3_mr1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18284,7 +18284,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Oct 21 16:47:27 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr1",
@@ -18296,7 +18296,7 @@
     },
     "lm1k4_hrm_mp3_mr1_lm1": {
         "_id": "lm1k4_hrm_mp3_mr1_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18320,7 +18320,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:47:50 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr1_lm1",
@@ -18332,7 +18332,7 @@
     },
     "lm1k4_hrm_mp3_mr2": {
         "_id": "lm1k4_hrm_mp3_mr2",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18361,7 +18361,7 @@
             "tilt_pv": "{{ioc_tilt_suffix}}",
             "tip_pv": "{{ioc_tip_suffix}}"
         },
-        "last_edit": "Tue Oct 21 16:48:01 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr2",
@@ -18373,7 +18373,7 @@
     },
     "lm1k4_hrm_mp3_mr2_lm1": {
         "_id": "lm1k4_hrm_mp3_mr2_lm1",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -18397,7 +18397,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct 21 16:48:13 2025",
+        "last_edit": "Tue Jun  2 18:31:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp3_mr2_lm1",
