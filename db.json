@@ -18196,7 +18196,7 @@
         "ioc_alias": "LM1K4:HRM_MP1_PC1_PZM2",
         "ioc_arch": "rhel7-x86_64",
         "ioc_base": "LM1K4:MCS2:04",
-        "ioc_channel": "2",
+        "ioc_channel": "6",
         "ioc_engineer": "tjohnson",
         "ioc_hutch": "LAS",
         "ioc_ip": "mcp-las-ip1-mods-04",
@@ -18207,7 +18207,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Jun  2 18:46:57 2026",
+        "last_edit": "Thu Jun  4 15:58:21 2026",
         "lightpath": false,
         "location_group": "4_lm1k4_hrm",
         "name": "lm1k4_hrm_mp1_pc1_pzm2",
