@@ -429,6 +429,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 729.2956
     },
+    "at1l2": {
+        "_id": "at1l2",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "XPP",
+        "creation": "Thu Jun  4 23:16:50 2026",
+        "device_class": "pcdsdevices.attenuator.HE_SATT",
+        "documentation": null,
+        "functional_group": "Attenuator",
+        "input_branches": [
+            "L2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Jun  4 23:16:50 2026",
+        "lightpath": false,
+        "location_group": "XPP SB3",
+        "name": "at1l2",
+        "output_branches": [
+            "L2"
+        ],
+        "prefix": "AT1L2:SOLID",
+        "stand": "L2S05",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 787.172
+    },
     "at2k2": {
         "_id": "at2k2",
         "active": true,
