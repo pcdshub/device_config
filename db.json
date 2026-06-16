@@ -38788,7 +38788,7 @@
     },
     "xpp_txt": {
         "_id": "xpp_txt",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -38809,12 +38809,12 @@
             "n_bounces": 14,
             "name": "{{name}}"
         },
-        "last_edit": "Mon Jun 23 17:35:14 2025",
+        "last_edit": "Mon Jun 15 13:18:23 2026",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_txt",
         "output_branches": null,
-        "prefix": "XPP:LAS:MMN:16",
+        "prefix": "XPP:LAS:MMN:05",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
