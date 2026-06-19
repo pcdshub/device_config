@@ -37476,6 +37476,28 @@
         "type": "pcdsdevices.happi.containers.Slits",
         "z": -1.0
     },
+    "xpp_kappa": {
+        "_id": "xpp_kappa",
+        "active": true,
+        "args": [
+            [
+                "{{prefix}}"
+            ]
+        ],
+        "creation": "Wed Jun 17 17:11:32 2026",
+        "device_class": "pcdsdevices.gon.Kappa",
+        "documentation": null,
+        "kwargs": {
+            "eta_max_step": 2,
+            "kappa_ang": 50,
+            "kappa_max_step": 2,
+            "phi_max_step": 2
+        },
+        "last_edit": "Wed Jun 17 17:11:32 2026",
+        "name": "xpp_kappa",
+        "prefix": "\"ATDS:MMS:\"",
+        "type": "OphydItem"
+    },
     "xpp_las_tt_lensf": {
         "_id": "xpp_las_tt_lensf",
         "active": false,
