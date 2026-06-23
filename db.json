@@ -431,7 +431,7 @@
     },
     "at1l2": {
         "_id": "at1l2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -453,7 +453,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun  4 23:16:50 2026",
+        "last_edit": "Mon Jun 22 15:51:16 2026",
         "lightpath": false,
         "location_group": "XPP SB3",
         "name": "at1l2",
@@ -33967,6 +33967,44 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 761.890169
+    },
+    "tmo_mbes": {
+        "_id": "tmo_mbes",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Mon Jun 22 13:06:48 2026",
+        "detailed_screen": null,
+        "device_class": "pcdsdevices.mbes_motion.MBES",
+        "documentation": "https://confluence.slac.stanford.edu/spaces/L2SI/pages/305911195/LAMP+MBES+Motion",
+        "embedded_screen": null,
+        "engineering_screen": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Jun 22 15:41:59 2026",
+        "lightpath": false,
+        "location_group": "3 TMO IP1",
+        "macros": null,
+        "name": "tmo_mbes",
+        "output_branches": null,
+        "parent": null,
+        "prefix": "TMO:MBES",
+        "stand": "K4S02",
+        "system": "motion",
+        "type": "pcdsdevices.happi.containers.Motor",
+        "z": 762.005
     },
     "tmo_mrco": {
         "_id": "tmo_mrco",
