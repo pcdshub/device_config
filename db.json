@@ -38303,7 +38303,7 @@
     },
     "xpp_lxt_fast1": {
         "_id": "xpp_lxt_fast1",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -38323,12 +38323,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Dec  6 15:38:18 2024",
+        "last_edit": "Mon Jun 22 17:59:57 2026",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast1",
         "output_branches": null,
-        "prefix": "XPP:LAS:MMN:02",
+        "prefix": "XPP:LAS:MMN:09",
         "stand": "LAS",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
