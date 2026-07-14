@@ -31742,7 +31742,7 @@
     },
     "rix_vls_slit": {
         "_id": "rix_vls_slit",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -31762,7 +31762,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed May  6 16:09:12 2026",
+        "last_edit": "Mon Jul 13 08:42:08 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "rix_vls_slit",
@@ -35170,7 +35170,7 @@
     },
     "vls_camera_distance": {
         "_id": "vls_camera_distance",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35190,7 +35190,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:36:49 2026",
+        "last_edit": "Mon Jul 13 08:42:40 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "vls_camera_distance",
@@ -35202,7 +35202,7 @@
     },
     "vls_camera_pitch": {
         "_id": "vls_camera_pitch",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35225,7 +35225,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:37:07 2026",
+        "last_edit": "Mon Jul 13 08:42:52 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35263,7 +35263,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Nov  4 12:13:28 2025",
+        "last_edit": "Mon Jul 13 08:43:19 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35278,7 +35278,7 @@
     },
     "vls_grating_pitch": {
         "_id": "vls_grating_pitch",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35301,7 +35301,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:37:31 2026",
+        "last_edit": "Mon Jul 13 08:43:30 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35316,7 +35316,7 @@
     },
     "vls_slit_down": {
         "_id": "vls_slit_down",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35339,7 +35339,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:37:45 2026",
+        "last_edit": "Mon Jul 13 08:44:04 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35354,7 +35354,7 @@
     },
     "vls_slit_left": {
         "_id": "vls_slit_left",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35377,7 +35377,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:37:59 2026",
+        "last_edit": "Mon Jul 13 08:44:11 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35392,7 +35392,7 @@
     },
     "vls_slit_right": {
         "_id": "vls_slit_right",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35415,7 +35415,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:38:18 2026",
+        "last_edit": "Mon Jul 13 08:44:20 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
@@ -35430,7 +35430,7 @@
     },
     "vls_slit_up": {
         "_id": "vls_slit_up",
-        "active": true,
+        "active": false,
         "args": [
             "{{prefix}}"
         ],
@@ -35453,7 +35453,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Apr 30 12:38:34 2026",
+        "last_edit": "Mon Jul 13 08:44:26 2026",
         "lightpath": false,
         "location_group": "VLS",
         "macros": null,
