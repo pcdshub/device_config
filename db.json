@@ -28844,7 +28844,7 @@
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:44 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.XOffsetMirrorStateCool",
+        "device_class": "pcdsdevices.mirror.XOffsetMirrorStateCoolNoBend",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -28862,7 +28862,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Dec  7 16:20:34 2023",
+        "last_edit": "Sun Aug 16 18:57:16 2026",
         "lightpath": true,
         "location_group": "0 FEE K4S24",
         "macros": null,
@@ -29895,7 +29895,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 10 14:12:44 2026",
+        "last_edit": "Sun Aug 16 18:49:15 2026",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "macros": null,
@@ -30014,7 +30014,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Aug 10 14:12:31 2026",
+        "last_edit": "Sun Aug 16 18:48:56 2026",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "macros": null,
