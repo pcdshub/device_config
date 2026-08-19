@@ -33754,18 +33754,18 @@
     },
     "tmo_cvmi": {
         "_id": "tmo_cvmi",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
         "beamline": "TMO",
-        "creation": "Thu Jan 21 13:09:55 2021",
+        "creation": "Tue Aug 18 16:33:29 2026",
         "detailed_screen": null,
         "device_class": "pcdsdevices.cvmi_bootstrap.CVMI",
         "documentation": "https://confluence.slac.stanford.edu/display/L2SI/cVMI+Motion+System",
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "Motion",
+        "functional_group": "",
         "input_branches": null,
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -33777,9 +33777,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Jul 24 00:12:36 2026",
+        "last_edit": "Tue Aug 18 16:53:31 2026",
         "lightpath": false,
-        "location_group": "3 TMO IP1",
+        "location_group": "None",
         "macros": null,
         "name": "tmo_cvmi",
         "output_branches": null,
@@ -33788,7 +33788,7 @@
         "stand": "K4S02",
         "system": "motion",
         "type": "pcdsdevices.happi.containers.Motor",
-        "z": 760.0
+        "z": -1.0
     },
     "tmo_cvmi_sqr1": {
         "_id": "tmo_cvmi_sqr1",
@@ -33900,7 +33900,7 @@
     },
     "tmo_lamp": {
         "_id": "tmo_lamp",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -33923,7 +33923,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jul 23 14:33:03 2026",
+        "last_edit": "Tue Aug 18 13:21:00 2026",
         "lightpath": false,
         "location_group": "3 TMO IP1",
         "macros": null,
