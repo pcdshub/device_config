@@ -5472,7 +5472,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Jun 19 11:09:01 2025",
+        "last_edit": "Wed Aug 19 10:29:23 2026",
         "lightpath": true,
         "location_group": "6 TMO IP2",
         "name": "dream_sl3k4",
@@ -33911,7 +33911,7 @@
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
-        "functional_group": "Motion",
+        "functional_group": "",
         "input_branches": null,
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -33923,7 +33923,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Aug 18 13:21:00 2026",
+        "last_edit": "Tue Aug 18 18:06:42 2026",
         "lightpath": false,
         "location_group": "3 TMO IP1",
         "macros": null,
