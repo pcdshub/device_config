@@ -4996,12 +4996,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Oct 10 10:17:47 2025",
+        "last_edit": "Thu Aug 20 14:44:10 2026",
         "lightpath": false,
         "location_group": "6 TMO IP2",
         "name": "dream_dgpd",
         "output_branches": null,
-        "prefix": "TMO:DREAM:MCS2:01",
+        "prefix": "DREAM",
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
@@ -5472,12 +5472,12 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Aug 19 10:29:23 2026",
+        "last_edit": "Thu Aug 20 14:58:05 2026",
         "lightpath": true,
         "location_group": "6 TMO IP2",
         "name": "dream_sl3k4",
         "output_branches": null,
-        "prefix": "TMO:DREAM:MCS2:01",
+        "prefix": "DREAM",
         "stand": "GS3",
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
