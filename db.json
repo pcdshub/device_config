@@ -38878,6 +38878,23 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": -1.0
     },
+    "xpp_pwr_r09_01": {
+        "_id": "xpp_pwr_r09_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "creation": "Tue Sep  8 14:57:23 2026",
+        "device_class": "pcdsdevices.pdu.PDU16",
+        "documentation": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Sep  8 14:57:23 2026",
+        "name": "xpp_pwr_r09_01",
+        "prefix": "XPP:PWR:R09:01",
+        "type": "OphydItem"
+    },
     "xpp_txt": {
         "_id": "xpp_txt",
         "active": true,
