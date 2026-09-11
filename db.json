@@ -32796,6 +32796,42 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 760.0
     },
+    "st1k0": {
+        "_id": "st1k0",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "KFE",
+        "creation": "Mon Jul 18 16:05:58 2022",
+        "device_class": "pcdsdevices.sxr_test_absorber.SxrTestAbsorber",
+        "documentation": null,
+        "functional_group": "Stopper",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Sep 10 15:47:08 2026",
+        "lightpath": true,
+        "location_group": "Front End Enclosure",
+        "name": "st1k0",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "ST1K0:MMS:01",
+        "stand": "K4S24",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 750.7596
+    },
     "st1k1_zos": {
         "_id": "st1k1_zos",
         "active": true,
@@ -32943,42 +32979,6 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 778.3674
-    },
-    "st1k4": {
-        "_id": "st1k4",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "TMO",
-        "creation": "Mon Jul 18 16:05:58 2022",
-        "device_class": "pcdsdevices.sxr_test_absorber.SxrTestAbsorber",
-        "documentation": null,
-        "functional_group": "Stopper",
-        "input_branches": [
-            "K4"
-        ],
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Thu Dec  7 16:20:35 2023",
-        "lightpath": true,
-        "location_group": "0 FEE K4S24",
-        "name": "st1k4",
-        "output_branches": [
-            "K4"
-        ],
-        "prefix": "ST1K4:TEST",
-        "stand": "K4S24",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 750.7596
     },
     "st1l0_pps": {
         "_id": "st1l0_pps",
