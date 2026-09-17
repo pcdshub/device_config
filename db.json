@@ -1194,6 +1194,102 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.0
     },
+    "crix_mot_pmps_pre": {
+        "_id": "crix_mot_pmps_pre",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 14:11:11 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 14:11:11 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_mot_pmps_pre",
+        "output_branches": null,
+        "prefix": "CRIX:MOT:ECAT:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_mot_term_40": {
+        "_id": "crix_mot_term_40",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 14:13:35 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": "'this does not have any linked vars in plc, unused'",
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 14:13:35 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_mot_term_40",
+        "output_branches": null,
+        "prefix": "CRIX:MOT:ECAT:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_mot_vac_intf": {
+        "_id": "crix_mot_vac_intf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 11:46:39 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 11:46:39 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_mot_vac_intf",
+        "output_branches": null,
+        "prefix": "CRIX:MOT:ECAT:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "crix_obj_x": {
         "_id": "crix_obj_x",
         "active": false,
@@ -1513,9 +1609,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Sep  6 09:26:16 2024",
+        "last_edit": "Wed Sep 16 11:27:10 2026",
         "lightpath": false,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crix_rcc_x",
         "output_branches": null,
         "prefix": "CRIX:RCC:MMS:X",
@@ -1545,9 +1641,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar  7 11:01:51 2024",
+        "last_edit": "Wed Sep 16 11:27:25 2026",
         "lightpath": false,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crix_rcc_y",
         "output_branches": null,
         "prefix": "CRIX:RCC:MMS:Y",
@@ -1577,9 +1673,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Mar  7 11:03:02 2024",
+        "last_edit": "Wed Sep 16 11:27:41 2026",
         "lightpath": false,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crix_rcc_z",
         "output_branches": null,
         "prefix": "CRIX:RCC:MMS:Z",
@@ -1779,6 +1875,102 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 790.0
     },
+    "crix_vac_mot_intf": {
+        "_id": "crix_vac_mot_intf",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 14:48:06 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 14:48:06 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_vac_mot_intf",
+        "output_branches": null,
+        "prefix": "CRIX:VAC:ECAT:03",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_vac_pmps_pre": {
+        "_id": "crix_vac_pmps_pre",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 14:45:54 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 14:45:54 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_vac_pmps_pre",
+        "output_branches": null,
+        "prefix": "CRIX:VAC:ECAT:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "crix_vac_vls_pr01": {
+        "_id": "crix_vac_vls_pr01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Sep 16 14:47:30 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Sep 16 14:47:30 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "crix_vac_vls_pr01",
+        "output_branches": null,
+        "prefix": "CRIX:VAC:ECAT:02",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "crixs_rcc_vrc_1": {
         "_id": "crixs_rcc_vrc_1",
         "active": true,
@@ -1803,9 +1995,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:23 2023",
+        "last_edit": "Wed Sep 16 11:29:00 2026",
         "lightpath": true,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crixs_rcc_vrc_1",
         "output_branches": [
             "K1"
@@ -1839,9 +2031,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:23 2023",
+        "last_edit": "Wed Sep 16 11:29:16 2026",
         "lightpath": true,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crixs_rcc_vrc_2",
         "output_branches": [
             "K1"
@@ -1875,9 +2067,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:23 2023",
+        "last_edit": "Wed Sep 16 11:29:32 2026",
         "lightpath": true,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crixs_rcc_vrc_3",
         "output_branches": [
             "K1"
@@ -1911,9 +2103,9 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Wed Feb 22 15:42:23 2023",
+        "last_edit": "Wed Sep 16 11:29:57 2026",
         "lightpath": true,
-        "location_group": "crix catcher",
+        "location_group": "crix sds",
         "name": "crixs_rcc_vrc_4",
         "output_branches": [
             "K1"
@@ -32810,7 +33002,7 @@
         "documentation": null,
         "functional_group": "Stopper",
         "input_branches": [
-            "K4"
+            "K0"
         ],
         "ioc_arch": null,
         "ioc_engineer": null,
@@ -32822,17 +33014,17 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Thu Sep 10 15:47:08 2026",
+        "last_edit": "Wed Sep 16 11:23:42 2026",
         "lightpath": true,
         "location_group": "Front End Enclosure",
         "name": "st1k0",
         "output_branches": [
-            "K4"
+            "K0"
         ],
         "prefix": "ST1K0:MMS:01",
         "stand": "K4S24",
         "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 750.7596
+        "z": 730.66
     },
     "st1k1_zos": {
         "_id": "st1k1_zos",
@@ -33337,7 +33529,7 @@
         "creation": "Fri Apr 11 13:34:36 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
-        "functional_group": "Apertures",
+        "functional_group": "Slits",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -33353,7 +33545,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 11 13:34:36 2025",
+        "last_edit": "Wed Sep 16 11:36:45 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "svls_slit_bottom",
@@ -33373,7 +33565,7 @@
         "creation": "Wed Apr  9 15:16:44 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
-        "functional_group": "Apertures",
+        "functional_group": "Slits",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -33389,7 +33581,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Apr 22 09:39:00 2025",
+        "last_edit": "Wed Sep 16 11:35:42 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "svls_slit_left",
@@ -33409,7 +33601,7 @@
         "creation": "Wed Apr  9 15:18:56 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
-        "functional_group": "Apertures",
+        "functional_group": "Slits",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -33425,7 +33617,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Apr 22 09:39:22 2025",
+        "last_edit": "Wed Sep 16 11:36:55 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "svls_slit_right",
@@ -33445,7 +33637,7 @@
         "creation": "Fri Apr 11 13:32:52 2025",
         "device_class": "pcdsdevices.epics_motor.SmarAct",
         "documentation": null,
-        "functional_group": "Apertures",
+        "functional_group": "Slits",
         "input_branches": null,
         "ioc_alias": null,
         "ioc_arch": null,
@@ -33461,7 +33653,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 11 13:32:52 2025",
+        "last_edit": "Wed Sep 16 11:37:04 2026",
         "lightpath": false,
         "location_group": "VLS",
         "name": "svls_slit_top",
