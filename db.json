@@ -32691,6 +32691,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 755.1
     },
+    "sl4k4": {
+        "_id": "sl4k4",
+        "active": false,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TMO",
+        "creation": "Thu Oct  1 13:45:25 2026",
+        "device_class": "pcdsdevices.slits.BeckhoffSlits",
+        "documentation": null,
+        "functional_group": "SLITS",
+        "input_branches": [
+            "K4"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Thu Oct  1 14:30:44 2026",
+        "lightpath": false,
+        "location_group": "5 TMO GS2",
+        "name": "sl4k4",
+        "output_branches": [
+            "K4"
+        ],
+        "prefix": "SL4K4:SCATTER",
+        "stand": "K4S06",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 765.62339
+    },
     "sp1k1_mono": {
         "_id": "sp1k1_mono",
         "active": true,
