@@ -38567,7 +38567,7 @@
     },
     "xpp_lxt_fast2": {
         "_id": "xpp_lxt_fast2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -38587,7 +38587,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Tue Oct  6 12:10:04 2026",
+        "last_edit": "Tue Oct  6 18:34:36 2026",
         "lightpath": false,
         "location_group": "LAS",
         "name": "xpp_lxt_fast2",
