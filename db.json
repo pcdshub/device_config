@@ -7868,6 +7868,230 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 769.2111
     },
+    "kfe_crix_mot_bridge": {
+        "_id": "kfe_crix_mot_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:14:39 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:14:39 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_crix_mot_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:CRIX_MOT_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_crix_vac_bridge": {
+        "_id": "kfe_crix_vac_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:30:55 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:35:29 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_crix_vac_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:CRIX_VAC_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_qrix_mot_bridge": {
+        "_id": "kfe_qrix_mot_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:34:00 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:34:00 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_qrix_mot_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:QRIX_MOT_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_qrix_vac_bridge": {
+        "_id": "kfe_qrix_vac_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:33:18 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:35:40 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_qrix_vac_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:QRIX_VAC_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_rix_mot_bridge": {
+        "_id": "kfe_rix_mot_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:18:46 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:18:46 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_rix_mot_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:RIX_MOT_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_rix_optics_bridge": {
+        "_id": "kfe_rix_optics_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:21:39 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Motion",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:21:39 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_rix_optics_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:RIX_OPTICS_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
+    "kfe_rix_vac_bridge": {
+        "_id": "kfe_rix_vac_bridge",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Mon Oct 12 11:20:28 2026",
+        "device_class": "pcdsdevices.beckhoff.BeckhoffECAT",
+        "documentation": null,
+        "functional_group": "Vacuum",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Mon Oct 12 11:20:28 2026",
+        "lightpath": false,
+        "location_group": "PLC",
+        "name": "kfe_rix_vac_bridge",
+        "output_branches": null,
+        "prefix": "PMPS:KFE:RIX_VAC_BRIDGE",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": -1.0
+    },
     "lamp_vcn_01": {
         "_id": "lamp_vcn_01",
         "active": true,
@@ -30041,7 +30265,7 @@
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:49 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.KBOMirrorHEStates",
+        "device_class": "pcdsdevices.mirror.FFMirror",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -30059,7 +30283,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun Aug 16 18:49:15 2026",
+        "last_edit": "Mon Oct 12 16:33:38 2026",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "macros": null,
