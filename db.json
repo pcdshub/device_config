@@ -8696,6 +8696,42 @@
         "type": "pcdsdevices.happi.containers.SmarActMotor",
         "z": -1.0
     },
+    "las_ftl_env_sens_1_timing": {
+        "_id": "las_ftl_env_sens_1_timing",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "TIMING",
+        "creation": "Tue Oct 13 12:15:17 2026",
+        "device_class": "pcdsdevices.device_types.EnvironmentalMonitor",
+        "documentation": null,
+        "functional_group": "env sensors",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_base": "LAS:FTL:BHC:01",
+        "ioc_card_num": null,
+        "ioc_chan_num": null,
+        "ioc_engineer": "ljansen7",
+        "ioc_hutch": "LAS",
+        "ioc_ip": "bhc-las-ftl-01",
+        "ioc_location": "ctl-las-ftl-srv01",
+        "ioc_name": "ioc-las-ftl-bhc-01",
+        "ioc_release": null,
+        "ioc_type": "EK9000",
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Tue Oct 13 12:15:17 2026",
+        "lightpath": false,
+        "location_group": "FTL",
+        "name": "las_ftl_env_sens_1_timing",
+        "output_branches": null,
+        "prefix": "LAS:FTL:BHC:01:AI2",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.EnvironmentalMonitor",
+        "z": -1.0
+    },
     "las_lhn_bay1_cam_ff": {
         "_id": "las_lhn_bay1_cam_ff",
         "active": true,
@@ -30265,7 +30301,7 @@
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:49 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.FFMirror",
+        "device_class": "pcdsdevices.mirror.FFMirrorZ",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -30283,7 +30319,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon Oct 12 16:33:38 2026",
+        "last_edit": "Tue Oct 13 14:29:43 2026",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "macros": null,
@@ -30384,7 +30420,7 @@
         "beamline": "TMO",
         "creation": "Mon Jul 18 16:05:50 2022",
         "detailed_screen": null,
-        "device_class": "pcdsdevices.mirror.KBOMirrorHEStates",
+        "device_class": "pcdsdevices.mirror.FFMirrorZ",
         "documentation": null,
         "embedded_screen": null,
         "engineering_screen": null,
@@ -30402,7 +30438,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Sun Aug 16 18:48:56 2026",
+        "last_edit": "Tue Oct 13 14:34:55 2026",
         "lightpath": true,
         "location_group": "5 TMO GS2",
         "macros": null,
