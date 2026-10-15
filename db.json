@@ -32268,6 +32268,38 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 695.0
     },
+    "rtdsl0_ldm_01": {
+        "_id": "rtdsl0_ldm_01",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "LFE",
+        "creation": "Wed Oct 14 16:34:46 2026",
+        "device_class": "pcdsdevices.epics_motor.BeckhoffAxis",
+        "documentation": null,
+        "functional_group": "Diagnostic",
+        "input_branches": null,
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Oct 14 16:36:57 2026",
+        "lightpath": false,
+        "location_group": "Electron Beam Dump",
+        "name": "rtdsl0_ldm_01",
+        "output_branches": null,
+        "prefix": "RTDSL0:LDM:MMS:01",
+        "stand": null,
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 696.0
+    },
     "rtdsx01": {
         "_id": "rtdsx01",
         "active": true,
