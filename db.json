@@ -10544,6 +10544,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 789.307
     },
+    "li5k2": {
+        "_id": "li5k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Oct 16 10:05:35 2026",
+        "device_class": "pcdsdevices.device_types.LaserInCoupling",
+        "documentation": null,
+        "functional_group": "LIC",
+        "input_branches": [
+            "K2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct 16 10:45:01 2026",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "li5k2",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "LI5K2:K2C",
+        "stand": "K2S20",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 789.307
+    }, 
     "li3k4_ip1_vwc_01": {
         "_id": "li3k4_ip1_vwc_01",
         "active": true,
