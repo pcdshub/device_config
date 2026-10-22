@@ -10544,42 +10544,6 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 789.307
     },
-    "li5k2": {
-        "_id": "li5k2",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "RIX",
-        "creation": "Fri Oct 16 10:05:35 2026",
-        "device_class": "pcdsdevices.device_types.LaserInCoupling",
-        "documentation": null,
-        "functional_group": "LIC",
-        "input_branches": [
-            "K2"
-        ],
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Fri Oct 16 10:45:01 2026",
-        "lightpath": true,
-        "location_group": "RIX H2.2",
-        "name": "li5k2",
-        "output_branches": [
-            "K2"
-        ],
-        "prefix": "LI5K2:K2C",
-        "stand": "K2S20",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 789.307
-    }, 
     "li3k4_ip1_vwc_01": {
         "_id": "li3k4_ip1_vwc_01",
         "active": true,
@@ -10615,6 +10579,42 @@
         "stand": null,
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 762.752
+    },
+    "li5k2": {
+        "_id": "li5k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Fri Oct 16 10:05:35 2026",
+        "device_class": "pcdsdevices.device_types.LaserInCoupling",
+        "documentation": null,
+        "functional_group": "LIC",
+        "input_branches": [
+            "K2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Fri Oct 16 10:45:01 2026",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "li5k2",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "LI5K2:K2C",
+        "stand": "K2S20",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 789.307
     },
     "lm1k2_atm_dp1_tf1_ff1": {
         "_id": "lm1k2_atm_dp1_tf1_ff1",
@@ -33221,7 +33221,7 @@
         ],
         "beamline": "LFE",
         "creation": "Mon Jul 18 16:05:58 2022",
-        "device_class": "pcdsdevices.spectrometer.DCCMono",
+        "device_class": "pcdsdevices.dccm.DCCM",
         "documentation": null,
         "functional_group": "Spectrometer",
         "input_branches": [
@@ -33237,7 +33237,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Mon May 12 13:45:15 2025",
+        "last_edit": "Wed Oct 21 11:57:38 2026",
         "lightpath": false,
         "location_group": "Front End Enclosure",
         "name": "sp1l0",
@@ -33251,7 +33251,7 @@
     },
     "sp1l2": {
         "_id": "sp1l2",
-        "active": false,
+        "active": true,
         "args": [
             "{{prefix}}"
         ],
@@ -33273,7 +33273,7 @@
         "kwargs": {
             "name": "{{name}}"
         },
-        "last_edit": "Fri Apr 17 16:32:41 2026",
+        "last_edit": "Wed Oct 21 15:33:03 2026",
         "lightpath": false,
         "location_group": "XPP",
         "name": "sp1l2",
