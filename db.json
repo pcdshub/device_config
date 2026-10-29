@@ -34336,6 +34336,42 @@
         "type": "pcdsdevices.happi.containers.LCLSItem",
         "z": 788.476
     },
+    "tm3k2": {
+        "_id": "tm3k2",
+        "active": true,
+        "args": [
+            "{{prefix}}"
+        ],
+        "beamline": "RIX",
+        "creation": "Wed Oct 28 16:06:00 2026",
+        "device_class": "pcdsdevices.device_types.ArrivalTimeMonitor",
+        "documentation": null,
+        "functional_group": "ATM",
+        "input_branches": [
+            "K2"
+        ],
+        "ioc_arch": null,
+        "ioc_engineer": null,
+        "ioc_hutch": null,
+        "ioc_location": null,
+        "ioc_name": null,
+        "ioc_release": null,
+        "ioc_type": null,
+        "kwargs": {
+            "name": "{{name}}"
+        },
+        "last_edit": "Wed Oct 28 15:46:04 2026",
+        "lightpath": true,
+        "location_group": "RIX H2.2",
+        "name": "tm3k2",
+        "output_branches": [
+            "K2"
+        ],
+        "prefix": "TM3K2:ATM",
+        "stand": "K2S20",
+        "type": "pcdsdevices.happi.containers.LCLSItem",
+        "z": 788.476
+    },
     "tm2k4": {
         "_id": "tm2k4",
         "active": true,
