@@ -33213,42 +33213,6 @@
         "type": "pcdsdevices.happi.containers.Motor",
         "z": 764.266136
     },
-    "sp1l0": {
-        "_id": "sp1l0",
-        "active": true,
-        "args": [
-            "{{prefix}}"
-        ],
-        "beamline": "LFE",
-        "creation": "Mon Jul 18 16:05:58 2022",
-        "device_class": "pcdsdevices.dccm.DCCM",
-        "documentation": null,
-        "functional_group": "Spectrometer",
-        "input_branches": [
-            "L0"
-        ],
-        "ioc_arch": null,
-        "ioc_engineer": null,
-        "ioc_hutch": null,
-        "ioc_location": null,
-        "ioc_name": null,
-        "ioc_release": null,
-        "ioc_type": null,
-        "kwargs": {
-            "name": "{{name}}"
-        },
-        "last_edit": "Wed Oct 21 11:57:38 2026",
-        "lightpath": false,
-        "location_group": "Front End Enclosure",
-        "name": "sp1l0",
-        "output_branches": [
-            "L0"
-        ],
-        "prefix": "SP1L0:DCCM",
-        "stand": "L0S09",
-        "type": "pcdsdevices.happi.containers.LCLSItem",
-        "z": 737.317
-    },
     "sp1l2": {
         "_id": "sp1l2",
         "active": true,
